@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-1",
+      "@type": "Post",
+      "name": "Supervisor, District 1",
+      "roleName": "Supervisor, District 1",
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "representsJurisdiction": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1"
+      },
+      "roleClassification": "elected",
+      "termDuration": "P4Y"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-2",
+      "@type": "Post",
+      "name": "Supervisor, District 2",
+      "roleName": "Supervisor, District 2",
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "representsJurisdiction": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
+      "roleClassification": "elected",
+      "termDuration": "P4Y"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-3",
+      "@type": "Post",
+      "name": "Supervisor, District 3",
+      "roleName": "Supervisor, District 3",
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "representsJurisdiction": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
+      "roleClassification": "elected",
+      "termDuration": "P4Y"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-4",
+      "@type": "Post",
+      "name": "Supervisor, District 4",
+      "roleName": "Supervisor, District 4",
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "representsJurisdiction": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
+      "roleClassification": "elected",
+      "termDuration": "P4Y"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-5",
+      "@type": "Post",
+      "name": "Supervisor, District 5",
+      "roleName": "Supervisor, District 5",
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "representsJurisdiction": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
+      "roleClassification": "elected",
+      "termDuration": "P4Y"
+    }
+  ]
+}

@@ -1,0 +1,1277 @@
+{
+ "@context": "https://schema.govfresh.com/v1/context.jsonld",
+ "@graph": [
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1010",
+   "@type": "Fund",
+   "name": "Miscellaneous Projects",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1010"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1730",
+   "@type": "Fund",
+   "name": "JI CALAIM IMPLEMENTATION PLAN",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1730"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1740",
+   "@type": "Fund",
+   "name": "JUVENILE JUSTICE REALIGN 2022",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1740"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2010",
+   "@type": "Fund",
+   "name": "Local Vital Health Statistics",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2010"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2020",
+   "@type": "Fund",
+   "name": "Electronic Recording Delivery Systems",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2020"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2030",
+   "@type": "Fund",
+   "name": "Records Modernization (GC 27361)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2030"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2040",
+   "@type": "Fund",
+   "name": "Micrographics Conversion (GF 27361.4)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2040"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2050",
+   "@type": "Fund",
+   "name": "Vital Records Modernization (SB 1535)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2050"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2060",
+   "@type": "Fund",
+   "name": "SSN Truncation Program",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2060"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2070",
+   "@type": "Fund",
+   "name": "Affordable Housing Fund",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2070"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2110",
+   "@type": "Fund",
+   "name": "East Shore Wastewater Maintenance Fund",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2110"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2130",
+   "@type": "Fund",
+   "name": "DOJ Equitable Sharing Program",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2130"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2140",
+   "@type": "Fund",
+   "name": "High Tech Theft Apprehension & Prosecution (Cnty)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2140"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2170",
+   "@type": "Fund",
+   "name": "Survey Monument Preservation",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2170"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2180",
+   "@type": "Fund",
+   "name": "Tidelands Use Fees",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2180"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2200",
+   "@type": "Fund",
+   "name": "Roadway Impact Fees",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2200"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2210",
+   "@type": "Fund",
+   "name": "Traffic - Tamalpais Community Plan Area",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2210"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2220",
+   "@type": "Fund",
+   "name": "Traffic - Strawberry Interchange Plan",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2220"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2230",
+   "@type": "Fund",
+   "name": "Traffic - West Sir Francis Drake",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2230"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2240",
+   "@type": "Fund",
+   "name": "Traffic - Atherton Avenue Interchange",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2240"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2250",
+   "@type": "Fund",
+   "name": "Zero Waste Public Outreach",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2250"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2260",
+   "@type": "Fund",
+   "name": "Non-Motorized Transportation Plan (NTPP)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2260"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2270",
+   "@type": "Fund",
+   "name": "Off-Highway Motor Vehicle Trails (VC 42204)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2270"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2280",
+   "@type": "Fund",
+   "name": "Hospital Preparedness Program (HPP)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2280"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2290",
+   "@type": "Fund",
+   "name": "California Tobacco Control Program (CTCP)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2290"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2300",
+   "@type": "Fund",
+   "name": "Domestic Violence (W&I 18305)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2300"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2310",
+   "@type": "Fund",
+   "name": "Children's Trust (AB 2994)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2310"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2330",
+   "@type": "Fund",
+   "name": "Health Services Realignment",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2330"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2340",
+   "@type": "Fund",
+   "name": "Health Program",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2340"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2350",
+   "@type": "Fund",
+   "name": "Emergency Medical Services (GC 76104)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2350"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2360",
+   "@type": "Fund",
+   "name": "Mental Health Realignment",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2360"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2370",
+   "@type": "Fund",
+   "name": "Mental Health Program",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2370"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2410",
+   "@type": "Fund",
+   "name": "Realignment - CalWORKS MOE",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2410"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2420",
+   "@type": "Fund",
+   "name": "DHCS Intergovernmental Transfer Agreement",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2420"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2430",
+   "@type": "Fund",
+   "name": "Vital Statistics (SB 1535)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2430"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2440",
+   "@type": "Fund",
+   "name": "Andrea Fox Fund",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2440"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2450",
+   "@type": "Fund",
+   "name": "Child Car Seat Program",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2450"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2460",
+   "@type": "Fund",
+   "name": "POST - Death Certificates",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2460"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2480",
+   "@type": "Fund",
+   "name": "Marin County Free Library Measure A",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2480"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2490",
+   "@type": "Fund",
+   "name": "Marin County Library Trust",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2490"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2500",
+   "@type": "Fund",
+   "name": "Bolinas Library Trust",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2500"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2510",
+   "@type": "Fund",
+   "name": "Corte Madera Library - A. Cello Fund",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2510"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2520",
+   "@type": "Fund",
+   "name": "California Room Trust - Watkins Estate",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2520"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2530",
+   "@type": "Fund",
+   "name": "Stinston Beach Library Trust",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2530"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2550",
+   "@type": "Fund",
+   "name": "Luiz Ranch Endowment",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2550"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2570",
+   "@type": "Fund",
+   "name": "Realignment - Juvenile Justice Crime Prevention",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2570"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2580",
+   "@type": "Fund",
+   "name": "Inmate Welfare Fund",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2580"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2590",
+   "@type": "Fund",
+   "name": "DMV Vehicle Theft (PC 9250.14)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2590"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2600",
+   "@type": "Fund",
+   "name": "Suppl Lcl Law Enf - Rural Counties and COPS",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2600"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2610",
+   "@type": "Fund",
+   "name": "Crime Prevention - DCEP",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2610"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2620",
+   "@type": "Fund",
+   "name": "Writ Fee (GC 26746)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2620"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2630",
+   "@type": "Fund",
+   "name": "Asset Forfeiture",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2630"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2640",
+   "@type": "Fund",
+   "name": "Auto Finger ID (GC 76102)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2640"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2650",
+   "@type": "Fund",
+   "name": "Local Law Enforcement Block Grant",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2650"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2660",
+   "@type": "Fund",
+   "name": "Civil Paper Service Fee (GC 26731)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2660"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2680",
+   "@type": "Fund",
+   "name": "Realignment - SB 1020",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2680"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2690",
+   "@type": "Fund",
+   "name": "Realignment - Juvenile Justice YOBG",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2690"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2700",
+   "@type": "Fund",
+   "name": "Countywide Grants",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2700"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2720",
+   "@type": "Fund",
+   "name": "Dispute Resolution (BP 470.3)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2720"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2730",
+   "@type": "Fund",
+   "name": "Criminal Justice Facilities (GC 76101)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2730"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2740",
+   "@type": "Fund",
+   "name": "Real Estate Fraud (GC 27388)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2740"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2780",
+   "@type": "Fund",
+   "name": "Treasury AFMLS - Equitable Sharing Prgm",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2780"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2790",
+   "@type": "Fund",
+   "name": "SB678 Community Correction Performance",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2790"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2810",
+   "@type": "Fund",
+   "name": "Fish and Wildlife Commission",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2810"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2820",
+   "@type": "Fund",
+   "name": "Roadway Impact Fees",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2820"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2830",
+   "@type": "Fund",
+   "name": "Supplemental Law Enf - COPS",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2830"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2840",
+   "@type": "Fund",
+   "name": "Asset Forfeiture",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2840"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2850",
+   "@type": "Fund",
+   "name": "Asset Forfeiture",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2850"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2860",
+   "@type": "Fund",
+   "name": "Asset Forfeiture",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2860"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2870",
+   "@type": "Fund",
+   "name": "Asset Forfeiture",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2870"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2880",
+   "@type": "Fund",
+   "name": "Asset Forfeiture",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2880"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2890",
+   "@type": "Fund",
+   "name": "Zimmer Family Trust",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2890"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2900",
+   "@type": "Fund",
+   "name": "Health and Human Services Whole Person",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2900"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2920",
+   "@type": "Fund",
+   "name": "Welfare Trust",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2920"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2930",
+   "@type": "Fund",
+   "name": "Marin Transportation Project",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2930"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2940",
+   "@type": "Fund",
+   "name": "Traffic Impact Lucas",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2940"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2950",
+   "@type": "Fund",
+   "name": "Traffic Mitigation Misc",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2950"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2960",
+   "@type": "Fund",
+   "name": "Northgate Activity CTR Plan",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2960"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/2980",
+   "@type": "Fund",
+   "name": "Health and Human Services Grants",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "2980"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3370",
+   "@type": "Fund",
+   "name": "Woodacre Creek",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3370"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3390",
+   "@type": "Fund",
+   "name": "WsteMgmtJPA-WstMarin",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3390"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3420",
+   "@type": "Fund",
+   "name": "PLANNING FIN MAP PLAN CK FEE",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3420"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3430",
+   "@type": "Fund",
+   "name": "RESTRICTED AFFORDABLE HOUSING",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3430"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3500",
+   "@type": "Fund",
+   "name": "AMERICAN RESCUE PLAN OF 2021",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3500"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3520",
+   "@type": "Fund",
+   "name": "Opioid Settlements",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3520"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3530",
+   "@type": "Fund",
+   "name": "Housing Healthy CA HHC",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3530"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3540",
+   "@type": "Fund",
+   "name": "SAFETY HELMET VIOLATIONS",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3540"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3550",
+   "@type": "Fund",
+   "name": "MCFL MEASURE B",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3550"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/3580",
+   "@type": "Fund",
+   "name": "AAA SS CONTRIBUTIONS",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "3580"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6240",
+   "@type": "Fund",
+   "name": "Other Grants",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6240"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6360",
+   "@type": "Fund",
+   "name": "Pt Reyes Vist Fac Tr",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6360"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6370",
+   "@type": "Fund",
+   "name": "Marin WildlifeGrants",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6370"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6380",
+   "@type": "Fund",
+   "name": "Plan'g- In-lieuParks",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6380"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6400",
+   "@type": "Fund",
+   "name": "Transit Ticket Sales",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6400"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6440",
+   "@type": "Fund",
+   "name": "SpclCircumstnPC987.9",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6440"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6450",
+   "@type": "Fund",
+   "name": "AutomatWrntVC40508.5",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6450"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6460",
+   "@type": "Fund",
+   "name": "Miller Pk Boat Launch",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6460"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/6520",
+   "@type": "Fund",
+   "name": "Asset Forfeiture",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "6520"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1410",
+   "@type": "Fund",
+   "name": "Courthouse Construction Fund (GC 76100)",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1410"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1440",
+   "@type": "Fund",
+   "name": "COP Projects",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1440"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1600",
+   "@type": "Fund",
+   "name": "2003 Pension Obligation Bonds",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1600"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1610",
+   "@type": "Fund",
+   "name": "Tobacco Securitization Bond",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1610"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1630",
+   "@type": "Fund",
+   "name": "ConsolReasmtBds-Prpy",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1630"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1660",
+   "@type": "Fund",
+   "name": "MCOS SlpyHlwBondsDSF",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1660"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1700",
+   "@type": "Fund",
+   "name": "1915 Marshal #1 - East Shore Wastewater Project",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1700"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/fund/1710",
+   "@type": "Fund",
+   "name": "1915 Marshal #2 - East Shore Wastewater Project",
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "local:fund-code",
+     "value": "1710"
+    }
+   ]
+  }
+ ]
+}

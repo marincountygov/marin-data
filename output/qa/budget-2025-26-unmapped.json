@@ -1,0 +1,99 @@
+{
+ "budgetUnitsWithoutOrganization": [
+  {
+   "unit": "000",
+   "name": "UNDEFINED"
+  },
+  {
+   "unit": "653",
+   "name": "WASTE MANAGEMENT JPA"
+  },
+  {
+   "unit": "659",
+   "name": "MARIN COUNTY OPEN SPACE"
+  },
+  {
+   "unit": "900",
+   "name": "NON DEPARTMENTAL"
+  }
+ ],
+ "totalsThatDifferFromTheirPartsAsPrinted": [
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-finance/expenditure",
+   "name": "General Government, Finance",
+   "budget": "fy2023-24-executed",
+   "printed": 18960900,
+   "parts": 18960899
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-plant-acquisition/expenditure",
+   "name": "General Government, Plant Acquisition",
+   "budget": "fy2023-24-executed",
+   "printed": 26528469,
+   "parts": 26528470
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-property-management/expenditure",
+   "name": "General Government, Property Management",
+   "budget": "fy2023-24-executed",
+   "printed": 11061359,
+   "parts": 11061358
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/expenditure",
+   "name": "General Government",
+   "budget": "fy2023-24-executed",
+   "printed": 171705707,
+   "parts": 171705708
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/expenditure",
+   "name": "General Government",
+   "budget": "fy2024-25-estimated",
+   "printed": 192080000,
+   "parts": 192080002
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-judicial/expenditure",
+   "name": "Public Protection, Judicial",
+   "budget": "fy2024-25-estimated",
+   "printed": 32464633,
+   "parts": 32464634
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/expenditure",
+   "name": "Public Protection, Other Protection",
+   "budget": "fy2023-24-executed",
+   "printed": 42703878,
+   "parts": 42703880
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/expenditure",
+   "name": "Public Protection",
+   "budget": "fy2023-24-executed",
+   "printed": 236904864,
+   "parts": 236904863
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-health/expenditure",
+   "name": "Health and Sanitation, Health",
+   "budget": "fy2023-24-executed",
+   "printed": 272513535,
+   "parts": 272513534
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-other-assistance/expenditure",
+   "name": "Public Assistance, Other Assistance",
+   "budget": "fy2023-24-executed",
+   "printed": 26469478,
+   "parts": 26469477
+  },
+  {
+   "line": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/expenditure",
+   "name": "Public Assistance",
+   "budget": "fy2023-24-executed",
+   "printed": 155451985,
+   "parts": 155451986
+  }
+ ]
+}

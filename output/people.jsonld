@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/mary-sackett",
+      "@type": "Person",
+      "name": "Mary Sackett"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/brian-colbert",
+      "@type": "Person",
+      "name": "Brian Colbert"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/stephanie-moulton-peters",
+      "@type": "Person",
+      "name": "Stephanie Moulton-Peters"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/dennis-rodoni",
+      "@type": "Person",
+      "name": "Dennis Rodoni"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/eric-lucan",
+      "@type": "Person",
+      "name": "Eric Lucan"
+    }
+  ]
+}

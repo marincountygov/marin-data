@@ -1,0 +1,10 @@
+{
+  "title": "Synthetic test: the same code under two different parents",
+  "organization": { "name": "County of Marin", "url": "https://www.marincounty.gov/" },
+  "agencies": [
+    { "id": "alpha", "code": "ag-01", "name": "Alpha Department", "type": "department", "parent": null, "url": "https://www.marincounty.gov/departments/alpha", "status": "active" },
+    { "id": "alpha/intake", "code": "dv-01", "name": "Intake", "type": "division", "parent": "alpha", "url": "https://www.marincounty.gov/departments/alpha/intake", "status": "active" },
+    { "id": "beta", "code": "ag-02", "name": "Beta Department", "type": "department", "parent": null, "url": "https://www.marincounty.gov/departments/beta", "status": "active" },
+    { "id": "beta/intake", "code": "dv-01", "name": "Intake", "type": "division", "parent": "beta", "url": "https://www.marincounty.gov/departments/beta/intake", "status": "active" }
+  ]
+}

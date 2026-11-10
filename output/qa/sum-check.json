@@ -1,0 +1,1407 @@
+[
+  {
+    "check": "service-area rows add to total",
+    "area": "Health and Human Services",
+    "budget": "fy2024-25-executed",
+    "total": 303917904,
+    "sum": 303917903,
+    "difference": 1,
+    "page": 71
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Health and Human Services",
+    "budget": "fy2025-26-approved",
+    "total": 306970799,
+    "sum": 306970799,
+    "difference": 0,
+    "page": 71
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Health and Human Services",
+    "budget": "fy2026-27-approved",
+    "total": 333657600,
+    "sum": 333657600,
+    "difference": 0,
+    "page": 71
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Public Safety",
+    "budget": "fy2024-25-executed",
+    "total": 202093417,
+    "sum": 202093417,
+    "difference": 0,
+    "page": 81
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Public Safety",
+    "budget": "fy2025-26-approved",
+    "total": 203026170,
+    "sum": 203026170,
+    "difference": 0,
+    "page": 81
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Public Safety",
+    "budget": "fy2026-27-approved",
+    "total": 219132962,
+    "sum": 219132962,
+    "difference": 0,
+    "page": 81
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Administration and Finance",
+    "budget": "fy2024-25-executed",
+    "total": 105272542,
+    "sum": 105272543,
+    "difference": -1,
+    "page": 123
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Administration and Finance",
+    "budget": "fy2025-26-approved",
+    "total": 110922047,
+    "sum": 110922047,
+    "difference": 0,
+    "page": 123
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Administration and Finance",
+    "budget": "fy2026-27-approved",
+    "total": 120281849,
+    "sum": 120281849,
+    "difference": 0,
+    "page": 123
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Community Development and Public Works",
+    "budget": "fy2024-25-executed",
+    "total": 115873380,
+    "sum": 115873380,
+    "difference": 0,
+    "page": 179
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Community Development and Public Works",
+    "budget": "fy2025-26-approved",
+    "total": 110383580,
+    "sum": 110383580,
+    "difference": 0,
+    "page": 179
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Community Development and Public Works",
+    "budget": "fy2026-27-approved",
+    "total": 118425541,
+    "sum": 118425541,
+    "difference": 0,
+    "page": 179
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Community Services",
+    "budget": "fy2024-25-executed",
+    "total": 62788600,
+    "sum": 62788600,
+    "difference": 0,
+    "page": 197
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Community Services",
+    "budget": "fy2025-26-approved",
+    "total": 61645159,
+    "sum": 61645159,
+    "difference": 0,
+    "page": 197
+  },
+  {
+    "check": "service-area rows add to total",
+    "area": "Community Services",
+    "budget": "fy2026-27-approved",
+    "total": 61655883,
+    "sum": 61655883,
+    "difference": 0,
+    "page": 197
+  },
+  {
+    "check": "department total matches its service-area total",
+    "department": "HEALTH AND HUMAN SERVICES",
+    "budget": "fy2025-26-approved",
+    "matches": [
+      "Service area total: Health and Human Services"
+    ],
+    "value": 306970799,
+    "page": 73
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "HEALTH AND HUMAN SERVICES",
+    "budget": "fy2025-26-approved",
+    "total": 306970799,
+    "sum": 306970799,
+    "difference": 0,
+    "page": 73
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "HEALTH AND HUMAN SERVICES",
+    "budget": "fy2025-26-approved",
+    "total": 231104325,
+    "sum": 231104325,
+    "difference": 0,
+    "page": 73
+  },
+  {
+    "check": "department total matches its service-area total",
+    "department": "HEALTH AND HUMAN SERVICES",
+    "budget": "fy2026-27-approved",
+    "matches": [
+      "Service area total: Health and Human Services"
+    ],
+    "value": 333657600,
+    "page": 73
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "HEALTH AND HUMAN SERVICES",
+    "budget": "fy2026-27-approved",
+    "total": 333657600,
+    "sum": 333657600,
+    "difference": 0,
+    "page": 73
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "HEALTH AND HUMAN SERVICES",
+    "budget": "fy2026-27-approved",
+    "total": 244647963,
+    "sum": 244647963,
+    "difference": 0,
+    "page": 73
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "CHILD SUPPORT SERVICES",
+    "budget": "fy2025-26-approved",
+    "total": 4177530,
+    "sum": 4177530,
+    "difference": 0,
+    "page": 83
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "CHILD SUPPORT SERVICES",
+    "budget": "fy2025-26-approved",
+    "total": 4177530,
+    "sum": 4177530,
+    "difference": 0,
+    "page": 83
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "CHILD SUPPORT SERVICES",
+    "budget": "fy2026-27-approved",
+    "total": 4465513,
+    "sum": 4465513,
+    "difference": 0,
+    "page": 83
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "CHILD SUPPORT SERVICES",
+    "budget": "fy2026-27-approved",
+    "total": 4465513,
+    "sum": 4465513,
+    "difference": 0,
+    "page": 83
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "DISTRICT ATTORNEY",
+    "budget": "fy2025-26-approved",
+    "total": 20537788,
+    "sum": 20537788,
+    "difference": 0,
+    "page": 89
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "DISTRICT ATTORNEY",
+    "budget": "fy2025-26-approved",
+    "total": 8884714,
+    "sum": 8884714,
+    "difference": 0,
+    "page": 89
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "DISTRICT ATTORNEY",
+    "budget": "fy2026-27-approved",
+    "total": 22757601,
+    "sum": 22757601,
+    "difference": 0,
+    "page": 89
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "DISTRICT ATTORNEY",
+    "budget": "fy2026-27-approved",
+    "total": 9518831,
+    "sum": 9518831,
+    "difference": 0,
+    "page": 89
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY FIRE",
+    "budget": "fy2025-26-approved",
+    "total": 55183795,
+    "sum": 55183795,
+    "difference": 0,
+    "page": 95
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY FIRE",
+    "budget": "fy2025-26-approved",
+    "total": 42539677,
+    "sum": 42539677,
+    "difference": 0,
+    "page": 95
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY FIRE",
+    "budget": "fy2026-27-approved",
+    "total": 60516020,
+    "sum": 60516020,
+    "difference": 0,
+    "page": 95
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY FIRE",
+    "budget": "fy2026-27-approved",
+    "total": 45070519,
+    "sum": 45070519,
+    "difference": 0,
+    "page": 95
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "PROBATION",
+    "budget": "fy2025-26-approved",
+    "total": 30753361,
+    "sum": 30753361,
+    "difference": 0,
+    "page": 103
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "PROBATION",
+    "budget": "fy2025-26-approved",
+    "total": 16767612,
+    "sum": 16767612,
+    "difference": 0,
+    "page": 103
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "PROBATION",
+    "budget": "fy2026-27-approved",
+    "total": 32163332,
+    "sum": 32163332,
+    "difference": 0,
+    "page": 103
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "PROBATION",
+    "budget": "fy2026-27-approved",
+    "total": 17724114,
+    "sum": 17724114,
+    "difference": 0,
+    "page": 103
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "PUBLIC DEFENDER",
+    "budget": "fy2025-26-approved",
+    "total": 9836773,
+    "sum": 9836773,
+    "difference": 0,
+    "page": 109
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "PUBLIC DEFENDER",
+    "budget": "fy2025-26-approved",
+    "total": 2542217,
+    "sum": 2542217,
+    "difference": 0,
+    "page": 109
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "PUBLIC DEFENDER",
+    "budget": "fy2026-27-approved",
+    "total": 11296570,
+    "sum": 11296570,
+    "difference": 0,
+    "page": 109
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "PUBLIC DEFENDER",
+    "budget": "fy2026-27-approved",
+    "total": 2810344,
+    "sum": 2810344,
+    "difference": 0,
+    "page": 109
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY SHERIFF CORONER’S OFFICE",
+    "budget": "fy2025-26-approved",
+    "total": 82536923,
+    "sum": 82536923,
+    "difference": 0,
+    "page": 115
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY SHERIFF CORONER’S OFFICE",
+    "budget": "fy2025-26-approved",
+    "total": 30108881,
+    "sum": 30108881,
+    "difference": 0,
+    "page": 115
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY SHERIFF CORONER’S OFFICE",
+    "budget": "fy2026-27-approved",
+    "total": 87933926,
+    "sum": 87933926,
+    "difference": 0,
+    "page": 115
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY SHERIFF CORONER’S OFFICE",
+    "budget": "fy2026-27-approved",
+    "total": 31983868,
+    "sum": 31983868,
+    "difference": 0,
+    "page": 115
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "BOARD OF SUPERVISORS",
+    "budget": "fy2025-26-approved",
+    "total": 3010045,
+    "sum": 3010045,
+    "difference": 0,
+    "page": 125
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "BOARD OF SUPERVISORS",
+    "budget": "fy2026-27-approved",
+    "total": 3130930,
+    "sum": 3130930,
+    "difference": 0,
+    "page": 125
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "OFFICE OF THE COUNTY EXECUTIVE",
+    "budget": "fy2025-26-approved",
+    "total": 18683194,
+    "sum": 18683194,
+    "difference": 0,
+    "page": 127
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "OFFICE OF THE COUNTY EXECUTIVE",
+    "budget": "fy2025-26-approved",
+    "total": 5214250,
+    "sum": 5214250,
+    "difference": 0,
+    "page": 127
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "OFFICE OF THE COUNTY EXECUTIVE",
+    "budget": "fy2026-27-approved",
+    "total": 15429773,
+    "sum": 15429773,
+    "difference": 0,
+    "page": 127
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "OFFICE OF THE COUNTY EXECUTIVE",
+    "budget": "fy2026-27-approved",
+    "total": 166500,
+    "sum": 166500,
+    "difference": 0,
+    "page": 127
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "ASSESSOR-RECORDER COUNTY CLERK",
+    "budget": "fy2025-26-approved",
+    "total": 12158698,
+    "sum": 12158698,
+    "difference": 0,
+    "page": 135
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "ASSESSOR-RECORDER COUNTY CLERK",
+    "budget": "fy2025-26-approved",
+    "total": 3607300,
+    "sum": 3607300,
+    "difference": 0,
+    "page": 135
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "ASSESSOR-RECORDER COUNTY CLERK",
+    "budget": "fy2026-27-approved",
+    "total": 12927170,
+    "sum": 12927170,
+    "difference": 0,
+    "page": 135
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "ASSESSOR-RECORDER COUNTY CLERK",
+    "budget": "fy2026-27-approved",
+    "total": 3661950,
+    "sum": 3661950,
+    "difference": 0,
+    "page": 135
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "COUNTY COUNSEL",
+    "budget": "fy2025-26-approved",
+    "total": 6783778,
+    "sum": 6783778,
+    "difference": 0,
+    "page": 141
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "COUNTY COUNSEL",
+    "budget": "fy2025-26-approved",
+    "total": 650000,
+    "sum": 650000,
+    "difference": 0,
+    "page": 141
+  },
+  {
+    "check": "department page total equals service-area row",
+    "department": "COUNTY COUNSEL",
+    "budget": "fy2026-27-approved",
+    "service_area_row": 7394395,
+    "department_page": 7754395,
+    "difference": -360000,
+    "page": 141,
+    "handling": "Both kept. The department page figure is a separate line with the cost types under it."
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "COUNTY COUNSEL",
+    "budget": "fy2026-27-approved",
+    "total": 7754395,
+    "sum": 7754395,
+    "difference": 0,
+    "page": 141
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "COUNTY COUNSEL",
+    "budget": "fy2026-27-approved",
+    "total": 670000,
+    "sum": 670000,
+    "difference": 0,
+    "page": 141
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "ELECTIONS",
+    "budget": "fy2025-26-approved",
+    "total": 4371219,
+    "sum": 4371219,
+    "difference": 0,
+    "page": 147
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "ELECTIONS",
+    "budget": "fy2025-26-approved",
+    "total": 554000,
+    "sum": 554000,
+    "difference": 0,
+    "page": 147
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "ELECTIONS",
+    "budget": "fy2026-27-approved",
+    "total": 4574642,
+    "sum": 4574642,
+    "difference": 0,
+    "page": 147
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "ELECTIONS",
+    "budget": "fy2026-27-approved",
+    "total": 754000,
+    "sum": 754000,
+    "difference": 0,
+    "page": 147
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "FINANCE",
+    "budget": "fy2025-26-approved",
+    "total": 11853018,
+    "sum": 11853018,
+    "difference": 0,
+    "page": 155
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "FINANCE",
+    "budget": "fy2025-26-approved",
+    "total": 4369581,
+    "sum": 4369581,
+    "difference": 0,
+    "page": 155
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "FINANCE",
+    "budget": "fy2026-27-approved",
+    "total": 13836810,
+    "sum": 13836810,
+    "difference": 0,
+    "page": 155
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "FINANCE",
+    "budget": "fy2026-27-approved",
+    "total": 4609180,
+    "sum": 4609180,
+    "difference": 0,
+    "page": 155
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "HUMAN RESOURCES",
+    "budget": "fy2025-26-approved",
+    "total": 23354212,
+    "sum": 23354212,
+    "difference": 0,
+    "page": 161
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "HUMAN RESOURCES",
+    "budget": "fy2025-26-approved",
+    "total": 6586409,
+    "sum": 6586409,
+    "difference": 0,
+    "page": 161
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "HUMAN RESOURCES",
+    "budget": "fy2026-27-approved",
+    "total": 29661256,
+    "sum": 29661256,
+    "difference": 0,
+    "page": 161
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "HUMAN RESOURCES",
+    "budget": "fy2026-27-approved",
+    "total": 10292006,
+    "sum": 10292006,
+    "difference": 0,
+    "page": 161
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "INFORMATION SERVICES AND TECHNOLOGY",
+    "budget": "fy2025-26-approved",
+    "total": 27041855,
+    "sum": 27041855,
+    "difference": 0,
+    "page": 167
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "INFORMATION SERVICES AND TECHNOLOGY",
+    "budget": "fy2025-26-approved",
+    "total": 4431075,
+    "sum": 4431075,
+    "difference": 0,
+    "page": 167
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "INFORMATION SERVICES AND TECHNOLOGY",
+    "budget": "fy2026-27-approved",
+    "total": 29502083,
+    "sum": 29502083,
+    "difference": 0,
+    "page": 167
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "INFORMATION SERVICES AND TECHNOLOGY",
+    "budget": "fy2026-27-approved",
+    "total": 4892863,
+    "sum": 4892863,
+    "difference": 0,
+    "page": 167
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "RETIREMENT",
+    "budget": "fy2025-26-approved",
+    "total": 3666028,
+    "sum": 3666028,
+    "difference": 0,
+    "page": 173
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "RETIREMENT",
+    "budget": "fy2025-26-approved",
+    "total": 3666028,
+    "sum": 3666028,
+    "difference": 0,
+    "page": 173
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "RETIREMENT",
+    "budget": "fy2026-27-approved",
+    "total": 3824790,
+    "sum": 3824790,
+    "difference": 0,
+    "page": 173
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "RETIREMENT",
+    "budget": "fy2026-27-approved",
+    "total": 3824790,
+    "sum": 3824790,
+    "difference": 0,
+    "page": 173
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "COMMUNITY DEVELOPMENT AGENCY",
+    "budget": "fy2025-26-approved",
+    "total": 23440885,
+    "sum": 23440885,
+    "difference": 0,
+    "page": 181
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "COMMUNITY DEVELOPMENT AGENCY",
+    "budget": "fy2025-26-approved",
+    "total": 16871863,
+    "sum": 16871863,
+    "difference": 0,
+    "page": 181
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "COMMUNITY DEVELOPMENT AGENCY",
+    "budget": "fy2026-27-approved",
+    "total": 25116197,
+    "sum": 25116197,
+    "difference": 0,
+    "page": 181
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "COMMUNITY DEVELOPMENT AGENCY",
+    "budget": "fy2026-27-approved",
+    "total": 16562237,
+    "sum": 16562237,
+    "difference": 0,
+    "page": 181
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "DEPARTMENT OF PUBLIC WORKS",
+    "budget": "fy2025-26-approved",
+    "total": 86942695,
+    "sum": 86942695,
+    "difference": 0,
+    "page": 187
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "DEPARTMENT OF PUBLIC WORKS",
+    "budget": "fy2025-26-approved",
+    "total": 42472222,
+    "sum": 42472222,
+    "difference": 0,
+    "page": 187
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "DEPARTMENT OF PUBLIC WORKS",
+    "budget": "fy2026-27-approved",
+    "total": 93309344,
+    "sum": 93309344,
+    "difference": 0,
+    "page": 187
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "DEPARTMENT OF PUBLIC WORKS",
+    "budget": "fy2026-27-approved",
+    "total": 46565904,
+    "sum": 46565904,
+    "difference": 0,
+    "page": 187
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "AGRICULTURE, WEIGHTS AND MEASURES",
+    "budget": "fy2025-26-approved",
+    "total": 3152786,
+    "sum": 3152786,
+    "difference": 0,
+    "page": 199
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "AGRICULTURE, WEIGHTS AND MEASURES",
+    "budget": "fy2025-26-approved",
+    "total": 1463400,
+    "sum": 1463400,
+    "difference": 0,
+    "page": 199
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "AGRICULTURE, WEIGHTS AND MEASURES",
+    "budget": "fy2026-27-approved",
+    "total": 3300043,
+    "sum": 3300043,
+    "difference": 0,
+    "page": 199
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "AGRICULTURE, WEIGHTS AND MEASURES",
+    "budget": "fy2026-27-approved",
+    "total": 1469600,
+    "sum": 1469600,
+    "difference": 0,
+    "page": 199
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "CULTURAL SERVICES",
+    "budget": "fy2025-26-approved",
+    "total": 4147318,
+    "sum": 4147318,
+    "difference": 0,
+    "page": 205
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "CULTURAL SERVICES",
+    "budget": "fy2025-26-approved",
+    "total": 1243842,
+    "sum": 1243842,
+    "difference": 0,
+    "page": 205
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "CULTURAL SERVICES",
+    "budget": "fy2026-27-approved",
+    "total": 4483189,
+    "sum": 4483189,
+    "difference": 0,
+    "page": 205
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "CULTURAL SERVICES",
+    "budget": "fy2026-27-approved",
+    "total": 1325000,
+    "sum": 1325000,
+    "difference": 0,
+    "page": 205
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY FREE LIBRARY",
+    "budget": "fy2025-26-approved",
+    "total": 27117345,
+    "sum": 27117345,
+    "difference": 0,
+    "page": 211
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY FREE LIBRARY",
+    "budget": "fy2025-26-approved",
+    "total": 22866690,
+    "sum": 22866690,
+    "difference": 0,
+    "page": 211
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY FREE LIBRARY",
+    "budget": "fy2026-27-approved",
+    "total": 27303294,
+    "sum": 27303294,
+    "difference": 0,
+    "page": 211
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY FREE LIBRARY",
+    "budget": "fy2026-27-approved",
+    "total": 23663963,
+    "sum": 23663963,
+    "difference": 0,
+    "page": 211
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY PARKS",
+    "budget": "fy2025-26-approved",
+    "total": 26856950,
+    "sum": 26856950,
+    "difference": 0,
+    "page": 217
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY PARKS",
+    "budget": "fy2025-26-approved",
+    "total": 19872592,
+    "sum": 19872592,
+    "difference": 0,
+    "page": 217
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "MARIN COUNTY PARKS",
+    "budget": "fy2026-27-approved",
+    "total": 26171605,
+    "sum": 26171605,
+    "difference": 0,
+    "page": 217
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "MARIN COUNTY PARKS",
+    "budget": "fy2026-27-approved",
+    "total": 20239777,
+    "sum": 20239777,
+    "difference": 0,
+    "page": 217
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "UC COOPERATIVE EXTENSION MARIN",
+    "budget": "fy2025-26-approved",
+    "total": 370760,
+    "sum": 370760,
+    "difference": 0,
+    "page": 223
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "UC COOPERATIVE EXTENSION MARIN",
+    "budget": "fy2025-26-approved",
+    "total": 3500,
+    "sum": 3500,
+    "difference": 0,
+    "page": 223
+  },
+  {
+    "check": "expenditure types add to total",
+    "department": "UC COOPERATIVE EXTENSION MARIN",
+    "budget": "fy2026-27-approved",
+    "total": 397752,
+    "sum": 397752,
+    "difference": 0,
+    "page": 223
+  },
+  {
+    "check": "revenue types add to total",
+    "department": "UC COOPERATIVE EXTENSION MARIN",
+    "budget": "fy2026-27-approved",
+    "total": 3500,
+    "sum": 3500,
+    "difference": 0,
+    "page": 223
+  },
+  {
+    "check": "countywide revenue types add to total",
+    "budget": "fy2025-26-approved",
+    "total": 821512028,
+    "sum": 821512028,
+    "difference": 0,
+    "page": 21
+  },
+  {
+    "check": "countywide expenditure types add to total",
+    "budget": "fy2025-26-approved",
+    "total": 865819432,
+    "sum": 865819432,
+    "difference": 0,
+    "page": 21
+  },
+  {
+    "check": "countywide total uses equal total expenditures",
+    "budget": "fy2025-26-approved",
+    "total": 865819432,
+    "sum": 865819432,
+    "difference": 0,
+    "page": 20
+  },
+  {
+    "check": "countywide revenue types add to total",
+    "budget": "fy2026-27-approved",
+    "total": 855613964,
+    "sum": 855613964,
+    "difference": 0,
+    "page": 21
+  },
+  {
+    "check": "countywide expenditure types add to total",
+    "budget": "fy2026-27-approved",
+    "total": 902592232,
+    "sum": 902592232,
+    "difference": 0,
+    "page": 21
+  },
+  {
+    "check": "countywide total uses equal total expenditures",
+    "budget": "fy2026-27-approved",
+    "total": 902592232,
+    "sum": 902592232,
+    "difference": 0,
+    "page": 20
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Assessor, Recorder, County Clerk",
+    "budget": "fy2025-26-approved",
+    "total": 12158698,
+    "sum": 12158698,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Assessor, Recorder, County Clerk",
+    "budget": "fy2026-27-approved",
+    "total": 12927170,
+    "sum": 12927170,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Agriculture, Weights and Measures",
+    "budget": "fy2025-26-approved",
+    "total": 3152786,
+    "sum": 3152786,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Agriculture, Weights and Measures",
+    "budget": "fy2026-27-approved",
+    "total": 3300043,
+    "sum": 3300043,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Board of Supervisors",
+    "budget": "fy2025-26-approved",
+    "total": 3010045,
+    "sum": 3010045,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Board of Supervisors",
+    "budget": "fy2026-27-approved",
+    "total": 3130930,
+    "sum": 3130930,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Community Development Agency",
+    "budget": "fy2025-26-approved",
+    "total": 23440885,
+    "sum": 23440885,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Community Development Agency",
+    "budget": "fy2026-27-approved",
+    "total": 25116197,
+    "sum": 25116197,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "County Counsel",
+    "budget": "fy2025-26-approved",
+    "total": 6783778,
+    "sum": 6783778,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "County Counsel",
+    "budget": "fy2026-27-approved",
+    "total": 7754395,
+    "sum": 7754395,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Office of the County Executive",
+    "budget": "fy2025-26-approved",
+    "total": 18683194,
+    "sum": 18683194,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Office of the County Executive",
+    "budget": "fy2026-27-approved",
+    "total": 15429773,
+    "sum": 15429773,
+    "difference": 0
+  },
+  {
+    "check": "Non Departmental programs equal the countywide total less the five service areas",
+    "budget": "fy2025-26-approved",
+    "total": 72871677,
+    "sum": 72871677,
+    "difference": 0
+  },
+  {
+    "check": "Non Departmental programs equal the countywide total less the five service areas",
+    "budget": "fy2026-27-approved",
+    "total": 49438397,
+    "sum": 49078397,
+    "difference": 360000
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Child Support Services",
+    "budget": "fy2025-26-approved",
+    "total": 4177530,
+    "sum": 4177530,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Child Support Services",
+    "budget": "fy2026-27-approved",
+    "total": 4465513,
+    "sum": 4465513,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Cultural Services",
+    "budget": "fy2025-26-approved",
+    "total": 4147318,
+    "sum": 4147318,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Cultural Services",
+    "budget": "fy2026-27-approved",
+    "total": 4483189,
+    "sum": 4483189,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "District Attorney",
+    "budget": "fy2025-26-approved",
+    "total": 20537788,
+    "sum": 20537788,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "District Attorney",
+    "budget": "fy2026-27-approved",
+    "total": 22757601,
+    "sum": 22757601,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Elections (Registrar of Voters)",
+    "budget": "fy2025-26-approved",
+    "total": 4371219,
+    "sum": 4371219,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Elections (Registrar of Voters)",
+    "budget": "fy2026-27-approved",
+    "total": 4574642,
+    "sum": 4574642,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Department of Finance",
+    "budget": "fy2025-26-approved",
+    "total": 11853018,
+    "sum": 11853018,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Department of Finance",
+    "budget": "fy2026-27-approved",
+    "total": 13836810,
+    "sum": 13836810,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Fire Department",
+    "budget": "fy2025-26-approved",
+    "total": 55183795,
+    "sum": 55183795,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Fire Department",
+    "budget": "fy2026-27-approved",
+    "total": 60516020,
+    "sum": 60516020,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Health and Human Services",
+    "budget": "fy2025-26-approved",
+    "total": 306970799,
+    "sum": 306970799,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Health and Human Services",
+    "budget": "fy2026-27-approved",
+    "total": 333657600,
+    "sum": 333657600,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Human Resources",
+    "budget": "fy2025-26-approved",
+    "total": 23354212,
+    "sum": 23354212,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Human Resources",
+    "budget": "fy2026-27-approved",
+    "total": 29661256,
+    "sum": 29661256,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Information Services and Technology",
+    "budget": "fy2025-26-approved",
+    "total": 27041855,
+    "sum": 27041855,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Information Services and Technology",
+    "budget": "fy2026-27-approved",
+    "total": 29502083,
+    "sum": 29502083,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Marin County Free Library",
+    "budget": "fy2025-26-approved",
+    "total": 27117345,
+    "sum": 27117345,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Marin County Free Library",
+    "budget": "fy2026-27-approved",
+    "total": 27303294,
+    "sum": 27303294,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Parks",
+    "budget": "fy2025-26-approved",
+    "total": 26856950,
+    "sum": 26856950,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Parks",
+    "budget": "fy2026-27-approved",
+    "total": 26171605,
+    "sum": 26171605,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Probation",
+    "budget": "fy2025-26-approved",
+    "total": 30753361,
+    "sum": 30753361,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Probation",
+    "budget": "fy2026-27-approved",
+    "total": 32163332,
+    "sum": 32163332,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Public Defender",
+    "budget": "fy2025-26-approved",
+    "total": 9836773,
+    "sum": 9836773,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Public Defender",
+    "budget": "fy2026-27-approved",
+    "total": 11296570,
+    "sum": 11296570,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Public Works",
+    "budget": "fy2025-26-approved",
+    "total": 86942695,
+    "sum": 86942695,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Public Works",
+    "budget": "fy2026-27-approved",
+    "total": 93309344,
+    "sum": 93309344,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Retirement",
+    "budget": "fy2025-26-approved",
+    "total": 3666028,
+    "sum": 3666028,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Retirement",
+    "budget": "fy2026-27-approved",
+    "total": 3824790,
+    "sum": 3824790,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Sheriff",
+    "budget": "fy2025-26-approved",
+    "total": 82536923,
+    "sum": 82536923,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "Sheriff",
+    "budget": "fy2026-27-approved",
+    "total": 87933926,
+    "sum": 87933926,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "UC Cooperative Extension (Farm Advisor)",
+    "budget": "fy2025-26-approved",
+    "total": 370760,
+    "sum": 370760,
+    "difference": 0
+  },
+  {
+    "check": "program rows add to the department total",
+    "department": "UC Cooperative Extension (Farm Advisor)",
+    "budget": "fy2026-27-approved",
+    "total": 397752,
+    "sum": 397752,
+    "difference": 0
+  }
+]
