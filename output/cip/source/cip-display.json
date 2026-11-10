@@ -1,0 +1,5041 @@
+{
+ "book": {
+  "title": "County of Marin FY 2027-31 Proposed Capital Improvement Plan",
+  "pages": "Fund sources p. 19; categories p. 21; projects pp. 24-27"
+ },
+ "years": [
+  "2026-27",
+  "2027-28",
+  "2028-29",
+  "2029-30",
+  "2030-31"
+ ],
+ "projects": [
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcfd-headquarters-san-geronimo-commons",
+   "name": "MCFD Headquarters San Geronimo Commons",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 75000000,
+   "priorApprovals": 2928986,
+   "byYear": {
+    "2026-27": 20000000,
+    "2027-28": 30000000,
+    "2028-29": 22071014,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 75000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/hicks-valley-fire-station-replacement",
+   "name": "Hicks Valley Fire Station Replacement",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 16000000,
+   "priorApprovals": 171372,
+   "byYear": {
+    "2026-27": 5828628,
+    "2027-28": 10000000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 16000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcfd-administration-tenant-improvements",
+   "name": "MCFD Administration Tenant Improvements",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 8000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 8000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 8000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcfd-fire-foundry-college-of-marin",
+   "name": "MCFD Fire Foundry - College of Marin",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 30000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 30000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 30000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/distributed-antenna-system-1600-los-gamos-dr",
+   "name": "Distributed Antenna System - 1600 Los Gamos Dr.",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 2000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 2000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-city-fire-dorm-reconfiguration",
+   "name": "Marin City Fire Dorm Reconfiguration",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 1500000,
+   "priorApprovals": 398000,
+   "byYear": {
+    "2026-27": 1102000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/sheriff-s-sub-station-college-of-marin",
+   "name": "Sheriff's Sub-Station - College of Marin",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 2000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 2000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/woodacre-fire-dept-bathroom-remodel",
+   "name": "Woodacre Fire Dept Bathroom Remodel",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 850000,
+   "priorApprovals": 350000,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 850000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/woodacre-fire-station-apparatus-bay-heaters",
+   "name": "Woodacre Fire Station Apparatus Bay Heaters",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 136775,
+   "priorApprovals": 136775,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 136775,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/throckmorton-fire-station-ac-paving",
+   "name": "Throckmorton Fire Station AC Paving",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 100000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 100000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/waterline-replacement-at-barnaby-look-out",
+   "name": "Waterline Replacement at Barnaby Look Out",
+   "category": "Public Safety",
+   "subcategory": null,
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 250000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 250000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/linda-drive-culvert-replacement",
+   "name": "Linda Drive Culvert Replacement",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 188629,
+   "priorApprovals": 188629,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 188629,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/gallinas-creek-dredge",
+   "name": "Gallinas Creek Dredge",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 11900000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 1500000,
+    "2027-28": 1220000,
+    "2028-29": 5100000,
+    "2029-30": 40000,
+    "2030-31": 40000
+   },
+   "totalFunding": 7900000,
+   "additionalFundsNeeded": 4000000,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/countywide-small-trash-capture-device-installation",
+   "name": "Countywide Small Trash Capture Device Installation",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 400000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/green-stormwater-infrastructure-improvement-project",
+   "name": "Green Stormwater Infrastructure Improvement Project",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 11000000,
+   "priorApprovals": 600000,
+   "byYear": {
+    "2026-27": 5000000,
+    "2027-28": 5400000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 11000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/trash-capture-devices-shoreline-seminary-goodmans-blithedale",
+   "name": "Trash Capture Devices (Shoreline, Seminary, Goodmans, Blithedale)",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 5678043,
+   "priorApprovals": 1000000,
+   "byYear": {
+    "2026-27": 4678043,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 5678043,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/seaview-ave-drainage-improvements",
+   "name": "Seaview Ave Drainage Improvements",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 400000,
+   "priorApprovals": 400000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2027-drainage-program",
+   "name": "2027 Drainage Program",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 400000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2028-drainage-program",
+   "name": "2028 Drainage Program",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 400000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2029-drainage-program",
+   "name": "2029 Drainage Program",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 400000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2030-drainage-program",
+   "name": "2030 Drainage Program",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 1500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 1500000,
+    "2030-31": 0
+   },
+   "totalFunding": 1500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2031-drainage-program",
+   "name": "2031 Drainage Program",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "New",
+   "page": 24,
+   "costEstimate": 1500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 1500000
+   },
+   "totalFunding": 1500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/432-woodland-rd-kent-woodland-culvert-repair",
+   "name": "432 Woodland Rd, Kent Woodland - Culvert Repair",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 187877,
+   "priorApprovals": 41530,
+   "byYear": {
+    "2026-27": 146347,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 187877,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2026-minor-drainage-projects",
+   "name": "2026 Minor Drainage Projects",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 200000,
+   "priorApprovals": 200000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/bretano-way-and-sfd-culvert-repair",
+   "name": "Bretano Way and SFD Culvert Repair",
+   "category": "Water Resources",
+   "subcategory": "Drainage",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 98649,
+   "priorApprovals": 98649,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 98649,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/santa-venetia-floodwall",
+   "name": "Santa Venetia Floodwall",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 30500000,
+   "priorApprovals": 500000,
+   "byYear": {
+    "2026-27": 5000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 5500000,
+   "additionalFundsNeeded": 25000000,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/crest-marin-pump-station-rehabilitation",
+   "name": "Crest Marin Pump Station Rehabilitation",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 7140000,
+   "priorApprovals": 540000,
+   "byYear": {
+    "2026-27": 460000,
+    "2027-28": 1200000,
+    "2028-29": 4900000,
+    "2029-30": 20000,
+    "2030-31": 20000
+   },
+   "totalFunding": 7140000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/cardinal-levee-seepage-mitigation",
+   "name": "Cardinal Levee Seepage Mitigation",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 6400000,
+   "priorApprovals": 580000,
+   "byYear": {
+    "2026-27": 720000,
+    "2027-28": 1000000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2300000,
+   "additionalFundsNeeded": 4100000,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-city-gateway-pump-station",
+   "name": "Marin City Gateway Pump Station",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 15850000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 700000,
+    "2027-28": 50000,
+    "2028-29": 50000,
+    "2029-30": 50000,
+    "2030-31": 0
+   },
+   "totalFunding": 850000,
+   "additionalFundsNeeded": 15000000,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/novato-creek-dredge-2026",
+   "name": "Novato Creek Dredge 2026",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 2200000,
+   "priorApprovals": 2200000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mill-valley-sycamore-pump-station-rehabilitation",
+   "name": "Mill Valley Sycamore Pump Station Rehabilitation",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 2700000,
+   "priorApprovals": 400000,
+   "byYear": {
+    "2026-27": 600000,
+    "2027-28": 1700000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2700000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy29",
+    "fy30",
+    "fy31"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/east-and-west-creek-restoration",
+   "name": "East & West Creek Restoration",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 3660000,
+   "priorApprovals": 510000,
+   "byYear": {
+    "2026-27": 890000,
+    "2027-28": 2200000,
+    "2028-29": 20000,
+    "2029-30": 20000,
+    "2030-31": 20000
+   },
+   "totalFunding": 3660000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/corte-madera-creek-flood-risk-management",
+   "name": "Corte Madera Creek Flood Risk Management",
+   "category": "Water Resources",
+   "subcategory": "Flood Control",
+   "cipStatus": "Ongoing",
+   "page": 24,
+   "costEstimate": 18213270,
+   "priorApprovals": 11763270,
+   "byYear": {
+    "2026-27": 4950000,
+    "2027-28": 1420000,
+    "2028-29": 40000,
+    "2029-30": 40000,
+    "2030-31": 0
+   },
+   "totalFunding": 18213270,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/lagoon-park-restroom-replacement",
+   "name": "Lagoon Park Restroom Replacement",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 1805000,
+   "priorApprovals": 55000,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 1250000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1805000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcinnis-park-restroom-replacement",
+   "name": "McInnis Park Restroom Replacement",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 1750000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 1250000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1750000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/park-ac-corte-madera-pathway",
+   "name": "Park AC Corte Madera Pathway",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 60000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 60000
+   },
+   "totalFunding": 60000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/lucas-valley-field-office-renovation",
+   "name": "Lucas Valley Field Office Renovation",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2244340,
+   "priorApprovals": 2244340,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2244340,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcglashan-pathway-phase-2",
+   "name": "McGlashan Pathway Phase 2",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 170000,
+   "priorApprovals": 170000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 170000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mill-valley-sausalito-mup-and-marsh-adaptation-design",
+   "name": "Mill Valley-Sausalito MUP & Marsh Adaptation (Design)",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2600000,
+   "priorApprovals": 1100000,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 500000,
+    "2028-29": 500000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2600000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcinnis-inclusive-playground",
+   "name": "McInnis Inclusive Playground",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 5424950,
+   "priorApprovals": 424950,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 424950,
+   "additionalFundsNeeded": 5000000,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/cascade-fountain-renovation",
+   "name": "Cascade Fountain Renovation",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 1100000,
+   "priorApprovals": 91200,
+   "byYear": {
+    "2026-27": 1008800,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/point-reyes-restroom-expansion-project",
+   "name": "Point Reyes Restroom Expansion Project",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 3347000,
+   "priorApprovals": 347000,
+   "byYear": {
+    "2026-27": 3000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 3347000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mill-valley-bridges-1-and-2-repairs",
+   "name": "Mill Valley Bridges (1 & 2) Repairs",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 1000000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/stafford-park-waterline-replacement",
+   "name": "Stafford Park Waterline Replacement",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 3082620,
+   "priorApprovals": 157620,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 2925000,
+    "2030-31": 0
+   },
+   "totalFunding": 3082620,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/lagoon-park-pathway-gap-closure",
+   "name": "Lagoon Park Pathway Gap Closure",
+   "category": "Facilities",
+   "subcategory": "Parks",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 1500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 200000,
+    "2028-29": 1300000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/120-n-redwood-hhs-entry-exit-hardware",
+   "name": "120 N. Redwood HHS Entry/Exit Hardware",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 150000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 150000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 150000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/20-nsp-roof-replacement",
+   "name": "20 NSP Roof Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 275000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 275000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 275000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/120-n-redwood-hhs-path-of-travel-ramp",
+   "name": "120 N. Redwood HHS Path of Travel Ramp",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 330000,
+   "priorApprovals": 330000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 330000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/10-nsp-mechanical-bms",
+   "name": "10 NSP Mechanical + BMS",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 2000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 100000,
+    "2028-29": 200000,
+    "2029-30": 1700000,
+    "2030-31": 0
+   },
+   "totalFunding": 2000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/fairfax-library-hvac-replacement",
+   "name": "Fairfax Library - HVAC Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/120-n-redwood-hhs-cooling-tower",
+   "name": "120 N. Redwood HHS Cooling Tower",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 1000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/novato-library-rehabilitation-project",
+   "name": "Novato Library Rehabilitation Project",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 9000000,
+   "priorApprovals": 500000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 8500000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 9000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/fairfax-library-rehabilitation-project",
+   "name": "Fairfax Library Rehabilitation Project",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 9000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 9000000,
+    "2030-31": 0
+   },
+   "totalFunding": 9000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/corte-madera-library-rehabilitation-project",
+   "name": "Corte Madera Library Rehabilitation Project",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 6500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 6500000
+   },
+   "totalFunding": 6500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/20-nsp-mechanical-bms",
+   "name": "20 NSP Mechanical + BMS",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 275000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 75000,
+    "2028-29": 200000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 275000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/3070-3270-hhs-kerner-campus-bms",
+   "name": "3070-3270 HHS Kerner Campus BMS",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1100000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 250000,
+    "2029-30": 850000,
+    "2030-31": 0
+   },
+   "totalFunding": 1100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/120-n-redwood-hhs-cabling-modernization",
+   "name": "120 N Redwood HHS Cabling Modernization",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 400000,
+    "2027-28": 600000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/library-refresh-at-10-locations",
+   "name": "Library Refresh at 10 Locations",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 3500000,
+   "priorApprovals": 3500000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 3500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/10-nsp-roof-replacement",
+   "name": "10 NSP Roof Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 275000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 275000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 275000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/juvenile-service-center-mechanical-bms",
+   "name": "Juvenile Service Center Mechanical + BMS",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 250000,
+    "2029-30": 750000,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mc-jail-cell-improvements-and-related-work",
+   "name": "MC Jail Cell Improvements and Related Work",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 11278000,
+   "priorApprovals": 7525000,
+   "byYear": {
+    "2026-27": 3753000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 11278000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/juvenile-hall-accessibility",
+   "name": "Juvenile Hall Accessibility",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2346320,
+   "priorApprovals": 512320,
+   "byYear": {
+    "2026-27": 1000000,
+    "2027-28": 834000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2346320,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/library-of-things-and-library-vending",
+   "name": "Library of Things & Library Vending",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/juvenile-hall-hvac-replacement",
+   "name": "Juvenile Hall HVAC Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2131000,
+   "priorApprovals": 2083422,
+   "byYear": {
+    "2026-27": 47578,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2131000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/airport-fuel-farm-secondary-containment-near-term",
+   "name": "Airport Fuel Farm Secondary Containment [Near Term]",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 615000,
+   "priorApprovals": 40000,
+   "byYear": {
+    "2026-27": 575000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 615000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/juvenile-hall-video-system-replacement",
+   "name": "Juvenile Hall Video System Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 3875000,
+   "priorApprovals": 170215,
+   "byYear": {
+    "2026-27": 3704785,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 3875000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/jail-entry-gate",
+   "name": "Jail Entry Gate",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 150000,
+    "2027-28": 850000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/juvenile-hall-path-of-travel-improvements",
+   "name": "Juvenile Hall Path of Travel Improvements",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 1650000,
+   "priorApprovals": 150000,
+   "byYear": {
+    "2026-27": 1500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1650000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/nicasio-crew-space-update",
+   "name": "Nicasio Crew Space Update",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 1100000,
+   "priorApprovals": 545000,
+   "byYear": {
+    "2026-27": 555000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/350-ignacio-blvd-tenant-improvements-and-deferred-maintenance",
+   "name": "350 Ignacio Blvd. Tenant Improvements and Deferred Maintenance",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 3000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 3000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 3000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/juvenile-hall-hard-wire-fire-system",
+   "name": "Juvenile Hall Hard Wire Fire System",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 250000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 250000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-city-fire-station-hvac-replacement",
+   "name": "Marin City Fire Station HVAC Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 150000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 150000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 150000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-county-jail-door-replacement",
+   "name": "Marin County Jail Door Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 200000,
+   "priorApprovals": 200000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/jail-kitchen-hvac-replacement",
+   "name": "Jail Kitchen HVAC Replacement",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 70000,
+   "priorApprovals": 70000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 70000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/corp-yard-modernization-and-safety-enhancements",
+   "name": "Corp Yard Modernization & Safety Enhancements",
+   "category": "Facilities",
+   "subcategory": "County Facilities",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 1600000,
+   "priorApprovals": 300000,
+   "byYear": {
+    "2026-27": 1300000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1600000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-civic-center-window-film",
+   "name": "Marin Civic Center Window Film",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 2500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 1500000,
+    "2027-28": 1000000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/remove-excess-vegetation-from-civic-center-building-perimeter",
+   "name": "Remove Excess Vegetation from Civic Center Building Perimeter",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 250000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 250000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/refresh-civic-center-restrooms",
+   "name": "Refresh Civic Center Restrooms",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 1000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-library-rehabilitation-project",
+   "name": "Civic Center Library Rehabilitation Project",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 4000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 4000000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 4000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-interior-wayfinding-and-visitor-enhancements",
+   "name": "Civic Center Interior Wayfinding & Visitor Enhancements",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 250000,
+   "byYear": {
+    "2026-27": 750000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy31"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-landscaping-enhancements",
+   "name": "Civic Center Landscaping Enhancements",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1750000,
+   "priorApprovals": 250000,
+   "byYear": {
+    "2026-27": 1500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1750000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy29"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/aim-farmers-market-parking-lot-county-grant",
+   "name": "Aim Farmers Market Parking Lot - County Grant",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2500000,
+   "priorApprovals": 2500000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/vma-building-systems-rehabilitiation",
+   "name": "VMA Building Systems Rehabilitiation",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 23987120,
+   "priorApprovals": 23987120,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 23987120,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-building-frontage-safety-barriers-and-fencing",
+   "name": "Civic Center Building Frontage Safety Barriers & Fencing",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 300000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-emergency-back-up-power",
+   "name": "Civic Center Emergency Back Up Power",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2170250,
+   "priorApprovals": 2170250,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2170250,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy28"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/demo-concessions-building-and-temp-storage-replacement",
+   "name": "Demo Concessions Building & Temp. Storage Replacement",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 800000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 800000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 800000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/space-planning-misc-projects",
+   "name": "Space Planning Misc Projects",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2900919,
+   "priorApprovals": 400919,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 500000,
+    "2028-29": 500000,
+    "2029-30": 500000,
+    "2030-31": 500000
+   },
+   "totalFunding": 2900919,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcc-hvac-phase-5-air-side-system-hoj-phasing",
+   "name": "MCC HVAC Phase 5-Air Side System -HOJ Phasing",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 20090548,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 1500000,
+    "2029-30": 8590548,
+    "2030-31": 10000000
+   },
+   "totalFunding": 20090548,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-and-marin-center-exterior-lighting-replacement",
+   "name": "Civic Center & Marin Center Exterior Lighting Replacement",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 12000000,
+   "priorApprovals": 450000,
+   "byYear": {
+    "2026-27": 3050000,
+    "2027-28": 2500000,
+    "2028-29": 4500000,
+    "2029-30": 1500000,
+    "2030-31": 0
+   },
+   "totalFunding": 12000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-hvac-chilled-water-plant",
+   "name": "Civic Center HVAC Chilled Water Plant",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 14600000,
+   "priorApprovals": 1525000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 13075000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 14600000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcc-hvac-phase-6-air-side-system-admin-building",
+   "name": "MCC HVAC Phase 6- Air Side System Admin Building",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 14123324,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 1123324,
+    "2030-31": 13000000
+   },
+   "totalFunding": 14123324,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/dome-mats-on-lagoon-island-bridges-phase-2-long-term",
+   "name": "Dome Mats on Lagoon Island Bridges -Phase 2 [Long Term]",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 200000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 200000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/install-gate-at-civic-center-dumpster-access-driveway",
+   "name": "Install Gate at Civic Center Dumpster Access Driveway",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 10000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 10000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 10000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-caf-renovations",
+   "name": "Civic Center Café Renovations",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 12000000,
+   "priorApprovals": 900000,
+   "byYear": {
+    "2026-27": 3000000,
+    "2027-28": 8100000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 12000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/wayfinding-signage-civic-center-vma-and-marin-center",
+   "name": "Wayfinding Signage: Civic Center, VMA, and Marin Center",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 450000,
+    "2027-28": 1050000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/fairgrounds-electrical-upgrades",
+   "name": "Fairgrounds Electrical Upgrades",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 3000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 3000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 3000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/civic-center-south-arch-ramp-lift-and-visitor-booth",
+   "name": "Civic Center South Arch Ramp/Lift and Visitor Booth",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 650000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 650000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 650000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcc-hvac-phase-4-computer-room-reliability",
+   "name": "MCC HVAC Phase 4-Computer Room Reliability",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 2700000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 1000000,
+    "2028-29": 1700000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2700000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/peter-behr-drive-pathway-and-streetscape-enhancements",
+   "name": "Peter Behr Drive Pathway & Streetscape Enhancements",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 2321940,
+   "priorApprovals": 321940,
+   "byYear": {
+    "2026-27": 2000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2321940,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-civic-center-skylight-replacement",
+   "name": "Marin Civic Center Skylight Replacement",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 13250000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 250000,
+    "2028-29": 8000000,
+    "2029-30": 5000000,
+    "2030-31": 0
+   },
+   "totalFunding": 13250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mcc-hvac-phase-3-hot-water-plant-upgrades",
+   "name": "MCC HVAC Phase 3- Hot Water Plant Upgrades",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 11710447,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 1000000,
+    "2028-29": 7710447,
+    "2029-30": 3000000,
+    "2030-31": 0
+   },
+   "totalFunding": 11710447,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/assessor-finance-department-shared-counter-improvements",
+   "name": "Assessor/Finance Department Shared Counter Improvements",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "New",
+   "page": 25,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 1000000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/assessor-room-212-tenant-improvements",
+   "name": "Assessor Room 212 Tenant Improvements",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 996000,
+   "priorApprovals": 996000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 996000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/dof-reorganization-rooms-209-217-225",
+   "name": "DOF Reorganization Rooms 209, 217, 225",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 534000,
+   "priorApprovals": 534000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 534000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/hoj-assessor-232-234-19-0309",
+   "name": "HOJ Assessor 232 - 234 19-0309",
+   "category": "Facilities",
+   "subcategory": "Civic Center",
+   "cipStatus": "Ongoing",
+   "page": 25,
+   "costEstimate": 680000,
+   "priorApprovals": 680000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 680000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/15-mph-unincorporated-marin-county-school-zones",
+   "name": "15-MPH Unincorporated Marin County School Zones",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 141000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 141000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 141000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/traffic-hsip-cycle-12-butterfield-irving-crosswalk",
+   "name": "Traffic- HSIP Cycle 12 Butterfield @ Irving Crosswalk",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 350000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 350000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 350000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/pt-reyes-petaluma-rd-nicasio-turn-pocket-hsip-cycle-10",
+   "name": "Pt Reyes-Petaluma Rd-Nicasio Turn Pocket - HSIP Cycle 10",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 3200000,
+   "priorApprovals": 3200000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 3200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/active-chevron-warning-signs-and-hfst-cycle-11-state",
+   "name": "Active Chevron Warning Signs and HFST - Cycle 11 - (State)",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 1550000,
+   "priorApprovals": 1550000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1550000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy31"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/traffic-safety-quick-build-projects-marin-city-and-other",
+   "name": "Traffic Safety Quick Build Projects (Marin City & Other)",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 200000,
+   "priorApprovals": 100000,
+   "byYear": {
+    "2026-27": 100000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/install-rrfb-and-radar-signs-hsip-state-cycle-11",
+   "name": "Install RRFB and Radar Signs - HSIP (State) Cycle 11",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 475000,
+   "priorApprovals": 475000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 475000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/install-radar-signs-at-3-locations-hsip-state-cycle-11",
+   "name": "Install Radar Signs at 3 Locations - HSIP (State) Cycle 11",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 290000,
+   "priorApprovals": 290000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 290000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/e-sfd-bike-enhancements-study",
+   "name": "E. SFD Bike Enhancements Study",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 791000,
+   "priorApprovals": 791000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 791000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/radar-speed-feedback-signs-and-trailer-hsip-cycle-12",
+   "name": "Radar Speed Feedback Signs and Trailer - HSIP Cycle 12",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 441180,
+   "priorApprovals": 232200,
+   "byYear": {
+    "2026-27": 208980,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 441180,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/ricardo-lane-sidewalk",
+   "name": "Ricardo Lane Sidewalk",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 650000,
+   "priorApprovals": 75000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 575000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 650000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/ada-improvement-project-various-locations",
+   "name": "ADA Improvement Project - Various Locations",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 250000,
+   "priorApprovals": 250000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/rocky-graham-park-marin-city-crosswalk",
+   "name": "Rocky Graham Park - Marin City Crosswalk",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 100000,
+   "priorApprovals": 100000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/drake-and-donahue-intersection-enhancements",
+   "name": "Drake and Donahue Intersection Enhancements",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 600000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 100000,
+    "2027-28": 0,
+    "2028-29": 500000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 600000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/east-sir-francis-drake-bay-trail-multiuse-path-gap-closure",
+   "name": "East Sir Francis Drake Bay Trail Multiuse Path Gap Closure",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 3000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 3000000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 3000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/install-radar-speed-feedback-signs",
+   "name": "Install Radar Speed Feedback Signs",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 300000,
+   "priorApprovals": 60000,
+   "byYear": {
+    "2026-27": 60000,
+    "2027-28": 60000,
+    "2028-29": 60000,
+    "2029-30": 60000,
+    "2030-31": 0
+   },
+   "totalFunding": 300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/college-kent-woodland-traffic-circle-quick-build-project",
+   "name": "College-Kent-Woodland Traffic Circle Quick Build Project",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 325000,
+   "priorApprovals": 25000,
+   "byYear": {
+    "2026-27": 300000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 325000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/college-and-sfd-reconfiguration",
+   "name": "College and SFD Reconfiguration",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 300000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/novato-library-pathway-rehabilitation",
+   "name": "Novato Library Pathway Rehabilitation",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1250000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 1250000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2027-ped-bike-and-safety-quick-build-program",
+   "name": "2027 Ped Bike and Safety Quick Build Program",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 220000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 220000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 220000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2028-ped-bike-and-safety-quick-build-program",
+   "name": "2028 Ped Bike and Safety Quick Build Program",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 300000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2029-ped-bike-and-safety-quick-build-program",
+   "name": "2029 Ped Bike and Safety Quick Build Program",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 400000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2030-ped-bike-and-safety-quick-build-program",
+   "name": "2030 Ped Bike and Safety Quick Build Program",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 500000,
+    "2030-31": 0
+   },
+   "totalFunding": 500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2031-ped-bike-and-safety-quick-build-program",
+   "name": "2031 Ped Bike and Safety Quick Build Program",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 500000
+   },
+   "totalFunding": 500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/san-antonio-rd-widening-and-bike-lanes",
+   "name": "San Antonio Rd. Widening & Bike Lanes",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 1390000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 695000,
+    "2028-29": 695000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1390000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/nsp-venetia-valley-school-crosswalk-improvement-bulb-outs",
+   "name": "NSP Venetia Valley School Crosswalk Improvement (bulb outs)",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 200000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 200000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marinwood-new-traffic-signals-marinwood-miller-miller-las-gallinas-mt-lassen-lucas-valley",
+   "name": "Marinwood New Traffic Signals: Marinwood/Miller, Miller/Las Gallinas, Mt Lassen/Lucas Valley",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1800000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 50000,
+    "2027-28": 250000,
+    "2028-29": 1500000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1800000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/shoreline-hwy-tam-junction-midblock-crosswalk-caltrans-ep",
+   "name": "Shoreline Hwy Tam Junction Midblock Crosswalk (Caltrans EP)",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 300000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/ada-ramps-at-butterfield-rd-and-green-valley-ct",
+   "name": "ADA Ramps at Butterfield Rd and Green Valley Ct",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 200000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 200000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-city-pedestrian-improvements-phase-2-sub-hip",
+   "name": "Marin City - Pedestrian Improvements Phase 2 (sub-HIP)",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 563733,
+   "priorApprovals": 563733,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 563733,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy31"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/e-strawberry-dr-from-131-to-belvedere-intersection-enhancements",
+   "name": "E Strawberry Dr from 131 to Belvedere - Intersection Enhancements",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1200000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 200000,
+    "2029-30": 1000000,
+    "2030-31": 0
+   },
+   "totalFunding": 1200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/sfd-traffic-signal-upgrades-various-locations",
+   "name": "SFD Traffic Signal Upgrades - Various Locations",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 50000,
+    "2027-28": 450000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-ave-pedestrian-improvements",
+   "name": "Marin Ave Pedestrian Improvements",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 950000,
+   "priorApprovals": 70000,
+   "byYear": {
+    "2026-27": 180000,
+    "2027-28": 700000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 950000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marinwood-drive-frontage-improvements",
+   "name": "Marinwood Drive Frontage Improvements",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2650000,
+   "priorApprovals": 150000,
+   "byYear": {
+    "2026-27": 2500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2650000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/redwood-hwy-frontage-road-sidewalk-and-bike-lanes",
+   "name": "Redwood Hwy Frontage Road Sidewalk & Bike Lanes",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1475000,
+   "priorApprovals": 275000,
+   "byYear": {
+    "2026-27": 1200000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1475000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/replace-sfd-pedestrian-railing",
+   "name": "Replace SFD Pedestrian Railing",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 1000000,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/reconstruct-coyote-creek-wooden-pedestrian-bridge",
+   "name": "Reconstruct Coyote Creek Wooden Pedestrian Bridge",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 750000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 750000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 750000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/construct-bus-stop-at-lucas-valley-rd-and-los-gamos-dr",
+   "name": "Construct Bus Stop at Lucas Valley Rd. and Los Gamos Dr.",
+   "category": "Transportation",
+   "subcategory": "Bike/Ped/Traffic",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 2500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 0,
+   "additionalFundsNeeded": 2500000,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/countywide-guardrail-replacement-hsip-cycle-11",
+   "name": "Countywide Guardrail Replacement - HSIP Cycle 11",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 1400000,
+   "priorApprovals": 600000,
+   "byYear": {
+    "2026-27": 800000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/flap-muir-woods-road",
+   "name": "FLAP - Muir Woods Road",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2316940,
+   "priorApprovals": 740436,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 1576504,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2316940,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/pt-reyes-petaluma-rd-mp0-43-slip-out-2023-storm",
+   "name": "Pt. Reyes-Petaluma Rd MP0.43 Slip Out (2023 STORM)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2775000,
+   "priorApprovals": 216737,
+   "byYear": {
+    "2026-27": 2558263,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2775000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2025-26-impact-fee-projects",
+   "name": "2025-26 Impact Fee Projects",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 6774971,
+   "priorApprovals": 6774971,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 6774971,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/paradise-drive-mp-7-53-slip-out-repair-2023-storm-damage",
+   "name": "Paradise Drive MP 7.53 Slip Out Repair - 2023 Storm Damage",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 647876,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 647876,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 647876,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mount-lassen-drive-bridge-replacement-fund-1010",
+   "name": "Mount Lassen Drive Bridge Replacement (Fund 1010)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2612712,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 2612712,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2612712,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/mountain-view-bridge-replacement",
+   "name": "Mountain View Bridge Replacement",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 7300000,
+   "priorApprovals": 2400000,
+   "byYear": {
+    "2026-27": 4900000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 7300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/sir-francis-drake-boulevard-bridge-replacement",
+   "name": "Sir Francis Drake Boulevard Bridge Replacement",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 7300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 1401600,
+    "2028-29": 5898400,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 7300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/lucas-valley-road-at-miller-creek-bridge-replacement",
+   "name": "Lucas Valley Road at Miller Creek Bridge Replacement",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 18000000,
+   "priorApprovals": 600000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 3000000,
+    "2029-30": 14400000,
+    "2030-31": 0
+   },
+   "totalFunding": 18000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marshall-petaluma-at-salmon-creek-bridge-replacement",
+   "name": "Marshall Petaluma at Salmon Creek Bridge Replacement",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 6263640,
+   "priorApprovals": 626122,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 5637518,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 6263640,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/nicasio-valley-road-bridge-replacement",
+   "name": "Nicasio Valley Road Bridge Replacement",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 7300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 250000,
+    "2028-29": 0,
+    "2029-30": 7050000,
+    "2030-31": 0
+   },
+   "totalFunding": 7300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/novato-blvd-bowman-vehicular-bridge-replacement",
+   "name": "Novato Blvd-Bowman Vehicular Bridge Replacement",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 6250000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 6250000
+   },
+   "totalFunding": 6250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/flap-pierce-point-road",
+   "name": "FLAP - Pierce Point Road",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 1455000,
+   "priorApprovals": 1455000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1455000,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy27"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-county-sign-inventory-and-safety-audit-hsip-fed-cycle-7",
+   "name": "Marin County Sign Inventory and Safety Audit - HSIP (Fed) Cycle 7",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 1421951,
+   "priorApprovals": 1421951,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1421951,
+   "additionalFundsNeeded": 0,
+   "blankCells": [
+    "fy31"
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/hawk-at-pt-san-pedro-rd-and-summit-ave-hsip-cycle-10",
+   "name": "HAWK at Pt. San Pedro Rd & Summit Ave - HSIP Cycle 10",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 484587,
+   "priorApprovals": 484587,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 484587,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2026-pavement-surface-treatment",
+   "name": "2026 Pavement Surface Treatment",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2474433,
+   "priorApprovals": 2474433,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2474433,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2026-pavement-digout-project",
+   "name": "2026 Pavement Digout Project",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 500512,
+   "priorApprovals": 500512,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 500512,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/sylvan-way-retaining-wall",
+   "name": "Sylvan Way Retaining Wall",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 200000,
+   "priorApprovals": 50000,
+   "byYear": {
+    "2026-27": 150000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/lomita-drive-pavement-rehabilitation",
+   "name": "Lomita Drive Pavement Rehabilitation",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2375000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 2375000,
+    "2030-31": 0
+   },
+   "totalFunding": 2375000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/guardrail-maintenance-repair-and-installation",
+   "name": "Guardrail Maintenance, Repair and Installation",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 600000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 150000,
+    "2028-29": 150000,
+    "2029-30": 150000,
+    "2030-31": 150000
+   },
+   "totalFunding": 600000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/fairfax-bolinas-rd-mp-9-73-slide-repair-fema2023-storm",
+   "name": "Fairfax-Bolinas Rd MP 9.73 Slide Repair (FEMA2023 STORM)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 752505,
+   "priorApprovals": 752505,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 752505,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/panoramic-hwy-shoreline-hwy-to-gravity-car-shoulder-widening-and-turnouts",
+   "name": "Panoramic Hwy (Shoreline Hwy to Gravity Car) Shoulder Widening & Turnouts",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1875000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 275000,
+    "2028-29": 1600000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1875000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/pt-reyes-petaluma-rd-nicasio-valley-rd-to-novato-blvd-shoulder-widening",
+   "name": "Pt Reyes Petaluma Rd (Nicasio Valley Rd to Novato Blvd) Shoulder Widening",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1875000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 275000,
+    "2028-29": 1600000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1875000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/rule-20a-utility-undergrounding-redwood-hwy-frontage-road",
+   "name": "Rule 20A - Utility Undergrounding Redwood Hwy Frontage Road",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2810591,
+   "priorApprovals": 2810591,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2810591,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/lucas-valley-rd-mp-4-75-slide-repair-ca23-6",
+   "name": "Lucas Valley Rd MP 4.75 Slide Repair (CA23-6)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 695000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 695000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 695000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/81-madrone-slide-repair",
+   "name": "81 Madrone Slide Repair",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 210000,
+   "priorApprovals": 14500,
+   "byYear": {
+    "2026-27": 195500,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 210000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2026-minor-slide-repair-projects",
+   "name": "2026 Minor Slide Repair Projects",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 200000,
+   "priorApprovals": 200000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 200000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/wharf-road-slide-repair-fema-95",
+   "name": "Wharf Road Slide Repair (FEMA) #95",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 345816,
+   "priorApprovals": 345816,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 345816,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/panoramic-highway-wall-repair-mp6-45-slide-repair-ph-2",
+   "name": "Panoramic Highway Wall Repair ~MP6.45- Slide Repair Ph. 2",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 700000,
+   "priorApprovals": 700000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 700000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/45-park-street-woodacre-slip-out-repair",
+   "name": "45 Park Street Woodacre Slip Out Repair",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 300000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/tomales-petaluma-rd-mp-3-80-wall-replacement",
+   "name": "Tomales Petaluma Rd MP 3.80 Wall Replacement",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 490000,
+   "priorApprovals": 146751,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 343249
+   },
+   "totalFunding": 490000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/north-san-pedro-road-4-45-slip-out",
+   "name": "North San Pedro Road 4.45 Slip Out",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 450000,
+   "priorApprovals": 450000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 450000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/bridge-deck-maintenance",
+   "name": "Bridge Deck Maintenance",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 675000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 275000,
+    "2028-29": 0,
+    "2029-30": 400000,
+    "2030-31": 0
+   },
+   "totalFunding": 675000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/repair-san-geronimo-bridge-over-nicasio-valley-rd",
+   "name": "Repair San Geronimo Bridge over Nicasio Valley Rd",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 100000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 100000,
+    "2030-31": 0
+   },
+   "totalFunding": 100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2027-slide-repair-retaining-wall",
+   "name": "2027 Slide Repair - Retaining Wall",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 1000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2028-slide-repair-retaining-wall",
+   "name": "2028 Slide Repair - Retaining Wall",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 1000000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2029-slide-repair-retaining-wall",
+   "name": "2029 Slide Repair - Retaining Wall",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 1000000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2030-slide-repair-retaining-wall",
+   "name": "2030 Slide Repair - Retaining Wall",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 1000000,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2031-slide-repair-retaining-wall",
+   "name": "2031 Slide Repair - Retaining Wall",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 1000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 1000000
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/sfd-at-inverness-slide-repairs",
+   "name": "SFD at Inverness Slide Repairs",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 875000,
+   "priorApprovals": 125000,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 250000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 875000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/strawberry-ped-overcrossing-27-0076-evaluation-and-repair",
+   "name": "Strawberry Ped Overcrossing - 27 0076 Evaluation and Repair",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 650000,
+   "priorApprovals": 50000,
+   "byYear": {
+    "2026-27": 100000,
+    "2027-28": 500000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 650000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2026-pavement-repairs",
+   "name": "2026 Pavement Repairs",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 7640000,
+   "priorApprovals": 7640000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 7640000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2024-san-geronimo-paving-phase-2-with-mmwd-funding",
+   "name": "2024 San Geronimo Paving Phase 2 (with MMWD funding)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 350000,
+   "priorApprovals": 350000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 350000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2025-paving-novato-lucas-valley-greenbrae",
+   "name": "2025 Paving: Novato, Lucas Valley, Greenbrae",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 8779090,
+   "priorApprovals": 8779090,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 8779090,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2025-road-sealant-projects",
+   "name": "2025 Road Sealant Projects",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 2670000,
+   "priorApprovals": 2670000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2670000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2026-marin-city-pavement-resurfacing",
+   "name": "2026 Marin City Pavement Resurfacing",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 26,
+   "costEstimate": 610000,
+   "priorApprovals": 460000,
+   "byYear": {
+    "2026-27": 150000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 610000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2027-pavement-preventative-maintenance-crackseal-digouts-etc",
+   "name": "2027 Pavement Preventative Maintenance (Crackseal, Digouts, etc.)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 4000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 4000000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 4000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2028-pavement-preventative-maintenance-crackseal-digouts-etc",
+   "name": "2028 Pavement Preventative Maintenance (Crackseal, Digouts, etc.)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 4500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 4500000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 4500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2029-pavement-preventative-maintenance-crackseal-digouts-etc",
+   "name": "2029 Pavement Preventative Maintenance (Crackseal, Digouts, etc.)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 4500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 4500000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 4500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2030-pavement-preventative-maintenance-crackseal-digouts-etc",
+   "name": "2030 Pavement Preventative Maintenance (Crackseal, Digouts, etc.)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 5800000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 5800000,
+    "2030-31": 0
+   },
+   "totalFunding": 5800000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2031-pavement-preventative-maintenance-crackseal-digouts-etc",
+   "name": "2031 Pavement Preventative Maintenance (Crackseal, Digouts, etc.)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 26,
+   "costEstimate": 4500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 4500000
+   },
+   "totalFunding": 4500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2027-pavement-rehabilitation-resurfacing",
+   "name": "2027 Pavement Rehabilitation/Resurfacing",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 4500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 4500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 4500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2028-pavement-rehabilitation-resurfacing",
+   "name": "2028 Pavement Rehabilitation/Resurfacing",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 4000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 4000000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 4000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2029-pavement-rehabilitation-resurfacing-inc-parks-ac",
+   "name": "2029 Pavement Rehabilitation/Resurfacing (Inc. Parks AC)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 4700000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 4700000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 4700000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2030-pavement-rehabilitation-resurfacing-inc-parks-ac",
+   "name": "2030 Pavement Rehabilitation/Resurfacing (Inc. Parks AC)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 5500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 5500000,
+    "2030-31": 0
+   },
+   "totalFunding": 5500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2031-pavement-rehabilitation-resurfacing-inc-parks-ac",
+   "name": "2031 Pavement Rehabilitation/Resurfacing (Inc. Parks AC)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 7700000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 7700000
+   },
+   "totalFunding": 7700000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2027-pavement-surface-treatment",
+   "name": "2027 Pavement Surface Treatment",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 2400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 2400000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2028-pavement-surface-treatment",
+   "name": "2028 Pavement Surface Treatment",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 2400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 2400000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2029-pavement-surface-treatment",
+   "name": "2029 Pavement Surface Treatment",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 2400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 2400000,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2030-pavement-surface-treatment",
+   "name": "2030 Pavement Surface Treatment",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 2400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 2400000,
+    "2030-31": 0
+   },
+   "totalFunding": 2400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/2031-pavement-surface-treatment",
+   "name": "2031 Pavement Surface Treatment",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 2400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 2400000
+   },
+   "totalFunding": 2400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/panoramic-hwy-four-corners-striping-and-signage",
+   "name": "Panoramic Hwy Four Corners Striping & Signage",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 1700000,
+   "priorApprovals": 200000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 1500000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1700000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/pt-san-pedro-road-sealant-ran-rafael-co-op-project",
+   "name": "Pt San Pedro Road Sealant (Ran Rafael Co-Op Project)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 1000000,
+   "priorApprovals": 100000,
+   "byYear": {
+    "2026-27": 900000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/resurface-valley-ford-gericke-rd",
+   "name": "Resurface Valley Ford Gericke Rd",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 700000,
+   "priorApprovals": 20000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 680000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 700000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/wharf-road-slide-repair-79",
+   "name": "Wharf Road Slide Repair @ #79",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 300955,
+   "priorApprovals": 80955,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 220000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 300955,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/fairfax-bolinas-slide-repair-mp-6-95",
+   "name": "Fairfax Bolinas Slide Repair MP 6.95",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 920000,
+   "priorApprovals": 85038,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 834962,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 920000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/road-and-bridge-flex-projects-75k",
+   "name": "Road and Bridge Flex Projects (<$75K)",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 1400000,
+   "priorApprovals": 1400000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/hicks-valley-road-resurfacing",
+   "name": "Hicks Valley Road Resurfacing",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 3300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 300000,
+    "2030-31": 3000000
+   },
+   "totalFunding": 3300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/bolinas-beach-seawall-repairs",
+   "name": "Bolinas Beach Seawall Repairs",
+   "category": "Transportation",
+   "subcategory": "Road & Bridge",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 450000,
+   "priorApprovals": 150000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 300000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 450000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/west-marin-compost-facility-improvements",
+   "name": "West Marin Compost Facility Improvements",
+   "category": "Special Projects",
+   "subcategory": "Special Projects - Miscellaneous",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 2000000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 1500000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 2000000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/paradise-cay-dredge",
+   "name": "Paradise Cay Dredge",
+   "category": "Special Projects",
+   "subcategory": "Special Projects - Miscellaneous",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 2225000,
+   "priorApprovals": 100000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 100000,
+    "2028-29": 800000,
+    "2029-30": 1200000,
+    "2030-31": 25000
+   },
+   "totalFunding": 2225000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/greenwood-cove-flood-improvement",
+   "name": "Greenwood Cove Flood Improvement",
+   "category": "Special Projects",
+   "subcategory": "Special Projects - Miscellaneous",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 3340000,
+   "priorApprovals": 100000,
+   "byYear": {
+    "2026-27": 400000,
+    "2027-28": 800000,
+    "2028-29": 2000000,
+    "2029-30": 20000,
+    "2030-31": 20000
+   },
+   "totalFunding": 3340000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/environmental-mitigation-maintenance-program",
+   "name": "Environmental Mitigation Maintenance Program",
+   "category": "Special Projects",
+   "subcategory": "Special Projects - Miscellaneous",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 400000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 75000,
+    "2027-28": 77250,
+    "2028-29": 80000,
+    "2029-30": 82750,
+    "2030-31": 85000
+   },
+   "totalFunding": 400000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/labrea-and-galerita-drainage",
+   "name": "Labrea and Galerita Drainage",
+   "category": "Special Projects",
+   "subcategory": "Special Projects - Miscellaneous",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 1050000,
+   "priorApprovals": 89950,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 960050,
+    "2030-31": 0
+   },
+   "totalFunding": 1050000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/college-ave-corridor-study",
+   "name": "College Ave Corridor Study",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 100000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 100000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/update-bike-ped-countywide-plan",
+   "name": "Update Bike/Ped Countywide Plan",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 350000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 175000,
+    "2027-28": 175000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 350000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/vmt-policy-tiag-and-mitigation-guide",
+   "name": "VMT Policy, TIAG, and Mitigation Guide",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 150000,
+   "priorApprovals": 75000,
+   "byYear": {
+    "2026-27": 75000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 150000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/prepare-airfield-pavement-mgmt-system-apms-plan",
+   "name": "Prepare Airfield Pavement Mgmt System (APMS) Plan",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 80000,
+   "priorApprovals": 80000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 80000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/pt-san-pedro-wall-assessment",
+   "name": "Pt. San Pedro Wall Assessment",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 1268055,
+   "priorApprovals": 1268055,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 1268055,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/marin-city-noise-analysis",
+   "name": "Marin City Noise Analysis",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 350000,
+   "priorApprovals": 350000,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 350000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/sfd-congestion-management-innovation-corridor",
+   "name": "SFD Congestion Management/Innovation Corridor",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 500000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 500000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 500000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/drainage-inventory-updates-asset-management",
+   "name": "Drainage Inventory Updates - Asset Management",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 300000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 0,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 300000
+   },
+   "totalFunding": 300000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/point-reyes-station-parking-study",
+   "name": "Point Reyes Station Parking Study",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "Ongoing",
+   "page": 27,
+   "costEstimate": 100000,
+   "priorApprovals": 50000,
+   "byYear": {
+    "2026-27": 50000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 100000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/project/evaluate-options-for-new-morgue-and-training-facility",
+   "name": "Evaluate Options for New Morgue and Training Facility",
+   "category": "Special Projects",
+   "subcategory": "Studies/Assessments",
+   "cipStatus": "New",
+   "page": 27,
+   "costEstimate": 250000,
+   "priorApprovals": 0,
+   "byYear": {
+    "2026-27": 250000,
+    "2027-28": 0,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "totalFunding": 250000,
+   "additionalFundsNeeded": 0,
+   "blankCells": []
+  }
+ ],
+ "categoryTotals": [
+  {
+   "label": "Parks Total",
+   "byYear": {
+    "2026-27": 5508800,
+    "2027-28": 3200000,
+    "2028-29": 1800000,
+    "2029-30": 2925000,
+    "2030-31": 60000
+   },
+   "total": 13493800,
+   "additionalFundsNeeded": 5000000
+  },
+  {
+   "label": "County Facilities Total",
+   "byYear": {
+    "2026-27": 19085363,
+    "2027-28": 10959000,
+    "2028-29": 900000,
+    "2029-30": 12300000,
+    "2030-31": 6500000
+   },
+   "total": 49744363,
+   "additionalFundsNeeded": 0
+  },
+  {
+   "label": "Civic Center Total",
+   "byYear": {
+    "2026-27": 15760000,
+    "2027-28": 33175000,
+    "2028-29": 27910447,
+    "2029-30": 19713872,
+    "2030-31": 23500000
+   },
+   "total": 120059319,
+   "additionalFundsNeeded": 0
+  },
+  {
+   "label": "Facilities Total",
+   "byYear": {
+    "2026-27": 40354163,
+    "2027-28": 47334000,
+    "2028-29": 30610447,
+    "2029-30": 34938872,
+    "2030-31": 30060000
+   },
+   "total": 183297482,
+   "additionalFundsNeeded": 5000000
+  },
+  {
+   "label": "Public Safety Total",
+   "byYear": {
+    "2026-27": 69430628,
+    "2027-28": 40250000,
+    "2028-29": 22171014,
+    "2029-30": 0,
+    "2030-31": 0
+   },
+   "total": 131851642,
+   "additionalFundsNeeded": 0
+  },
+  {
+   "label": "Special Projects - Misc.",
+   "byYear": {
+    "2026-27": 975000,
+    "2027-28": 2477250,
+    "2028-29": 2880000,
+    "2029-30": 2262800,
+    "2030-31": 130000
+   },
+   "total": 8725050,
+   "additionalFundsNeeded": 0
+  },
+  {
+   "label": "Studies/Assessments",
+   "byYear": {
+    "2026-27": 1050000,
+    "2027-28": 275000,
+    "2028-29": 0,
+    "2029-30": 0,
+    "2030-31": 300000
+   },
+   "total": 1625000,
+   "additionalFundsNeeded": 0
+  },
+  {
+   "label": "Special Projects Total",
+   "byYear": {
+    "2026-27": 2025000,
+    "2027-28": 2752250,
+    "2028-29": 2880000,
+    "2029-30": 2262800,
+    "2030-31": 430000
+   },
+   "total": 10350050,
+   "additionalFundsNeeded": 0
+  },
+  {
+   "label": "Bike/Ped/Traffic Total",
+   "byYear": {
+    "2026-27": 8059980,
+    "2027-28": 3430000,
+    "2028-29": 6355000,
+    "2029-30": 2560000,
+    "2030-31": 500000
+   },
+   "total": 20904980,
+   "additionalFundsNeeded": 2500000
+  },
+  {
+   "label": "Road & Bridge Total",
+   "byYear": {
+    "2026-27": 25414351,
+    "2027-28": 21383066,
+    "2028-29": 30485918,
+    "2029-30": 39475000,
+    "2030-31": 25343249
+   },
+   "total": 142101584,
+   "additionalFundsNeeded": 0
+  },
+  {
+   "label": "Transportation Total",
+   "byYear": {
+    "2026-27": 33474331,
+    "2027-28": 24813066,
+    "2028-29": 36840918,
+    "2029-30": 42035000,
+    "2030-31": 25843249
+   },
+   "total": 163006564,
+   "additionalFundsNeeded": 2500000
+  },
+  {
+   "label": "Drainage Total",
+   "byYear": {
+    "2026-27": 12124390,
+    "2027-28": 7020000,
+    "2028-29": 5500000,
+    "2029-30": 1540000,
+    "2030-31": 1540000
+   },
+   "total": 27724390,
+   "additionalFundsNeeded": 4000000
+  },
+  {
+   "label": "Flood Control Total",
+   "byYear": {
+    "2026-27": 13320000,
+    "2027-28": 7570000,
+    "2028-29": 5010000,
+    "2029-30": 130000,
+    "2030-31": 40000
+   },
+   "total": 26070000,
+   "additionalFundsNeeded": 44100000
+  },
+  {
+   "label": "Water Resources Total",
+   "byYear": {
+    "2026-27": 25444390,
+    "2027-28": 14590000,
+    "2028-29": 10510000,
+    "2029-30": 1670000,
+    "2030-31": 1580000
+   },
+   "total": 53794390,
+   "additionalFundsNeeded": 48100000
+  },
+  {
+   "label": "All Project Categories Total",
+   "byYear": {
+    "2026-27": 170728512,
+    "2027-28": 129739316,
+    "2028-29": 103012379,
+    "2029-30": 80906672,
+    "2030-31": 57913249
+   },
+   "total": 542300128,
+   "additionalFundsNeeded": 55600000
+  }
+ ],
+ "fundSources": {
+  "revenue": [
+   {
+    "label": "General Fund - Annual Facilities",
+    "byYear": {
+     "2026-27": 7000000,
+     "2027-28": 15000000,
+     "2028-29": 23000000,
+     "2029-30": 23000000,
+     "2030-31": 23000000
+    },
+    "total": 91000000
+   },
+   {
+    "label": "General Fund - Annual Road & Bridge",
+    "byYear": {
+     "2026-27": 11000000,
+     "2027-28": 16000000,
+     "2028-29": 16000000,
+     "2029-30": 16000000,
+     "2030-31": 16000000
+    },
+    "total": 75000000
+   },
+   {
+    "label": "Reserves & Admin. Designations",
+    "byYear": {
+     "2026-27": 54864791,
+     "2027-28": 42959000,
+     "2028-29": 17071014,
+     "2029-30": 2000000,
+     "2030-31": 500000
+    },
+    "total": 116594805
+   },
+   {
+    "label": "Fire Facilities COP Financing",
+    "byYear": {
+     "2026-27": 49000000,
+     "2027-28": 21000000,
+     "2028-29": 10000000,
+     "2029-30": 0,
+     "2030-31": 0
+    },
+    "total": 80000000
+   },
+   {
+    "label": "Library Measure B & Other Revenues",
+    "byYear": {
+     "2026-27": 2000000,
+     "2027-28": 8500000,
+     "2028-29": 2000000,
+     "2029-30": 9000000,
+     "2030-31": 6500000
+    },
+    "total": 28000000
+   },
+   {
+    "label": "HHS Operating & Other Grant Funds",
+    "byYear": {
+     "2026-27": 7700000,
+     "2027-28": 7700000,
+     "2028-29": 7700000,
+     "2029-30": 7700000,
+     "2030-31": 7700000
+    },
+    "total": 38500000
+   },
+   {
+    "label": "SB-1 RMRA Gas Tax",
+    "byYear": {
+     "2026-27": 6300000,
+     "2027-28": 6300000,
+     "2028-29": 6300000,
+     "2029-30": 6300000,
+     "2030-31": 6300000
+    },
+    "total": 31500000
+   },
+   {
+    "label": "Grants",
+    "byYear": {
+     "2026-27": 24171422,
+     "2027-28": 9343000,
+     "2028-29": 9950232,
+     "2029-30": 19540000,
+     "2030-31": 5000000
+    },
+    "total": 68004654
+   },
+   {
+    "label": "TAM Measure AA",
+    "byYear": {
+     "2026-27": 3200000,
+     "2027-28": 1900000,
+     "2028-29": 1900000,
+     "2029-30": 1900000,
+     "2030-31": 1900000
+    },
+    "total": 10800000
+   },
+   {
+    "label": "TAM Measure B",
+    "byYear": {
+     "2026-27": 0,
+     "2027-28": 900000,
+     "2028-29": 0,
+     "2029-30": 0,
+     "2030-31": 0
+    },
+    "total": 900000
+   },
+   {
+    "label": "Special District Funds",
+    "byYear": {
+     "2026-27": 7270000,
+     "2027-28": 9340000,
+     "2028-29": 13260000,
+     "2029-30": 1030000,
+     "2030-31": 185000
+    },
+    "total": 31085000
+   },
+   {
+    "label": "Other Fees",
+    "byYear": {
+     "2026-27": 1500000,
+     "2027-28": 2000000,
+     "2028-29": 500000,
+     "2029-30": 500000,
+     "2030-31": 500000
+    },
+    "total": 5000000
+   },
+   {
+    "label": "TOTAL",
+    "byYear": {
+     "2026-27": 174006213,
+     "2027-28": 140942000,
+     "2028-29": 107681246,
+     "2029-30": 86970000,
+     "2030-31": 67585000
+    },
+    "total": 576384459
+   }
+  ],
+  "expenditure": [
+   {
+    "label": "General Fund - Annual Facilities",
+    "byYear": {
+     "2026-27": 6860000,
+     "2027-28": 14600000,
+     "2028-29": 22960447,
+     "2029-30": 21388872,
+     "2030-31": 23000000
+    },
+    "total": 88809319
+   },
+   {
+    "label": "General Fund - Annual Road & Bridge",
+    "byYear": {
+     "2026-27": 17792299,
+     "2027-28": 15132354,
+     "2028-29": 16470686,
+     "2029-30": 16437800,
+     "2030-31": 14128249
+    },
+    "total": 79961388
+   },
+   {
+    "label": "Reserves & Admin. Designations",
+    "byYear": {
+     "2026-27": 51824791,
+     "2027-28": 42709000,
+     "2028-29": 17071014,
+     "2029-30": 2000000,
+     "2030-31": 500000
+    },
+    "total": 114104805
+   },
+   {
+    "label": "Fire Facilities COP Financing",
+    "byYear": {
+     "2026-27": 49000000,
+     "2027-28": 21000000,
+     "2028-29": 10000000,
+     "2029-30": 0,
+     "2030-31": 0
+    },
+    "total": 80000000
+   },
+   {
+    "label": "Library Measure B & Other Revenues",
+    "byYear": {
+     "2026-27": 500000,
+     "2027-28": 8500000,
+     "2028-29": 2000000,
+     "2029-30": 9000000,
+     "2030-31": 6500000
+    },
+    "total": 26500000
+   },
+   {
+    "label": "HHS Operating & Other Grant Funds",
+    "byYear": {
+     "2026-27": 2100000,
+     "2027-28": 775000,
+     "2028-29": 650000,
+     "2029-30": 2550000,
+     "2030-31": 0
+    },
+    "total": 6075000
+   },
+   {
+    "label": "SB-1 RMRA Gas Tax",
+    "byYear": {
+     "2026-27": 6260000,
+     "2027-28": 6289962,
+     "2028-29": 6200000,
+     "2029-30": 6200000,
+     "2030-31": 6200000
+    },
+    "total": 31149962
+   },
+   {
+    "label": "Grants",
+    "byYear": {
+     "2026-27": 23571422,
+     "2027-28": 7543000,
+     "2028-29": 12350232,
+     "2029-30": 19540000,
+     "2030-31": 5000000
+    },
+    "total": 68004654
+   },
+   {
+    "label": "TAM Measure AA",
+    "byYear": {
+     "2026-27": 3150000,
+     "2027-28": 1900000,
+     "2028-29": 1900000,
+     "2029-30": 1900000,
+     "2030-31": 1900000
+    },
+    "total": 10750000
+   },
+   {
+    "label": "TAM Measure B",
+    "byYear": {
+     "2026-27": 900000,
+     "2027-28": 0,
+     "2028-29": 0,
+     "2029-30": 0,
+     "2030-31": 0
+    },
+    "total": 900000
+   },
+   {
+    "label": "Special District Funds",
+    "byYear": {
+     "2026-27": 7270000,
+     "2027-28": 9290000,
+     "2028-29": 12910000,
+     "2029-30": 1390000,
+     "2030-31": 185000
+    },
+    "total": 31045000
+   },
+   {
+    "label": "Other Fees",
+    "byYear": {
+     "2026-27": 1500000,
+     "2027-28": 2000000,
+     "2028-29": 500000,
+     "2029-30": 500000,
+     "2030-31": 500000
+    },
+    "total": 5000000
+   },
+   {
+    "label": "TOTAL",
+    "byYear": {
+     "2026-27": 170728512,
+     "2027-28": 129739316,
+     "2028-29": 103012379,
+     "2029-30": 80906672,
+     "2030-31": 57913249
+    },
+    "total": 542300128
+   }
+  ]
+ }
+}

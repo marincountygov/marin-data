@@ -1,0 +1,10 @@
+[
+  {
+    "fund group": "HHS Operations Fund",
+    "reason": "A group of funds in the book, not one fund in funds.jsonld; kept as fundSource text"
+  },
+  {
+    "fund group": "Other Funds",
+    "reason": "A group of funds in the book, not one fund in funds.jsonld; kept as fundSource text"
+  }
+]

@@ -1,0 +1,359 @@
+{
+ "problems": [],
+ "rowChecks": [],
+ "groupChecks": [
+  {
+   "total": "Drainage Total",
+   "page": 24,
+   "projects": 14,
+   "ok": true,
+   "differs": [],
+   "sum": {
+    "cost": 34253198,
+    "prior": 2528808,
+    "fy27": 12124390,
+    "fy28": 7020000,
+    "fy29": 5500000,
+    "fy30": 1540000,
+    "fy31": 1540000,
+    "total": 30253198,
+    "needed": 4000000
+   },
+   "printed": {
+    "cost": 34253198,
+    "prior": 2528808,
+    "fy27": 12124390,
+    "fy28": 7020000,
+    "fy29": 5500000,
+    "fy30": 1540000,
+    "fy31": 1540000,
+    "total": 30253198,
+    "needed": 4000000
+   }
+  },
+  {
+   "total": "Flood Control Total",
+   "page": 24,
+   "projects": 8,
+   "ok": true,
+   "differs": [],
+   "sum": {
+    "cost": 86663270,
+    "prior": 16493270,
+    "fy27": 13320000,
+    "fy28": 7570000,
+    "fy29": 5010000,
+    "fy30": 130000,
+    "fy31": 40000,
+    "total": 42563270,
+    "needed": 44100000
+   },
+   "printed": {
+    "cost": 86663270,
+    "prior": 16493270,
+    "fy27": 13320000,
+    "fy28": 7570000,
+    "fy29": 5010000,
+    "fy30": 130000,
+    "fy31": 40000,
+    "total": 42563270,
+    "needed": 44100000
+   }
+  },
+  {
+   "total": "Parks Total",
+   "page": 25,
+   "projects": 12,
+   "ok": true,
+   "differs": [],
+   "sum": {
+    "cost": 24083910,
+    "prior": 5590110,
+    "fy27": 5508800,
+    "fy28": 3200000,
+    "fy29": 1800000,
+    "fy30": 2925000,
+    "fy31": 60000,
+    "total": 19083910,
+    "needed": 5000000
+   },
+   "printed": {
+    "cost": 24083910,
+    "prior": 5590110,
+    "fy27": 5508800,
+    "fy28": 3200000,
+    "fy29": 1800000,
+    "fy30": 2925000,
+    "fy31": 60000,
+    "total": 19083910,
+    "needed": 5000000
+   }
+  },
+  {
+   "total": "County Facilities Total",
+   "page": 25,
+   "projects": 30,
+   "ok": true,
+   "differs": [],
+   "sum": {
+    "cost": 65670320,
+    "prior": 15925957,
+    "fy27": 19085363,
+    "fy28": 10959000,
+    "fy29": 900000,
+    "fy30": 12300000,
+    "fy31": 6500000,
+    "total": 65670320,
+    "needed": 0
+   },
+   "printed": {
+    "cost": 65670320,
+    "prior": 15925957,
+    "fy27": 19085363,
+    "fy28": 10959000,
+    "fy29": 900000,
+    "fy30": 12300000,
+    "fy31": 6500000,
+    "total": 65670320,
+    "needed": 0
+   }
+  },
+  {
+   "total": "Civic Center Total",
+   "page": 25,
+   "projects": 30,
+   "ok": false,
+   "differs": [
+    "prior",
+    "fy27",
+    "fy28"
+   ],
+   "sum": {
+    "cost": 154524548,
+    "prior": 34965229,
+    "fy27": 17510000,
+    "fy28": 30925000,
+    "fy29": 27910447,
+    "fy30": 19713872,
+    "fy31": 23500000,
+    "total": 154524548,
+    "needed": 0
+   },
+   "printed": {
+    "cost": 154524548,
+    "prior": 34465229,
+    "fy27": 15760000,
+    "fy28": 33175000,
+    "fy29": 27910447,
+    "fy30": 19713872,
+    "fy31": 23500000,
+    "total": 154524548,
+    "needed": 0
+   }
+  },
+  {
+   "total": "Bike/Ped/Traffic Total",
+   "page": 26,
+   "projects": 37,
+   "ok": true,
+   "differs": [],
+   "sum": {
+    "cost": 31611913,
+    "prior": 8206933,
+    "fy27": 8059980,
+    "fy28": 3430000,
+    "fy29": 6355000,
+    "fy30": 2560000,
+    "fy31": 500000,
+    "total": 29111913,
+    "needed": 2500000
+   },
+   "printed": {
+    "cost": 31611913,
+    "prior": 8206933,
+    "fy27": 8059980,
+    "fy28": 3430000,
+    "fy29": 6355000,
+    "fy30": 2560000,
+    "fy31": 500000,
+    "total": 29111913,
+    "needed": 2500000
+   }
+  },
+  {
+   "total": "Road & Bridge Total",
+   "page": 27,
+   "projects": 69,
+   "ok": true,
+   "differs": [],
+   "sum": {
+    "cost": 187976579,
+    "prior": 45874995,
+    "fy27": 25414351,
+    "fy28": 21383066,
+    "fy29": 30485918,
+    "fy30": 39475000,
+    "fy31": 25343249,
+    "total": 187976579,
+    "needed": 0
+   },
+   "printed": {
+    "cost": 187976579,
+    "prior": 45874995,
+    "fy27": 25414351,
+    "fy28": 21383066,
+    "fy29": 30485918,
+    "fy30": 39475000,
+    "fy31": 25343249,
+    "total": 187976579,
+    "needed": 0
+   }
+  },
+  {
+   "total": "Studies/Assessments Total",
+   "page": 27,
+   "projects": 10,
+   "ok": true,
+   "differs": [],
+   "sum": {
+    "cost": 3448055,
+    "prior": 1823055,
+    "fy27": 1050000,
+    "fy28": 275000,
+    "fy29": 0,
+    "fy30": 0,
+    "fy31": 300000,
+    "total": 3448055,
+    "needed": 0
+   },
+   "printed": {
+    "cost": 3448055,
+    "prior": 1823055,
+    "fy27": 1050000,
+    "fy28": 275000,
+    "fy29": 0,
+    "fy30": 0,
+    "fy31": 300000,
+    "total": 3448055,
+    "needed": 0
+   }
+  }
+ ],
+ "fundChecks": [
+  {
+   "table": "revenue",
+   "column": "2026-27",
+   "sum": 174006213,
+   "printed": 174006213,
+   "ok": true
+  },
+  {
+   "table": "revenue",
+   "column": "2027-28",
+   "sum": 140942000,
+   "printed": 140942000,
+   "ok": true
+  },
+  {
+   "table": "revenue",
+   "column": "2028-29",
+   "sum": 107681246,
+   "printed": 107681246,
+   "ok": true
+  },
+  {
+   "table": "revenue",
+   "column": "2029-30",
+   "sum": 86970000,
+   "printed": 86970000,
+   "ok": true
+  },
+  {
+   "table": "revenue",
+   "column": "2030-31",
+   "sum": 67585000,
+   "printed": 67585000,
+   "ok": true
+  },
+  {
+   "table": "revenue",
+   "column": "total",
+   "sum": 576384459,
+   "printed": 576384459,
+   "ok": true
+  },
+  {
+   "table": "expenditure",
+   "column": "2026-27",
+   "sum": 170728512,
+   "printed": 170728512,
+   "ok": true
+  },
+  {
+   "table": "expenditure",
+   "column": "2027-28",
+   "sum": 129739316,
+   "printed": 129739316,
+   "ok": true
+  },
+  {
+   "table": "expenditure",
+   "column": "2028-29",
+   "sum": 103012379,
+   "printed": 103012379,
+   "ok": true
+  },
+  {
+   "table": "expenditure",
+   "column": "2029-30",
+   "sum": 80906672,
+   "printed": 80906672,
+   "ok": true
+  },
+  {
+   "table": "expenditure",
+   "column": "2030-31",
+   "sum": 57913249,
+   "printed": 57913249,
+   "ok": true
+  },
+  {
+   "table": "expenditure",
+   "column": "total",
+   "sum": 542300128,
+   "printed": 542300128,
+   "ok": true
+  }
+ ],
+ "categoryChecks": [
+  {
+   "check": "all-categories total equals fund-source expense total",
+   "ok": true
+  },
+  {
+   "check": "sum of project rows by year equals page 21 all-categories",
+   "projects": [
+    172478512,
+    127489316,
+    103012379,
+    80906672,
+    57913249
+   ],
+   "printed": [
+    170728512,
+    129739316,
+    103012379,
+    80906672,
+    57913249
+   ],
+   "ok": false
+  }
+ ],
+ "summary": {
+  "projects": 226,
+  "rowIssues": 0,
+  "groupMismatches": 1,
+  "fundMismatches": 0,
+  "unreadable": 0
+ }
+}

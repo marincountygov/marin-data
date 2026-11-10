@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/role/mary-sackett-supervisor-district-1",
+      "@type": "OrganizationRole",
+      "roleName": "Supervisor, District 1",
+      "member": {
+        "@id": "https://marincountygov.github.io/marin-data/id/person/mary-sackett"
+      },
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "post": {
+        "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-1"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/role/brian-colbert-supervisor-district-2",
+      "@type": "OrganizationRole",
+      "roleName": "Supervisor, District 2",
+      "member": {
+        "@id": "https://marincountygov.github.io/marin-data/id/person/brian-colbert"
+      },
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "post": {
+        "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-2"
+      },
+      "alternateName": [
+        "Second Vice President"
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/role/stephanie-moulton-peters-supervisor-district-3",
+      "@type": "OrganizationRole",
+      "roleName": "Supervisor, District 3",
+      "member": {
+        "@id": "https://marincountygov.github.io/marin-data/id/person/stephanie-moulton-peters"
+      },
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "post": {
+        "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-3"
+      },
+      "alternateName": [
+        "Vice President"
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/role/dennis-rodoni-supervisor-district-4",
+      "@type": "OrganizationRole",
+      "roleName": "Supervisor, District 4",
+      "member": {
+        "@id": "https://marincountygov.github.io/marin-data/id/person/dennis-rodoni"
+      },
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "post": {
+        "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-4"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/role/eric-lucan-supervisor-district-5",
+      "@type": "OrganizationRole",
+      "roleName": "Supervisor, District 5",
+      "member": {
+        "@id": "https://marincountygov.github.io/marin-data/id/person/eric-lucan"
+      },
+      "memberOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "post": {
+        "@id": "https://marincountygov.github.io/marin-data/id/post/supervisor-district-5"
+      },
+      "alternateName": [
+        "President"
+      ]
+    }
+  ]
+}

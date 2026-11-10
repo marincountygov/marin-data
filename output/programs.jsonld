@@ -1,0 +1,2456 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-general-administration-administration-and-planning",
+      "@type": "Program",
+      "name": "Administration and Planning",
+      "description": "Provides overall department administration, policy planning, personnel administration, information technology services, facilities management, and fiscal operations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-general-administration"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-bhrs-adult-mental-health",
+      "@type": "Program",
+      "name": "Adult Mental Health",
+      "description": "Provides services to adults including case management, crisis stabilization, medication clinic, and crisis continuum of care.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Behavioral Health And Recovery Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-bhrs-behavioral-health-and-recovery-services-administration",
+      "@type": "Program",
+      "name": "Behavioral Health and Recovery Services Administration",
+      "description": "Oversees mental health and substance use services including information technology, quality improvement, contract administration and medical records.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Behavioral Health And Recovery Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-bhrs-mental-health-childrens-services",
+      "@type": "Program",
+      "name": "Mental Health Children’s Services",
+      "description": "Provides mental health services to low income children and youth and their families. The services address their emotional, social and educational needs in a coordinated and therapeutic manner.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Behavioral Health And Recovery Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-bhrs-mental-health-managed-care",
+      "@type": "Program",
+      "name": "Mental Health Managed Care",
+      "description": "Mental Health Managed Care, referred to as the Marin Mental Health Plan (MMHP), is responsible for authorizing all mental health services to Medi-Cal beneficiaries from Marin County. A network of individual, agency and county providers provide assessments and referral services.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Behavioral Health And Recovery Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-bhrs-mental-health-services-act-mhsa",
+      "@type": "Program",
+      "name": "Mental Health Services Act (MHSA)",
+      "description": "The Mental Health Services Act (MHSA), also referred to as Proposition 63, was approved by California voters in November 2004. MHSA funding components include community services and supports, prevention and early intervention, innovation, capital facilities and technology needs, workforce education and training, and housing.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Behavioral Health And Recovery Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-bhrs-mental-health-wellness",
+      "@type": "Program",
+      "name": "Mental Health Wellness",
+      "description": "Provides outpatient mental health services to Medi-Cal clients with mild to moderate mental health conditions.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Behavioral Health And Recovery Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-bhrs-substance-use-services",
+      "@type": "Program",
+      "name": "Substance Use Services",
+      "description": "Serves as an administrative office that contracts the majority of its federal, state and local funds to community-based non-profit organizations. These organizations provide a full continuum of alcohol and other drug services including prevention, intervention, detoxification, outpatient, residential treatment and recovery support.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Behavioral Health And Recovery Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "Ensures the effective and efficient delivery of public health services and programs. Program responsibilities include providing Public Health leadership, strategic planning, and resource development; formulating public health policies; identifying and collaborating with partners; ensuring compliance with mandates; and developing strategies to address health care access for uninsured and underinsured individuals.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-california-children-services",
+      "@type": "Program",
+      "name": "California Children Services",
+      "description": "Provides diagnostic and treatment services, medical case management, and physical and occupational therapy services to children under age 21 with eligible medical conditions.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-child-health-and-disability-prevention-program",
+      "@type": "Program",
+      "name": "Child Health and Disability Prevention Program",
+      "description": "A preventive health program providing complete health assessments for the early detection and prevention of disease and disabilities in children and youth.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-communicable-disease-and-public-health-lab",
+      "@type": "Program",
+      "name": "Communicable Disease and Public Health Lab",
+      "description": "Maintains community-wide surveillance of sexually transmitted diseases and 24/7 capability to produce communicable disease health alerts and advisories to the community.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-community-health-and-prevention",
+      "@type": "Program",
+      "name": "Community Health and Prevention",
+      "description": "Develops policies and implements strategies to promote healthy lifestyle choices in nutrition and physical activity.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-detention-medical",
+      "@type": "Program",
+      "name": "Detention Medical",
+      "description": "Provides services for the Marin County Jail and Juvenile Hall. Basic services include triage, risk management, health assessments, referral, treatment and medications.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-emergency-medical-services",
+      "@type": "Program",
+      "name": "Emergency Medical Services",
+      "description": "Provides oversight to ensure delivery of high quality emergency medical care to residents and visitors.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-epidemiology",
+      "@type": "Program",
+      "name": "Epidemiology",
+      "description": "Monitors community health and health trends and informs decision-makers and community members. Program responsibilities include collecting, analyzing, reporting and distributing data; conducting disease surveillance; educating and informing colleagues and community members; providing technical assistance; and conducting and translating research and epidemiology projects.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-hiv-aids",
+      "@type": "Program",
+      "name": "HIV/AIDS",
+      "description": "Works to prevent new HIV infections and supports and improves the health of Marin County residents living with HIV/AIDS.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-maternal-child-and-adolescent-health-mcah",
+      "@type": "Program",
+      "name": "Maternal, Child, and Adolescent Health (MCAH)",
+      "description": "Develops prevention and early intervention strategies to promote the health of women, infants, children, and adolescents with a focus on low-income populations. MCAH is involved in outreach, advocacy, policy development, assessment, and program planning to increase access to family-centered, culturally-competent systems of health services.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-public-health-preparedness-php",
+      "@type": "Program",
+      "name": "Public Health Preparedness (PHP)",
+      "description": "Develops plans for response to all-hazard emergencies/disasters that impact the health of our community. PHP convenes healthcare providers and many stakeholder groups throughout the county to plan and exercise a coordinated response including disease outbreaks such as COVID-19 and influenza.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-tobacco-education",
+      "@type": "Program",
+      "name": "Tobacco Education",
+      "description": "Develops policies and implements strategies to reduce tobacco use; works with all local jurisdictions in Marin to pass comprehensive ordinances to eliminate exposure to second hand smoke and the sale of all flavored tobacco products; and engages in the statewide Healthy Stores Healthy Communities initiative.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-uncompensated-emergency-care",
+      "@type": "Program",
+      "name": "Uncompensated Emergency Care",
+      "description": "Administers the payment of claims from hospitals and physicians for uncompensated emergency medical services using the Senate Bill 12 – Maddy Emergency Medical Services Fund, and Senate Bill 1773 – Richie’s Fund.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-vital-statistics",
+      "@type": "Program",
+      "name": "Vital Statistics",
+      "description": "Registers, issues and collects fees for birth and death certificates, and medical marijuana identification cards.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-women-infants-and-children-wic",
+      "@type": "Program",
+      "name": "Women, Infants, and Children (WIC)",
+      "description": "A supplemental food and nutrition program for low-income, pregnant, breastfeeding, and postpartum women and children under age five who have a nutritional risk.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Health Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-social-services-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "Provides overall administration and planning of all Social Services programs.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Social Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-social-services-aging-and-adult-services",
+      "@type": "Program",
+      "name": "Aging and Adult Services",
+      "description": "Provides a multi-disciplinary system of services and supports for older adults and persons with disabilities to promote quality of life and independence.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Social Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-social-services-in-home-support-services-public-authority-ihss",
+      "@type": "Program",
+      "name": "In-Home Support Services Public Authority (IHSS)",
+      "description": "Acts as the employer of record and maintains a registry of IHSS providers for eligible people who are over age 65, blind and/or disabled to allow them to live safely in their own home and avoid the need for out of home care.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Social Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-social-services-public-assistance-aid-payments",
+      "@type": "Program",
+      "name": "Public Assistance Aid Payments",
+      "description": "Provides assistance with shelter, food and employment services to individuals who are disabled, unemployed and ineligible for the Cal WORKs program.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Social Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-social-services-public-guardian",
+      "@type": "Program",
+      "name": "Public Guardian",
+      "description": "Conducts official investigations into conservatorship matters, and serves as the legally appointed guardian for persons who have been determined by the Marin County Superior Court to be incapable of caring for themselves.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Social Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-social-services-veterans-services",
+      "@type": "Program",
+      "name": "Veterans Services",
+      "description": "Provides referral and consultation services to the veterans of Marin County and their spouses, widows, widowers, and children. The Office of Veterans Services assists in obtaining the financial, medical, and education benefits due to veterans of military service.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Social Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hhs-homelessness-and-coordinated-care-homelessness-coordinated-care",
+      "@type": "Program",
+      "name": "Homelessness Coordinated Care",
+      "description": "Initially part of the state’s Whole Person Care pilot that has since ended, HCC continues to carry out the County’s homelessness policy work and coordinates care and data-sharing across housing, medical, mental health, and social services for people currently or previously experiencing homelessness.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-homelessness-and-coordinated-care"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/css-child-support-services",
+      "@type": "Program",
+      "name": "Child Support Services",
+      "description": "Responsible for establishing and enforcing child support orders.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/css"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/da-prosecution-services",
+      "@type": "Program",
+      "name": "Prosecution Services",
+      "description": "The District Attorney’s mandated functions are prosecution, protection, and prevention. The Division is responsible for prosecuting all public offenses committed within Marin County, from case review and filing decisions through trial and sentencing. These services ensure the enforcement of criminal laws, safeguard victims’ rights, and promote community safety through both accountability and proactive crime-prevention initiatives. Prosecution Services includes DUI Grant and Insurance Fraud Grant.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/da"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "District Attorney"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/da-victim-witness-services",
+      "@type": "Program",
+      "name": "Victim Witness Services",
+      "description": "Victim Witness Services assist victims of crime by providing support, information, advocacy, crisis intervention, and referrals to needed resources throughout the criminal justice process. These services help reduce trauma and ensure victims understand their rights and can participate meaningfully in court proceedings. Victim Witness Services includes the Witness Assistance Program Grant and the Underserved Victims Advocacy Grant.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/da"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "District Attorney"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/da-consumer-protection-division",
+      "@type": "Program",
+      "name": "Consumer Protection Division",
+      "description": "The Consumer Protection and Prosecution Program safeguards residents from fraudulent and deceptive business practices by investigating and litigating unlawful conduct and directing complaints to appropriate regulatory agencies. The division, which is funded by civil judgments, also engages in community outreach, with an emphasis on protecting vulnerable populations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/da"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "District Attorney"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/da-mediation-services",
+      "@type": "Program",
+      "name": "Mediation Services",
+      "description": "Mediation Services provide neutral dispute-resolution assistance for consumer, landlord- tenant, and other civil conflicts by helping parties communicate and explore mutually acceptable solutions. These services also offer community education to promote fair practices and avoid future disputes.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/da"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "District Attorney"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/da-high-tech-and-identity-theft",
+      "@type": "Program",
+      "name": "High Tech and Identity Theft",
+      "description": "The District Attorney participates in the statewide High Technology Theft Apprehension and Prosecution (HTTAP) Program through the Northern California Computer Crimes Task Force (NC3TF) to support the investigation and prosecution of cybercrime, identity theft, and other technology-related offenses. The program enhances regional law enforcement capacity and coordination under Penal Code §13848.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/da"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "District Attorney"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "Responsible for all fiscal and budget related items for the Fire department. The program also facilitates communication efforts, handles personnel issues, and serves as a liaison to the Board of Supervisors, County Executive’s Office, and County departments.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-ems-operations",
+      "@type": "Program",
+      "name": "EMS Operations",
+      "description": "Provides emergency paramedic services to the residents of unincorporated Marin County. The program also provides coverage through contractual agreements with the Ross Valley Paramedic Authority (RVPA) and the Southern Marin Emergency Medical Paramedic System (SMEMPS).",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-ems-training",
+      "@type": "Program",
+      "name": "EMS Training",
+      "description": "Consists of personnel trainers and a team of EMS contractors dedicated to ensuring all department personnel develop and maintain the critical skills required to provide medical care. This program also works with all agencies in Marin to promote consistency in services provided.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-ems-warehouse",
+      "@type": "Program",
+      "name": "EMS Warehouse",
+      "description": "Centrally procures and distributes medical supplies.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-fire-operations",
+      "@type": "Program",
+      "name": "Fire Operations",
+      "description": "Encompasses fire suppression activities in the unincorporated areas of Marin and provides the personnel and equipment to respond to all-risk calls and support for other fire agencies in Marin County under a countywide mutual aid agreement. The Fire Department also contracts with the California Department of Forestry and Fire Protection (CAL FIRE) to provide staff and equipment for incidents throughout the state.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-dispatch",
+      "@type": "Program",
+      "name": "Dispatch",
+      "description": "Responsibilities include directing resources to all-risk emergencies in the unincorporated areas of Marin County, including services for Muir Beach Volunteer Fire, Bolinas Volunteer Fire, Tomales Volunteer Fire, Inverness Volunteer Fire, Stinson Beach Fire, Skywalker Ranch Fire Brigade, and Nicasio Volunteer Fire. The Emergency Command Center (ECC) is responsible for dispatching all Fire and EMS resources in the county and is the single ordering and coordination point for all vegetation fires in the state responsibility lands of Marin County.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-fire-warehouse-services",
+      "@type": "Program",
+      "name": "Fire Warehouse Services",
+      "description": "The central supply station for all types of equipment and supplies that support operational and training activities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-office-of-emergency-management",
+      "@type": "Program",
+      "name": "Office of Emergency Management",
+      "description": "Develops and maintains comprehensive emergency management plans and procedures for the County and local communities and manages disaster response.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-operations-training",
+      "@type": "Program",
+      "name": "Operations Training",
+      "description": "Coordinates all the training necessary to maintain certifications and ensures that operations meet minimum federal and state training requirements.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-fire-prevention",
+      "@type": "Program",
+      "name": "Fire Prevention",
+      "description": "Ensures adherence to fire and life safety codes through the review and inspection of land development projects, defensible space inspections, business inspections, community education, personnel training, and hazard and fire cause and origin investigation.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-tamalpais-crew",
+      "@type": "Program",
+      "name": "Tamalpais Crew",
+      "description": "The Tamalpais Fire Crew is tasked with completing volatile fuel management projects and providing initial attack to wildland fires. In addition, they provide support during storms and floods during the winter months. This team of four 13 person crews provides 7 day a week service in the fire season and can respond quickly and allow the fire engine companies and ambulances to get back into service as they provide support for large fires.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/fire-vegetation-management",
+      "@type": "Program",
+      "name": "Vegetation Management",
+      "description": "Ensures our communities meet defensible space laws and guidelines and works to implement the Countywide Wildfire Protection Plan projects.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/fire"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Fire"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/probation-adult-probation-services",
+      "@type": "Program",
+      "name": "Adult Probation Services",
+      "description": "As part of its case management services, Probation enforces court orders, protects public safety, collects restitution for victims, and ensures referral and retention of clients in treatment programs that will reduce the likelihood of new criminal offenses. Adult Probation Services provides supervision in the community to approximately 915 defendants at any given time. Probation investigators write about 1000 misdemeanor and felony sentencing reports for the courts annually. Probation runs the County Parole and Adult Offender Work Program, monitoring on average 375 clients who are serving custody time in the community. In addition, probation’s pretrial program monitors on average 300 clients in the community",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/probation"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Probation"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/probation-juvenile-hall",
+      "@type": "Program",
+      "name": "Juvenile Hall",
+      "description": "Provides 24-hour care to youth who have been detained under the Welfare and Institutions Code, including close supervision of detained youth, recreational and support programs and mental health services.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/probation"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Probation"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/probation-juvenile-probation-services",
+      "@type": "Program",
+      "name": "Juvenile Probation Services",
+      "description": "Provides supervision to approximately 150 youth placed on probation in either the community or placed in foster care and coordinates rehabilitation services for youth and families in need of drug, alcohol and/or mental health treatment. Provides employment and training services to high-risk youth via in-house Youth Working for Change Program and the annual Career Explorer Program. Supports and coordinates prevention activities in school sites throughout Marin County.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/probation"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Probation"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/probation-probation-administrative-services",
+      "@type": "Program",
+      "name": "Probation Administrative Services",
+      "description": "The Probation Administrative Services Team delivers comprehensive and specialized support that strengthens executive leadership, advances countywide and departmental initiatives, and ensures the effective operation of core business functions. Administrative and operational responsibilities, including budget development and oversight, contract and procurement management, grant monitoring, audit coordination, accounts payable and receivable, personnel and payroll administration, recruitment, asset management, technology coordination, and facilities support. These services enable the department to operate efficiently, maintain compliance, and achieve strategic goals.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/probation"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Probation"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-defender-defense-services",
+      "@type": "Program",
+      "name": "Defense Services",
+      "description": "Provides indigent defense services in a variety of contexts, including criminal defense, juvenile, mental health, and certain civil matters. Defense services also include the necessary staff to provide ancillary services through investigation and litigation support.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-defender"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Public Defender"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-communications",
+      "@type": "Program",
+      "name": "Communications",
+      "description": "Provides dispatch services for the Sheriff and 5 other law enforcement agencies within Marin County. Sheriff dispatchers are the primary 9-1-1 answering point for all unincorporated communities, as well as the cities of Sausalito, Mill Valley, Tiburon, Belvedere, San Anselmo, Corte Madera, and Larkspur.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-coroner",
+      "@type": "Program",
+      "name": "Coroner",
+      "description": "Investigates the cause, manner, and circumstances of all deaths within the County of Marin.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-documentary-services",
+      "@type": "Program",
+      "name": "Documentary Services",
+      "description": "Responsible for maintaining crime incident reports, processing criminal warrants and civil court actions, and fingerprinting.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-fiscal-services",
+      "@type": "Program",
+      "name": "Fiscal Services",
+      "description": "Responsible for the financial operations of the Sheriff-Coroner’s Office, including budget, financial administration and reporting, revenue allocation and recovery, grants and contract administration, management analysis, payroll, purchasing, accounts payable and receivable, and other administrative tasks.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-professional-standards",
+      "@type": "Program",
+      "name": "Professional Standards",
+      "description": "Responsible for coordinating the hiring and training of the Sheriff’s employees and handling all personnel related issues.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-sheriff-coroners-office-sco-administration",
+      "@type": "Program",
+      "name": "Sheriff-Coroner’s Office (SCO) Administration",
+      "description": "Includes the executive command staff of the Sheriff- Coroner’s Office, comprised of the Sheriff-Coroner, an undersheriff and three captains who are responsible for the overall operation of the Sheriff-Coroner’s Office.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-sheriff-coroners-office-sco-technology-services",
+      "@type": "Program",
+      "name": "Sheriff-Coroner’s Office (SCO) Technology Services",
+      "description": "Provides technical support for the Sheriff-Coroner and for seven additional law enforcement agencies and nine fire agencies.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-court-services",
+      "@type": "Program",
+      "name": "Court Services",
+      "description": "Provides law enforcement security services within the court facilities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-jail",
+      "@type": "Program",
+      "name": "Jail",
+      "description": "The Sheriff’s Office operates an adult detention facility that houses up to 377 pre-and post-sentence inmates. Staff provides education, addiction counseling, parenting and other inmate programs to help create opportunities for inmates to make positive changes in their lives, and upon release, to become productive members of society.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-auto-theft",
+      "@type": "Program",
+      "name": "Auto Theft",
+      "description": "Responsible for investigating the theft of vehicles and vehicle parts throughout Marin County.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-coordination-of-probation",
+      "@type": "Program",
+      "name": "Coordination of Probation",
+      "description": "Performs compliance checks on Public Safety Realignment (AB 109) offenders and active probationers while they are out of custody and tracks down probation absconders and brings them back into custody for further evaluation by the court.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-investigations",
+      "@type": "Program",
+      "name": "Investigations",
+      "description": "Investigates all adult and juvenile crimes that occur in the unincorporated area of the County, apprehends offenders, and assists in developing a prosecutable case for the District Attorney.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-patrol-services",
+      "@type": "Program",
+      "name": "Patrol Services",
+      "description": "Provides law enforcement services to unincorporated areas of the County and assistance to local city police departments.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/sheriff-special-investigations-unit-siu",
+      "@type": "Program",
+      "name": "Special Investigations Unit (SIU)",
+      "description": "A cooperative effort between the County of Marin and its partner cities and towns to provide a central investigative unit capable of crossing jurisdictional boundaries to assist each other in investigating narcotics-related criminal activity, violent or major crimes, and other habitual criminal matters impacting unincorporated Marin County and the jurisdiction of the SIU. The SIU will take a proactive approach and assist all participating agencies with criminal investigations that require the specialized skills of SIU personnel.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Sheriff-Coroner’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/board-board-of-supervisors",
+      "@type": "Program",
+      "name": "Board of Supervisors",
+      "description": "Serves as the legislative and executive body of Marin County. The Board enacts ordinances, determines policies, adopts budgets, sets salaries, ensures that mandated functions are properly discharged, and supervises County departments. The Board also serves as the governing board of various service areas and special districts.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/board-assessment-appeals",
+      "@type": "Program",
+      "name": "Assessment Appeals",
+      "description": "Conducts hearings on applications for changed assessments.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/board"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Board Of Supervisors"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-administrative-services",
+      "@type": "Program",
+      "name": "Administrative Services",
+      "description": "The Administrative Services Division provides centralized administrative, fiscal, and operational support for the Office of the County Executive. The Division oversees budgeting and financial management, contracts and procurement, personnel and payroll administration, Board of Supervisors submissions, and core business operations. The Division supports departmental leadership through management analysis, policy and process development, and the effective use of systems and resources to ensure smooth, accountable, and efficient operations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-management-and-budget",
+      "@type": "Program",
+      "name": "Management and Budget",
+      "description": "The Management and Budget Division leads the County’s budget development and fiscal planning processes. The Division coordinates the preparation, review, and monitoring of the County’s annual budget; develops financial forecasts and long-term fiscal strategies; and provides analysis and policy recommendations to the County Executive and Board of Supervisors. Through countywide coordination, position control oversight, and ongoing fiscal monitoring, the Division supports sound financial decision-making, maintains the County’s fiscal integrity, and ensures alignment between Board priorities and departmental operations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-countywide-communications",
+      "@type": "Program",
+      "name": "Countywide Communications",
+      "description": "The Countywide Communications Division leads the County’s public information, media relations, and community engagement efforts. The Division develops and implements Countywide communications strategies; manages the County’s brand and messaging; and coordinates internal and external communications across departments. The Division advises County leadership on media relations, crisis communications, and public outreach; serves as a central liaison with the media and community partners; and ensures accurate, timely, and transparent communication to support public understanding of County programs, services, and priorities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-equity",
+      "@type": "Program",
+      "name": "Equity",
+      "description": "The Equity Division leads the County’s efforts to advance racial equity and reduce systemic disparities in policies, programs, and service delivery. The Division develops and implements Countywide equity strategies; applies a racial equity lens to policy and decision-making; and builds the infrastructure, tools, and capacity needed to sustain equitable practices across departments. Through data analysis, community partnership, training, and policy guidance, the Division supports meaningful, accountable progress toward a more just and inclusive Marin.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-climate-and-sustainability",
+      "@type": "Program",
+      "name": "Climate & Sustainability",
+      "description": "The Climate and Sustainability Division leads Countywide efforts to advance environmental sustainability, climate resilience, and equitable adaptation. The Division coordinates the development and implementation of climate action and adaptation strategies; integrates sustainability principles into County operations, capital projects, and service delivery; and builds partnerships with jurisdictions, community organizations, and regional, state, and federal partners. Through policy development, cross-departmental collaboration, funding strategy, and public engagement, the Division supports Marin’s long-term goals for a sustainable, climate-ready future.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-office-of-the-inspector-general",
+      "@type": "Program",
+      "name": "Office of the Inspector General",
+      "description": "The Office of the Inspector General provides independent oversight of the Marin County Sheriff’s Office to promote accountability, transparency, and public trust. The Office manages the community complaint process; monitors and reviews Sheriff’s Office policies, practices, and investigations; analyzes data and identifies trends; and issues public reports and recommendations as authorized by ordinance and law. The Office also conducts community outreach and provides staff support to the Civilian Oversight Commission, ensuring informed oversight and meaningful public engagement.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-clerk-of-the-board",
+      "@type": "Program",
+      "name": "Clerk of the Board",
+      "description": "The Clerk of the Board Division provides administrative, procedural, and records support to the Board of Supervisors and other County boards, commissions, and committees. The Division manages Board meeting processes and agendas; maintains official County records, ordinances, and minutes; ensures compliance with legal and procedural requirements; and coordinates follow-up on Board actions. Through liaison with County departments, elected officials, and the public, the Division supports transparent governance, accurate recordkeeping, and the effective conduct of the County’s legislative and decision-making processes.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-legislative-and-intergovernmental-affairs",
+      "@type": "Program",
+      "name": "Legislative and Intergovernmental Affairs",
+      "description": "The Legislative & Intergovernmental Affairs function coordinates the County’s legislative and public policy efforts at the local, state, and federal levels. The Division develops and advances the County’s legislative priorities; monitors and analyzes proposed legislation and regulatory actions; and advises County leadership on policy impacts, opportunities, and risks. Through coordination with departments, elected officials, advocacy partners, and intergovernmental organizations, the Division represents County interests, aligns advocacy efforts with County initiatives, and supports effective engagement across governmental and policy forums.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-economic-vitality",
+      "@type": "Program",
+      "name": "Economic Vitality",
+      "description": "The Economic Vitality Division supports County efforts to strengthen and sustain Marin’s economy by advancing programs and initiatives that expand access to economic opportunity. Established in 2024 within the Office of the County Executive, the Division coordinates economic vitality strategies, implements elements of the County’s Race Equity Action Plan related to economic opportunity, and works in partnership with departments and community stakeholders. The Division supports the Board of Supervisors’ Community and Economic Vitality priority through data-informed planning, cross-departmental coordination, and targeted initiatives that address economic disparities and support long-term economic resilience.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-municipal-services",
+      "@type": "Program",
+      "name": "Municipal Services",
+      "description": "The Municipal Services Program improves access to County services through place-based coordination and community engagement in West Marin and Marin City. The program provides localized support for unincorporated area services, project coordination, and outreach, with a focus on improving responsiveness and access in historically underserved communities. By strengthening connections between County departments and community partners, the program supports more equitable and effective service delivery tailored to local needs.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-digital-innovation-and-transformation",
+      "@type": "Program",
+      "name": "Digital, Innovation and Transformation",
+      "description": "The Digital Services and Innovation Division supports Countywide efforts to improve service delivery, operational efficiency, and customer experience. The Division identifies opportunities to streamline and modernize internal and external processes; applies human-centered design to the development of digital services; and leads the County’s performance management program to support data- informed decision-making. The Division also coordinates the County’s Organizational Excellence transformation and fosters a culture of innovation by building employee capabilities and supporting continuous improvement across departments.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "Provides central administration and executive management for the department and is responsible for budget preparation and reporting; the collection and payment of fees to other governmental agencies; accounts payable and receivable; personnel management, including payroll and recruitments; and contract administration.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-assessment",
+      "@type": "Program",
+      "name": "Assessment",
+      "description": "Responsible for annually determining the assessed value of all real business and personal property in Marin County, which includes residential, commercial, agricultural, industrial, and other real property, and business property, including fixtures, vessels and aircraft. The office creates and maintains maps for assessment purposes, processes changes in ownership in real property and administers exclusions and exemptions.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-county-clerk",
+      "@type": "Program",
+      "name": "County Clerk",
+      "description": "Processes, files and indexes documents, including fictitious business name statements, marriage licenses, domestic partnerships, notary certificates, oaths of office, environmental impact reports, and registration of professional photocopiers and process servers. Maintains the roster of public agencies and various permits and also performs marriage ceremonies.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-electronic-recording",
+      "@type": "Program",
+      "name": "Electronic Recording",
+      "description": "Collects fees for each instrument that is recorded by the County for the purpose of establishing an electronic recording delivery system.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-records-modernization",
+      "@type": "Program",
+      "name": "Records Modernization",
+      "description": "Collects fees to support, maintain, improve and provide for the full operation for modernized creation, retention and retrieval of information in the system of recorded documents.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-recording-operations",
+      "@type": "Program",
+      "name": "Recording Operations",
+      "description": "Provides recordation, indexing, and maintenance of property ownership documents, such as deeds, deeds of trust, liens, and maps. The Recorder maintains official records of birth, death, marriage, and military discharge. The Recorder also maintains, preserves and provides public access to records, issues copies and certificates, and is responsible for collecting documentary transfer tax and distributing the correct shares to the County and its cities and towns.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-social-security-number-truncation",
+      "@type": "Program",
+      "name": "Social Security Number Truncation",
+      "description": "Collects fees for the purpose of implementing a social security truncation program in order to create a public record version of each official document.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-executive-vital-statistics",
+      "@type": "Program",
+      "name": "Vital Statistics",
+      "description": "Collects fees transmitted to the State Registrar. The remaining funds may be used to defray administrative costs of collecting and reporting on such fees, which includes covering expenditures related to the improvement, automation and technical support of vital records systems.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Executive’S Office"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-counsel-civil-grand-jury",
+      "@type": "Program",
+      "name": "Civil Grand Jury",
+      "description": "Each year the Civil Grand Jury submits no less than five reports on subjects within the County and Special Districts. These reports are presented to the Board of Supervisors and departments for review and response.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-counsel"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "County Counsel"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-counsel-county-counsel",
+      "@type": "Program",
+      "name": "County Counsel",
+      "description": "Provides responsive legal advice and assistance to the Board of Supervisors, County departments, boards and commissions, special districts and agencies. This assistance includes negotiating and drafting contracts and legal documents, and representing Marin County in civil litigation and administrative hearings. The office also defends the County and its officers from liability and enables the Board of Supervisors to carry out its programs and policies within the limits of the law.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-counsel"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-executive-administration",
+      "@type": "Program",
+      "name": "Executive Administration",
+      "description": "Provides executive management and oversight to Department; finalizes and coordinates all department communications with the Board of Supervisors.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-fiscal-administration",
+      "@type": "Program",
+      "name": "Fiscal Administration",
+      "description": "The Fiscal Administrative Services Division provides centralized administrative and fiscal leadership by supporting executive management, operations, personnel services, budgeting, contracting, facilities, and payroll. The division ensures countywide budget controls and compliance, prepares the annual Final Budget, manages the Cost Allocation Plan and SB 90 programs, oversees the travel program, and stewards critical financial system modules.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-accounts-payable",
+      "@type": "Program",
+      "name": "Accounts Payable",
+      "description": "Verifies and approves invoice payments for goods and services purchased by the County and certain special districts in addition to issuing employee reimbursement checks, producing 1099 reporting, and maintaining vendor data.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-public-administrator",
+      "@type": "Program",
+      "name": "Public Administrator",
+      "description": "Mandated by law to safeguard a decedent’s assets and to manage the affairs of a decedent’s estate when a Marin County resident dies, and a relative or other appropriate person is not immediately able to handle the estate. Responsibilities of the Public Administrator include the investigation, safeguarding and providing an inventory of all assets in probating estates, as well as the administration of court-ordered estates and trusts.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-treasurer",
+      "@type": "Program",
+      "name": "Treasurer",
+      "description": "Serves as the County’s primary depository and oversees all banking operations for the County and its departments. As the entity responsible for the safekeeping and investment of funds for the County, school districts and special districts in a pooled investment program, the Investment pool ranges upwards to $2 billion in assets on an annual basis. It maintains the highest achievable rating of ‘AAA’ by a nationally recognized rating firm on behalf of the County, school, community college district, special districts, and discretionary depositors.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-central-collections",
+      "@type": "Program",
+      "name": "Central Collections",
+      "description": "Responsible for maximizing the County’s revenue by collecting on delinquent accounts including unsecured property taxes. Also provides current billing and collection services for County departments and external agencies, administers the County’s business license program, and collects transient occupancy taxes (TOT).",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-property-tax",
+      "@type": "Program",
+      "name": "Property Tax",
+      "description": "Responsible for preparing the countywide property tax levy that determines the amount of taxes charged for each property assessed. Also responsible for distributing property tax proceeds to the County and other local agencies, including cities, schools, and special districts.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-tax-collector",
+      "@type": "Program",
+      "name": "Tax Collector",
+      "description": ". Collects property taxes, which include secured real estate taxes, supplemental taxes, unsecured property taxes (taxes not secured by real estate), and delinquent secured and unsecured taxes. Conducts tax defaulted land sales, including public auctions and intergovernmental agreement sales",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-accounting",
+      "@type": "Program",
+      "name": "Accounting",
+      "description": "Maintains the County’s financial accounting records and provides financial information to the public, County departments and other government agencies. Authorizes and records all receipts and disbursements of monies into and out of the County Treasury and ensures budgetary control of County funds. The Division is dedicated to performing financial accounting and financial reporting duties with integrity while continuously exploring ways to improve the effectiveness and efficiency of business processes and operations. It is responsible for preparing the County’s Annual Comprehensive Financial Report (ACFR) and other statutory reports required by the California State Controller’s Office and other outside agencies, in accordance with generally accepted accounting principles (GAAP) and Government Accounting Standards Board (GASB) requirements.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-internal-audit",
+      "@type": "Program",
+      "name": "Internal Audit",
+      "description": "The Internal Audit Division performs objective and quality internal audit services of County operations. Services include conducting operational audits and compliance audits ensuring compliance with applicable laws and regulations. Assists department and County managers in the effective discharge of their fiscal responsibilities by providing management with accurate analyses and appropriate recommendations, as well as information concerning the activities reviewed. The program also evaluates management’s ability to achieve internal control standards as established by the County.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-payroll",
+      "@type": "Program",
+      "name": "Payroll",
+      "description": "Provides timely and accurate bi-weekly payroll preparation, distribution, and reporting services to County departments to ensure that employees are paid correctly and timely in compliance with Federal, State and Bargaining Agreement requirements. The Division is also responsible for issuing employee W-2s in compliance with government reporting requirements.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/finance-procurement-and-purchasing",
+      "@type": "Program",
+      "name": "Procurement and Purchasing",
+      "description": "The Procurement and Purchasing Division provides countywide services for the acquisition of goods and services, ensuring that all purchasing activities comply with local, state, and federal regulations. The division promotes transparency, fairness, and fiscal responsibility through competitive solicitation processes, contract administration, and policy guidance. Procurement staff collaborate with all County departments to support operational needs, streamline purchasing procedures, and maintain the integrity and efficiency of the County’s procurement practices.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/finance"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Finance"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/elections-elections",
+      "@type": "Program",
+      "name": "Elections",
+      "description": "Provides election services year-round to Marin County’s approximately 174,000 registered voters. The Elections Department plans and administers regularly scheduled elections and special elections throughout Marin County. Essential functions include voter registration and participation file maintenance, voter education and outreach, candidate services, ballot design, in person voting and vote-by-mail services, voting equipment maintenance, warehouse and drayage, Election Night Reporting, elections canvass, petitions, and conflict-of-interest statements. .",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/elections"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hr-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "Provides strategic Human Resources direction to the County, ensures department services and programs meet the needs of the organization and follow best practices, are legally compliant, and effective and efficient. The division develops and monitors the department budget and contracts and serves as executive secretary to the Personnel Commission. The division also supports civic engagement and education by providing opportunities to volunteers and student interns.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Human Resources"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hr-employee-and-labor-relations",
+      "@type": "Program",
+      "name": "Employee and Labor Relations",
+      "description": "Develops and administers personnel policies in compliance with all employment laws; advises and consults with managers and supervisors on performance management, and other related personnel administration issues. It also negotiates and administers 12 memoranda of understanding and the Personnel Management Regulations; conducts meet-and-confer sessions and labor management committees; and coordinates and advises on the negotiated grievance processes.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Human Resources"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hr-equal-employment",
+      "@type": "Program",
+      "name": "Equal Employment",
+      "description": "Enforces the County’s Equal Opportunity and Anti-Harassment policies and programs including overseeing and conducting personnel investigations. Equal Employment also supports the Marin Women’s Commission and Marin Human Rights Commission.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Human Resources"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hr-learning-and-organizational-development",
+      "@type": "Program",
+      "name": "Learning and Organizational Development",
+      "description": "Develops and administers County-wide learning development programs to strengthen the skills and performance of the County’s workforce. Develops employee evaluation systems and provides training and technical assistance in the administration of evaluations. The program also provides organizational development services to departments, and works collaboratively with Equal Employment and the County’s Equity Office to develop appropriate trainings and programs for the workforce related to diversity, equity, inclusion, and belonging.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Human Resources"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hr-recruitment-and-classification",
+      "@type": "Program",
+      "name": "Recruitment and Classification",
+      "description": "Conducts recruitments and advises department hiring managers on transparent, equitable, and effective hiring processes to ensure a well-qualified workforce. Manages the County’s classification and compensation plan by updating and developing accurate job classifications, conducting classification reviews, and analyzing and making recommendations on appropriate compensation.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Human Resources"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hr-benefits-wellness-and-hr-human-capital-management",
+      "@type": "Program",
+      "name": "Benefits, Wellness, and HR Human Capital Management",
+      "description": "The Benefits, Wellness, and Human Capital Management Division directs the County’s comprehensive Benefits and Wellness Program to ensure that employees and their families receive high-quality benefits coverage, diverse plan options, and responsive employee support. The Division is dedicated to developing and implementing employee wellness initiatives that foster a culture of health care and well-being, and organizational support throughout the County. In collaboration with the Information Services and Finance Departments, the Division provides strategic oversight of payroll operations and Human Resources Information Systems (HRIS). This partnership ensures efficient, accurate, and integrated management of employee information, benefits, and payroll processes.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Human Resources"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/hr-risk-management",
+      "@type": "Program",
+      "name": "Risk Management",
+      "description": "Ensures the protection of the property, human, fiscal, and environmental assets of the County through the insurance portfolio, safety and loss control policies, contract reviews and other matters linked to the County’s diverse risk exposures. Oversees the County’s self-insured workers’ compensation program, leaves, reasonable accommodations and the transitional return to work program and provides safety and regulatory compliance training and detention medical bill utilization review.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Human Resources"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-executive-administration",
+      "@type": "Program",
+      "name": "Executive Administration",
+      "description": "Provides executive management and leadership for the department and is responsible for the strategic vision and day-to-day operations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-business-operations",
+      "@type": "Program",
+      "name": "Business Operations",
+      "description": "Responsible for IST’s administrative and business functions including accounts receivable and payable, contract management, payroll, human resource management, staff reports and agenda items, and budgeting. Manages invoicing and chargebacks for IST services.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-county-justice-systems",
+      "@type": "Program",
+      "name": "County Justice Systems",
+      "description": "Provides business solutions for County justice departments and agencies to support case management and electronic justice information. Enables fully integrated justice systems that enhance collaboration, increase efficiency, and improve electronic data sharing whenever possible.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-customer-support",
+      "@type": "Program",
+      "name": "Customer Support",
+      "description": "Provides IT support to Marin County departments and users. Creates and manages user accounts for employees, special districts, and contractors. Manages the County’s Tech Lease program and Conference Room audio/visual equipment. Provides Countywide training and communicates outages and alerts.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-database-administrators",
+      "@type": "Program",
+      "name": "Database Administrators",
+      "description": "Delivers and supports enterprise databases and related services such as integration, reporting, and replication.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-data-services",
+      "@type": "Program",
+      "name": "Data Services",
+      "description": "Provides data management platforms and business solutions related to data services and analytics to leverage and incorporate data into decision-making, performance management, and delivery of consumable information for business decision-makers and the public.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-digital-accessibility",
+      "@type": "Program",
+      "name": "Digital Accessibility",
+      "description": "Assists the County in delivering accessible Information and Communications Technology (ICT) for employees and the public by guiding the procurement, development, and maintenance of websites, electronic media, documents, and mobile technology. Supports departments in creating and sustaining accessible digital products and services that meet diverse user needs.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-enterprise-architecture",
+      "@type": "Program",
+      "name": "Enterprise Architecture",
+      "description": "Defines and guides a coherent, consistent approach for delivering information technology capabilities across the County. Oversees all aspects of the business solutions delivery model, including infrastructure, systems, applications, data, content, and user interfaces.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-enterprise-systems",
+      "@type": "Program",
+      "name": "Enterprise Systems",
+      "description": "Provides technical support for the County’s enterprise-wide solutions for all County departments, including the Board of Supervisors’ Agenda Management System, Asana Project Management software, FixItMarin application, and Enterprise Resource Planning (ERP) solution.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-innovation",
+      "@type": "Program",
+      "name": "Innovation",
+      "description": "Drives digital-first innovation by expanding the use of M365 and advancing AI adoption to enhance collaboration and modernize how the County works. Enables departments with training, guidance, and vetted tools to effectively leverage emerging technologies and improve the overall user experience.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-land-use-systems",
+      "@type": "Program",
+      "name": "Land Use Systems",
+      "description": "Delivers and supports business solutions for land use services such as licensing, permitting, planning, code enforcement, environmental health, and other services for the County’s land use management departments.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-marinmap-systems",
+      "@type": "Program",
+      "name": "MarinMap Systems",
+      "description": "Provides solutions for MarinMap, a non-profit consortium of local governments, special districts, and other public agencies joined together to create collaborative County Geographic Information Systems (GIS) data.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-midas",
+      "@type": "Program",
+      "name": "MIDAS",
+      "description": "Connects the County with its municipal, public safety, special district, and non-profit partners by providing connectivity for network-based shared applications and secure Internet access.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-networks",
+      "@type": "Program",
+      "name": "Networks",
+      "description": "Provides network solutions including Local Area Networks (LAN), Wide Area Networks (WAN), Wireless, Internet, Firewall, Virtual Private Networks (VPN), and Cabling Services. Provides network connectivity for all County users at the Civic Center, the Emergency Operations Facility, and over 40 remote locations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-online-solutions",
+      "@type": "Program",
+      "name": "Online Solutions",
+      "description": "Enables the ongoing digitalization of County business by providing electronic tools and solutions to County departments and continuous improvements to online services on the County’s public websites, portals, and intranet.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-project-management-office",
+      "@type": "Program",
+      "name": "Project Management Office",
+      "description": "Enables effective project and portfolio delivery by defining the foundational practices that guide how IT initiatives are planned and executed. Empowers teams with the frameworks and tools needed to deliver projects consistently and with clear value.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-property-systems",
+      "@type": "Program",
+      "name": "Property Systems",
+      "description": "Provides business solutions related to County property such as property tax, assessment, apportionment, collections, and recordation.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-security",
+      "@type": "Program",
+      "name": "Security",
+      "description": "Defines the organization’s overall strategy for protecting information assets by establishing policies, procedures, and standards that guide secure operations. Promotes a strong security culture through employee awareness and training while continuously assessing and managing risks to ensure ongoing protection and compliance.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-system-admin",
+      "@type": "Program",
+      "name": "System Admin",
+      "description": "Provides enterprise-level hardware and software platforms including Active Directory, Office 365, and Intune. Manages the server, virtualization, storage, and backup platforms for the County’s two datacenters and computing resources in the Cloud.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-tech-investments",
+      "@type": "Program",
+      "name": "Tech Investments",
+      "description": "Establishes and manages the framework used to determine which technology investments deliver the greatest value. Coordinates the process for evaluating, prioritizing, and recommending technology investments for funding in alignment with County priorities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-tech-lease",
+      "@type": "Program",
+      "name": "Tech Lease",
+      "description": "Oversees all technology leases including most desktop computers, laptop computers, servers, tablets, etc. Manages the warranty and service contracts for the technology where applicable.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/ist-telephone-services",
+      "@type": "Program",
+      "name": "Telephone Services",
+      "description": "Delivers enterprise-wide voice communications and support of the County’s telephone system.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/ist"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Information Services And Technology"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/retirement-retirement-operations",
+      "@type": "Program",
+      "name": "Retirement Operations",
+      "description": "Administers the retirement plans for employees of Marin County, Marin Superior Court, City of San Rafael, Novato Fire Protection District, Southern Marin Fire Protection District, Marin/Sonoma Mosquito and Vector Control District, Marin City Community Services District, Tamalpais Community Services District and the Local Area Formation Commission. The annual budget is set by the Retirement Board, which is separate from the County Board of Supervisors.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/retirement"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Retirement"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "Responsible for budget development, monitoring, oversight, and the management of personnel and payroll. Other functions include technology needs coordination, technical support for media-related/ communication activities, records management, space planning and serving as a liaison with other county, state and federal departments.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-building-and-safety",
+      "@type": "Program",
+      "name": "Building and Safety",
+      "description": "Enforces state and County building codes and ordinances to ensure buildings are safe for occupancy through issuance of building permits, plan review and inspections.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-consumer-protection",
+      "@type": "Program",
+      "name": "Consumer Protection",
+      "description": "Protects public health and the well-being of residents in the County.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-ehs-administration",
+      "@type": "Program",
+      "name": "EHS Administration",
+      "description": "Supports administrative functions specific to the Environmental Health Services (EHS) division operations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-medical-waste",
+      "@type": "Program",
+      "name": "Medical Waste",
+      "description": "Protects public health, health care facility workers and landfill personnel from exposure to medical wastes through inspection, complaint investigation, emergency response, enforcement, public education and assistance to the industry related to handling, storage, treatment and disposal of medical waste. Inspection and investigations at Body Art facilities are conducted to protect public health and safety and safe disposal of medical waste.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-solid-waste-and-hazardous-materials",
+      "@type": "Program",
+      "name": "Solid Waste and Hazardous Materials",
+      "description": "Protects public health and the environment from the effects of improper storage, collection, transportation and disposal of solid waste through inspection, permitting and complaint investigation, and through public education and assistance to the industry.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-wastewater",
+      "@type": "Program",
+      "name": "Wastewater",
+      "description": "Protects public health and the environment with oversite of on-site wastewater treatment systems. In addition, manages the financing, including grants and loans, that supports the East Shore Wastewater Improvement Project in Marshall. Oversees the construction of drinking water wells and small water systems.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-housing-and-federal-grants",
+      "@type": "Program",
+      "name": "Housing and Federal Grants",
+      "description": "Responsible for preserving and expanding the range and supply of adequate, accessible and affordable housing through housing policies, regulations and programs. Oversees the federal grant program to local governments administered by the Department of Housing and Urban Development (HUD).",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-advanced-planning",
+      "@type": "Program",
+      "name": "Advanced Planning",
+      "description": "Prepares and updates the County’s long range policies and regulations to prepare for land use and real estate development issues that impact communities in the County’s unincorporated areas, and develops climate change adaptation responses, including sea level rise programs.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-code-enforcement",
+      "@type": "Program",
+      "name": "Code Enforcement",
+      "description": "Ensures compliance with the County’s laws and regulations for land use, zoning, building, housing and environmental health.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-current-planning",
+      "@type": "Program",
+      "name": "Current Planning",
+      "description": "Reviews proposals for a variety of planning permits, such as design reviews, variances, coastal permits, use permits and subdivisions.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-environmental-planning",
+      "@type": "Program",
+      "name": "Environmental Planning",
+      "description": "Implements project environmental review for County agencies and departments pursuant to state and federal law and local regulations. Responsible for managing the environmental review process and providing guidance to County staff regarding compliance.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-planning-administration",
+      "@type": "Program",
+      "name": "Planning Administration",
+      "description": "Provides administrative support functions specific to the Planning division’s operations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cda-richardsons-bay-regional-agency-rbra",
+      "@type": "Program",
+      "name": "Richardson’s Bay Regional Agency (RBRA)",
+      "description": "Staffed by a County Harbor Master, and reimbursed by member contributions, the RBRA maintains and improves the navigational waterways, open waters, and shoreline of Richardson’s Bay. It is a joint powers agency that includes the County and the cities of Belvedere, Tiburon and Mill Valley.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Community Development Agency"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "The Administration program provides strategic leadership, financial stewardship, and operational support for the Department. The Department Leadership Team sets direction aligned with Board priorities, while the Accounting and Budget Team ensures financial integrity through oversight of budgeting, payroll, grants, audits, asset management, and accounting functions. Administrative Services supports day-to-day operations through coordination, contract management, and process improvements that enhance efficiency and service delivery.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-building-maintenance",
+      "@type": "Program",
+      "name": "Building Maintenance",
+      "description": "The Building Maintenance program provides comprehensive facility operations and support services to ensure safe, functional, and well-maintained County facilities. This includes centralized mail and shipping services with daily Civic Center delivery and high-volume processing, custodial services across 33 facilities to maintain clean and safe environments, and ongoing operation and maintenance of building systems across 50+ sites, including 24-hour support for routine operations, energy management, and emergency response.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-county-airport",
+      "@type": "Program",
+      "name": "County Airport",
+      "description": "The Marin County Airport (Gnoss Field) in Novato operates 24 hours a day, seven days a week, serving more than 230 based aircraft. Funded through the Aviation Fund, the airport supports general aviation, flight training, air charters, and emergency medical and transport operations for Marin County and the surrounding region.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-capital-improvement",
+      "@type": "Program",
+      "name": "Capital Improvement",
+      "description": "The Capital Improvement Division manages planning, design, and implementation of the County’s Capital Improvement Program. Working in partnership with the County Executive’s Office, the division oversees building upgrades, infrastructure renewal, and workspace improvements that ensure the longevity, safety, and sustainability of County facilities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-radio-maintenance",
+      "@type": "Program",
+      "name": "Radio Maintenance",
+      "description": "The Radio Maintenance Division maintains Marin County’s public safety radio communications systems. In partnership with the Marin Emergency Radio Authority (MERA), the team manages 15 sites across two simulcast cells, ensuring reliable communication for emergency responders and maintain system functionality through continuous monitoring and maintenance.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-disability-access",
+      "@type": "Program",
+      "name": "Disability Access",
+      "description": "The Disability Access Division ensures that all County programs, facilities, and services are accessible to individuals with disabilities. The division coordinates compliance with the Americans with Disabilities Act (ADA) and related regulations, provides training and guidance to departments, and supports inclusive service delivery across County operations.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-engineering",
+      "@type": "Program",
+      "name": "Engineering",
+      "description": "The Engineering program provides planning, design, and construction management services to deliver and maintain the County’s transportation and public works infrastructure. This includes engineering design and technical analysis for roads, bridges, and transportation systems; surveying, mapping, and development review to ensure accuracy and regulatory compliance; and construction management and inspection to oversee contractors, administer contracts, and ensure safe, compliant project delivery.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-vehicle-maintenance-and-fleet-management",
+      "@type": "Program",
+      "name": "Vehicle Maintenance and Fleet Management",
+      "description": "The Fleet Management Division services and maintains all County-owned vehicles and equipment, including emergency response and heavy-duty equipment. The team oversees eight fueling stations, managements vehicle replacement schedules and procurement, and advances the County’s transition to electric vehicles while providing maintenance support to other local agencies.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-land-development",
+      "@type": "Program",
+      "name": "Land Development",
+      "description": "The Land Development Division administers grading, creek, transportation, film, and quarry permits to ensure compliance with local, state, and federal regulations. The team supports safe and sustainable development practices by providing technical and engineering review of permit applications and proposed projects. Land Development also coordinates with the Community Development Agency (CDA) on land use entitlements, drainage and floodplain management, and review of building permits.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-real-estate",
+      "@type": "Program",
+      "name": "Real Estate",
+      "description": "The Real Estate Division manages and coordinates all real property services for the County of Marin and affiliated special districts, including Flood Control and Open Space. Responsibilities include property acquisition, leasing, disposition, and management of County-owned and leased facilities. The team provides appraisal and valuation support, negotiates agreements, and ensures all transactions comply with applicable laws and policies. Real Estate also assists in project site selection, easement management, and right-of-way acquisition for public infrastructure and capital projects. The division works closely with other County departments, special districts, and external agencies to optimize property use, protect public assets, and support long-term Cunty planning and sustainability goals.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-reprographic-services",
+      "@type": "Program",
+      "name": "Reprographic Services",
+      "description": "The Reprographics Division provides high-quality printing and graphic production services for County departments and partner agencies. Using modern digital printing technology, the team produces a variety of materials including reports, business cards, forms, signage, and large-format displays that support County operations and public outreach. Staff ensure accuracy, consistency, and timely service while maintaining cost efficiency and sustainable practices. By centralizing printing services, the division supports professional communication, standardized branding, and reliable production for both internal and external County needs.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-road-maintenance",
+      "@type": "Program",
+      "name": "Road Maintenance",
+      "description": "The Road Maintenance Division maintains 410 miles of County roads, bridge for maintenance of 410 miles of County roads, bridges, and related infrastructure. Responsibilities include pavement repair, drainage maintenance, vegetation control, striping, signage, and traffic safety. The division also assists with construction inspection and flood control maintenance activities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-transportation-planning-and-traffic-operations",
+      "@type": "Program",
+      "name": "Transportation Planning and Traffic Operations",
+      "description": "The Transportation Planning and Traffic Operations Division manages transportation planning, traffic operations and multimodal mobility initiatives. Staff oversee traffic signals, safety programs, and grant-funded projects that enhance road efficiency, reduce emissions, and support sustainable transportation options.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-waste-management",
+      "@type": "Program",
+      "name": "Waste Management",
+      "description": "The Waste Management Division administers the County’s solid waste franchise agreements and oversees recycling, waste reduction, and compliance programs in unincorporated Marin. The team works collaboratively with local haulers, community organizations, and regional partners to promote sustainable waste management practices and ensure compliance with state solid waste regulations. Waste Management also leads education and outreach initiatives to help residents and businesses reduce waste, improve recycling participation, and support the County’s longer-term sustainability goals.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/public-works-water-resources",
+      "@type": "Program",
+      "name": "Water Resources",
+      "description": "The Water Resources Division manages eight flood control zones and three County Service Areas, leading projects to reduce flood risk and improve watershed resilience. The team designs, constructs, and maintains stormwater facilities, implements seal level rise adaptation measures, and supports habitat restoration and environmental compliance.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Department Of Public Works"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/awm-agriculture",
+      "@type": "Program",
+      "name": "Agriculture",
+      "description": "The Agriculture division safeguards the county’s agricultural resources and public health by overseeing a wide range of regulatory and service activities. Core functions include pesticide use enforcement; inspection of farmers’ markets and certified producers; and registration and compliance for organic growers. The program also leads efforts to detect, prevent, manage, and eradicate invasive pests. Additional responsibilities include livestock protection inspections and support for non-lethal conflict-reduction practices, nursery inspections, and related agricultural regulatory and outreach activities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/awm"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Agriculture, Weights And Measures"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/awm-weights-and-measures",
+      "@type": "Program",
+      "name": "Weights and Measures",
+      "description": "The Weights and Measures division ensures a fair and transparent marketplace by verifying the accuracy of commercial transactions. Inspectors test and certify fuel dispensers, taxi meters, and commercial scales ranging from grocery checkout and deli scales to large-capacity livestock scales. The program also conducts price-accuracy inspections to ensure consumers are charged the lowest advertised or posted price. Additional duties include verifying labeling, advertising, and signage for petroleum and automotive products and overseeing licensed service agents who install or repair commercial weighing and measuring devices.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/awm"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Agriculture, Weights And Measures"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/cultural-services-marin-center",
+      "@type": "Program",
+      "name": "Marin Center",
+      "description": "Marin Center promotes and enhances the cultural, educational, social, economic, recreational and entertainment life of Marin County for all residents by serving as the county's major performing arts, convention and event center.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/cultural-services"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Cultural Services"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/uc-extension-ucce-marin",
+      "@type": "Program",
+      "name": "UCCE Marin",
+      "description": "Conducts research, seminars, and workshops on agriculture, natural resource management, healthy living, and youth development to sustain a vital agriculture, environment, and community in Marin.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/uc-extension"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Uc Cooperative Extension Marin"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-administrative-services",
+      "@type": "Program",
+      "name": "Administrative Services",
+      "description": "Responsible for the short and long-range planning, development and delivery of library services, including budgeting, accounting, personnel, community relations and other support services.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-marinet",
+      "@type": "Program",
+      "name": "MARINet",
+      "description": "MARINet is a consortium of seven public libraries and two academic libraries in Marin County, all of whom share a single library catalog and digital automation system. The Marin County Free Library provides fiscal oversight for the consortium.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-technical-services",
+      "@type": "Program",
+      "name": "Technical Services",
+      "description": "Provides acquisitions, cataloging, processing and delivery support services.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-technology-support",
+      "@type": "Program",
+      "name": "Technology Support",
+      "description": "Responsible for maintaining all library computers and supporting a wide range of technologies, including online public computers, wireless networks and self-check technology.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-california-room",
+      "@type": "Program",
+      "name": "California Room",
+      "description": "The Anne T. Kent California Room is an archive dedicated to collecting and preserving information on local Marin history, including the California Room Digital Archive.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-eservices",
+      "@type": "Program",
+      "name": "EServices",
+      "description": "Provides oversight to the virtual services of the Library. These include the website, social media pages, databases and electronic subscriptions to Ebooks.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-learning-bus",
+      "@type": "Program",
+      "name": "Learning Bus",
+      "description": "A vehicle that provides storytime, songs, games, crafts and other kindergarten-readiness activities for children zero to five and provides workshops for parents.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-library-beyond-walls",
+      "@type": "Program",
+      "name": "Library Beyond Walls",
+      "description": "Delivers library materials to residents who are unable to visit a library in person through trained volunteers.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-library-branches",
+      "@type": "Program",
+      "name": "Library Branches",
+      "description": "Provides adult library programs, community outreach, children’s library services, and circulation services of print and digital materials at ten Marin locations: Civic Center; Corte Madera; Fairfax; Marin City; Novato; South Novato; Bolinas; Inverness; Point Reyes; Stinson Beach; Outreach Services.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-literacy-services",
+      "@type": "Program",
+      "name": "Literacy Services",
+      "description": "Supports community members who want to improve their reading, writing and English language skills at the West Marin Literacy Office. The program provides one-on-one tutoring, English as a Second Language (ESL) classes and family literacy programs.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-mobile-library-services",
+      "@type": "Program",
+      "name": "Mobile Library Services",
+      "description": "The Bookmobile is a mobile bus that brings printed and digital library materials to assisted living facilities, preschools, one-room school districts, ranches and rural community stops not served by a Library branch.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/library-capital-improvement",
+      "@type": "Program",
+      "name": "Capital Improvement",
+      "description": "Coordinates major maintenance or improvement projects on facilities owned by the Library that cannot be addressed through regular maintenance. Facilities include the Civic Center Library, Corte Madera, Fairfax and the Novato libraries. The Library works with the County of Marin Department of Public Works to identify and implement projects.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/library"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Free Library"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-administration",
+      "@type": "Program",
+      "name": "Administration",
+      "description": "Supports the Stewardship Programs by providing finance, human resources, budget, managing for results, accounting, and committee support to Marin County Parks. In addition, the administrative staff in this program supports the regional parks reservation system. Accounting staff provide audit services and support.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-communications",
+      "@type": "Program",
+      "name": "Communications",
+      "description": "Plans, organizes, manages, and oversees department communications, the environmental education program, and events. The program is responsible for increasing public awareness, providing public information, and promoting opportunities for participation and civic engagement by Marin County residents and the Bay Area community of visitors to the County’s parks. General services include public affairs, outreach, environmental education, graphic design, environmental graphics, and writing.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-natural-resources-management",
+      "@type": "Program",
+      "name": "Natural Resources Management",
+      "description": "Manages the County’s biological, hydrologic and geologic resources.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-park-facilities-and-landscape-services",
+      "@type": "Program",
+      "name": "Park Facilities and Landscape Services",
+      "description": "Provides maintenance, construction, planning, permitting design and operations services related to park and landscape facilities.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-real-estate-administration-and-acquisitions",
+      "@type": "Program",
+      "name": "Real Estate Administration and Acquisitions",
+      "description": "Coordinates and provides real estate services to Marin County Parks and Marin County Open Space District. The program supports functions including evaluation and management of high priority acquisitions, boundary surveys, encroachment resolution, administration of the Department’s Conservation Easement program, and support related to third-party licenses, permits and easements.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-road-and-trail-management",
+      "@type": "Program",
+      "name": "Road and Trail Management",
+      "description": "Provides maintenance, construction, planning and permitting related to the management of the County’s road and trail system.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-visitor-services",
+      "@type": "Program",
+      "name": "Visitor Services",
+      "description": "Focuses on staff performing work associated with patrolling, public contact, enforcement, issuing citations, checking permits, leading hikes, preparing for events, first aid/CPR, search and rescue, and other activities that provide direct services to visitors.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/parks-science-and-research",
+      "@type": "Program",
+      "name": "Science and Research",
+      "description": "Includes the development, implementation and reporting on science and research activities including biological research, visitor studies, geological research and hydrologic research.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/parks"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Marin County Parks"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-of-marin-animal-services",
+      "@type": "Program",
+      "name": "Animal Services",
+      "description": "Oversees the Animal Services contract between the County, Marin cities and towns, and Marin Humane to ensure the care and well-being of animals, both domestic and livestock, in the County.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Non-Departmental"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-of-marin-countywide-operations",
+      "@type": "Program",
+      "name": "Countywide Operations",
+      "description": "Includes countywide revenues such as property tax, and expenses for road rehabilitation projects, community service contracts, debt service and budget change proposals (BCP’s). This program includes the Alternate Defender Contract, which funds the cost of hiring outside counsel to handle adult and juvenile criminal cases when the Public Defender declares a conflict of interest, as well as the Fish and Wildlife Commission. The non-departmental budget also includes funding for non-profit services such as the Marin Resource Conservation District, Jeanette Prandi Center, Marin Economic Forum, FIRESafe Marin, Marin Promise, and other service providers that provide a community benefit that is broader than the mission of a single County department.",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Non-Departmental"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/program/county-of-marin-emergency-operations",
+      "@type": "Program",
+      "name": "Emergency Operations",
+      "description": "Includes State and Federal reimbursements, grants, and expenses for countywide emergency response efforts, such as those related to COVID-19, wildfires, and Public Safety Power Shutoffs (PSPS).",
+      "administeredBy": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "programClassification": "Non-Departmental"
+    }
+  ]
+}

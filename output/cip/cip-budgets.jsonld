@@ -1,0 +1,1227 @@
+{
+ "@context": "https://schema.govfresh.com/v1/context.jsonld",
+ "@graph": [
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/cip-fy2026-27",
+   "@type": "Budget",
+   "name": "County of Marin Capital Improvement Plan FY 2026-27 (proposed)",
+   "description": "Capital projects and their funding for this fiscal year, as printed in the County of Marin FY 2027-31 Proposed Capital Improvement Plan.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "proposed",
+   "fiscalYear": "2026-27",
+   "startDate": "2026-07-01",
+   "endDate": "2027-06-30",
+   "currency": "USD",
+   "dateModified": "2026-11-10",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mcfd-headquarters-san-geronimo-commons"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/hicks-valley-fire-station-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mcfd-administration-tenant-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mcfd-fire-foundry-college-of-marin"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/distributed-antenna-system-1600-los-gamos-dr"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/marin-city-fire-dorm-reconfiguration"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/sheriff-s-sub-station-college-of-marin"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/woodacre-fire-dept-bathroom-remodel"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/gallinas-creek-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/countywide-small-trash-capture-device-installation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/green-stormwater-infrastructure-improvement-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/trash-capture-devices-shoreline-seminary-goodmans-blithedale"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/2027-drainage-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/432-woodland-rd-kent-woodland-culvert-repair"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/santa-venetia-floodwall"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/crest-marin-pump-station-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/cardinal-levee-seepage-mitigation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/marin-city-gateway-pump-station"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mill-valley-sycamore-pump-station-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/east-and-west-creek-restoration"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/corte-madera-creek-flood-risk-management"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/lagoon-park-restroom-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mcinnis-park-restroom-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mill-valley-sausalito-mup-and-marsh-adaptation-design"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/cascade-fountain-renovation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/point-reyes-restroom-expansion-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/120-n-redwood-hhs-entry-exit-hardware"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/20-nsp-roof-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fairfax-library-hvac-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/120-n-redwood-hhs-cooling-tower"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/120-n-redwood-hhs-cabling-modernization"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/10-nsp-roof-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mc-jail-cell-improvements-and-related-work"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/juvenile-hall-accessibility"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/library-of-things-and-library-vending"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/juvenile-hall-hvac-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/airport-fuel-farm-secondary-containment-near-term"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/juvenile-hall-video-system-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/jail-entry-gate"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/juvenile-hall-path-of-travel-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/nicasio-crew-space-update"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/350-ignacio-blvd-tenant-improvements-and-deferred-maintenance"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/juvenile-hall-hard-wire-fire-system"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/marin-city-fire-station-hvac-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/corp-yard-modernization-and-safety-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/marin-civic-center-window-film"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/remove-excess-vegetation-from-civic-center-building-perimeter"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/refresh-civic-center-restrooms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/civic-center-interior-wayfinding-and-visitor-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/civic-center-landscaping-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/civic-center-building-frontage-safety-barriers-and-fencing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/space-planning-misc-projects"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/civic-center-and-marin-center-exterior-lighting-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/dome-mats-on-lagoon-island-bridges-phase-2-long-term"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/install-gate-at-civic-center-dumpster-access-driveway"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/civic-center-caf-renovations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/wayfinding-signage-civic-center-vma-and-marin-center"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fairgrounds-electrical-upgrades"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/peter-behr-drive-pathway-and-streetscape-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/15-mph-unincorporated-marin-county-school-zones"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/traffic-hsip-cycle-12-butterfield-irving-crosswalk"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/traffic-safety-quick-build-projects-marin-city-and-other"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/radar-speed-feedback-signs-and-trailer-hsip-cycle-12"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/drake-and-donahue-intersection-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/install-radar-speed-feedback-signs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/college-kent-woodland-traffic-circle-quick-build-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/college-and-sfd-reconfiguration"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/novato-library-pathway-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/2027-ped-bike-and-safety-quick-build-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/marinwood-new-traffic-signals-marinwood-miller-miller-las-gallinas-mt-lassen-lucas-valley"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/shoreline-hwy-tam-junction-midblock-crosswalk-caltrans-ep"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/sfd-traffic-signal-upgrades-various-locations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/marin-ave-pedestrian-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/marinwood-drive-frontage-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/redwood-hwy-frontage-road-sidewalk-and-bike-lanes"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/reconstruct-coyote-creek-wooden-pedestrian-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/countywide-guardrail-replacement-hsip-cycle-11"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/pt-reyes-petaluma-rd-mp0-43-slip-out-2023-storm"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/paradise-drive-mp-7-53-slip-out-repair-2023-storm-damage"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mount-lassen-drive-bridge-replacement-fund-1010"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/mountain-view-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/sylvan-way-retaining-wall"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/81-madrone-slide-repair"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/2027-slide-repair-retaining-wall"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/sfd-at-inverness-slide-repairs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/strawberry-ped-overcrossing-27-0076-evaluation-and-repair"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/2026-marin-city-pavement-resurfacing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/2027-pavement-preventative-maintenance-crackseal-digouts-etc"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/2027-pavement-rehabilitation-resurfacing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/2027-pavement-surface-treatment"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/pt-san-pedro-road-sealant-ran-rafael-co-op-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/west-marin-compost-facility-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/greenwood-cove-flood-improvement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/environmental-mitigation-maintenance-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/update-bike-ped-countywide-plan"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/vmt-policy-tiag-and-mitigation-guide"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/sfd-congestion-management-innovation-corridor"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/point-reyes-station-parking-study"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/evaluate-options-for-new-morgue-and-training-facility"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/fire-facilities-cop-financing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/revenue/other-fees"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/fire-facilities-cop-financing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/tam-measure-b"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2026-27/fund-source/expenditure/other-fees"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/cip-fy2027-28",
+   "@type": "Budget",
+   "name": "County of Marin Capital Improvement Plan FY 2027-28 (programmed)",
+   "description": "Capital projects and their funding for this fiscal year, as printed in the County of Marin FY 2027-31 Proposed Capital Improvement Plan.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "planned",
+   "fiscalYear": "2027-28",
+   "startDate": "2027-07-01",
+   "endDate": "2028-06-30",
+   "currency": "USD",
+   "dateModified": "2026-11-10",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/mcfd-headquarters-san-geronimo-commons"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/hicks-valley-fire-station-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/waterline-replacement-at-barnaby-look-out"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/gallinas-creek-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/green-stormwater-infrastructure-improvement-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/2028-drainage-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/crest-marin-pump-station-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/cardinal-levee-seepage-mitigation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/marin-city-gateway-pump-station"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/mill-valley-sycamore-pump-station-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/east-and-west-creek-restoration"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/corte-madera-creek-flood-risk-management"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/lagoon-park-restroom-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/mcinnis-park-restroom-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/mill-valley-sausalito-mup-and-marsh-adaptation-design"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/lagoon-park-pathway-gap-closure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/10-nsp-mechanical-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/novato-library-rehabilitation-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/20-nsp-mechanical-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/120-n-redwood-hhs-cabling-modernization"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/juvenile-hall-accessibility"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/jail-entry-gate"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/marin-civic-center-window-film"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/demo-concessions-building-and-temp-storage-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/space-planning-misc-projects"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/civic-center-and-marin-center-exterior-lighting-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/civic-center-hvac-chilled-water-plant"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/civic-center-caf-renovations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/wayfinding-signage-civic-center-vma-and-marin-center"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/civic-center-south-arch-ramp-lift-and-visitor-booth"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/mcc-hvac-phase-4-computer-room-reliability"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/marin-civic-center-skylight-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/mcc-hvac-phase-3-hot-water-plant-upgrades"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/assessor-finance-department-shared-counter-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/ricardo-lane-sidewalk"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/install-radar-speed-feedback-signs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/2028-ped-bike-and-safety-quick-build-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/san-antonio-rd-widening-and-bike-lanes"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/nsp-venetia-valley-school-crosswalk-improvement-bulb-outs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/marinwood-new-traffic-signals-marinwood-miller-miller-las-gallinas-mt-lassen-lucas-valley"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/ada-ramps-at-butterfield-rd-and-green-valley-ct"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/sfd-traffic-signal-upgrades-various-locations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/marin-ave-pedestrian-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/flap-muir-woods-road"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/sir-francis-drake-boulevard-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/nicasio-valley-road-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/guardrail-maintenance-repair-and-installation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/panoramic-hwy-shoreline-hwy-to-gravity-car-shoulder-widening-and-turnouts"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/pt-reyes-petaluma-rd-nicasio-valley-rd-to-novato-blvd-shoulder-widening"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/lucas-valley-rd-mp-4-75-slide-repair-ca23-6"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/45-park-street-woodacre-slip-out-repair"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/bridge-deck-maintenance"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/2028-slide-repair-retaining-wall"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/sfd-at-inverness-slide-repairs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/strawberry-ped-overcrossing-27-0076-evaluation-and-repair"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/2028-pavement-preventative-maintenance-crackseal-digouts-etc"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/2028-pavement-rehabilitation-resurfacing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/2028-pavement-surface-treatment"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/panoramic-hwy-four-corners-striping-and-signage"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/resurface-valley-ford-gericke-rd"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/wharf-road-slide-repair-79"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fairfax-bolinas-slide-repair-mp-6-95"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/bolinas-beach-seawall-repairs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/west-marin-compost-facility-improvements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/paradise-cay-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/greenwood-cove-flood-improvement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/environmental-mitigation-maintenance-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/college-ave-corridor-study"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/update-bike-ped-countywide-plan"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/fire-facilities-cop-financing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/tam-measure-b"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/revenue/other-fees"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/fire-facilities-cop-financing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2027-28/fund-source/expenditure/other-fees"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/cip-fy2028-29",
+   "@type": "Budget",
+   "name": "County of Marin Capital Improvement Plan FY 2028-29 (programmed)",
+   "description": "Capital projects and their funding for this fiscal year, as printed in the County of Marin FY 2027-31 Proposed Capital Improvement Plan.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "planned",
+   "fiscalYear": "2028-29",
+   "startDate": "2028-07-01",
+   "endDate": "2029-06-30",
+   "currency": "USD",
+   "dateModified": "2026-11-10",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/mcfd-headquarters-san-geronimo-commons"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/throckmorton-fire-station-ac-paving"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/gallinas-creek-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/2029-drainage-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/crest-marin-pump-station-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/marin-city-gateway-pump-station"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/east-and-west-creek-restoration"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/corte-madera-creek-flood-risk-management"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/mill-valley-sausalito-mup-and-marsh-adaptation-design"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/lagoon-park-pathway-gap-closure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/10-nsp-mechanical-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/20-nsp-mechanical-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/3070-3270-hhs-kerner-campus-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/juvenile-service-center-mechanical-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/civic-center-library-rehabilitation-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/space-planning-misc-projects"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/mcc-hvac-phase-5-air-side-system-hoj-phasing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/civic-center-and-marin-center-exterior-lighting-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/mcc-hvac-phase-4-computer-room-reliability"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/marin-civic-center-skylight-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/mcc-hvac-phase-3-hot-water-plant-upgrades"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/drake-and-donahue-intersection-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/east-sir-francis-drake-bay-trail-multiuse-path-gap-closure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/install-radar-speed-feedback-signs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/2029-ped-bike-and-safety-quick-build-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/san-antonio-rd-widening-and-bike-lanes"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/marinwood-new-traffic-signals-marinwood-miller-miller-las-gallinas-mt-lassen-lucas-valley"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/e-strawberry-dr-from-131-to-belvedere-intersection-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/sir-francis-drake-boulevard-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/lucas-valley-road-at-miller-creek-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/marshall-petaluma-at-salmon-creek-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/guardrail-maintenance-repair-and-installation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/panoramic-hwy-shoreline-hwy-to-gravity-car-shoulder-widening-and-turnouts"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/pt-reyes-petaluma-rd-nicasio-valley-rd-to-novato-blvd-shoulder-widening"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/2029-slide-repair-retaining-wall"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/2029-pavement-preventative-maintenance-crackseal-digouts-etc"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/2029-pavement-rehabilitation-resurfacing-inc-parks-ac"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/2029-pavement-surface-treatment"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/paradise-cay-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/greenwood-cove-flood-improvement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/environmental-mitigation-maintenance-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/fire-facilities-cop-financing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/revenue/other-fees"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/fire-facilities-cop-financing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2028-29/fund-source/expenditure/other-fees"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/cip-fy2029-30",
+   "@type": "Budget",
+   "name": "County of Marin Capital Improvement Plan FY 2029-30 (programmed)",
+   "description": "Capital projects and their funding for this fiscal year, as printed in the County of Marin FY 2027-31 Proposed Capital Improvement Plan.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "planned",
+   "fiscalYear": "2029-30",
+   "startDate": "2029-07-01",
+   "endDate": "2030-06-30",
+   "currency": "USD",
+   "dateModified": "2026-11-10",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/gallinas-creek-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/2030-drainage-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/crest-marin-pump-station-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/marin-city-gateway-pump-station"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/east-and-west-creek-restoration"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/corte-madera-creek-flood-risk-management"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/stafford-park-waterline-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/10-nsp-mechanical-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fairfax-library-rehabilitation-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/3070-3270-hhs-kerner-campus-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/juvenile-service-center-mechanical-bms"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/space-planning-misc-projects"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/mcc-hvac-phase-5-air-side-system-hoj-phasing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/civic-center-and-marin-center-exterior-lighting-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/mcc-hvac-phase-6-air-side-system-admin-building"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/marin-civic-center-skylight-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/mcc-hvac-phase-3-hot-water-plant-upgrades"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/install-radar-speed-feedback-signs"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/2030-ped-bike-and-safety-quick-build-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/e-strawberry-dr-from-131-to-belvedere-intersection-enhancements"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/replace-sfd-pedestrian-railing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/lucas-valley-road-at-miller-creek-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/nicasio-valley-road-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/lomita-drive-pavement-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/guardrail-maintenance-repair-and-installation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/bridge-deck-maintenance"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/repair-san-geronimo-bridge-over-nicasio-valley-rd"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/2030-slide-repair-retaining-wall"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/2030-pavement-preventative-maintenance-crackseal-digouts-etc"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/2030-pavement-rehabilitation-resurfacing-inc-parks-ac"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/2030-pavement-surface-treatment"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/hicks-valley-road-resurfacing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/paradise-cay-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/greenwood-cove-flood-improvement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/environmental-mitigation-maintenance-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/labrea-and-galerita-drainage"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/revenue/other-fees"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2029-30/fund-source/expenditure/other-fees"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/cip-fy2030-31",
+   "@type": "Budget",
+   "name": "County of Marin Capital Improvement Plan FY 2030-31 (programmed)",
+   "description": "Capital projects and their funding for this fiscal year, as printed in the County of Marin FY 2027-31 Proposed Capital Improvement Plan.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "planned",
+   "fiscalYear": "2030-31",
+   "startDate": "2030-07-01",
+   "endDate": "2031-06-30",
+   "currency": "USD",
+   "dateModified": "2026-11-10",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/gallinas-creek-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/2031-drainage-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/crest-marin-pump-station-rehabilitation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/east-and-west-creek-restoration"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/park-ac-corte-madera-pathway"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/corte-madera-library-rehabilitation-project"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/space-planning-misc-projects"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/mcc-hvac-phase-5-air-side-system-hoj-phasing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/mcc-hvac-phase-6-air-side-system-admin-building"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/2031-ped-bike-and-safety-quick-build-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/novato-blvd-bowman-vehicular-bridge-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/guardrail-maintenance-repair-and-installation"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/tomales-petaluma-rd-mp-3-80-wall-replacement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/2031-slide-repair-retaining-wall"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/2031-pavement-preventative-maintenance-crackseal-digouts-etc"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/2031-pavement-rehabilitation-resurfacing-inc-parks-ac"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/2031-pavement-surface-treatment"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/hicks-valley-road-resurfacing"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/paradise-cay-dredge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/greenwood-cove-flood-improvement"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/environmental-mitigation-maintenance-program"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/drainage-inventory-updates-asset-management"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/hhs-operating-and-other-grant-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/revenue/other-fees"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/general-fund-annual-facilities"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/general-fund-annual-road-and-bridge"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/reserves-and-admin-designations"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/library-measure-b-and-other-revenues"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/sb-1-rmra-gas-tax"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/grants"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/tam-measure-aa"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/special-district-funds"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/cip-fy2030-31/fund-source/expenditure/other-fees"
+    }
+   ]
+  }
+ ]
+}

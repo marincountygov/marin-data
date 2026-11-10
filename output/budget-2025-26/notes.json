@@ -1,0 +1,118 @@
+{
+ "notes": [
+  "Figures are whole dollars as the book prints them.",
+  "The book prints four columns: 2023-24 Actual, 2024-25 Estimated, 2025-26 Recommended and 2025-26 Adopted by the Board of Supervisors.",
+  "In the data, Actual is an executed budget, Estimated an adjusted one, Recommended a proposed one and Adopted an approved one; schemaGov has no estimated phase.",
+  "These figures are kept apart from the FY 2026-28 book, which also prints FY 2025-26 (as Approved).",
+  "Budget lines on this page are the book's Schedule 8: each budget unit under the function and activity it is listed in."
+ ],
+ "unitsWithoutOrganization": [
+  {
+   "unit": "000",
+   "name": "UNDEFINED"
+  },
+  {
+   "unit": "653",
+   "name": "WASTE MANAGEMENT JPA"
+  },
+  {
+   "unit": "659",
+   "name": "MARIN COUNTY OPEN SPACE"
+  },
+  {
+   "unit": "900",
+   "name": "NON DEPARTMENTAL"
+  }
+ ],
+ "unreadableCells": [
+  {
+   "page": 51,
+   "label": "Total 2550 Luiz Ranch Endowment",
+   "column": 2
+  },
+  {
+   "page": 71,
+   "label": "Total 3370 Woodacre Creek",
+   "column": 2
+  },
+  {
+   "page": 77,
+   "label": "Total 3540 SAFETY HELMET VIOLATIONS",
+   "column": 2
+  },
+  {
+   "page": 83,
+   "label": "Total 6520 Asset Forfeiture",
+   "column": 2
+  }
+ ],
+ "totalsThatDifferFromTheirParts": [
+  {
+   "line": "FY 2023-24 (actual): General Government, Finance",
+   "printed": 18960900,
+   "parts": 18960899,
+   "difference": -1
+  },
+  {
+   "line": "FY 2023-24 (actual): General Government, Plant Acquisition",
+   "printed": 26528469,
+   "parts": 26528470,
+   "difference": 1
+  },
+  {
+   "line": "FY 2023-24 (actual): General Government, Property Management",
+   "printed": 11061359,
+   "parts": 11061358,
+   "difference": -1
+  },
+  {
+   "line": "FY 2023-24 (actual): General Government",
+   "printed": 171705707,
+   "parts": 171705708,
+   "difference": 1
+  },
+  {
+   "line": "FY 2024-25 (estimated): General Government",
+   "printed": 192080000,
+   "parts": 192080002,
+   "difference": 2
+  },
+  {
+   "line": "FY 2024-25 (estimated): Public Protection, Judicial",
+   "printed": 32464633,
+   "parts": 32464634,
+   "difference": 1
+  },
+  {
+   "line": "FY 2023-24 (actual): Public Protection, Other Protection",
+   "printed": 42703878,
+   "parts": 42703880,
+   "difference": 2
+  },
+  {
+   "line": "FY 2023-24 (actual): Public Protection",
+   "printed": 236904864,
+   "parts": 236904863,
+   "difference": -1
+  },
+  {
+   "line": "FY 2023-24 (actual): Health and Sanitation, Health",
+   "printed": 272513535,
+   "parts": 272513534,
+   "difference": -1
+  },
+  {
+   "line": "FY 2023-24 (actual): Public Assistance, Other Assistance",
+   "printed": 26469478,
+   "parts": 26469477,
+   "difference": -1
+  },
+  {
+   "line": "FY 2023-24 (actual): Public Assistance",
+   "printed": 155451985,
+   "parts": 155451986,
+   "difference": 1
+  }
+ ],
+ "fundsAddedToTheDataset": 106
+}

@@ -1,0 +1,318 @@
+{
+ "checks": [
+  {
+   "check": "Schedule 1 total financing uses = total financing sources",
+   "got": 1204806257,
+   "want": 1204806257,
+   "ok": true
+  },
+  {
+   "check": "Schedule 1 additional financing + fund balance + decreases = total financing sources",
+   "got": 1204806257,
+   "want": 1204806257,
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 groups add to Schedule 1 governmental total, column 1",
+   "got": 65079920,
+   "want": 65079920,
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 groups add to Schedule 1 governmental total, column 2",
+   "got": 57003003,
+   "want": 57003003,
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 groups add to Schedule 1 governmental total, column 3",
+   "got": 1021775848,
+   "want": 1021775848,
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 groups add to Schedule 1 governmental total, column 4",
+   "got": 1143858771,
+   "want": 1143858771,
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 groups add to Schedule 1 governmental total, column 5",
+   "got": 1068043135,
+   "want": 1068043135,
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 groups add to Schedule 1 governmental total, column 6",
+   "got": 75815636,
+   "want": 75815636,
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 groups add to Schedule 1 governmental total, column 7",
+   "got": 1143858771,
+   "want": 1143858771,
+   "ok": true
+  },
+  {
+   "check": "Schedule 5 sources add to their total, 2023-24 Actual",
+   "got": 1051554702,
+   "want": 1051554701,
+   "ok": true,
+   "difference": 1
+  },
+  {
+   "check": "Schedule 5 sources add to their total, 2024-25 Estimated",
+   "got": 1175386428,
+   "want": 1175386427,
+   "ok": true,
+   "difference": 1
+  },
+  {
+   "check": "Schedule 5 sources add to their total, 2025-26 Recommended",
+   "got": 1021775848,
+   "want": 1021775848,
+   "ok": true
+  },
+  {
+   "check": "Schedule 5 sources add to their total, 2025-26 Adopted by the Board of Supervisors",
+   "got": 1021775848,
+   "want": 1021775848,
+   "ok": true
+  },
+  {
+   "check": "Schedule 5 total (adopted) = Schedule 1 governmental additional financing sources",
+   "got": 1021775848,
+   "want": 1021775848,
+   "ok": true
+  },
+  {
+   "check": "Schedule 7 subtotal (adopted) = Schedule 1 governmental financing uses",
+   "got": 1068043135,
+   "want": 1068043135,
+   "ok": true
+  },
+  {
+   "check": "Schedule 7 functions add to their total, 2023-24 Actual",
+   "got": 965884270,
+   "want": 965884270,
+   "ok": true
+  },
+  {
+   "check": "Schedule 7 functions add to their total, 2024-25 Estimated",
+   "got": 1043233624,
+   "want": 1043233624,
+   "ok": true
+  },
+  {
+   "check": "Schedule 7 functions add to their total, 2025-26 Recommended",
+   "got": 1022966936,
+   "want": 1022966936,
+   "ok": true
+  },
+  {
+   "check": "Schedule 7 functions add to their total, 2025-26 Adopted by the Board of Supervisors",
+   "got": 1022966936,
+   "want": 1022966936,
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, General Government",
+   "got": [
+    171705707,
+    192080000,
+    157978881,
+    157978881
+   ],
+   "want": [
+    171705707,
+    192080000,
+    157978881,
+    157978881
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, Public Protection",
+   "got": [
+    236904864,
+    245256377,
+    239882005,
+    239882005
+   ],
+   "want": [
+    236904864,
+    245256377,
+    239882005,
+    239882005
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, Public Ways and Facilities",
+   "got": [
+    45124577,
+    41239491,
+    33494419,
+    33494419
+   ],
+   "want": [
+    45124577,
+    41239491,
+    33494419,
+    33494419
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, Health and Sanitation",
+   "got": [
+    279252415,
+    323674961,
+    343178481,
+    343178481
+   ],
+   "want": [
+    279252415,
+    323674961,
+    343178481,
+    343178481
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, Public Assistance",
+   "got": [
+    155451985,
+    160602828,
+    169873848,
+    169873848
+   ],
+   "want": [
+    155451985,
+    160602828,
+    169873848,
+    169873848
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, Education",
+   "got": [
+    23833433,
+    24428422,
+    26169355,
+    26169355
+   ],
+   "want": [
+    23833433,
+    24428422,
+    26169355,
+    26169355
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, Recreation and Cultural Services",
+   "got": [
+    32000237,
+    33844033,
+    29942034,
+    29942034
+   ],
+   "want": [
+    32000237,
+    33844033,
+    29942034,
+    29942034
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 8 function total = Schedule 7, Debt Service",
+   "got": [
+    21611052,
+    22107512,
+    22447913,
+    22447913
+   ],
+   "want": [
+    21611052,
+    22107512,
+    22447913,
+    22447913
+   ],
+   "ok": true
+  },
+  {
+   "check": "Schedule 2 rows: sources add up and equal uses",
+   "rows": 136,
+   "wrong": [],
+   "ok": true
+  },
+  {
+   "check": "Schedule 12 rows: sources add up and equal uses",
+   "rows": 59,
+   "wrong": [],
+   "ok": true
+  },
+  {
+   "check": "Schedule 3 rows: total fund balance less obligated = available",
+   "rows": 142,
+   "wrong": [],
+   "ok": true
+  },
+  {
+   "check": "Schedule 13 rows: total fund balance less obligated = available",
+   "rows": 59,
+   "wrong": [],
+   "ok": true
+  },
+  {
+   "check": "Schedule 4 rows: balance less decreases plus increases = total",
+   "rows": 576,
+   "wrong": [],
+   "ok": true
+  },
+  {
+   "check": "Schedule 14 rows: balance less decreases plus increases = total",
+   "rows": 58,
+   "wrong": [],
+   "ok": true
+  },
+  {
+   "check": "Personnel by department (2025-26 adopted FTE) = Grand Total by fund",
+   "got": 2575.01,
+   "want": 2575.01,
+   "ok": true
+  },
+  {
+   "check": "Personnel by fund: Operating + Open Space = Grand Total",
+   "got": 2575.01,
+   "want": 2575.01,
+   "ok": true
+  }
+ ],
+ "unreadable": [
+  {
+   "page": 51,
+   "label": "Total 2550 Luiz Ranch Endowment",
+   "column": 2
+  },
+  {
+   "page": 71,
+   "label": "Total 3370 Woodacre Creek",
+   "column": 2
+  },
+  {
+   "page": 77,
+   "label": "Total 3540 SAFETY HELMET VIOLATIONS",
+   "column": 2
+  },
+  {
+   "page": 83,
+   "label": "Total 6520 Asset Forfeiture",
+   "column": 2
+  }
+ ]
+}

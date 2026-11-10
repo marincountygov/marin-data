@@ -1,0 +1,145 @@
+[
+  {
+    "department": "MARIN COUNTY FIRE",
+    "row": "WASTE MANAGEMENT",
+    "page": 243,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/public-works-waste-management"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "BOARD OF SUPERVISORS",
+    "row": "CLERK OF THE BOARD",
+    "page": 248,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-clerk-of-the-board"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "OFFICE OF THE COUNTY EXECUTIVE",
+    "row": "RISK MANAGEMENT",
+    "page": 249,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/hr-risk-management"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "OFFICE OF THE COUNTY EXECUTIVE",
+    "row": "RISK MANAGEMENT",
+    "page": 249,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/hr-risk-management"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "COUNTY CLERK",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-county-clerk"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "PROPERTY TAX",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/finance-property-tax"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "RECORDING OPERATIONS",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-recording-operations"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "VITAL STATISTICS",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-vital-statistics",
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-vital-statistics"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "ELECTRONIC RECORDING",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-electronic-recording"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "RECORDS MODERNIZATION",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-records-modernization"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "TAX COLLECTOR",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/finance-tax-collector"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "RECORDING OPERATIONS",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-recording-operations"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "RECORDS MODERNIZATION",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-records-modernization"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "ELECTRONIC RECORDING",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-electronic-recording"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "department": "ASSESSOR RECORDER-COUNTY CLERK",
+    "row": "VITAL STATISTICS",
+    "page": 250,
+    "candidates": [
+      "https://marincountygov.github.io/marin-data/id/program/hhs-public-health-vital-statistics",
+      "https://marincountygov.github.io/marin-data/id/program/county-executive-vital-statistics"
+    ],
+    "reason": "A program of that name exists, but it is administered by another organization"
+  },
+  {
+    "note": "The book prints the second Health and Human Services Program Overview page again under the Public Safety heading; the repeat is read once.",
+    "pages": [
+      241
+    ]
+  }
+]

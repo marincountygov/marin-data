@@ -1,0 +1,2211 @@
+{
+ "@context": "https://schema.govfresh.com/v1/context.jsonld",
+ "@graph": [
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/fy2023-24-executed",
+   "@type": "Budget",
+   "name": "County of Marin FY 2023-24 (actual)",
+   "description": "Figures for fiscal year 2023-24 as printed in the County of Marin Final Budget FY 2025-26.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "executed",
+   "fiscalYear": "2023-24",
+   "startDate": "2023-07-01",
+   "endDate": "2024-06-30",
+   "currency": "USD",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-communication/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-communication/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-county-counsel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-county-counsel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-elections/unit-390/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-elections/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-finance/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-finance/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-finance/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-finance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-legislative-and-administrative/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-legislative-and-administrative/unit-330/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-legislative-and-administrative/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-legislative-and-administrative/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-legislative-and-administrative/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-other-general/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-other-general/unit-360/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-other-general/unit-380/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-other-general/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-other-general/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-other-general/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-personnel/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-personnel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-personnel/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-personnel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-plant-acquisition/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-plant-acquisition/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-plant-acquisition/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-plant-acquisition/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-property-management/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-property-management/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-property-management/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/activity-property-management/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-general-government/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-detention-and-correction/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-detention-and-correction/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-detention-and-correction/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-fire-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-fire-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-fire-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-653/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-judicial/unit-200/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-judicial/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-judicial/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-judicial/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-judicial/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-other-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-police-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-police-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-protective-inspection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-protective-inspection/unit-500/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/activity-protective-inspection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-ways-and-facilities/activity-park-facilities/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-ways-and-facilities/activity-park-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-ways-and-facilities/activity-public-ways/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-ways-and-facilities/activity-public-ways/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-ways-and-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-california-children-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-california-children-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-health/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-health/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-health/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-health/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-health/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-health-and-sanitation/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-administration/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-administration/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-other-assistance/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-other-assistance/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-other-assistance/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-other-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-veterans-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/activity-veterans-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-public-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-education/activity-agricultural-education/unit-510/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-education/activity-agricultural-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-education/activity-library-services/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-education/activity-library-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-recreation-and-cultural-services/activity-cultural-services/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-recreation-and-cultural-services/activity-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-recreation-and-cultural-services/activity-recreation-facilities/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-recreation-and-cultural-services/activity-recreation-facilities/unit-659/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-recreation-and-cultural-services/activity-recreation-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-recreation-and-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-debt-service/activity-debt-service/unit-000/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-debt-service/activity-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/function-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-taxes/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-licenses-permits-and-franchises/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-fines-forfeitures-and-penalties/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-use-of-money-and-property/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-intergovernmental-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-charges-for-current-services/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-miscellaneous-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2023-24-executed/source-other-financing-sources/revenue"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/fy2024-25-estimated",
+   "@type": "Budget",
+   "name": "County of Marin FY 2024-25 (estimated)",
+   "description": "Figures for fiscal year 2024-25 as printed in the County of Marin Final Budget FY 2025-26.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "adjusted",
+   "fiscalYear": "2024-25",
+   "startDate": "2024-07-01",
+   "endDate": "2025-06-30",
+   "currency": "USD",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-communication/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-communication/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-county-counsel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-county-counsel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-elections/unit-390/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-elections/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-finance/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-finance/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-finance/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-finance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-legislative-and-administrative/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-legislative-and-administrative/unit-330/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-legislative-and-administrative/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-legislative-and-administrative/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-legislative-and-administrative/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-other-general/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-other-general/unit-360/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-other-general/unit-380/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-other-general/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-other-general/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-other-general/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-personnel/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-personnel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-personnel/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-personnel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-plant-acquisition/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-plant-acquisition/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-plant-acquisition/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-plant-acquisition/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-property-management/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-property-management/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-property-management/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/activity-property-management/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-general-government/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-detention-and-correction/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-detention-and-correction/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-detention-and-correction/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-fire-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-fire-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-fire-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-653/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-judicial/unit-200/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-judicial/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-judicial/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-judicial/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-judicial/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-other-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-police-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-police-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-protective-inspection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-protective-inspection/unit-500/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/activity-protective-inspection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-ways-and-facilities/activity-park-facilities/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-ways-and-facilities/activity-park-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-ways-and-facilities/activity-public-ways/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-ways-and-facilities/activity-public-ways/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-ways-and-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-california-children-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-california-children-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-health/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-health/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-health/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-health/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-health/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-health-and-sanitation/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-administration/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-administration/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-other-assistance/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-other-assistance/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-other-assistance/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-other-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-veterans-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/activity-veterans-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-public-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-education/activity-agricultural-education/unit-510/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-education/activity-agricultural-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-education/activity-library-services/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-education/activity-library-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-recreation-and-cultural-services/activity-cultural-services/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-recreation-and-cultural-services/activity-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-recreation-and-cultural-services/activity-recreation-facilities/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-recreation-and-cultural-services/activity-recreation-facilities/unit-659/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-recreation-and-cultural-services/activity-recreation-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-recreation-and-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-debt-service/activity-debt-service/unit-000/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-debt-service/activity-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/function-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-taxes/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-licenses-permits-and-franchises/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-fines-forfeitures-and-penalties/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-use-of-money-and-property/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-intergovernmental-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-charges-for-current-services/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-miscellaneous-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2024-25-estimated/source-other-financing-sources/revenue"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/fy2025-26-recommended",
+   "@type": "Budget",
+   "name": "County of Marin FY 2025-26 (recommended)",
+   "description": "Figures for fiscal year 2025-26 as printed in the County of Marin Final Budget FY 2025-26.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "proposed",
+   "fiscalYear": "2025-26",
+   "startDate": "2025-07-01",
+   "endDate": "2026-06-30",
+   "currency": "USD",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-communication/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-communication/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-county-counsel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-county-counsel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-elections/unit-390/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-elections/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-finance/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-finance/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-finance/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-finance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-legislative-and-administrative/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-legislative-and-administrative/unit-330/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-legislative-and-administrative/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-legislative-and-administrative/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-legislative-and-administrative/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-other-general/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-other-general/unit-360/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-other-general/unit-380/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-other-general/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-other-general/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-other-general/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-personnel/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-personnel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-personnel/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-personnel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-plant-acquisition/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-plant-acquisition/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-plant-acquisition/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-plant-acquisition/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-property-management/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-property-management/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-property-management/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/activity-property-management/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-general-government/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-detention-and-correction/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-detention-and-correction/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-detention-and-correction/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-fire-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-fire-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-fire-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-653/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-judicial/unit-200/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-judicial/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-judicial/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-judicial/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-judicial/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-other-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-police-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-police-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-protective-inspection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-protective-inspection/unit-500/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/activity-protective-inspection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-ways-and-facilities/activity-park-facilities/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-ways-and-facilities/activity-park-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-ways-and-facilities/activity-public-ways/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-ways-and-facilities/activity-public-ways/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-ways-and-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-california-children-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-california-children-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-health/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-health/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-health/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-health/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-health/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-health-and-sanitation/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-administration/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-administration/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-other-assistance/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-other-assistance/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-other-assistance/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-other-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-veterans-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/activity-veterans-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-public-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-education/activity-agricultural-education/unit-510/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-education/activity-agricultural-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-education/activity-library-services/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-education/activity-library-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-recreation-and-cultural-services/activity-cultural-services/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-recreation-and-cultural-services/activity-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-recreation-and-cultural-services/activity-recreation-facilities/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-recreation-and-cultural-services/activity-recreation-facilities/unit-659/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-recreation-and-cultural-services/activity-recreation-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-recreation-and-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-debt-service/activity-debt-service/unit-000/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-debt-service/activity-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/function-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-taxes/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-licenses-permits-and-franchises/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-fines-forfeitures-and-penalties/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-use-of-money-and-property/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-intergovernmental-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-charges-for-current-services/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-miscellaneous-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-recommended/source-other-financing-sources/revenue"
+    }
+   ]
+  },
+  {
+   "@id": "https://marincountygov.github.io/marin-data/id/budget/fy2025-26-adopted",
+   "@type": "Budget",
+   "name": "County of Marin FY 2025-26 (adopted by the Board of Supervisors)",
+   "description": "Figures for fiscal year 2025-26 as printed in the County of Marin Final Budget FY 2025-26.",
+   "publisher": {
+    "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+   },
+   "about": {
+    "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+   },
+   "budgetPhase": "approved",
+   "fiscalYear": "2025-26",
+   "startDate": "2025-07-01",
+   "endDate": "2026-06-30",
+   "currency": "USD",
+   "budgetLine": [
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-communication/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-communication/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-county-counsel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-county-counsel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-elections/unit-390/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-elections/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-finance/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-finance/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-finance/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-finance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-legislative-and-administrative/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-legislative-and-administrative/unit-330/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-legislative-and-administrative/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-legislative-and-administrative/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-legislative-and-administrative/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-other-general/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-other-general/unit-360/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-other-general/unit-380/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-other-general/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-other-general/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-other-general/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-personnel/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-personnel/unit-340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-personnel/unit-350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-personnel/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-plant-acquisition/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-plant-acquisition/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-plant-acquisition/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-plant-acquisition/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-property-management/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-property-management/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-property-management/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/activity-property-management/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-general-government/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-detention-and-correction/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-detention-and-correction/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-detention-and-correction/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-fire-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-fire-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-fire-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/unit-653/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-flood-cntrl-and-soil-and-water-conserv/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-judicial/unit-200/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-judicial/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-judicial/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-judicial/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-judicial/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-other-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-police-protection/unit-260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-police-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-protective-inspection/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-protective-inspection/unit-500/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/activity-protective-inspection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-protection/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-ways-and-facilities/activity-park-facilities/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-ways-and-facilities/activity-park-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-ways-and-facilities/activity-public-ways/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-ways-and-facilities/activity-public-ways/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-ways-and-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-california-children-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-california-children-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-health/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-health/unit-240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-health/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-health/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-health/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/unit-410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/activity-sanitation-refuse-collect-and-disposal/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-health-and-sanitation/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-administration/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-administration/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-other-assistance/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-other-assistance/unit-400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-other-assistance/unit-900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-other-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-veterans-services/unit-100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/activity-veterans-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-public-assistance/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-education/activity-agricultural-education/unit-510/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-education/activity-agricultural-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-education/activity-library-services/unit-540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-education/activity-library-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-education/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-recreation-and-cultural-services/activity-cultural-services/unit-530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-recreation-and-cultural-services/activity-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-recreation-and-cultural-services/activity-recreation-facilities/unit-520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-recreation-and-cultural-services/activity-recreation-facilities/unit-659/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-recreation-and-cultural-services/activity-recreation-facilities/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-recreation-and-cultural-services/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-debt-service/activity-debt-service/unit-000/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-debt-service/activity-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/function-debt-service/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-taxes/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-licenses-permits-and-franchises/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-fines-forfeitures-and-penalties/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-use-of-money-and-property/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-intergovernmental-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-charges-for-current-services/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-miscellaneous-revenues/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/source-other-financing-sources/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1000/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1000/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1010/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1010/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1730/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1730/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1740/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1740/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2010/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2010/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2020/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2020/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2030/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2030/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2040/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2040/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2050/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2050/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2060/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2060/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2070/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2070/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2080/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2080/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2090/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2090/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2100/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2100/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2110/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2110/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2120/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2120/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2130/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2130/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2140/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2140/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2150/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2150/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2160/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2160/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2170/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2170/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2180/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2180/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2200/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2200/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2210/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2210/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2220/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2220/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2230/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2230/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2240/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2250/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2250/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2260/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2260/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2270/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2270/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2280/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2280/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2290/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2290/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2300/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2300/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2310/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2310/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2320/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2320/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2330/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2330/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2340/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2340/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2350/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2350/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2360/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2360/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2370/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2370/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2380/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2380/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2410/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2420/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2420/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2430/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2430/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2440/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2440/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2450/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2450/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2460/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2460/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2470/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2470/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2480/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2480/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2490/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2490/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2500/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2500/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2510/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2510/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2520/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2530/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2550/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2550/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2560/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2560/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2570/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2570/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2580/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2580/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2590/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2590/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2600/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2600/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2610/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2610/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2620/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2620/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2630/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2630/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2640/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2640/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2650/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2650/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2660/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2660/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2670/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2670/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2680/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2680/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2690/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2690/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2700/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2700/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2720/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2720/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2730/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2730/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2740/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2740/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2770/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2770/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2780/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2780/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2790/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2790/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2800/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2800/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2810/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2810/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2820/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2820/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2830/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2830/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2840/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2840/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2850/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2850/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2860/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2860/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2870/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2870/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2880/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2880/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2890/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2890/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2900/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2900/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2920/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2920/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2930/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2930/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2940/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2940/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2950/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2950/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2960/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2960/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2970/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2970/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2980/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-2980/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3370/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3370/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3390/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3390/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3420/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3420/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3430/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3430/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3440/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3440/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3450/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3450/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3480/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3480/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3500/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3500/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3510/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3510/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3520/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3530/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3530/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3540/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3540/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3550/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3550/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3560/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3560/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3580/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3580/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3590/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-3590/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6240/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6240/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6360/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6360/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6370/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6370/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6380/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6380/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6400/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6400/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6440/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6440/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6450/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6450/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6460/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6460/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6520/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-6520/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1410/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1410/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1420/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1420/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1430/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1430/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1440/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1440/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1600/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1600/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1610/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1610/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1630/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1630/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1660/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1660/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1680/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1680/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1700/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1700/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1710/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1710/revenue"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1720/expenditure"
+    },
+    {
+     "@id": "https://marincountygov.github.io/marin-data/id/budget-line/fy2025-26-adopted/fund-1720/revenue"
+    }
+   ]
+  }
+ ]
+}

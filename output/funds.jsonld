@@ -1,0 +1,369 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/1000",
+      "@type": "Fund",
+      "name": "General Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "1000"
+        }
+      ],
+      "description": "The General Fund is the primary operating fund of the County and is used to account for all financial resources except those required by law or practice to be accounted for in another fund. It supports many of the essential County services such as health, safety and administration. Miscellaneous projects and countywide emergency response are accounted for in Fund 1010, which is a subset of the General Fund, and includes expenditures that are non-recurring and may span multiple years."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/1420",
+      "@type": "Fund",
+      "name": "Countywide Capital Projects Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "1420"
+        }
+      ],
+      "description": "The Miscellaneous Capital Projects Fund is a general government fund used to account for revenues and expenditures related to capital improvements and infrastructure rehabilitation, and is funded primarily through contributions from the General Fund as approved in the Capital Infrastructure Plan (CIP), as well as from contributions from other funds for specific projects."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/1430",
+      "@type": "Fund",
+      "name": "Road And Bridge Capital Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "1430"
+        }
+      ],
+      "description": "The Road and Bridge Capital Fund is a general government fund used to account for revenues and expenditures related to the County’s Road and Bridge Infrastructure Program. The fund’s primary revenue sources are transfers from the General Fund and other roadway maintenance funds, as well as funds from SB 1 gas tax and the Transportation Authority of Marin (TAM)."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/1680",
+      "@type": "Fund",
+      "name": "Certificate Of Participation Funds (1680)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "1680"
+        }
+      ],
+      "description": "The Certificate of Participation (COP) Funds are issued by the County to fund major capital improvement projects. In 2015 the County refinanced the COP to provide $25 million for improvements to the Civic Center roof and Marin Center."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/1720",
+      "@type": "Fund",
+      "name": "Certificate Of Participation Funds (1720)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "1720"
+        }
+      ],
+      "description": "The Certificate of Participation (COP) Funds are issued by the County to fund major capital improvement projects. In 2015 the County refinanced the COP to provide $25 million for improvements to the Civic Center roof and Marin Center."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2080",
+      "@type": "Fund",
+      "name": "Building Inspection Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2080"
+        }
+      ],
+      "description": "The Building Inspection Fund is a special revenue fund that was established to account for the provision of building inspection, plan filing and building permits to the residents of the County and to enforce building code. Funding is provided by fees charged to external users, and all activities necessary to provide such services are accounted for in this fund."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2090",
+      "@type": "Fund",
+      "name": "Environmental Health Services Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2090"
+        }
+      ],
+      "description": "The Environmental Health Services Fund is a special revenue fund that accounts for the provision of the County’s comprehensive Environmental Health program, which includes the promotion of environmental health, control of communicable diseases and the promotion of the well-being of County residents. The fund receives revenue primarily from the issuance of permits and licenses to fund its inspections for public health protection."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2100",
+      "@type": "Fund",
+      "name": "Housing And Urban Development Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2100"
+        }
+      ],
+      "description": "The Housing and Urban Development Fund is a special revenue fund established to account for federal and state grant proceeds that are generally obtained from the Department of Housing and Urban Development (HUD) and may only be used for the purposes stipulated in the grant agreements."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2120",
+      "@type": "Fund",
+      "name": "Child Support Services Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2120"
+        }
+      ],
+      "description": "The Child Support Services Fund is a special revenue fund that was established to provide for establishing and enforcing orders for child support. The fund receives federal and state funding, as well as funding from the County Public Assistance Recoupment Fund."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2150",
+      "@type": "Fund",
+      "name": "Mcera Employees",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2150"
+        }
+      ],
+      "description": "The Marin County Employee Retirement Association (MCERA) is an independent special district, governed by the Retirement Board. This County fund (2150) accounts solely for the salaries and benefits of MCERA employees. The MCERA Operations special district fund (7007) accounts for all other revenues and expenditures of MCERA."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2160",
+      "@type": "Fund",
+      "name": "Road Maintenance Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2160"
+        }
+      ],
+      "description": "The Road Maintenance Fund is a special revenue fund that accounts for revenues and expenditures related to road maintenance activities in unincorporated areas of the County. The fund receives revenue primarily from license fees, gas tax and transfers from the General Fund."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/1991",
+      "@type": "Fund",
+      "name": "Hhs Social Services Realignment (1991 Realignment) (1991)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "1991"
+        }
+      ],
+      "description": "The HHS Social Services Realignment Fund provides funding to support a variety of social and mental health services whose responsibility shifted from the state to Counties as part of the 1991 Realignment legislative package. Realignment funds support the cost of mandated service level requirements for various programs, including support for children’s services like CalWorks, CalFresh and other eligibility programs, as well low-income support for health and mental care services. Dedicated funding is based on statewide sales tax and vehicle license registration fees."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2320",
+      "@type": "Fund",
+      "name": "Hhs Social Services Realignment (1991 Realignment) (2320)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2320"
+        }
+      ],
+      "description": "The HHS Social Services Realignment Fund provides funding to support a variety of social and mental health services whose responsibility shifted from the state to Counties as part of the 1991 Realignment legislative package. Realignment funds support the cost of mandated service level requirements for various programs, including support for children’s services like CalWorks, CalFresh and other eligibility programs, as well low-income support for health and mental care services. Dedicated funding is based on statewide sales tax and vehicle license registration fees."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2380",
+      "@type": "Fund",
+      "name": "Mental Health Services Act - Prop 63",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2380"
+        }
+      ],
+      "description": "The Mental Health Services Act is a special revenue fund established by Proposition 63, a California state initiative which added a 1% tax on individuals earning over $1 million dollars annually. The initiative was approved by voters in November 2004 to expand and transform California’s county mental health services system to provide better coordinated and more comprehensive care to those with serious mental illness, particularly in underserved populations."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2470",
+      "@type": "Fund",
+      "name": "Marin County Free Library Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2470"
+        }
+      ],
+      "description": "The Library Fund is a special revenue fund that serves the unincorporated areas of the County, as well as the cities of Fairfax, Novato and Corte Madera. The Library is a special district that operates ten branch libraries within the County under the authority of the Board of Supervisors. The fund receives revenue from dedicated property taxes and user fees. The Marin County Free Library Measure A Fund (2480) is a special revenue fund approved by voters to support the operations and capital needs of the Library."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2560",
+      "@type": "Fund",
+      "name": "Measure A Parks Open Space Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2560"
+        }
+      ],
+      "description": "The Measure A Parks Open Space Fund is a special revenue fund established to account for proceeds obtained through the ¼ cent sales tax approved by voters in November 2012 to care for Marin’s existing parks and open spaces, support regional community parks projects and programs, and farmland preservation."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2670",
+      "@type": "Fund",
+      "name": "Public Safety Realignment Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2670"
+        }
+      ],
+      "description": "The Public Safety Realignment Fund is a special revenue fund established by AB 109 (201 1), the legislation that realigned low-level offenders from state prison to county jails. The Community Corrections Partnership Board manages the provision of criminal justice services through the departments of Probation, Health and Human Services, the Public Defender, the District Attorney, Marin County Sheriff, and the Courts. Other funds providing related services include the Juvenile Justice Crime Prevention Fund (2570), the Youth Offender Fund (2690), and the Adult Felony Probation Fund (2790)."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2770",
+      "@type": "Fund",
+      "name": "Home Investment Partnerships Program (Home)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2770"
+        }
+      ],
+      "description": "The U.S. Department of Housing and Urban Development provides federal grant funds for housing, community facilities and public services for low and moderate-income households through this program. Budget for HOME-related projects are managed in this fund that was previously a part of Fund 2100, with the allocations approved by the Board of Supervisors."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2800",
+      "@type": "Fund",
+      "name": "Health And Human Services Operating Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2800"
+        }
+      ],
+      "description": "The Health and Human Services Operating Fund accounts for all Health and Human Services revenues and expenditures that are not legally required to be segregated in special revenue funds. The majority of revenues and expenditures in this fund mandated for specific health and social services. The fund also receives transfers from various special revenue funds as well as the General Fund to support operations."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/2970",
+      "@type": "Fund",
+      "name": "Community Development Block Grant (Cdbg)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "2970"
+        }
+      ],
+      "description": "The U.S. Department of Housing and Urban Development provides federal grant funds for housing, community facilities and public services for low and moderate-income households through this program. Budget for CDBG-related projects are managed in this fund that was previously a part of Fund 2100, with the allocations approved by the Board of Supervisors. WEST MARIN TRANSIT OCCUPANCY TAX – EMERGENCY SERVICES AND COMMUNITY HOUSING"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/3440",
+      "@type": "Fund",
+      "name": "Funds (3440)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "3440"
+        }
+      ],
+      "description": "Voters approved Measure W in 2018 to increase the transit occupancy tax to address the impacts of tourism in West Marin. After administration costs (limited to 5% of annual tax revenue), revenue from the tax is set aside in two distinct funds to support emergency services and affordable housing initiatives throughout West Marin. Revenues are allocated by the Board of Supervisors and administered by the Marin County Fire Department and Community Development Agency across these three funds."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/3450",
+      "@type": "Fund",
+      "name": "Funds (3450)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "3450"
+        }
+      ],
+      "description": "Voters approved Measure W in 2018 to increase the transit occupancy tax to address the impacts of tourism in West Marin. After administration costs (limited to 5% of annual tax revenue), revenue from the tax is set aside in two distinct funds to support emergency services and affordable housing initiatives throughout West Marin. Revenues are allocated by the Board of Supervisors and administered by the Marin County Fire Department and Community Development Agency across these three funds."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/3510",
+      "@type": "Fund",
+      "name": "Funds (3510)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "3510"
+        }
+      ],
+      "description": "Voters approved Measure W in 2018 to increase the transit occupancy tax to address the impacts of tourism in West Marin. After administration costs (limited to 5% of annual tax revenue), revenue from the tax is set aside in two distinct funds to support emergency services and affordable housing initiatives throughout West Marin. Revenues are allocated by the Board of Supervisors and administered by the Marin County Fire Department and Community Development Agency across these three funds."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/3480",
+      "@type": "Fund",
+      "name": "Measure C Marin Wildfire Prevention Authority",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "3480"
+        }
+      ],
+      "description": "The purpose of the Measure C Marin Wildfire Prevention Authority Fund (3480) is to account for the County of Marin’s funding allocations from the voter approved JPA established in 2020 to fund wildfire prevention and mitigation projects throughout the county. Funded through parcel tax revenues, this fund supports the County’s efforts to reduce the risk of wildfires in coordination with member jurisdictions."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/3560",
+      "@type": "Fund",
+      "name": "Mental Health County Funded Account",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "3560"
+        }
+      ],
+      "description": "The Mental Health County Funded Account is used to account for County-funded behavioral health services and Medi-Cal financing activities. Under this new payment structure, Medi-Cal reimbursement is received through an Intergovernmental Transfer (IGT) structure that supports federal matching funds. Revenue is recorded in this fund and transferred to the Health and Human Services Operating Fund to offset program expenditures."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/3590",
+      "@type": "Fund",
+      "name": "Waste Management Franchise Fee Fund",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "3590"
+        }
+      ],
+      "description": "The Franchise Fund is a special reserve fund that accounts for revenues and expenditures related to waste reduction activities in the unincorporated areas of the County serviced by the four Franchise Agreements. The fund receives revenues from the four Franchised Solid Waste Haulers for select areas of unincorporated Marin County per the existing Franchise Agreements."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/6610",
+      "@type": "Fund",
+      "name": "Technology And Vehicle Replacement Internal Service Funds (6610)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "6610"
+        }
+      ],
+      "description": "The Technology and Vehicle Replacement Internal Service Funds are general government funds used to administer the ongoing replacement of employee computers, communication devices and county-owned vehicles. Each department contributes to the funds equal to their allocation, based on the number of employees, equipment and/or motor vehicles. New equipment and vehicles are funded through the department’s existing appropriations and incorporated in ongoing replacement schedules in the following fiscal year."
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/fund/6620",
+      "@type": "Fund",
+      "name": "Technology And Vehicle Replacement Internal Service Funds (6620)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:fund-code",
+          "value": "6620"
+        }
+      ],
+      "description": "The Technology and Vehicle Replacement Internal Service Funds are general government funds used to administer the ongoing replacement of employee computers, communication devices and county-owned vehicles. Each department contributes to the funds equal to their allocation, based on the number of employees, equipment and/or motor vehicles. New equipment and vehicles are funded through the department’s existing appropriations and incorporated in ongoing replacement schedules in the following fiscal year."
+    }
+  ]
+}

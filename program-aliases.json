@@ -1,0 +1,103 @@
+{
+  "note": "Program Overview rows (the budget book's names) that are the same program as one in programs.jsonld under a different name. Only clear correspondences are listed; anything else stays unmatched and is reported in qa/unmatched-programs.json. Keys are the department as the Program Overview prints it, then the program row; each value is [program name, the organization that administers it].",
+  "HEALTH AND HUMAN SERVICES": {
+    "CHDP": ["Child Health and Disability Prevention Program", "Public Health"],
+    "CA CHILDREN SERVICES": ["California Children Services", "Public Health"],
+    "COMM DISEASE AND PH LAB": ["Communicable Disease and Public Health Lab", "Public Health"],
+    "DETENTION MEDICAL SERVICES": ["Detention Medical", "Public Health"],
+    "HHS GENERAL ADMINISTRATION": ["Administration and Planning", "General Administration"],
+    "HOMELESSNESS": ["Homelessness Coordinated Care", "Homelessness and Coordinated Care"],
+    "IHSS PUBLIC AUTHORITY": ["In-Home Support Services Public Authority (IHSS)", "Social Services"],
+    "MATERNAL CHILD HEALTH": ["Maternal, Child, and Adolescent Health (MCAH)", "Public Health"],
+    "MENTAL HEALTH SERVICES ACT": ["Mental Health Services Act (MHSA)", "Behavioral Health and Recovery Services"],
+    "MANAGED CARE": ["Mental Health Managed Care", "Behavioral Health and Recovery Services"],
+    "PUBLIC HEALTH PREPAREDNESS": ["Public Health Preparedness (PHP)", "Public Health"],
+    "WIC": ["Women, Infants, and Children (WIC)", "Public Health"],
+    "PUBLIC HEALTH ADMINISTRATION": ["Administration", "Public Health"],
+    "SOCIAL SERVICES ADMINISTRATION": ["Administration", "Social Services"],
+    "MENTAL HEALTH ADMINISTRATION": ["Behavioral Health and Recovery Services Administration", "Behavioral Health and Recovery Services"]
+  },
+  "DISTRICT ATTORNEY": {
+    "CONSUMER PROTECTION": ["Consumer Protection Division", "District Attorney"],
+    "HIGH TECH THEFT APPREHENSION": ["High Tech and Identity Theft", "District Attorney"]
+  },
+  "MARIN COUNTY FIRE": {
+    "FIRE ADMINISTRATION": ["Administration", "Fire Department"],
+    "FIRE DISPATCH": ["Dispatch", "Fire Department"],
+    "FIRE OPERATIONS TRAINING": ["Operations Training", "Fire Department"],
+    "EMS WAREHOUSE SERVICES": ["EMS Warehouse", "Fire Department"],
+    "FIRE PREVENTION ADMINISTRATION": ["Fire Prevention", "Fire Department"],
+    "OEM ADMINISTRATION": ["Office of Emergency Management", "Fire Department"]
+  },
+  "PROBATION": {
+    "PROBATION ADMINISTRATION": ["Probation Administrative Services", "Probation"]
+  },
+  "MARIN COUNTY SHERIFF CORONER’S OFFICE": {
+    "SCO ADMINISTRATION": ["Sheriff-Coroner’s Office (SCO) Administration", "Sheriff"],
+    "SCO TECHNOLOGY SERVICES": ["Sheriff-Coroner’s Office (SCO) Technology Services", "Sheriff"],
+    "SCO FISCAL SERVICES": ["Fiscal Services", "Sheriff"],
+    "SPECIAL INVESTIGATIONS UNIT": ["Special Investigations Unit (SIU)", "Sheriff"]
+  },
+  "OFFICE OF THE COUNTY EXECUTIVE": {
+    "CLERK OF BOARD": ["Clerk of the Board", "Office of the County Executive"],
+    "CLIMATE AND SUSTAINABILITY": ["Climate & Sustainability", "Office of the County Executive"],
+    "COUNTY MANAGEMENT AND BUDGET": ["Management and Budget", "Office of the County Executive"],
+    "DIGITAL & INNOVATION": ["Digital, Innovation and Transformation", "Office of the County Executive"],
+    "INSPECTOR GENERAL": ["Office of the Inspector General", "Office of the County Executive"],
+    "LEGISLATIVE AFFAIRS": ["Legislative and Intergovernmental Affairs", "Office of the County Executive"],
+    "PUBLIC COMMUNICATIONS": ["Countywide Communications", "Office of the County Executive"],
+    "OCE ADMINISTRATION": ["Administration", "Office of the County Executive"]
+  },
+  "DEPARTMENT OF FINANCE": {
+    "COUNTY ACCOUNTING": ["Accounting", "Department of Finance"],
+    "PAYROLL SERVICES": ["Payroll", "Department of Finance"],
+    "PROCUREMENT": ["Procurement and Purchasing", "Department of Finance"]
+  },
+  "HUMAN RESOURCES": {
+    "GENERAL ADMINISTRATION": ["Administration", "Human Resources"],
+    "ORGANIZATIONAL DEVELOPMENT": ["Learning and Organizational Development", "Human Resources"],
+    "RECRUITMENT": ["Recruitment and Classification", "Human Resources"]
+  },
+  "INFORMATION SERVICES AND TECHNOLOGY": {
+    "ACCESSIBILITY": ["Digital Accessibility", "Information Services and Technology"],
+    "ARCHITECTURE": ["Enterprise Architecture", "Information Services and Technology"],
+    "BUSINESS OFFICE": ["Business Operations", "Information Services and Technology"],
+    "COUNTY JUSTICE": ["County Justice Systems", "Information Services and Technology"],
+    "DATA NETWORK": ["Networks", "Information Services and Technology"],
+    "DATA TEAM": ["Data Services", "Information Services and Technology"],
+    "DATABASE ADMINISTRATION": ["Database Administrators", "Information Services and Technology"],
+    "LAND USE": ["Land Use Systems", "Information Services and Technology"],
+    "MARINMAP": ["MarinMap Systems", "Information Services and Technology"],
+    "PROPERTY": ["Property Systems", "Information Services and Technology"],
+    "SYSTEM ADMINISTRATION": ["System Admin", "Information Services and Technology"],
+    "PROJECT SERVICES": ["Project Management Office", "Information Services and Technology"]
+  },
+  "RETIREMENT": {
+    "MCERA OPERATIONS": ["Retirement Operations", "Retirement"]
+  },
+  "COMMUNITY DEVELOPMENT AGENCY": {
+    "CDA EXECUTIVE ADMINISTRATION": ["Administration", "Community Development Agency"],
+    "CDA FEDERAL GRANTS": ["Housing and Federal Grants", "Community Development Agency"],
+    "RICHARDSON BAY REGIONAL AGENCY": ["Richardson’s Bay Regional Agency (RBRA)", "Community Development Agency"]
+  },
+  "DEPARTMENT OF PUBLIC WORKS": {
+    "ADA": ["Disability Access", "Public Works"],
+    "BUILDING MAINT AND IMPROV": ["Building Maintenance", "Public Works"],
+    "DPW ADMINISTRATION": ["Administration", "Public Works"],
+    "REPROGRAPHIC": ["Reprographic Services", "Public Works"],
+    "TRAFFIC OPERATIONS": ["Transportation Planning and Traffic Operations", "Public Works"],
+    "VEHICLE MAINTENANCE": ["Vehicle Maintenance and Fleet Management", "Public Works"]
+  },
+  "MARIN COUNTY FREE LIBRARY": {
+    "E SERVICES": ["EServices", "Marin County Free Library"]
+  },
+  "MARIN COUNTY PARKS (EXCLUDING OPEN SPACE)": {
+    "NATURAL RESOURCE MANAGEMENT": ["Natural Resources Management", "Parks"],
+    "PARK FACILITIES": ["Park Facilities and Landscape Services", "Parks"],
+    "REAL ESTATE ADMN AND ACQUIS": ["Real Estate Administration and Acquisitions", "Parks"],
+    "PARKS COMMUNICATIONS": ["Communications", "Parks"]
+  },
+  "UC COOPERATIVE EXTENSION MARIN": {
+    "UC COOPERATIVE EXTENSION MARIN": ["UCCE Marin", "UC Cooperative Extension (Farm Advisor)"]
+  }
+}
