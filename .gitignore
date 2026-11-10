@@ -1,0 +1,4 @@
+__pycache__/
+.DS_Store
+# The County publishes this book; it is too large for plain git.
+source/FY2026-28*.pdf

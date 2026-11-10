@@ -6,6 +6,7 @@
    "@type": "Budget",
    "name": "County of Marin FY 2023-24 (actual)",
    "description": "Figures for fiscal year 2023-24 as printed in the County of Marin Final Budget FY 2025-26.",
+   "url": "https://assets.marincounty.gov/marincounty-prod/public/2025-12/2026%20Budget%20Book%20-%20Not%20Remediated.pdf",
    "publisher": {
     "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
    },
@@ -361,6 +362,7 @@
    "@type": "Budget",
    "name": "County of Marin FY 2024-25 (estimated)",
    "description": "Figures for fiscal year 2024-25 as printed in the County of Marin Final Budget FY 2025-26.",
+   "url": "https://assets.marincounty.gov/marincounty-prod/public/2025-12/2026%20Budget%20Book%20-%20Not%20Remediated.pdf",
    "publisher": {
     "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
    },
@@ -716,6 +718,7 @@
    "@type": "Budget",
    "name": "County of Marin FY 2025-26 (recommended)",
    "description": "Figures for fiscal year 2025-26 as printed in the County of Marin Final Budget FY 2025-26.",
+   "url": "https://assets.marincounty.gov/marincounty-prod/public/2025-12/2026%20Budget%20Book%20-%20Not%20Remediated.pdf",
    "publisher": {
     "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
    },
@@ -1071,6 +1074,7 @@
    "@type": "Budget",
    "name": "County of Marin FY 2025-26 (adopted by the Board of Supervisors)",
    "description": "Figures for fiscal year 2025-26 as printed in the County of Marin Final Budget FY 2025-26.",
+   "url": "https://assets.marincounty.gov/marincounty-prod/public/2025-12/2026%20Budget%20Book%20-%20Not%20Remediated.pdf",
    "publisher": {
     "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
    },
