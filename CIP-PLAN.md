@@ -47,7 +47,7 @@ additional needed = cost estimate), every subcategory subtotal, the fund-source 
 - **Image pages read with OCR.** They are narrative: the County Executive's message, the overview, the approval process,
   funding discussion and category write-ups. They carry no per-project department, location or description, so
   projects stay as the tables give them. The book's text says 227 projects; its tables list 226.
-- **marin-docs section built** (`scripts/build-capital.js`, top level `capital/`): a landing page, a projects page by
+- **marin-budget section built** (`marin-budget/scripts/build-capital.js`, top level `capital/`): a landing page, a projects page by
   category and a page for each of the 226 projects. It is tied to Budget by a card on the Budget page, a Capital plan
   link on the capital funds (1420, 1430, 1680, 1720). A comparison with the budget book's capital lines was built and
   then removed, because it mixed the plan with one year of the budget.
