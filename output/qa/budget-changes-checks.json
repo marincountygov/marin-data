@@ -1,0 +1,32 @@
+{
+  "departments": 23,
+  "withoutDescription": [],
+  "headingNotFoundTextTakenAfterNetCountyCostRow": [
+    "https://marincountygov.github.io/marin-data/id/organization/public-works"
+  ],
+  "paragraphs": {
+    "https://marincountygov.github.io/marin-data/id/organization/css": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/da": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/fire": 5,
+    "https://marincountygov.github.io/marin-data/id/organization/probation": 3,
+    "https://marincountygov.github.io/marin-data/id/organization/public-defender": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/sheriff": 2,
+    "https://marincountygov.github.io/marin-data/id/organization/arcc": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/board": 3,
+    "https://marincountygov.github.io/marin-data/id/organization/county-counsel": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/finance": 5,
+    "https://marincountygov.github.io/marin-data/id/organization/elections": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/hr": 5,
+    "https://marincountygov.github.io/marin-data/id/organization/ist": 3,
+    "https://marincountygov.github.io/marin-data/id/organization/retirement": 3,
+    "https://marincountygov.github.io/marin-data/id/organization/county-executive": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/cda": 6,
+    "https://marincountygov.github.io/marin-data/id/organization/public-works": 8,
+    "https://marincountygov.github.io/marin-data/id/organization/awm": 5,
+    "https://marincountygov.github.io/marin-data/id/organization/cultural-services": 4,
+    "https://marincountygov.github.io/marin-data/id/organization/library": 6,
+    "https://marincountygov.github.io/marin-data/id/organization/parks": 6,
+    "https://marincountygov.github.io/marin-data/id/organization/uc-extension": 3,
+    "https://marincountygov.github.io/marin-data/id/organization/hhs": 10
+  }
+}
