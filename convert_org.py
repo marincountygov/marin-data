@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# RETIRED. Do not run this on the current data. organizations.jsonld is now maintained directly:
+# it has since gained the service areas, URL-form @ids and budget-book fields (mission, address, telephone)
+# that this converter cannot produce, so re-running it would overwrite them. The master list of agencies is
+# organizations/agencies.json; check_orgs.py keeps it and organizations.jsonld in agreement. See FINDINGS.md.
 """Convert County of Marin organization data into schemaGov JSON-LD.
 
 Usage:

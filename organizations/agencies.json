@@ -1,0 +1,423 @@
+{
+  "$schema": "./agencies.schema.json",
+  "schemaVersion": "1.0.0",
+  "title": "County of Marin agencies and departments",
+  "organization": {
+    "name": "County of Marin",
+    "url": "https://www.marincounty.gov/"
+  },
+  "source": "marin-county-agencies-departments.json, supplied by the County web team (October 2026). Ids were added for this list.",
+  "notes": [
+    "An id is permanent. Never reuse or rename an id. If an agency closes, set status to retired.",
+    "A division's id is its department's id, a slash, and a short name (for example hhs/public-health).",
+    "The order of this list is the order people see in menus.",
+    "A code is the opaque value Marin Links sends in the agency and division labels. It is permanent. Never reuse, change, or renumber a code."
+  ],
+  "agencies": [
+    {
+      "id": "awm",
+      "code": "ag-01",
+      "name": "Agriculture, Weights and Measures",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/AWM",
+      "status": "active"
+    },
+    {
+      "id": "awm/agriculture",
+      "code": "dv-01",
+      "name": "Agriculture",
+      "type": "division",
+      "parent": "awm",
+      "url": "https://www.marincounty.gov/departments/awm/agriculture",
+      "status": "active"
+    },
+    {
+      "id": "awm/weights-and-measures",
+      "code": "dv-02",
+      "name": "Weights and Measures",
+      "type": "division",
+      "parent": "awm",
+      "url": "https://www.marincounty.gov/departments/awm/weights-and-measures",
+      "status": "active"
+    },
+    {
+      "id": "arcc",
+      "code": "ag-02",
+      "name": "Assessor, Recorder, County Clerk",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.arcc.marincounty.gov/",
+      "status": "active"
+    },
+    {
+      "id": "board",
+      "code": "ag-03",
+      "name": "Board of Supervisors",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/board",
+      "status": "active"
+    },
+    {
+      "id": "css",
+      "code": "ag-04",
+      "name": "Child Support Services",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/css",
+      "status": "active"
+    },
+    {
+      "id": "grand-jury",
+      "code": "ag-05",
+      "name": "Civil Grand Jury",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/grand-jury",
+      "status": "active"
+    },
+    {
+      "id": "cda",
+      "code": "ag-06",
+      "name": "Community Development Agency",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/cda",
+      "status": "active"
+    },
+    {
+      "id": "cda/building-and-safety",
+      "code": "dv-03",
+      "name": "Building and Safety",
+      "type": "division",
+      "parent": "cda",
+      "url": "https://www.marincounty.gov/departments/cda/building-and-safety",
+      "status": "active"
+    },
+    {
+      "id": "cda/environmental-health-services",
+      "code": "dv-04",
+      "name": "Environmental Health Services",
+      "type": "division",
+      "parent": "cda",
+      "url": "https://www.marincounty.gov/departments/cda/environmental-health-services",
+      "status": "active"
+    },
+    {
+      "id": "cda/planning",
+      "code": "dv-05",
+      "name": "Planning",
+      "type": "division",
+      "parent": "cda",
+      "url": "https://www.marincounty.gov/departments/cda/planning",
+      "status": "active"
+    },
+    {
+      "id": "cda/housing-and-grants",
+      "code": "dv-06",
+      "name": "Housing and Grants Division",
+      "type": "division",
+      "parent": "cda",
+      "url": "https://www.marincounty.gov/departments/cda/housing-and-grants",
+      "status": "active"
+    },
+    {
+      "id": "county-counsel",
+      "code": "ag-07",
+      "name": "County Counsel",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/county-counsel",
+      "status": "active"
+    },
+    {
+      "id": "county-executive",
+      "code": "ag-08",
+      "name": "Office of the County Executive",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/executive",
+      "status": "active"
+    },
+    {
+      "id": "cultural-services",
+      "code": "ag-09",
+      "name": "Cultural Services",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/cultural-services",
+      "status": "active"
+    },
+    {
+      "id": "da",
+      "code": "ag-10",
+      "name": "District Attorney",
+      "type": "department",
+      "parent": null,
+      "url": "https://marincountyda.org/",
+      "status": "active"
+    },
+    {
+      "id": "elections",
+      "code": "ag-11",
+      "name": "Elections (Registrar of Voters)",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/elections",
+      "status": "active"
+    },
+    {
+      "id": "finance",
+      "code": "ag-12",
+      "name": "Department of Finance",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/finance",
+      "status": "active"
+    },
+    {
+      "id": "fire",
+      "code": "ag-13",
+      "name": "Fire Department",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/fire",
+      "status": "active"
+    },
+    {
+      "id": "hhs",
+      "code": "ag-14",
+      "name": "Health and Human Services",
+      "type": "department",
+      "parent": null,
+      "url": "https://hhs.marincounty.gov/",
+      "status": "active"
+    },
+    {
+      "id": "hhs/general-administration",
+      "code": "dv-07",
+      "name": "General Administration",
+      "type": "division",
+      "parent": "hhs",
+      "url": "https://hhs.marincounty.gov/divisions/general-administration-0",
+      "status": "active"
+    },
+    {
+      "id": "hhs/bhrs",
+      "code": "dv-08",
+      "name": "Behavioral Health and Recovery Services",
+      "type": "division",
+      "parent": "hhs",
+      "url": "https://hhs.marincounty.gov/bhrs",
+      "status": "active"
+    },
+    {
+      "id": "hhs/homelessness-and-coordinated-care",
+      "code": "dv-09",
+      "name": "Homelessness and Coordinated Care",
+      "type": "division",
+      "parent": "hhs",
+      "url": "https://hhs.marincounty.gov/divisions/homelessness-and-coordinated-care",
+      "status": "active"
+    },
+    {
+      "id": "hhs/public-health",
+      "code": "dv-10",
+      "name": "Public Health",
+      "type": "division",
+      "parent": "hhs",
+      "url": "https://hhs.marincounty.gov/divisions/public-health",
+      "status": "active"
+    },
+    {
+      "id": "hhs/social-services",
+      "code": "dv-11",
+      "name": "Social Services",
+      "type": "division",
+      "parent": "hhs",
+      "url": "https://hhs.marincounty.gov/divisions/social-services",
+      "status": "active"
+    },
+    {
+      "id": "hr",
+      "code": "ag-15",
+      "name": "Human Resources",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.hr.marincounty.gov/",
+      "status": "active"
+    },
+    {
+      "id": "hr/classification-compensation",
+      "code": "dv-12",
+      "name": "Classification and Compensation",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/classification-compensation",
+      "status": "active"
+    },
+    {
+      "id": "hr/employee-benefits-wellness",
+      "code": "dv-13",
+      "name": "Employee Benefits and Wellness",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/employee-benefits-wellness",
+      "status": "active"
+    },
+    {
+      "id": "hr/employee-and-labor-relations",
+      "code": "dv-14",
+      "name": "Employee and Labor Relations",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/employee-and-labor-relations",
+      "status": "active"
+    },
+    {
+      "id": "hr/equal-opportunity",
+      "code": "dv-15",
+      "name": "Equal Opportunity",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/equal-opportunity",
+      "status": "active"
+    },
+    {
+      "id": "hr/internships-and-volunteers",
+      "code": "dv-16",
+      "name": "Internships and Volunteers",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/internships-and-volunteers",
+      "status": "active"
+    },
+    {
+      "id": "hr/learning-and-organizational-development",
+      "code": "dv-17",
+      "name": "Learning and Organizational Development",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/learning-and-organizational-development",
+      "status": "active"
+    },
+    {
+      "id": "hr/leaves",
+      "code": "dv-18",
+      "name": "Leaves",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/leaves",
+      "status": "active"
+    },
+    {
+      "id": "hr/recruitment",
+      "code": "dv-19",
+      "name": "Recruitment",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/recruitment",
+      "status": "active"
+    },
+    {
+      "id": "hr/risk-management",
+      "code": "dv-20",
+      "name": "Risk Management",
+      "type": "division",
+      "parent": "hr",
+      "url": "https://www.hr.marincounty.gov/our-divisions/risk-management",
+      "status": "active"
+    },
+    {
+      "id": "ist",
+      "code": "ag-16",
+      "name": "Information Services and Technology",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/it",
+      "status": "active"
+    },
+    {
+      "id": "library",
+      "code": "ag-17",
+      "name": "Marin County Free Library",
+      "type": "department",
+      "parent": null,
+      "url": "https://marinlibrary.org/",
+      "status": "active"
+    },
+    {
+      "id": "parks",
+      "code": "ag-18",
+      "name": "Parks",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.parks.marincounty.gov/",
+      "status": "active"
+    },
+    {
+      "id": "probation",
+      "code": "ag-19",
+      "name": "Probation",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/Probation",
+      "status": "active"
+    },
+    {
+      "id": "public-defender",
+      "code": "ag-20",
+      "name": "Public Defender",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/public-defender",
+      "status": "active"
+    },
+    {
+      "id": "public-works",
+      "code": "ag-21",
+      "name": "Public Works",
+      "type": "department",
+      "parent": null,
+      "url": "https://publicworks.marincounty.gov/",
+      "status": "active"
+    },
+    {
+      "id": "retirement",
+      "code": "ag-22",
+      "name": "Retirement",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.mcera.org/",
+      "status": "active"
+    },
+    {
+      "id": "sheriff",
+      "code": "ag-23",
+      "name": "Sheriff",
+      "type": "department",
+      "parent": null,
+      "url": "https://marinsheriff.gov/",
+      "status": "active"
+    },
+    {
+      "id": "tax-collector",
+      "code": "ag-24",
+      "name": "Tax Collector",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/finance/property-tax/tax-collector",
+      "status": "active"
+    },
+    {
+      "id": "uc-extension",
+      "code": "ag-25",
+      "name": "UC Cooperative Extension (Farm Advisor)",
+      "type": "department",
+      "parent": null,
+      "url": "https://www.marincounty.gov/departments/uccem",
+      "status": "active"
+    }
+  ]
+}

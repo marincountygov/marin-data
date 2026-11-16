@@ -22,9 +22,11 @@ import sys
 from datetime import date
 from pathlib import Path
 
+import sources_lib
+
 BASE = 'https://marincountygov.github.io/marin-data/id/'
 CONTEXT = 'https://schema.govfresh.com/v1/context.jsonld'
-BOOK_URL = None  # read from sources.json
+BOOK_URL = None  # read from sources.json (see sources_lib.py)
 OFFSET = 2  # printed page number = PDF page number - 2
 
 # The book's name for a department -> its budget department code, where the names differ between sections.
@@ -193,7 +195,7 @@ def main():
     out = Path(args[1] if len(args) > 1 else 'output')
     pages = read_pages(pdf, cache)
     orgs = {o['@id']: o for o in json.load(open(out / 'organizations.jsonld'))['@graph']}
-    sources = json.load(open(out / 'sources.json'))['budgetBook']
+    sources = sources_lib.legacy()['budgetBook']
     by_slug = {i.rsplit('/', 1)[1]: i for i in orgs}
     by_code = {}
     for oid, o in orgs.items():

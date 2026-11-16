@@ -160,3 +160,11 @@ Fund names in `funds.jsonld` are title-cased by a program: "Hhs Social Services 
 - A contract's value is its amount, not payments. Types (Prof Serv_Other, Trade, HHS_PSC_CBO and so on) are shown as recorded; their meaning is not documented in the data.
 - Vendors include individuals, shown by name.
 
+
+## Update: organizations are now maintained directly
+
+`output/organizations.jsonld` is no longer made by `convert_org.py`, which is retired. The file had gained service areas, URL-form `@id`s and budget-book fields that the converter cannot produce.
+
+- The master list of agencies is `organizations/agencies.json`, copied here from `marin-links`. `marin-links` now copies it back from here with `scripts/sync-agencies.py`. `check_orgs.py` fails if the list and `organizations.jsonld` disagree on id, code, name, parent or url.
+- `url` is the County web team's page for the body (its own site where it has one). The budget book's short link, such as `https://MarinCounty.gov/AWM`, is kept in `alternateUrl` for the 22 bodies where the two differed. `alternateUrl` is not yet a schemaGov property.
+- The schemaGov validator reports 310 errors on `output/`, the same number before and after this change. The ones I saw are `budgetPhase: 'planned'` on the CIP budgets, which the schema does not allow.

@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Repos that take data from marin-data",
+  "notes": [
+    "One entry per repo. copies lists what the repo takes: from is a path inside marin-data, to is the path inside the consumer.",
+    "sync is run in the consumer to take the new files. build rebuilds what is generated from them. check is the consumer's own check.",
+    "A consumer never edits a copy. Change the data in marin-data, then sync.",
+    "dependsOn names a repo whose own output is needed first, so it must be synced before this one.",
+    "A consumer records the marin-data commit it last synced in marin-data.lock at its root, written by scripts/lock.sh after marin-data is pushed. Its CI checks out that commit, so a later change here cannot turn it red. With no lock file, the CI skips the comparison."
+  ],
+  "consumers": [
+    {
+      "repo": "marin-links",
+      "copies": [
+        {
+          "from": "organizations/agencies.json",
+          "to": "data/agencies.json"
+        },
+        {
+          "from": "organizations/agencies.schema.json",
+          "to": "data/agencies.schema.json"
+        }
+      ],
+      "sync": [
+        "python3 scripts/sync-agencies.py"
+      ],
+      "build": [
+        "python3 scripts/build-agencies.py"
+      ],
+      "check": "bash scripts/check.sh"
+    },
+    {
+      "repo": "marin-mentions",
+      "copies": [
+        {
+          "from": "organizations/monitors.json",
+          "to": "config/organizations.json"
+        }
+      ],
+      "sync": [
+        "python3 scripts/sync-orgs.py"
+      ],
+      "build": [],
+      "check": "bash scripts/check.sh"
+    },
+    {
+      "repo": "marin-reach",
+      "copies": [
+        {
+          "from": "organizations/aliases.json",
+          "to": "data/organizations-aliases.json"
+        }
+      ],
+      "sync": [
+        "python3 scripts/sync-orgs.py"
+      ],
+      "build": [
+        "python3 scripts/build_data.py"
+      ],
+      "check": "bash scripts/check.sh"
+    },
+    {
+      "repo": "marin-docs",
+      "copies": [
+        {
+          "from": "output/organizations.jsonld",
+          "to": "organization/data/organizations.jsonld"
+        },
+        {
+          "from": "output/jurisdictions.jsonld",
+          "to": "organization/data/jurisdictions.jsonld"
+        },
+        {
+          "from": "output/programs.jsonld",
+          "to": "organization/data/programs.jsonld"
+        },
+        {
+          "from": "output/people.jsonld",
+          "to": "organization/data/people.jsonld"
+        },
+        {
+          "from": "output/posts.jsonld",
+          "to": "organization/data/posts.jsonld"
+        },
+        {
+          "from": "output/roles.jsonld",
+          "to": "organization/data/roles.jsonld"
+        },
+        {
+          "from": "output/sources.json",
+          "to": "organization/data/sources.json"
+        }
+      ],
+      "sync": [],
+      "build": [
+        "node scripts/build-organization.js ../marin-data/output --reach ../marin-reach/data/engagements.json"
+      ],
+      "check": "bash scripts/check.sh",
+      "dependsOn": [
+        "marin-reach"
+      ],
+      "notes": "build-organization.js copies the files itself. It also reads budgets.jsonld, budget-lines.jsonld and source/budget-display.json from output/ for the Budget tab."
+    },
+    {
+      "repo": "marin-budget",
+      "copies": [
+        {
+          "from": "output/organizations.jsonld",
+          "to": "data/organizations.jsonld"
+        },
+        {
+          "from": "output/programs.jsonld",
+          "to": "data/programs.jsonld"
+        },
+        {
+          "from": "output/funds.jsonld",
+          "to": "budget/data/funds.jsonld"
+        },
+        {
+          "from": "output/sources.json",
+          "to": "budget/data/sources.json"
+        },
+        {
+          "from": "output/budgets.jsonld",
+          "to": "budget/data/budgets.jsonld"
+        },
+        {
+          "from": "output/budget-lines.jsonld",
+          "to": "budget/data/budget-lines.jsonld"
+        },
+        {
+          "from": "output/source/budget-display.json",
+          "to": "budget/data/source/budget-display.json"
+        },
+        {
+          "from": "output/budgets-2025-26.jsonld",
+          "to": "budget/fy2025-26/data/budgets-2025-26.jsonld"
+        },
+        {
+          "from": "output/budget-lines-2025-26.jsonld",
+          "to": "budget/fy2025-26/data/budget-lines-2025-26.jsonld"
+        },
+        {
+          "from": "output/funds-2025-26.jsonld",
+          "to": "budget/fy2025-26/data/funds-2025-26.jsonld"
+        },
+        {
+          "from": "output/budget-2025-26/schedules.json",
+          "to": "budget/fy2025-26/data/schedules.json"
+        },
+        {
+          "from": "output/budget-2025-26/notes.json",
+          "to": "budget/fy2025-26/data/notes.json"
+        },
+        {
+          "from": "output/cip/cip-projects.jsonld",
+          "to": "capital/data/cip-projects.jsonld"
+        },
+        {
+          "from": "output/cip/cip-budget-lines.jsonld",
+          "to": "capital/data/cip-budget-lines.jsonld"
+        },
+        {
+          "from": "output/cip/cip-budgets.jsonld",
+          "to": "capital/data/cip-budgets.jsonld"
+        },
+        {
+          "from": "output/cip/source/cip-display.json",
+          "to": "capital/data/cip-display.json"
+        },
+        {
+          "from": "output/sources.json",
+          "to": "capital/data/sources.json"
+        }
+      ],
+      "sync": [],
+      "build": [
+        "bash scripts/build-all.sh"
+      ],
+      "check": "bash scripts/check.sh",
+      "notes": "build-all.sh copies the files and rebuilds every page. It also puts marin.yml in each output folder."
+    }
+  ]
+}

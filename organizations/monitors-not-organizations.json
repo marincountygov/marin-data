@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "Marin Mentions monitors that are not organizations",
+  "notes": [
+    "Each entry is a monitor id in marin-mentions/config/monitors.yaml that is deliberately not an organization, with the reason.",
+    "A monitor in the Departments, Divisions or Board & Courts group must either carry a local:marin-mentions-monitor-id on an organization in output/organizations.jsonld or be listed here."
+  ],
+  "monitors": [
+    {
+      "monitorId": "marin-transit",
+      "reason": "Separate district with its own board and territory, not a county unit."
+    },
+    {
+      "monitorId": "zero-waste-marin",
+      "reason": "Program or joint authority; the data does not say. Not placed in the county."
+    },
+    {
+      "monitorId": "gnoss-field-airport",
+      "reason": "A facility, not an organization."
+    },
+    {
+      "monitorId": "gallinas-creek",
+      "reason": "A place, not an organization."
+    },
+    {
+      "monitorId": "marin-superior-court",
+      "reason": "State trial court that sits in Marin County, not a county unit. Not placed in the county."
+    }
+  ]
+}

@@ -18,6 +18,8 @@ import json
 import re
 import statistics
 import sys
+
+import sources_lib
 from datetime import date
 from pathlib import Path
 
@@ -276,8 +278,7 @@ def main():
     json.dump(qa, open(out / 'qa' / 'cip-checks.json', 'w'), indent=1)
 
     # --- JSON-LD --------------------------------------------------------------------------------------------------
-    book = json.load(open(Path(__file__).parent / 'output' / 'cip-sources.json')) if (Path(__file__).parent / 'output' / 'cip-sources.json').exists() else {}
-    book_url = (book.get('cip') or {}).get('url')
+    book_url = sources_lib.get('cip-book-fy2027-31')['url']
     bid = lambda y: BASE + f'budget/cip-fy{y}'
     pid = {}
     used = set()
