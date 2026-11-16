@@ -1,0 +1,122 @@
+{
+  "$schema": "../schemas/brand.schema.json",
+  "$comment": "Starting point for a new brand. Copy this file to brands/<slug>/brand.json (slug = a short, URL-safe id like 'parks'), then also copy this template's sibling assets/ layout: brands/<slug>/assets/<logo files>, and brands/<slug>/source-documents/ only if this brand is extracted from an existing print style guide (omit entirely otherwise, and drop 'sourceFile' below). Run `node scripts/validate-brand.js` then `node scripts/build-all.js` once filled in. See brands/county-of-marin/brand.json for a fully filled-out, PDF-extracted example; brands/fixitmarin/brand.json for one extracted from a live webpage instead (sourceUrl, no identity/graphicMark, empty typography.families, plus the illustrations/printMaterials/socialMedia blocks below); and schemas/brand.schema.json for what's actually required versus optional. Every block below except brand/purpose/logos/colors/typography/fileFormats is optional — delete what this brand doesn't have rather than leaving it empty.",
+  "schemaVersion": "1.0.0",
+  "status": "draft",
+  "brand": {
+    "name": "Replace with the brand's real name, e.g. \"Marin County Parks\"",
+    "website": "Optional — https://… link shown as Website: under the description",
+    "lastUpdated": "Optional free-text date, e.g. September 30, 2026 — omit to hide the 'Updated ...' line",
+    "sourceUrl": "Optional — use instead of sourceFile when this brand's canonical guide is a live webpage, not an archived PDF. See brands/fixitmarin/brand.json."
+  },
+  "purpose": {
+    "summary": "One or two sentences: who this guide is for and what it keeps consistent.",
+    "goals": ["Why consistency matters for this brand — one goal per line."]
+  },
+  "identity": {
+    "symbol": {
+      "name": "Optional — name of the primary graphic mark, if it has a documented story worth telling",
+      "description": "What the symbol depicts and why.",
+      "meaning": ["What it represents — one idea per line. Delete this whole 'identity' block if there's no story to tell."]
+    }
+  },
+  "logos": {
+    "generalRules": ["Rules every use of this brand's logos must follow — e.g. never stretch, never recolor."],
+    "variants": [
+      {
+        "id": "primary-logo",
+        "name": "Primary Logo",
+        "preferred": true,
+        "description": "What this variant looks like.",
+        "usage": "When to use this one over the others.",
+        "minimumWidthInches": 1.0,
+        "preview": "assets/primary-logo.png"
+      }
+    ],
+    "graphicMark": {
+      "name": "Optional — a stripped-down graphic-only mark for use as a design element, if this brand has one",
+      "description": "What it is.",
+      "colorRule": "Any color restriction on this specific use.",
+      "preview": "assets/graphic-mark.png"
+    }
+  },
+  "colors": {
+    "guidance": {
+      "primaryPalette": "The brand's core colors and how they're used.",
+      "secondaryPalette": "Supporting colors, if any, and when to reach for them.",
+      "continuity": "Why the palette matters across different materials/departments."
+    },
+    "palette": [
+      { "id": "example-color", "name": "Example Color", "role": "primary", "hex": "#000000", "rgb": [0, 0, 0] }
+    ]
+  },
+  "typography": {
+    "guidance": ["Typeface rules — which face for what purpose."],
+    "families": [{ "name": "Example Typeface", "roles": ["heading"] }],
+    "digitalImplementation": {
+      "note": "How this brand is actually implemented on MarinOS digital products, if it diverges from a print guide — see marin-digital-standards/brand/typography.md for the pattern this follows.",
+      "heading": "e.g. Jost (marin-ui shared bundle)",
+      "body": "e.g. system sans-serif stack"
+    }
+  },
+  "fileFormats": {
+    "masterArtworkRule": "The one rule about not altering supplied artwork.",
+    "print": { "preferredFormat": "EPS", "description": "Why this format for print." },
+    "webElectronic": { "preferredFormat": "PNG", "description": "Why this format for web/electronic." }
+  },
+  "publicationNotes": [
+    "Anything a reader should know about this guide's status, gaps, or what's still pending approval."
+  ],
+  "qrCodeLogos": {
+    "guidance": "Logos made for the center of a QR code. A square PNG works best.",
+    "items": [
+      {
+        "id": "square-default",
+        "name": "Square logo",
+        "default": true,
+        "description": "What the logo looks like.",
+        "usage": "When to use it.",
+        "preview": "assets/qr-code-logos/square.png"
+      }
+    ]
+  },
+  "illustrations": {
+    "$comment": "Optional — delete this whole block if this brand has no supporting scene/concept graphics beyond the logo itself. See brands/fixitmarin/brand.json.",
+    "guidance": "When/how these illustrations should be used.",
+    "items": [
+      {
+        "id": "example-illustration",
+        "name": "Example Illustration",
+        "usage": "What this illustration shows and when to use it.",
+        "preview": "assets/illustrations/example-reference.png"
+      }
+    ]
+  },
+  "printMaterials": {
+    "$comment": "Optional — delete if this brand has no posters/flyers distributed as a linked page rather than a direct downloadable image.",
+    "guidance": "What's available and how it's distributed.",
+    "items": [
+      {
+        "id": "example-poster",
+        "name": "Example Poster",
+        "description": "Where/how to use it.",
+        "url": "https://example.marincounty.gov/path-to-poster-page",
+        "format": "PDF"
+      }
+    ]
+  },
+  "socialMedia": {
+    "$comment": "Optional — delete if this brand has no ready-to-post social assets with suggested captions.",
+    "guidance": "How these assets should be used on County/department/partner channels.",
+    "assets": [
+      {
+        "id": "example-post",
+        "name": "Example Social Post",
+        "preview": "assets/social/example-reference.png",
+        "captions": [
+          { "language": "en", "languageLabel": "English", "lines": ["One caption line per array entry."] }
+        ]
+      }
+    ]
+  }
+}

@@ -176,6 +176,32 @@
       ],
       "check": "bash scripts/check.sh",
       "notes": "build-all.sh copies the files and rebuilds every page. It also puts marin.yml in each output folder."
+    },
+    {
+      "repo": "marin-brand",
+      "copies": [
+        {
+          "from": "brand",
+          "to": "brands",
+          "dir": true,
+          "ignore": [
+            "*/index.html",
+            "*/styles.css"
+          ]
+        },
+        {
+          "from": "schemas/brand.schema.json",
+          "to": "schemas/brand.schema.json"
+        }
+      ],
+      "sync": [
+        "python3 scripts/sync-brand.py"
+      ],
+      "build": [
+        "node scripts/build-all.js"
+      ],
+      "check": "bash scripts/check.sh",
+      "notes": "Brands are edited in marin-data (brand/<slug>/brand.json and assets/). marin-brand keeps a copy so its Download buttons and the addresses other apps use do not change. Each brand's generated index.html, styles.css and the root brands.json belong to marin-brand."
     }
   ]
 }

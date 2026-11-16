@@ -1,0 +1,492 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2014.05-source-extract",
+  "status": "source-derived-draft",
+  "brand": {
+    "name": "County of Marin",
+    "website": "https://www.marincounty.gov/",
+    "shortName": "Marin County",
+    "sourceUpdated": "2014-05",
+    "preparedBy": "L Studio, Sausalito, CA",
+    "sourceUrl": "https://assets.marincounty.gov/marincounty-prod/public/2025-01/countyofmarinidentitystyleguide-1.pdf",
+    "sourceScope": "The uploaded PDF contains the Identity Style Guide purpose and section 1.0 Logos (1.1-1.11). The contents page references section 2.0 Applications, but that section is not present in the uploaded 14-page PDF.",
+    "lastUpdated": "September 30, 2026"
+  },
+  "purpose": {
+    "summary": "Guide County staff, designers, and vendors in applying the County of Marin logo consistently, while allowing appropriate departmental and agency expression.",
+    "goals": [
+      "Promote a uniform portrayal of the County.",
+      "Create continuity across departments and agencies.",
+      "Improve efficiency in producing stationery and other materials across County government."
+    ],
+    "source": {
+      "page": 2,
+      "section": "Identity Style Guide: Purpose"
+    }
+  },
+  "identity": {
+    "symbol": {
+      "name": "Marin Civic Center symbol",
+      "description": "The main graphic element is a drawing of the Marin Civic Center designed by Aaron Green, Frank Lloyd Wright's West Coast Representative and Architect of Record for the Marin Civic Center.",
+      "meaning": [
+        "transparent governance",
+        "environmental preservation",
+        "healthy, sustainable and safe communities"
+      ],
+      "source": {
+        "pages": [
+          4,
+          5
+        ],
+        "sections": [
+          "1.1 Background",
+          "1.2 Significance"
+        ]
+      }
+    }
+  },
+  "logos": {
+    "generalRules": [
+      "Use supplied artwork; identity art should never be altered or recreated.",
+      "Do not stretch or distort logos or logotypes.",
+      "Provide enough breathing room around logos and do not overlap them with other logos or graphics."
+    ],
+    "variants": [
+      {
+        "id": "primary-logo",
+        "name": "Primary Logo",
+        "preferred": true,
+        "description": "Civic Center symbol plus County of Marin logotype in black lines and type.",
+        "usage": "First choice when representing the County of Marin.",
+        "minimumWidthInches": 1.25,
+        "preview": "assets/reference-previews/primary-logo-reference.png",
+        "source": {
+          "page": 6,
+          "section": "1.3 Primary Logo"
+        }
+      },
+      {
+        "id": "secondary-logo",
+        "name": "Secondary Logo",
+        "preferred": false,
+        "description": "Civic Center symbol plus the secondary County of Marin logotype.",
+        "usage": "Use when layout space requires a smaller, more compact logo while keeping County of Marin legible.",
+        "minimumWidthInches": 0.75,
+        "preview": "assets/reference-previews/secondary-logo-reference.png",
+        "source": {
+          "page": 7,
+          "section": "1.4 Secondary Logo"
+        }
+      },
+      {
+        "id": "primary-logotype",
+        "name": "Primary Logotype",
+        "description": "COUNTY OF MARIN in Futura, all caps, on one line.",
+        "usage": "Preferred typographic representation when the full logo is not appropriate.",
+        "minimumWidthInches": 0.75,
+        "preview": "assets/reference-previews/primary-logotype-reference.png",
+        "source": {
+          "page": 8,
+          "section": "1.5 Logotypes"
+        }
+      },
+      {
+        "id": "secondary-logotype",
+        "name": "Secondary Logotype",
+        "description": "COUNTY OF above MARIN in a compact stacked arrangement.",
+        "usage": "Use where horizontal constraints call for a more compact typographic representation.",
+        "minimumWidthInches": 0.5,
+        "preview": "assets/reference-previews/secondary-logotype-reference.png",
+        "source": {
+          "page": 8,
+          "section": "1.5 Logotypes"
+        }
+      },
+      {
+        "id": "primary-logo-reversed",
+        "name": "Primary Logo Reversed",
+        "usage": "Use on dark or black backgrounds; replaces black line art and typography with white.",
+        "preview": "assets/reference-previews/primary-logo-reversed-reference.png",
+        "source": {
+          "page": 9,
+          "section": "1.6 Logos Reversed"
+        }
+      },
+      {
+        "id": "secondary-logo-reversed",
+        "name": "Secondary Logo Reversed",
+        "usage": "Use on dark or black backgrounds; replaces black line art and typography with white.",
+        "preview": "assets/reference-previews/secondary-logo-reversed-reference.png",
+        "source": {
+          "page": 9,
+          "section": "1.6 Logos Reversed"
+        }
+      },
+      {
+        "id": "primary-logotype-reversed",
+        "name": "Primary Logotype Reversed",
+        "usage": "Use on dark or black backgrounds.",
+        "preview": "assets/reference-previews/primary-logotype-reversed-reference.png",
+        "source": {
+          "page": 9,
+          "section": "1.6 Logos Reversed"
+        }
+      },
+      {
+        "id": "secondary-logotype-reversed",
+        "name": "Secondary Logotype Reversed",
+        "usage": "Use on dark or black backgrounds.",
+        "preview": "assets/reference-previews/secondary-logotype-reversed-reference.png",
+        "source": {
+          "page": 9,
+          "section": "1.6 Logos Reversed"
+        }
+      },
+      {
+        "id": "circular-seal",
+        "name": "Circular Seal",
+        "description": "Primary Logo with a solid gold circle behind it, with the spire and dotted horizon line breaking out.",
+        "preview": "assets/reference-previews/circular-seal-reference.png",
+        "source": {
+          "page": 10,
+          "section": "1.7 Colored Logos",
+          "option": "A"
+        }
+      },
+      {
+        "id": "square-patch",
+        "name": "Square Patch",
+        "description": "Primary Logo contained within a square with the horizon line shortened to fit.",
+        "usage": "For cases where production constraints require the logo to be contained within a shape.",
+        "preview": "assets/reference-previews/square-patch-reference.png",
+        "source": {
+          "page": 10,
+          "section": "1.7 Colored Logos",
+          "option": "B"
+        }
+      },
+      {
+        "id": "gold-symbol",
+        "name": "Gold Symbol",
+        "description": "Primary Logo with the spire changed from black to gold.",
+        "usage": "The guide labels this treatment for metallic or foil printing only.",
+        "preview": "assets/reference-previews/gold-symbol-reference.png",
+        "source": {
+          "page": 10,
+          "section": "1.7 Colored Logos",
+          "option": "C"
+        }
+      }
+    ],
+    "graphicMark": {
+      "name": "Logo Graphic",
+      "description": "The primary logo without the County of Marin logotype, converted to 15% black/gray for use as a design element on print or presentation materials.",
+      "colorRule": "15% black only for this purpose; do not alter.",
+      "preview": "assets/reference-previews/logo-graphic-reference.png",
+      "source": {
+        "page": 11,
+        "section": "1.8 Logo Graphic"
+      }
+    }
+  },
+  "qrCodeLogos": {
+    "guidance": "The default is the square gold patch. Use it for the center of a QR code made in Marin Links.",
+    "items": [
+      {
+        "id": "square-default",
+        "name": "QR code logo",
+        "default": true,
+        "description": "Square gold patch with the Civic Center symbol and County of Marin name.",
+        "usage": "Use as the logo in the center of a QR code for the County of Marin. The gold keeps the dark code easy to see.",
+        "preview": "assets/qr-code-logos/square.png"
+      }
+    ]
+  },
+  "colors": {
+    "guidance": {
+      "primaryPalette": "Black and gold. Black is used for line art and typography; gold derives from the Civic Center spire and is used in special cases.",
+      "secondaryPalette": "Six additional colors derived from the building or surrounding environment. Blue should be used sparingly, primarily as an accent. Grays may be used for lighter logo screens; remaining colors may be used as larger backgrounds or in graphics such as charts and graphs.",
+      "continuity": "Use of the palette is intended to create continuity and a strong family brand across departments and agencies.",
+      "source": {
+        "page": 12,
+        "section": "1.9 Color Palette"
+      }
+    },
+    "palette": [
+      {
+        "id": "black",
+        "name": "Black",
+        "role": "primary",
+        "cmyk": [
+          0,
+          0,
+          0,
+          100
+        ],
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "hex": "#000000"
+      },
+      {
+        "id": "gold",
+        "name": "Gold",
+        "role": "primary",
+        "pms": {
+          "uncoated": "7405",
+          "coated": "7406"
+        },
+        "cmyk": [
+          11,
+          28,
+          90,
+          0
+        ],
+        "rgb": [
+          229,
+          181,
+          59
+        ],
+        "hex": "#e5b53b"
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "role": "secondary-accent",
+        "pms": "3005",
+        "cmyk": [
+          83,
+          50,
+          0,
+          0
+        ],
+        "rgb": [
+          7,
+          119,
+          207
+        ],
+        "hex": "#0777cf",
+        "usage": "Use sparingly, primarily as an accent color."
+      },
+      {
+        "id": "dark-gray",
+        "name": "Dark Gray",
+        "role": "secondary",
+        "cmyk": [
+          0,
+          0,
+          0,
+          70
+        ],
+        "rgb": [
+          111,
+          111,
+          111
+        ],
+        "hex": "#6f6f6f"
+      },
+      {
+        "id": "light-gray",
+        "name": "Light Gray",
+        "role": "secondary",
+        "cmyk": [
+          0,
+          0,
+          0,
+          40
+        ],
+        "rgb": [
+          169,
+          169,
+          169
+        ],
+        "hexSource": "#a9a9a",
+        "hex": "#a9a9a9",
+        "verificationNote": "The source guide showed a truncated 5-digit hex (#a9a9a). Resolved to #a9a9a9 \u2014 the RGB triple (169,169,169) already implies this exact value, and it matches the value already live in marin-digital-standards/brand/color.md and marin-ui's --marin-light-gray token. Cross-verified 2026-08-14, not re-derived from a screenshot."
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "role": "secondary",
+        "pms": "5763",
+        "cmyk": [
+          53,
+          38,
+          79,
+          17
+        ],
+        "rgb": [
+          115,
+          120,
+          74
+        ],
+        "hex": "#73784a"
+      },
+      {
+        "id": "brown",
+        "name": "Brown",
+        "role": "secondary",
+        "pms": "730",
+        "cmyk": [
+          29,
+          61,
+          96,
+          16
+        ],
+        "rgb": [
+          162,
+          102,
+          43
+        ],
+        "hex": "#a2662b"
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "role": "secondary",
+        "pms": "492",
+        "cmyk": [
+          0,
+          70,
+          66,
+          30
+        ],
+        "rgb": [
+          180,
+          83,
+          64
+        ],
+        "hex": "#b45340"
+      }
+    ],
+    "metallicGold": {
+      "printingOnly": true,
+      "metallicPms": "8643",
+      "foilGuidance": "Use a matte metallic foil that matches the PMS metallic.",
+      "source": {
+        "page": 10,
+        "section": "1.7 Colored Logos"
+      }
+    }
+  },
+  "typography": {
+    "guidance": [
+      "Futura is the primary font used in Marin Civic Center signage and was adopted for official County logo and logotype art.",
+      "Arial Regular is the preferred font for body copy.",
+      "Georgia may be substituted when a serif font is needed.",
+      "Verdana is identified in the 2014 guide as the website font."
+    ],
+    "families": [
+      {
+        "name": "Futura",
+        "roles": [
+          "official logo/logotype art",
+          "headline",
+          "subhead"
+        ]
+      },
+      {
+        "name": "Arial",
+        "roles": [
+          "preferred body copy",
+          "print materials"
+        ]
+      },
+      {
+        "name": "Georgia",
+        "roles": [
+          "serif body copy when needed"
+        ]
+      },
+      {
+        "name": "Verdana",
+        "roles": [
+          "website (per 2014 guide)"
+        ]
+      }
+    ],
+    "styles": [
+      {
+        "id": "headline-1",
+        "font": "Futura",
+        "sizePt": 28
+      },
+      {
+        "id": "headline-2",
+        "font": "Futura",
+        "allCaps": true,
+        "sizePt": 11,
+        "lineHeightPt": 14,
+        "letterSpacing": 4.5
+      },
+      {
+        "id": "subhead-1",
+        "font": "Futura Book Bold",
+        "sizePt": 11,
+        "case": "upper-and-lowercase"
+      },
+      {
+        "id": "subhead-2",
+        "font": "Futura Book Bold",
+        "allCaps": true,
+        "sizePt": 8,
+        "letterSpacing": 4.5
+      },
+      {
+        "id": "body-copy-1",
+        "font": "Arial Regular",
+        "sizePt": 9,
+        "lineHeightPt": 11,
+        "note": "Leading should be 2 pt larger than font size or more for best legibility."
+      },
+      {
+        "id": "body-copy-2",
+        "font": "Georgia Regular",
+        "sizesPt": [
+          8,
+          10,
+          12
+        ]
+      }
+    ],
+    "digitalImplementation": {
+      "note": "MarinOS digital products (this site included) use Jost for headings rather than Futura or Verdana. marin-digital-standards/brand/typography.md sanctions this explicitly: on modern digital systems, County hierarchy is preserved through scale, weight, line-height, and spacing rather than forcing the exact 2014-guide typeface. Futura remains reserved for official logo/logotype artwork itself, which is never re-set in another face.",
+      "heading": "Jost (marin-ui shared bundle)",
+      "body": "System sans-serif stack (Arial, Verdana, system-ui fallbacks)",
+      "source": "marin-digital-standards/brand/typography.md"
+    },
+    "source": {
+      "page": 13,
+      "section": "1.10 Fonts"
+    }
+  },
+  "fileFormats": {
+    "masterArtworkRule": "County of Marin identity art should never be altered or recreated.",
+    "print": {
+      "preferredFormat": "EPS",
+      "description": "Vector-based format for high-resolution print applications.",
+      "colorspaces": [
+        "PMS spot colors",
+        "CMYK"
+      ],
+      "scaling": "Vector artwork can be enlarged without losing quality."
+    },
+    "webElectronic": {
+      "preferredFormat": "PNG",
+      "description": "For web, on-screen and Microsoft Office applications; selected for line-art quality, smaller size and transparency support.",
+      "colorspace": "RGB"
+    },
+    "originalAccess": "The 2014 guide states that original digital art was available on the County of Marin MINE intranet.",
+    "source": {
+      "page": 14,
+      "section": "1.11 File Formats and Access"
+    }
+  },
+  "publicationNotes": [
+    "This JSON is extracted from a style guide updated May 2014 and should be reviewed against current County standards before being treated as authoritative.",
+    "The PNG files referenced under assets/reference-previews are visual reference crops extracted from the source PDF, not the original supplied EPS/PNG logo artwork, and have not been supplied to this build. This page renders 'artwork pending' placeholders for every logo variant instead of approximating official logo art. Replace with approved master assets before public launch \u2014 see brand/README or the build script's output for the exact file list expected.",
+    "The uploaded PDF references a section 2.0 Applications but does not include that section, so application guidance is not represented here."
+  ]
+}

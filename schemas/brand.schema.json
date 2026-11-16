@@ -1,0 +1,313 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/marincountygov/marin-brand/main/schemas/brand.schema.json",
+  "title": "Marin Brand Center brand.json",
+  "description": "Schema for one brand under brands/<slug>/brand.json. Extracted from the real County of Marin brand.json (originally marin-docs/brand/brand-center.json), not written in the abstract — see brands/county-of-marin/brand.json for a filled-out example and templates/brand.template.json for a starting point. Source-citation fields (page/section references back to an extracted PDF) are optional throughout: this schema has to fit a future brand authored directly, not just one extracted from a print guide.",
+  "type": "object",
+  "required": ["schemaVersion", "status", "brand", "purpose", "logos", "colors", "typography", "fileFormats"],
+  "properties": {
+    "$comment": { "type": "string" },
+    "schemaVersion": { "type": "string" },
+    "contentVersion": { "type": "string" },
+    "status": {
+      "type": "string",
+      "description": "Free text describing this data's provenance/review state, e.g. 'published', 'source-derived-draft'. Not read by scripts/build-brand.js — it does not drive any rendering."
+    },
+    "brand": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "description": "Rendered in the page title, breadcrumb, and directory card." },
+        "shortName": { "type": "string" },
+        "website": { "type": "string", "description": "Optional. The brand's own website, shown as 'Website: <link>' under the description. Omit to hide the line." },
+        "lastUpdated": { "type": "string", "description": "Free-text date shown under the title, e.g. 'September 30, 2026'. Omit to hide that line." },
+        "sourceUpdated": { "type": "string", "description": "Only meaningful when this brand was extracted from a dated source document." },
+        "preparedBy": { "type": "string" },
+        "sourceFile": { "type": "string", "description": "Relative path; only its basename is used, to link to a matching file under this brand's source-documents/. For a brand whose canonical guide is a live webpage rather than an archived file, use sourceUrl instead." },
+        "sourceUrl": { "type": "string", "description": "Link to this brand's canonical guide when it's a live webpage rather than an archived PDF (sourceFile). Rendered as an extra Source link." },
+        "sourceScope": { "type": "string" }
+      }
+    },
+    "purpose": {
+      "type": "object",
+      "required": ["summary", "goals"],
+      "properties": {
+        "summary": { "type": "string" },
+        "goals": { "type": "array", "items": { "type": "string" } },
+        "source": { "$ref": "#/$defs/citation" }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "symbol": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "description": { "type": "string" },
+            "meaning": { "type": "array", "items": { "type": "string" } },
+            "source": { "$ref": "#/$defs/citation" }
+          }
+        }
+      }
+    },
+    "logos": {
+      "type": "object",
+      "required": ["generalRules", "variants"],
+      "properties": {
+        "generalRules": { "type": "array", "items": { "type": "string" } },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "preferred": { "type": "boolean", "description": "First preferred:true variant is used as the directory-card thumbnail." },
+              "description": { "type": "string" },
+              "usage": { "type": "string" },
+              "minimumWidthInches": { "type": "number" },
+              "preview": { "type": "string", "description": "Path relative to this brand's own folder, e.g. assets/reference-previews/primary-logo-reference.png." },
+              "previewBackground": { "type": "string", "enum": ["dark"], "description": "Set to 'dark' to show the preview on a dark card (for white or reversed artwork). Variants whose id contains 'reversed' get a dark card automatically." },
+              "downloads": {
+                "type": "array",
+                "description": "Optional. Files offered in the Download menu, e.g. SVG and PNG. Without it, the preview file is the only download.",
+                "items": {
+                  "type": "object",
+                  "required": ["file"],
+                  "properties": {
+                    "file": { "type": "string", "description": "Path relative to this brand's own folder." },
+                    "label": { "type": "string", "description": "Menu label. Defaults to the file extension in capitals." }
+                  }
+                }
+              },
+              "source": { "$ref": "#/$defs/citation" }
+            }
+          }
+        },
+        "graphicMark": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "description": { "type": "string" },
+            "colorRule": { "type": "string" },
+            "preview": { "type": "string" },
+            "source": { "$ref": "#/$defs/citation" }
+          }
+        }
+      }
+    },
+    "colors": {
+      "type": "object",
+      "required": ["guidance", "palette"],
+      "properties": {
+        "guidance": {
+          "type": "object",
+          "properties": {
+            "primaryPalette": { "type": "string" },
+            "secondaryPalette": { "type": "string" },
+            "continuity": { "type": "string" },
+            "source": { "$ref": "#/$defs/citation" }
+          }
+        },
+        "palette": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "hex"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "role": { "type": "string" },
+              "hex": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+              "rgb": { "type": "array", "items": { "type": "integer" }, "minItems": 3, "maxItems": 3 },
+              "cmyk": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4 },
+              "pms": {},
+              "usage": { "type": "string" },
+              "hexSource": { "type": "string" },
+              "verificationNote": { "type": "string" }
+            }
+          }
+        },
+        "metallicGold": {
+          "type": "object",
+          "properties": {
+            "printingOnly": { "type": "boolean" },
+            "metallicPms": { "type": "string" },
+            "foilGuidance": { "type": "string" },
+            "source": { "$ref": "#/$defs/citation" }
+          }
+        }
+      }
+    },
+    "typography": {
+      "type": "object",
+      "required": ["guidance", "families"],
+      "properties": {
+        "guidance": { "type": "array", "items": { "type": "string" } },
+        "families": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "roles"],
+            "properties": {
+              "name": { "type": "string" },
+              "roles": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "styles": {
+          "type": "array",
+          "items": { "type": "object" }
+        },
+        "digitalImplementation": {
+          "type": "object",
+          "description": "How this brand's identity is actually implemented on MarinOS digital products, when it diverges from the print guide — see marin-digital-standards/brand/typography.md for why that divergence is expected, not a compromise.",
+          "properties": {
+            "note": { "type": "string" },
+            "heading": { "type": "string" },
+            "body": { "type": "string" },
+            "source": { "type": "string" }
+          }
+        },
+        "source": { "$ref": "#/$defs/citation" }
+      }
+    },
+    "fileFormats": {
+      "type": "object",
+      "required": ["masterArtworkRule", "print", "webElectronic"],
+      "properties": {
+        "masterArtworkRule": { "type": "string" },
+        "print": {
+          "type": "object",
+          "properties": {
+            "preferredFormat": { "type": "string" },
+            "description": { "type": "string" },
+            "colorspaces": { "type": "array", "items": { "type": "string" } },
+            "scaling": { "type": "string" }
+          }
+        },
+        "webElectronic": {
+          "type": "object",
+          "properties": {
+            "preferredFormat": { "type": "string" },
+            "description": { "type": "string" },
+            "colorspace": { "type": "string" }
+          }
+        },
+        "originalAccess": { "type": "string" },
+        "source": { "$ref": "#/$defs/citation" }
+      }
+    },
+    "publicationNotes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "qrCodeLogos": {
+      "type": "object",
+      "description": "Optional. Shown under Logos. Logos made for the center of a QR code, such as in Marin Links. A square PNG works best. Mark one item as the default.",
+      "properties": {
+        "guidance": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "preview"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "default": { "type": "boolean", "description": "True for the logo a tool should use unless told otherwise." },
+              "description": { "type": "string" },
+              "usage": { "type": "string" },
+              "preview": { "type": "string", "description": "Path to a square PNG under this brand's assets/ folder." }
+            }
+          }
+        }
+      }
+    },
+    "illustrations": {
+      "type": "object",
+      "description": "Optional. Supporting scene/concept illustrations distinct from logos — for a brand whose materials include outreach graphics beyond the mark itself.",
+      "properties": {
+        "guidance": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "description": { "type": "string" },
+              "usage": { "type": "string" },
+              "preview": { "type": "string", "description": "Optional — omit if no local preview file exists yet; the card renders without an image." },
+              "source": { "$ref": "#/$defs/citation" }
+            }
+          }
+        }
+      }
+    },
+    "printMaterials": {
+      "type": "object",
+      "description": "Optional. Print-ready materials (posters, flyers) distributed as a linked document rather than a direct downloadable image.",
+      "properties": {
+        "guidance": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name", "url"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "description": { "type": "string" },
+              "url": { "type": "string", "description": "Link to the material — may be an external page, not necessarily a direct file." },
+              "format": { "type": "string" },
+              "preview": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "socialMedia": {
+      "type": "object",
+      "description": "Optional. Ready-to-post social assets paired with suggested caption copy, potentially in multiple languages.",
+      "properties": {
+        "guidance": { "type": "string" },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "description": { "type": "string" },
+              "preview": { "type": "string" },
+              "downloadUrl": { "type": "string", "description": "Only set if different from preview (e.g. preview is a mockup, downloadUrl is the flat asset)." },
+              "captions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["language", "lines"],
+                  "properties": {
+                    "language": { "type": "string", "description": "e.g. 'en', 'es' — used as a key, not rendered directly." },
+                    "languageLabel": { "type": "string", "description": "e.g. 'English', 'Spanish' — what's actually rendered as the heading." },
+                    "lines": { "type": "array", "items": { "type": "string" } }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "citation": {
+      "description": "Optional source-document citation. Shape varies (page vs pages, section vs sections, an extra option label) because the underlying print guide's own structure varies — this is provenance for a human reading the JSON, not something scripts/build-brand.js depends on.",
+      "type": "object"
+    }
+  }
+}

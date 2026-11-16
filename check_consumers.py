@@ -7,6 +7,8 @@ import json
 import sys
 from pathlib import Path
 
+import copies
+
 ROOT = Path(__file__).resolve().parent
 doc = json.loads((ROOT / "consumers.json").read_text())
 errors, repos = [], [c["repo"] for c in doc["consumers"]]
@@ -16,14 +18,17 @@ for c in doc["consumers"]:
     for k in ("repo", "copies", "sync", "build", "check"):
         if k not in c:
             errors.append(f"{c.get('repo', '?')}: missing {k}")
+    tos = []
     for item in c.get("copies", []):
-        if not (ROOT / item["from"]).is_file():
+        src = ROOT / item["from"]
+        if not (src.is_dir() if item.get("dir") else src.is_file()):
             errors.append(f"{c['repo']}: {item['from']} does not exist in marin-data")
-    tos = [i["to"] for i in c.get("copies", [])]
+            continue
+        tos += [dst for _, dst in copies.pairs(item)]
     if len(tos) != len(set(tos)):
         errors.append(f"{c['repo']}: two files are copied to the same place")
     for dep in c.get("dependsOn", []):
         if dep not in repos:
             errors.append(f"{c['repo']}: dependsOn {dep}, which is not listed")
-print("\n".join(errors) if errors else f"ok: {len(repos)} consumers, {sum(len(c['copies']) for c in doc['consumers'])} copied files")
+print("\n".join(errors) if errors else f"ok: {len(repos)} consumers, {sum(len(copies.pairs(i)) for c in doc['consumers'] for i in c['copies'])} copied files")
 sys.exit(1 if errors else 0)
