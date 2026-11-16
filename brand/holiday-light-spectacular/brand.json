@@ -1,0 +1,148 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "schemaVersion": "1.0.0",
+  "status": "draft",
+  "brand": {
+    "name": "Holiday Light Spectacular"
+  },
+  "purpose": {
+    "summary": "Logo files for the Holiday Light Spectacular, ready to use on the web, in documents, and in QR codes.",
+    "goals": [
+      "Use the supplied logo files so the Holiday Light Spectacular looks the same everywhere.",
+      "Give staff and partners a white and a transparent version to choose from."
+    ]
+  },
+  "logos": {
+    "generalRules": [
+      "Use the supplied artwork. Do not recolor, stretch, or redraw the logo.",
+      "Leave clear space around the logo and do not overlap it with other graphics."
+    ],
+    "variants": [
+      {
+        "id": "logo-white-background",
+        "name": "Logo, white background",
+        "preferred": true,
+        "description": "Round yellow logo with red Holiday Light Spectacular lettering and a string of colored lights, on a white background.",
+        "usage": "Use in documents, slides, and web pages with a white or light background.",
+        "preview": "assets/logos/holiday-light-spectacular-white.png"
+      },
+      {
+        "id": "logo-transparent-background",
+        "name": "Logo, transparent background",
+        "description": "The same logo with nothing behind the circle.",
+        "usage": "Use on colored pages or over other artwork, where a white box around the logo would not fit.",
+        "preview": "assets/logos/holiday-light-spectacular-transparent.png"
+      }
+    ]
+  },
+  "qrCodeLogos": {
+    "guidance": "The default is the round logo on a transparent square. Use it for the center of a QR code.",
+    "items": [
+      {
+        "id": "square-default",
+        "name": "QR code logo",
+        "default": true,
+        "description": "Round Holiday Light Spectacular logo on a transparent square.",
+        "usage": "Use as the logo in the center of a QR code for the Holiday Light Spectacular.",
+        "preview": "assets/qr-code-logos/square.png"
+      }
+    ]
+  },
+  "colors": {
+    "guidance": {
+      "primaryPalette": "Yellow and red are the main colors in the logo.",
+      "secondaryPalette": "Green, purple, orange, and charcoal appear in the string of lights.",
+      "continuity": "These colors were taken from the logo artwork, not from a style guide. Use the supplied logo files rather than re-creating them from these values."
+    },
+    "palette": [
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "role": "background",
+        "hex": "#fff450",
+        "rgb": [
+          255,
+          244,
+          80
+        ]
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "role": "text",
+        "hex": "#d2232a",
+        "rgb": [
+          210,
+          35,
+          42
+        ]
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "role": "accent",
+        "hex": "#71bf45",
+        "rgb": [
+          113,
+          191,
+          69
+        ]
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "role": "accent",
+        "hex": "#9d86be",
+        "rgb": [
+          157,
+          134,
+          190
+        ]
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "role": "accent",
+        "hex": "#f9a871",
+        "rgb": [
+          249,
+          168,
+          113
+        ]
+      },
+      {
+        "id": "charcoal",
+        "name": "Charcoal",
+        "role": "accent",
+        "hex": "#363636",
+        "rgb": [
+          54,
+          54,
+          54
+        ]
+      }
+    ]
+  },
+  "typography": {
+    "guidance": [
+      "No typography guidance has been provided for this brand yet."
+    ],
+    "families": []
+  },
+  "fileFormats": {
+    "masterArtworkRule": "Use the supplied files as they are. Do not recolor, stretch, or redraw them.",
+    "print": {
+      "preferredFormat": "PNG",
+      "description": "Only PNG files are available right now. Ask for a larger or vector file before printing at large sizes."
+    },
+    "webElectronic": {
+      "preferredFormat": "PNG",
+      "description": "Use the transparent PNG on colored or photo backgrounds, and the white-background PNG everywhere else."
+    }
+  },
+  "publicationNotes": [
+    "The logo was supplied as an image file with a white background. The transparent version was made from it by removing the white around the circle.",
+    "Colors were sampled from the logo image and are approximate.",
+    "No style guide, owner, or website has been provided for this brand yet."
+  ]
+}

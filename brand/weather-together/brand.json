@@ -1,0 +1,104 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "schemaVersion": "1.0.0",
+  "status": "draft",
+  "brand": {
+    "name": "Weather Together"
+  },
+  "purpose": {
+    "summary": "Logo files for Weather Together, ready to use on the web, in documents, and in QR codes.",
+    "goals": [
+      "Use the supplied logo files so Weather Together looks the same everywhere.",
+      "Give staff and partners a logo with and without the tagline."
+    ]
+  },
+  "logos": {
+    "generalRules": [
+      "Use the supplied artwork. Do not recolor, stretch, or redraw the logo.",
+      "Leave clear space around the logo and do not overlap it with other graphics."
+    ],
+    "variants": [
+      {
+        "id": "logo",
+        "name": "Logo",
+        "preferred": true,
+        "description": "Three waves above WEATHER in black and TOGETHER in blue.",
+        "usage": "Use in most documents, slides, and web pages.",
+        "preview": "assets/logos/weather-together-logo.png"
+      },
+      {
+        "id": "logo-with-tagline",
+        "name": "Logo with tagline",
+        "description": "The same logo with the tagline Prepare Today. Protect Tomorrow. below.",
+        "usage": "Use when there is room for the tagline.",
+        "preview": "assets/logos/weather-together-logo-tagline.png"
+      }
+    ]
+  },
+  "qrCodeLogos": {
+    "guidance": "The default is the logo, centered on a white square. Use it for the center of a QR code.",
+    "items": [
+      {
+        "id": "square-default",
+        "name": "QR code logo",
+        "default": true,
+        "description": "Weather Together logo on a white square.",
+        "usage": "Use as the logo in the center of a QR code for Weather Together.",
+        "preview": "assets/qr-code-logos/square.png"
+      }
+    ]
+  },
+  "colors": {
+    "guidance": {
+      "primaryPalette": "Black and blue are the two colors in the logo.",
+      "secondaryPalette": "No other colors have been provided.",
+      "continuity": "These colors were taken from the logo artwork, not from a style guide. Use the supplied logo files rather than re-creating them from these values."
+    },
+    "palette": [
+      {
+        "id": "black",
+        "name": "Black",
+        "role": "primary",
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "role": "primary",
+        "hex": "#287fe8",
+        "rgb": [
+          40,
+          127,
+          232
+        ]
+      }
+    ]
+  },
+  "typography": {
+    "guidance": [
+      "No typography guidance has been provided for this brand yet."
+    ],
+    "families": []
+  },
+  "fileFormats": {
+    "masterArtworkRule": "Use the supplied files as they are. Do not recolor, stretch, or redraw them.",
+    "print": {
+      "preferredFormat": "PNG",
+      "description": "Only PNG files are available right now. Ask for a vector file before printing at very large sizes."
+    },
+    "webElectronic": {
+      "preferredFormat": "PNG",
+      "description": "Use the PNG files on white or light backgrounds."
+    }
+  },
+  "publicationNotes": [
+    "The logos were supplied as image files with white backgrounds. A transparent version has not been made.",
+    "Colors were sampled from the logo image and are approximate.",
+    "No style guide, owner, or website has been provided for this brand yet."
+  ]
+}

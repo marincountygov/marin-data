@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "$comment": "Extracted from the live FixItMarin Digital Tool Kit page (https://www.marincounty.gov/how-do-i/fixitmarin/fixitmarin-digital-tool-kit), not an uploaded PDF — see brand.sourceUrl instead of sourceFile. Typography is intentionally empty: the source page publishes no typeface specification for FixItMarin, so none is asserted here. fileFormats.print notes that no vector master has been published, rather than inventing one.",
+  "schemaVersion": "1.0.0",
+  "status": "published",
+  "brand": {
+    "name": "FixItMarin",
+    "website": "https://fixitmarin.com/",
+    "sourceUrl": "https://www.marincounty.gov/how-do-i/fixitmarin/fixitmarin-digital-tool-kit",
+    "lastUpdated": "May 28, 2026"
+  },
+  "purpose": {
+    "summary": "Access approved FixItMarin logos, graphics, social media assets, and brand guidance in one easy place.",
+    "goals": [
+      "Apply the FixItMarin name, logos, and graphics consistently across print, digital, and social media.",
+      "Keep messaging and visual tone aligned with County standards.",
+      "Make every FixItMarin communication feel connected and recognizable."
+    ]
+  },
+  "logos": {
+    "generalRules": [
+      "If you do not find the logo you need, contact the Public Information Office."
+    ],
+    "variants": [
+      {
+        "id": "primary-logo",
+        "name": "Primary Logo",
+        "preferred": true,
+        "usage": "Use this primary logo on light backgrounds for most print, digital, and presentation materials.",
+        "preview": "assets/reference-previews/primary-logo-reference.jpg"
+      },
+      {
+        "id": "primary-logo-reversed",
+        "name": "Primary Logo Reversed",
+        "usage": "Use this logo on dark or colored backgrounds when the full color logo is not readable.",
+        "preview": "assets/reference-previews/primary-logo-reversed-reference.jpg"
+      },
+      {
+        "id": "primary-logo-tagline",
+        "name": "Primary Logo and Tagline",
+        "usage": "Use this version when there is enough space to include the tagline clearly and legibly.",
+        "preview": "assets/reference-previews/primary-logo-tagline-reference.jpg"
+      },
+      {
+        "id": "primary-logo-tagline-reversed",
+        "name": "Primary Logo and Tagline Reversed",
+        "usage": "Use this version with the tagline on dark or colored backgrounds for strong contrast.",
+        "preview": "assets/reference-previews/primary-logo-tagline-reversed-reference.jpg"
+      },
+      {
+        "id": "secondary-logo",
+        "name": "Secondary Logo",
+        "usage": "Use this alternate logo when the primary logo does not fit the layout or format.",
+        "preview": "assets/reference-previews/secondary-logo-reference.jpg"
+      },
+      {
+        "id": "secondary-logo-reversed",
+        "name": "Secondary Logo Reversed",
+        "usage": "Use this alternate logo on dark or colored backgrounds when stronger contrast is needed.",
+        "preview": "assets/reference-previews/secondary-logo-reversed-reference.jpg"
+      }
+    ]
+  },
+  "illustrations": {
+    "guidance": "Use these illustrations to support FixItMarin outreach across web, print, social media, and presentation materials.",
+    "items": [
+      {
+        "id": "on-your-phone",
+        "name": "FixItMarin on Your Phone",
+        "usage": "Use this illustration to show that FixItMarin is available from a mobile device.",
+        "publicationNote": "No local preview file available — referenced on the source page as FIM_Phone.png."
+      },
+      {
+        "id": "submitting-a-report",
+        "name": "Submitting a FixItMarin Report",
+        "usage": "Use this illustration to show how residents can submit a location, description, and photo through FixItMarin.",
+        "preview": "assets/illustrations/submitting-report-reference.png"
+      },
+      {
+        "id": "submit-a-report",
+        "name": "Submit a Report on FixItMarin",
+        "usage": "Use this illustration to show a resident submitting a completed FixItMarin report from a mobile device.",
+        "preview": "assets/illustrations/submit-report-reference.png"
+      }
+    ]
+  },
+  "qrCodeLogos": {
+    "guidance": "The default is the square FixItMarin wordmark. Use it for the center of a QR code made in Marin Links.",
+    "items": [
+      {
+        "id": "square-default",
+        "name": "QR code logo",
+        "default": true,
+        "description": "FixItMarin wordmark on a white square.",
+        "usage": "Use as the logo in the center of a QR code for FixItMarin.",
+        "preview": "assets/qr-code-logos/square.png"
+      }
+    ]
+  },
+  "colors": {
+    "guidance": {
+      "primaryPalette": "Black for the primary wordmark, with a blue accent on \"It\" to distinguish the FixItMarin name.",
+      "secondaryPalette": "White is used for logo lockups on dark or colored backgrounds.",
+      "continuity": "Consistent use of black, blue, and white keeps FixItMarin recognizable across the app, social media, and print materials."
+    },
+    "palette": [
+      { "id": "black", "name": "Black", "role": "primary", "hex": "#000000", "rgb": [0, 0, 0] },
+      { "id": "blue", "name": "Blue", "role": "accent", "hex": "#1976BC", "rgb": [25, 118, 188], "usage": "Highlights \"It\" in the FixItMarin wordmark." },
+      { "id": "white", "name": "White", "role": "secondary", "hex": "#FFFFFF", "rgb": [255, 255, 255], "usage": "Background for light lockups; wordmark color on dark or colored backgrounds." }
+    ]
+  },
+  "typography": {
+    "guidance": [
+      "No typeface specification is published on the FixItMarin Digital Tool Kit page; treat the wordmark as locked logo artwork rather than resetting it in a separate typeface."
+    ],
+    "families": []
+  },
+  "fileFormats": {
+    "masterArtworkRule": "Use the supplied FixItMarin logo files as downloaded; do not recolor, distort, or recreate them.",
+    "print": {
+      "description": "No vector master (EPS/AI) has been published for FixItMarin; only PNG exports are provided."
+    },
+    "webElectronic": {
+      "preferredFormat": "PNG",
+      "description": "All published FixItMarin logo lockups are PNG exports, suitable for web, digital, and Microsoft Office use.",
+      "colorspace": "RGB"
+    }
+  },
+  "printMaterials": {
+    "guidance": "Print-ready PDF of poster for you to download.",
+    "items": [
+      {
+        "id": "flyer-poster",
+        "name": "Flyer/Poster",
+        "description": "Use this poster in public spaces, counters, events, and community bulletin boards.",
+        "url": "https://www.marincounty.gov/node/29471",
+        "format": "PDF"
+      }
+    ]
+  },
+  "socialMedia": {
+    "guidance": "Use these graphics and sample captions to promote FixItMarin on County, department, and partner social media channels.",
+    "assets": [
+      {
+        "id": "facebook-post",
+        "name": "Facebook Post",
+        "description": "Smartphone mockup displaying FixItMarin app promotional artwork.",
+        "preview": "assets/social/facebook-post-reference.png",
+        "downloadUrl": "https://assets.marincounty.gov/marincounty-prod/public/2026-05/FixItMarin%20(Facebook%20Post).png",
+        "captions": [
+          {
+            "language": "en",
+            "languageLabel": "English",
+            "lines": [
+              "See something that needs attention in your neighborhood?",
+              "Use FixItMarin to report non-emergency issues in unincorporated Marin County, including potholes, streetlight outages, fallen branches, and more.",
+              "Submit a report, add a photo and location, and track updates as County crews respond.",
+              "Get started: FixItMarin.com",
+              "FixItMarin is for non-emergencies only. For emergencies, call 911.",
+              "#FixItMarin"
+            ]
+          },
+          {
+            "language": "es",
+            "languageLabel": "Spanish",
+            "lines": [
+              "¿Has visto algo que requiera atención en tu barrio?",
+              "Utiliza FixItMarin para informar de situaciones que no sean de emergencia en las zonas no incorporadas del condado de Marin, como baches, averías en el alumbrado público, ramas caídas y otras incidencias.",
+              "Envía un informe, añade una foto y la ubicación, y sigue las actualizaciones a medida que los equipos del condado responden.",
+              "Empieza aquí: FixItMarin.com",
+              "FixItMarin es solo para situaciones que no sean de emergencia. Para emergencias, llama al 911.",
+              "#FixItMarin"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "publicationNotes": [
+    "Extracted from the live FixItMarin Digital Tool Kit page (marincounty.gov), not an uploaded PDF — see brand.sourceUrl.",
+    "No vector (EPS/AI) master logo file was found published; only PNG exports are linked from the source page.",
+    "The 'FixItMarin on Your Phone' illustration (FIM_Phone.png) is referenced on the source page but no local preview file has been supplied yet."
+  ]
+}

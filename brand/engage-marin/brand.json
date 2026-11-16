@@ -1,0 +1,258 @@
+{
+  "$schema": "../../schemas/brand.schema.json",
+  "$comment": "Built from the Engage Marin look and feel PDF and the supplied logo files. Rust red and olive green are County of Marin palette colors (see brands/county-of-marin), not new values. Typography follows the Brand Center standard (Jost). Pattern artwork is not published here.",
+  "schemaVersion": "1.0.0",
+  "status": "published",
+  "brand": {
+    "name": "Engage Marin",
+    "website": "https://engage.marincounty.gov/",
+    "lastUpdated": "October 13, 2026"
+  },
+  "purpose": {
+    "summary": "Approved Engage Marin logos, colors, and type guidance in one easy place.",
+    "goals": [
+      "Show the Engage Marin name and mark the same way everywhere.",
+      "Make it easy to find the right logo for light and dark backgrounds.",
+      "Keep Engage Marin connected to the County of Marin brand."
+    ]
+  },
+  "logos": {
+    "generalRules": [
+      "Use the logo files as supplied. Do not recolor, stretch, or redraw them.",
+      "Use the full color logo on light backgrounds.",
+      "Use the reversed or white logo on dark backgrounds such as black (#231f20).",
+      "Use the mark by itself only when the full logo will not fit or the name already appears nearby.",
+      "If you do not find the logo you need, contact the Public Information Office."
+    ],
+    "variants": [
+      {
+        "id": "primary-logo",
+        "name": "Primary Logo",
+        "preferred": true,
+        "usage": "Use this logo on light backgrounds for most print, digital, and presentation materials.",
+        "preview": "assets/logos/engage-marin-logo.svg",
+        "downloads": [
+          {
+            "file": "assets/logos/engage-marin-logo.svg"
+          },
+          {
+            "file": "assets/logos/engage-marin-logo.png"
+          }
+        ]
+      },
+      {
+        "id": "primary-logo-reversed",
+        "name": "Primary Logo Reversed",
+        "usage": "Use this logo on dark backgrounds. The mark keeps its colors and the lettering is white.",
+        "preview": "assets/logos/engage-marin-logo-white-text.svg",
+        "previewBackground": "dark",
+        "downloads": [
+          {
+            "file": "assets/logos/engage-marin-logo-white-text.svg"
+          },
+          {
+            "file": "assets/logos/engage-marin-logo-white-text.png"
+          }
+        ]
+      },
+      {
+        "id": "primary-logo-black",
+        "name": "Primary Logo Black",
+        "usage": "Use this one-color logo on light backgrounds when color is not available.",
+        "preview": "assets/logos/engage-marin-logo-black.svg",
+        "downloads": [
+          {
+            "file": "assets/logos/engage-marin-logo-black.svg"
+          },
+          {
+            "file": "assets/logos/engage-marin-logo-black.png"
+          }
+        ]
+      },
+      {
+        "id": "primary-logo-white",
+        "name": "Primary Logo White",
+        "usage": "Use this one-color logo on dark backgrounds when color is not available.",
+        "preview": "assets/logos/engage-marin-logo-white.svg",
+        "previewBackground": "dark",
+        "downloads": [
+          {
+            "file": "assets/logos/engage-marin-logo-white.svg"
+          },
+          {
+            "file": "assets/logos/engage-marin-logo-white.png"
+          }
+        ]
+      },
+      {
+        "id": "mark",
+        "name": "Mark",
+        "usage": "Use the mark by itself when space is tight, such as a social media profile picture.",
+        "preview": "assets/logos/engage-marin-mark.svg",
+        "downloads": [
+          {
+            "file": "assets/logos/engage-marin-mark.svg"
+          },
+          {
+            "file": "assets/logos/engage-marin-mark.png"
+          }
+        ]
+      },
+      {
+        "id": "mark-black",
+        "name": "Mark Black",
+        "usage": "Use this one-color mark on light backgrounds.",
+        "preview": "assets/logos/engage-marin-mark-black.svg",
+        "downloads": [
+          {
+            "file": "assets/logos/engage-marin-mark-black.svg"
+          },
+          {
+            "file": "assets/logos/engage-marin-mark-black.png"
+          }
+        ]
+      },
+      {
+        "id": "mark-white",
+        "name": "Mark White",
+        "usage": "Use this one-color mark on dark backgrounds.",
+        "preview": "assets/logos/engage-marin-mark-white.svg",
+        "previewBackground": "dark",
+        "downloads": [
+          {
+            "file": "assets/logos/engage-marin-mark-white.svg"
+          },
+          {
+            "file": "assets/logos/engage-marin-mark-white.png"
+          }
+        ]
+      }
+    ]
+  },
+  "qrCodeLogos": {
+    "guidance": "The default is the square Engage Marin mark. Use it for the center of a QR code made in Marin Links.",
+    "items": [
+      {
+        "id": "square-default",
+        "name": "QR code logo",
+        "default": true,
+        "description": "Engage Marin speech-bubble mark on a transparent square.",
+        "usage": "Use as the logo in the center of a QR code for Engage Marin.",
+        "preview": "assets/qr-code-logos/square.png"
+      }
+    ]
+  },
+  "colors": {
+    "guidance": {
+      "primaryPalette": "Gold and blue come from the mark. Black is used for the lettering.",
+      "secondaryPalette": "Red and green are County of Marin colors that may be used as supporting accents.",
+      "continuity": "White is used for the lettering and one-color logos on dark backgrounds."
+    },
+    "palette": [
+      {
+        "id": "gold",
+        "name": "Gold",
+        "role": "primary",
+        "hex": "#e4b53a",
+        "rgb": [
+          228,
+          181,
+          58
+        ],
+        "usage": "Mark color."
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "role": "primary",
+        "hex": "#2c75bc",
+        "rgb": [
+          44,
+          117,
+          188
+        ],
+        "usage": "Mark color."
+      },
+      {
+        "id": "black",
+        "name": "Black",
+        "role": "primary",
+        "hex": "#231f20",
+        "rgb": [
+          35,
+          31,
+          32
+        ],
+        "usage": "Logo lettering and the dark background for reversed logos."
+      },
+      {
+        "id": "white",
+        "name": "White",
+        "role": "secondary",
+        "hex": "#ffffff",
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "usage": "Lettering and one-color logos on dark backgrounds."
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "role": "secondary",
+        "hex": "#b45340",
+        "rgb": [
+          180,
+          83,
+          64
+        ],
+        "usage": "County of Marin palette color."
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "role": "secondary",
+        "hex": "#73784a",
+        "rgb": [
+          115,
+          120,
+          74
+        ],
+        "usage": "County of Marin palette color."
+      }
+    ]
+  },
+  "typography": {
+    "guidance": [
+      "Engage Marin uses the same type as the Brand Center: Jost for headings. The logo lettering is locked artwork and is never set again in another typeface."
+    ],
+    "families": [
+      {
+        "name": "Jost",
+        "roles": [
+          "headings"
+        ]
+      }
+    ],
+    "digitalImplementation": {
+      "note": "MarinOS digital products use Jost for headings and a system sans-serif stack for body text.",
+      "heading": "Jost (marin-ui shared bundle)",
+      "body": "System sans-serif stack (Arial, Verdana, system-ui fallbacks)",
+      "source": "marin-digital-standards/brand/typography.md"
+    }
+  },
+  "fileFormats": {
+    "masterArtworkRule": "Use the supplied Engage Marin logo files as downloaded; do not recolor, distort, or recreate them.",
+    "print": {
+      "preferredFormat": "SVG",
+      "description": "Vector artwork that can be enlarged without losing quality.",
+      "scaling": "Vector artwork can be enlarged without losing quality."
+    },
+    "webElectronic": {
+      "preferredFormat": "PNG",
+      "description": "Transparent PNG exports for web, on-screen, and Microsoft Office use.",
+      "colorspace": "RGB"
+    }
+  }
+}
