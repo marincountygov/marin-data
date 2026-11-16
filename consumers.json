@@ -96,7 +96,7 @@
         "node scripts/build-organization.js ../marin-data/output"
       ],
       "check": "bash scripts/check.sh",
-      "notes": "build-organization.js copies the files itself. It also reads budgets.jsonld, budget-lines.jsonld and source/budget-display.json from output/ for the Budget tab. Do not pass --reach: it writes organization/data/reach-agencies.json, which nothing reads, because the Reach tab loads Marin Reach's published data in the browser."
+      "notes": "build-organization.js copies the files itself. It also reads budgets.jsonld, budget-lines.jsonld and source/budget-display.json from output/ for the Budget tab. The Reach tab on each page loads Marin Reach's published data in the browser, so the build needs nothing from marin-reach."
     },
     {
       "repo": "marin-budget",
