@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Marin data source registry",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "sources"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "title": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "kind",
+          "status",
+          "hashed",
+          "sha256",
+          "bytes",
+          "usedBy"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "pdf"
+            ]
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "edition": {
+            "type": "string"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^https://"
+          },
+          "file": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Path inside marin-data. Used only when url is null."
+          },
+          "status": {
+            "enum": [
+              "current",
+              "superseded"
+            ]
+          },
+          "hashed": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "pageOffset": {
+            "type": "string"
+          },
+          "usedBy": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          },
+          "legacyKey": {
+            "type": "string",
+            "description": "Key this source has in the generated output/sources.json that older app scripts read."
+          },
+          "sourcePages": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "access": {
+            "enum": [
+              "public",
+              "internal"
+            ],
+            "description": "Defaults to public. Internal sources have no url and no file."
+          },
+          "extraction": {
+            "type": "object",
+            "description": "Notes about how data was read from this source. Copied into the legacy output/sources.json entry."
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "legacyKey",
+          "url"
+        ],
+        "properties": {
+          "legacyKey": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

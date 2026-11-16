@@ -16,6 +16,8 @@ import json
 import pickle
 import re
 import sys
+
+import sources_lib
 from pathlib import Path
 
 OFFSET = 8  # printed page number = PDF page number - 8
@@ -521,7 +523,7 @@ def main():
         print(f'{len(problems)} cells printed over each other in the PDF could not be read; see the qa file')
     orgs = json.load(open(out_dir / 'organizations.jsonld'))['@graph']
     funds = json.load(open(out_dir / 'funds.jsonld'))['@graph']
-    book_url = json.load(open(out_dir / 'sources.json')).get('budgetBook2025', {}).get('url')
+    book_url = sources_lib.get('budget-book-fy2025-26')['url']
     budgets, lines, new_funds, unmapped, rounding = build_jsonld(data, orgs, funds, book_url)
     for name, graph in (('budgets-2025-26.jsonld', budgets), ('budget-lines-2025-26.jsonld', lines), ('funds-2025-26.jsonld', new_funds)):
         json.dump({'@context': CONTEXT, '@graph': graph}, open(out_dir / name, 'w'), indent=1, ensure_ascii=False)

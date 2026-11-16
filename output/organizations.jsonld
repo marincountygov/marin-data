@@ -85,7 +85,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/AWM",
+      "url": "https://www.marincounty.gov/departments/AWM",
+      "alternateUrl": "https://MarinCounty.gov/AWM",
       "alternateName": [
         "Marin County Agriculture, Weights and Measures"
       ],
@@ -211,7 +212,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/ARCC",
+      "url": "https://www.arcc.marincounty.gov/",
+      "alternateUrl": "https://MarinCounty.gov/ARCC",
       "alternateName": [
         "Marin County Assessor-Recorder-County Clerk"
       ],
@@ -261,7 +263,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Board",
+      "url": "https://www.marincounty.gov/departments/board",
+      "alternateUrl": "https://MarinCounty.gov/Board",
       "alternateName": [
         "Marin Board of Supervisors"
       ],
@@ -310,7 +313,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/CSS",
+      "url": "https://www.marincounty.gov/departments/css",
+      "alternateUrl": "https://MarinCounty.gov/CSS",
       "alternateName": [
         "Marin County Child Support Services"
       ],
@@ -394,9 +398,11 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/CDA",
+      "url": "https://www.marincounty.gov/departments/cda",
+      "alternateUrl": "https://MarinCounty.gov/CDA",
       "alternateName": [
-        "Marin County Community Development Agency"
+        "Marin County Community Development Agency",
+        "CDA"
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-development-and-public-works"
@@ -594,7 +600,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/County-Counsel",
+      "url": "https://www.marincounty.gov/departments/county-counsel",
+      "alternateUrl": "https://MarinCounty.gov/County-Counsel",
       "alternateName": [
         "Marin County Counsel"
       ],
@@ -644,9 +651,11 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Executive",
+      "url": "https://www.marincounty.gov/departments/executive",
+      "alternateUrl": "https://MarinCounty.gov/Executive",
       "alternateName": [
-        "Marin County Executive"
+        "Marin County Executive",
+        "OCE"
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
@@ -694,7 +703,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Cultural-Services",
+      "url": "https://www.marincounty.gov/departments/cultural-services",
+      "alternateUrl": "https://MarinCounty.gov/Cultural-Services",
       "alternateName": [
         "Marin County Cultural Services"
       ],
@@ -744,7 +754,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/DA",
+      "url": "https://marincountyda.org/",
+      "alternateUrl": "https://MarinCounty.gov/DA",
       "alternateName": [
         "Marin County District Attorney"
       ],
@@ -794,7 +805,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Elections",
+      "url": "https://www.marincounty.gov/departments/elections",
+      "alternateUrl": "https://MarinCounty.gov/Elections",
       "alternateName": [
         "Marin County Elections"
       ],
@@ -844,7 +856,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Finance",
+      "url": "https://www.marincounty.gov/departments/finance",
+      "alternateUrl": "https://MarinCounty.gov/Finance",
       "alternateName": [
         "Marin County Finance"
       ],
@@ -894,7 +907,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Fire",
+      "url": "https://www.marincounty.gov/departments/fire",
+      "alternateUrl": "https://MarinCounty.gov/Fire",
       "alternateName": [
         "Marin County Fire Department"
       ],
@@ -944,7 +958,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/HHS",
+      "url": "https://hhs.marincounty.gov/",
+      "alternateUrl": "https://MarinCounty.gov/HHS",
       "alternateName": [
         "Marin County Health and Human Services"
       ],
@@ -1181,7 +1196,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/HR",
+      "url": "https://www.hr.marincounty.gov/",
+      "alternateUrl": "https://MarinCounty.gov/HR",
       "alternateName": [
         "Marin County Human Resources"
       ],
@@ -1566,7 +1582,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/IT",
+      "url": "https://www.marincounty.gov/departments/it",
+      "alternateUrl": "https://MarinCounty.gov/IT",
       "alternateName": [
         "Marin County Information Services and Technology"
       ],
@@ -1616,7 +1633,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Library",
+      "url": "https://marinlibrary.org/",
+      "alternateUrl": "https://MarinCounty.gov/Library",
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -1663,7 +1681,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Parks",
+      "url": "https://www.parks.marincounty.gov/",
+      "alternateUrl": "https://MarinCounty.gov/Parks",
       "alternateName": [
         "Marin County Parks"
       ],
@@ -1713,7 +1732,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Probation",
+      "url": "https://www.marincounty.gov/departments/Probation",
+      "alternateUrl": "https://MarinCounty.gov/Probation",
       "alternateName": [
         "Marin County Probation"
       ],
@@ -1763,7 +1783,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Public-Defender",
+      "url": "https://www.marincounty.gov/departments/public-defender",
+      "alternateUrl": "https://MarinCounty.gov/Public-Defender",
       "alternateName": [
         "Marin County Public Defender"
       ],
@@ -1813,7 +1834,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Public-Works",
+      "url": "https://publicworks.marincounty.gov/",
+      "alternateUrl": "https://MarinCounty.gov/Public-Works",
       "alternateName": [
         "Marin County Public Works"
       ],
@@ -1905,7 +1927,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/Sheriff",
+      "url": "https://marinsheriff.gov/",
+      "alternateUrl": "https://MarinCounty.gov/Sheriff",
       "alternateName": [
         "Marin County Sheriff"
       ],
@@ -1989,7 +2012,8 @@
       "areaServed": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
-      "url": "https://MarinCounty.gov/UCCEM",
+      "url": "https://www.marincounty.gov/departments/uccem",
+      "alternateUrl": "https://MarinCounty.gov/UCCEM",
       "alternateName": [
         "Marin UC Cooperative Extension"
       ],
