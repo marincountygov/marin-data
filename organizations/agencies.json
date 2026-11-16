@@ -11,7 +11,8 @@
     "An id is permanent. Never reuse or rename an id. If an agency closes, set status to retired.",
     "A division's id is its department's id, a slash, and a short name (for example hhs/public-health).",
     "The order of this list is the order people see in menus.",
-    "A code is the opaque value Marin Links sends in the agency and division labels. It is permanent. Never reuse, change, or renumber a code."
+    "A code is the opaque value Marin Links sends in the agency and division labels. It is permanent. Never reuse, change, or renumber a code.",
+    "This list is edited in marin-data (organizations/agencies.json). Other repos keep copies that a daily update replaces. Do not edit a copy."
   ],
   "agencies": [
     {
