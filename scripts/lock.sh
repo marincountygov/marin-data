@@ -7,8 +7,8 @@
 # Refuses if marin-data has uncommitted changes or its commit is not on origin/main yet: the CI could not fetch it.
 set -euo pipefail
 ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
-CONSUMER=${1:?usage: lock.sh <consumer folder>}
-[[ -d "$CONSUMER" ]] || { printf 'ERROR: %s is not a folder.\n' "$CONSUMER" >&2; exit 1; }
+[[ -d "${1:?usage: lock.sh <consumer folder>}" ]] || { printf 'ERROR: %s is not a folder.\n' "$1" >&2; exit 1; }
+CONSUMER=$(cd -- "$1" && pwd)   # an absolute path, because this script changes folder below
 cd "$ROOT"
 [[ -z "$(git status --porcelain)" ]] || { printf 'ERROR: marin-data has uncommitted changes. Commit them, then lock.\n' >&2; exit 1; }
 SHA=$(git rev-parse HEAD)
