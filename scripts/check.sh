@@ -9,7 +9,7 @@ bash -n scripts/check.sh
 bash -n scripts/build.sh
 bash -n scripts/lock.sh
 bash -n scripts/data_sync.sh
-python3 -m py_compile check_sources.py check_orgs.py check_consumers.py check_copies.py check_brand.py copies.py sources_lib.py scripts/sync_consumer.py \
+python3 -m py_compile check_sources.py check_orgs.py check_consumers.py check_copies.py check_brand.py check_schemagov.py copies.py sources_lib.py scripts/sync_consumer.py \
   build_sources.py build_org_links.py build_org_aliases.py
 
 python3 check_sources.py            # source registry: fields, ids, hashes of stored files

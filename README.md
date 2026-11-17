@@ -48,6 +48,8 @@ bash scripts/check.sh    # checks the data and that every generated file is curr
 
 `check.sh` needs only Python 3. It also runs in GitHub on every push and pull request.
 
+GitHub also checks the JSON-LD against the schemaGov validators. To do the same here, with a clone of schemaGov (https://github.com/govfresh/schemaGov): `python3 check_schemagov.py ../path/to/schemaGov`. It fails on any error except the known one: the budget phase `planned` on the later years of the capital plan, which schemaGov does not allow yet. The GitHub job uses a fixed schemaGov version, set in `.github/workflows/check.yml`.
+
 ## How the apps get the data
 
 An app never edits a copy. `consumers.json` lists each app, the files it copies, and the commands that update it.
@@ -60,5 +62,4 @@ An app never edits a copy. `consumers.json` lists each app, the files it copies,
 ## Retired and leftover
 
 - `convert_org.py` and `tests/` made the first version of the organization data. Do not run them. The organization data is now kept by hand. `FINDINGS.md` explains why.
-- `output/organizations-with-budget-codes.jsonld` is an old copy that nothing uses.
 - `BUDGET-PLAN.md`, `BUDGET-DOCS-PLAN.md` and `CIP-PLAN.md` are design notes for the budget and capital extracts.
