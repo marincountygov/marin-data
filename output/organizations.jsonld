@@ -655,7 +655,8 @@
       "alternateUrl": "https://MarinCounty.gov/Executive",
       "alternateName": [
         "Marin County Executive",
-        "OCE"
+        "OCE",
+        "County Executive"
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
@@ -670,7 +671,32 @@
       },
       "telephone": "415-473-6358",
       "mission": "We serve our community and our employees by leading a responsive government that fosters a culture of collaboration and continuous improvement. Derek Johnson",
-      "description": "The County Executive is appointed by, and operates directly under, the Board of Supervisors. The County Executive serves both the legislative and executive functions of the Board by providing information and recommendations to guide the implementation of Board policies. DEPARTMENT BUDGET - OFFICE OF THE COUNTY EXECUTIVE"
+      "description": "The County Executive is appointed by, and operates directly under, the Board of Supervisors. The County Executive serves both the legislative and executive functions of the Board by providing information and recommendations to guide the implementation of Board policies. DEPARTMENT BUDGET - OFFICE OF THE COUNTY EXECUTIVE",
+      "department": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/organization/digital-innovation-and-transformation"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/digital-innovation-and-transformation",
+      "@type": "GovernmentOrganization",
+      "name": "Digital, Innovation and Transformation",
+      "organizationClassification": "division",
+      "governmentLevel": "subregional",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "digital-innovation-and-transformation"
+        }
+      ],
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "parentOrganization": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive"
+      }
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/cultural-services",
