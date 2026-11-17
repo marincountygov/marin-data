@@ -4,13 +4,9 @@
   python3 -m pip install -r requirements-schemagov.txt
   python3 check_schemagov.py PATH_TO_SCHEMAGOV_CLONE [--output DIR]
 
-Runs tools/validate.py and tools/shacl.py from the schemaGov clone. The shape check (shacl.py) must pass.
-The reference check (validate.py) may report only the errors listed in KNOWN below.
-
-KNOWN: the CIP budgets and budget lines for the later programmed years use the budget phase "planned".
-schemaGov allows only proposed, approved, adjusted and executed, so each of those is reported. Mapping them to
-"proposed" would change what the data says, so they stay as they are until schemaGov decides about "planned".
-Remove this entry when it does, or when the data changes.
+Runs tools/validate.py and tools/shacl.py from the schemaGov clone. Both must pass.
+The reference check (validate.py) may report only the errors listed in KNOWN below. The list is empty now.
+To tolerate a known problem for a while, add a pattern for its message to KNOWN, with a comment saying why and when to remove it.
 """
 import argparse
 import re
@@ -19,9 +15,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-KNOWN = [
-    re.compile(r"^budgetPhase: 'planned' is not one of \[.*\]$"),
-]
+KNOWN = []  # patterns (re.compile) for messages that are tolerated for now
 
 
 def run(clone, tool, output):
@@ -74,4 +68,4 @@ if unknown:
     if len(unknown) > 40:
         print(f"  ... and {len(unknown) - 40} more")
     sys.exit(1)
-print(f"ok: shapes pass, and the only reference errors are {len(errs)} known ones (budgetPhase 'planned')")
+print("ok: shapes pass" + (f", and the only reference errors are {len(errs)} known ones" if errs else ", and every reference resolves"))
