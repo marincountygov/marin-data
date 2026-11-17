@@ -17,6 +17,7 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+      - run: git fetch --no-tags --depth=1 origin main
       - run: bash scripts/check.sh
 
   # Checks the JSON-LD against the schemaGov validators. schemaGov is pinned to the commit this was last

@@ -21,4 +21,13 @@ python3 build_org_index.py --check   # organizations/index.json is current
 python3 check_consumers.py          # every file a consumer copies exists
 python3 check_brand.py              # brand.json files and their assets agree
 python3 check_projects.py           # the shared list of projects is well formed
+# Nothing permanent about a project may change (ids, Links codes). Compared with main. In GitHub the check
+# must run, so a missing main is an error there. On your own machine it is skipped if main has not been fetched.
+if git rev-parse --verify --quiet origin/main >/dev/null 2>&1; then
+  python3 check_projects.py --against origin/main
+elif [[ -n "${CI:-}" ]]; then
+  printf 'ERROR: origin/main is not fetched, so the projects guard cannot run. Run: git fetch origin main\n' >&2; exit 1
+else
+  printf 'SKIP: origin/main is not fetched here, so the check for removed projects and changed Links codes was not run.\n' >&2
+fi
 printf 'Requested checks completed successfully.\n'

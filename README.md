@@ -51,6 +51,8 @@ bash scripts/check.sh    # checks the data and that every generated file is curr
 
 `check.sh` needs only Python 3. It also runs in GitHub on every push and pull request.
 
+It also compares the list of projects with the version on `main`, and fails if a project was removed, a Links code changed, or an older Links value was dropped. Those are permanent, because past links in Marin Links Stats depend on them. Run `git fetch origin main` first so the comparison can run.
+
 GitHub also checks the JSON-LD against the schemaGov validators. To do the same here, with a clone of schemaGov (https://github.com/govfresh/schemaGov): `python3 -m pip install -r requirements-schemagov.txt`, then `python3 check_schemagov.py ../path/to/schemaGov`. The packages matter: without them the validators skip checks and still say they passed, so the script fails when it sees a skipped check. It fails on any error. The GitHub job uses a fixed schemaGov version, set in `.github/workflows/check.yml`.
 
 ## How the apps get the data

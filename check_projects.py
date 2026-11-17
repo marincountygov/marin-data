@@ -2,9 +2,17 @@
 """Check projects/projects.json: fields, unique ids, names and Links codes, and the shape of each app's block.
 
   python3 check_projects.py
+  python3 check_projects.py --against origin/main
+
+With --against, it also compares the list with the version at that git ref, and fails if anything permanent
+changed. A project id is permanent, so a project may not be removed. A Links code is permanent, so it may not
+change, and a legacy value (an older value that means the same project) may not be dropped. Removing a
+project or changing a code would silently break past links in Marin Links Stats. Renaming a project, adding a
+project, adding a legacy value, and adding or removing a reach or mentions entry are allowed.
 """
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -55,6 +63,40 @@ for p in doc["projects"]:
                 errors.append(f"{i}: mentions has an unknown field {k}")
         if not isinstance(m.get("include"), list) or not m["include"] or not all(isinstance(x, str) and x.strip() for x in m["include"]):
             errors.append(f"{i}: mentions.include must list at least one phrase")
+
+
+def baseline(ref):
+    """The project list at a git ref, or None when the file does not exist there yet."""
+    shown = subprocess.run(["git", "show", f"{ref}:projects/projects.json"], cwd=ROOT, capture_output=True, text=True)
+    if shown.returncode == 0:
+        return json.loads(shown.stdout)["projects"]
+    exists = subprocess.run(["git", "cat-file", "-e", f"{ref}:projects"], cwd=ROOT, capture_output=True, text=True)
+    if subprocess.run(["git", "rev-parse", "--verify", "--quiet", ref], cwd=ROOT, capture_output=True).returncode != 0:
+        sys.exit(f"cannot compare: the git ref {ref} does not exist here. Fetch it first, for example: git fetch origin main")
+    if exists.returncode != 0:
+        return None  # the list is new, so there is nothing to protect yet
+    sys.exit(f"cannot read projects/projects.json at {ref}: {shown.stderr.strip()}")
+
+
+if "--against" in sys.argv:
+    ref = sys.argv[sys.argv.index("--against") + 1]
+    before = baseline(ref)
+    now = {p["id"]: p for p in doc["projects"]}
+    for old_project in before or []:
+        i = old_project["id"]
+        if i not in now:
+            errors.append(f"{i}: this project was removed. Ids are permanent. Never remove a project, because past links and records refer to it.")
+            continue
+        old_links, new_links = old_project.get("links"), now[i].get("links")
+        if old_links:
+            if not new_links:
+                errors.append(f"{i}: its links entry was removed. Its code {old_links['code']} is permanent. Never drop a campaign, because past links in Stats use it.")
+                continue
+            if new_links["code"] != old_links["code"]:
+                errors.append(f"{i}: links.code changed from {old_links['code']} to {new_links['code']}. A code is permanent. Never change, reuse, or renumber it.")
+            dropped = sorted(set(old_links.get("legacy", [])) - set(new_links.get("legacy", [])))
+            if dropped:
+                errors.append(f"{i}: links.legacy lost {dropped}. Older values are kept so past visits still resolve.")
 
 print("\n".join(errors) if errors else f"ok: {len(doc['projects'])} projects ({len(codes)} in Links, {sum(1 for p in doc['projects'] if p.get('reach'))} in Reach, {sum(1 for p in doc['projects'] if 'mentions' in p)} in Mentions)")
 sys.exit(1 if errors else 0)
