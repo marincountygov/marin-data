@@ -48,7 +48,7 @@ bash scripts/check.sh    # checks the data and that every generated file is curr
 
 `check.sh` needs only Python 3. It also runs in GitHub on every push and pull request.
 
-GitHub also checks the JSON-LD against the schemaGov validators. To do the same here, with a clone of schemaGov (https://github.com/govfresh/schemaGov): `python3 check_schemagov.py ../path/to/schemaGov`. It fails on any error except the known one: the budget phase `planned` on the later years of the capital plan, which schemaGov does not allow yet. The GitHub job uses a fixed schemaGov version, set in `.github/workflows/check.yml`.
+GitHub also checks the JSON-LD against the schemaGov validators. To do the same here, with a clone of schemaGov (https://github.com/govfresh/schemaGov): `python3 -m pip install -r requirements-schemagov.txt`, then `python3 check_schemagov.py ../path/to/schemaGov`. The packages matter: without them the validators skip checks and still say they passed, so the script fails when it sees a skipped check. It fails on any error except the known one: the budget phase `planned` on the later years of the capital plan, which schemaGov does not allow yet. The GitHub job uses a fixed schemaGov version, set in `.github/workflows/check.yml`.
 
 ## How the apps get the data
 
