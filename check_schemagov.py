@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Run the schemaGov validators on output/ and fail on any error that is not a known one.
 
+  python3 -m pip install -r requirements-schemagov.txt
   python3 check_schemagov.py PATH_TO_SCHEMAGOV_CLONE [--output DIR]
 
 Runs tools/validate.py and tools/shacl.py from the schemaGov clone. The shape check (shacl.py) must pass.
@@ -49,11 +50,17 @@ clone, output = Path(args.clone).resolve(), Path(args.output).resolve()
 if not (clone / "tools" / "validate.py").is_file():
     sys.exit(f"{clone} does not look like a schemaGov clone (no tools/validate.py).")
 
+HINT = "Install the packages with: python3 -m pip install -r requirements-schemagov.txt"
 shapes = run(clone, "shacl.py", output)
 if shapes.returncode != 0:
     sys.exit("schemaGov shape check failed:\n" + shapes.stdout + shapes.stderr)
+if "SKIPPED" in shapes.stdout:
+    sys.exit("The schemaGov shape check (shacl.py) skipped its checks, so nothing was checked.\n" + shapes.stdout.strip() + "\n" + HINT)
 
 refs = run(clone, "validate.py", output)
+if "SKIPPED" in refs.stdout:
+    sys.exit("The schemaGov validator (validate.py) skipped some checks, so they were not run.\n"
+             + "\n".join(l for l in refs.stdout.splitlines() if "SKIPPED" in l) + "\n" + HINT)
 errs = errors_of(refs.stdout)
 unknown = [(title, msgs) for title, msgs in errs if not (msgs and all(any(k.match(m) for k in KNOWN) for m in msgs))]
 if refs.returncode != 0 and not errs:

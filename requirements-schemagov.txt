@@ -1,0 +1,6 @@
+# The packages the schemaGov validators need. Without them the validators skip checks and still report success,
+# so check_schemagov.py fails when it sees a skipped check. The versions are the ones the check was last run with.
+jsonschema==4.26.0
+referencing==0.37.0
+pyshacl==0.40.1
+rdflib==7.6.0
