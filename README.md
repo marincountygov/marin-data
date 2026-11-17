@@ -15,6 +15,7 @@ Published at https://marincountygov.github.io/marin-data/. Every file in this re
 | `organizations/monitors.json` | Which organization each watched department is about | Generated | marin-mentions |
 | `organizations/monitors-not-organizations.json` | Watched names that are not County organizations, with the reason | By hand | marin-mentions |
 | `organizations/aliases.json` | Other names for organizations, such as CDA | Generated | marin-reach |
+| `projects/projects.json` | The projects and campaigns the apps show: each with a Links campaign code, and whether Reach lists it and Mentions watches its name | By hand | marin-links, marin-reach, marin-mentions |
 | `organizations/index.json` | A short list of every organization: id, name, other names, type and parent | Generated | marin-os |
 | `output/sources.json` | The older shape of `sources.json` that some app scripts still read | Generated | marin-budget, marin-docs |
 | `brand/<slug>/` | Each brand's `brand.json` and its logo and picture files | By hand | marin-brand |
@@ -26,6 +27,13 @@ The files marked "Generated" are never edited by hand. Change what they come fro
 ## Common changes
 
 **Change an agency** (name, web page, code, parent): edit it in `organizations/agencies.json` and on its record in `output/organizations.jsonld`. Never rename or reuse an id. `check_orgs.py` fails until the two agree.
+
+**Add a project:** add an entry to `projects/projects.json`. Give it an `id` (permanent), a `name`, and only the apps that should show it:
+- `links` with a new permanent `code` (the next `cmp-NN`) and `legacy: []`, to show it as a campaign in Marin Links.
+- `reach: true`, to list it in the Project filter in Marin Reach. It shows with a count of 0 until it has engagements.
+- `mentions` with `include`, the phrases Marin Mentions watches for. Use the exact project name.
+
+Never reuse or renumber a code. Run `python3 check_projects.py`. The apps pick it up on their next daily update, or run Data sync in each one. An engagement in Marin Reach for a project that is not in this list fails its build.
 
 **Add an organization that is not on the agencies list** (a unit that apps name but that has no web page or code yet): add a record to `output/organizations.jsonld`. Copy a similar one. It needs a name, a classification, `areaServed`, a `parentOrganization`, and an `identifier` (use `gs:local` with the slug if no app has one). Then list it in its parent's `department` (or `subOrganization`) list. Do not add it to `organizations/agencies.json` unless it should appear in the agency picker in marin-links. Run `bash scripts/build.sh`. The schemaGov check fails if the record is incomplete.
 
@@ -57,7 +65,7 @@ GitHub also checks the JSON-LD against the schemaGov validators. To do the same 
 
 An app never edits a copy. `consumers.json` lists each app, the files it copies, and the commands that update it.
 
-- **Daily:** each app (marin-links, marin-mentions, marin-reach, marin-docs, marin-budget and marin-brand) has a Data sync workflow that runs once a day. If something it copies has changed, it updates its copies, rebuilds its pages, runs its checks, and pushes a branch called `data-sync`. The run summary has the link to review it. It never merges anything.
+- **Daily:** each app (marin-links, marin-mentions, marin-reach, marin-docs, marin-budget, marin-brand and marin-os) has a Data sync workflow that runs once a day. If something it copies has changed, it updates its copies, rebuilds its pages, runs its checks, and pushes a branch called `data-sync`. The run summary has the link to review it. It never merges anything.
 - **Right away:** open the app's Actions tab, choose Data sync, and choose Run workflow.
 - **Pinned version:** each app has a `marin-data.lock` file naming the version of this repo it last used. Its checks use that version, so a change here cannot turn an app's checks red before the app is updated. `bash scripts/lock.sh ../<app>` records the current version after a sync. This repo must be merged and clean first.
 - **Check one app by hand:** `python3 check_copies.py ../marin-docs`.
