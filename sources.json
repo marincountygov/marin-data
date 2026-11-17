@@ -97,7 +97,7 @@
       "usedBy": [
         "marin-brand"
       ],
-      "notes": "Hash is of the copy that was stored in marin-brand (now removed), not compared with the posted file. Check it against a fresh download."
+      "notes": "The hash was checked against the file the County posts at this address, and it matched, on 2026-11-16."
     },
     {
       "id": "sop-road-maintenance-2026",
