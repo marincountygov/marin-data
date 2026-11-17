@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "County of Marin projects and campaigns",
+  "notes": [
+    "One entry per project. The apps that show a project use it from here: Marin Links as a campaign, Marin Reach in its Project filter, and Marin Mentions as a watched name.",
+    "An id is permanent. Never reuse or rename an id.",
+    "links.code is the value Marin Links sends in a link. It is permanent: never change, reuse, or renumber a code. links.legacy lists older values that mean the same project.",
+    "An entry only appears in the apps it names: links for Marin Links, reach for Marin Reach, mentions for Marin Mentions. mentions.include lists the phrases Marin Mentions watches for. A project needs no details to show up.",
+    "The order of this list does not matter. Each app sorts as it needs to."
+  ],
+  "projects": [
+    {
+      "id": "community-outreach-events",
+      "name": "Community Outreach Events",
+      "reach": true
+    },
+    {
+      "id": "el-nino",
+      "name": "El Nino",
+      "reach": true
+    },
+    {
+      "id": "envision-marin",
+      "name": "Envision Marin",
+      "links": { "code": "cmp-01", "legacy": ["envision_marin"] },
+      "reach": true
+    },
+    {
+      "id": "tam-junction-placemaking",
+      "name": "Tam Junction Placemaking",
+      "links": { "code": "cmp-03", "legacy": [] },
+      "reach": true,
+      "mentions": { "include": ["Tam Junction Placemaking"] }
+    },
+    {
+      "id": "weather-together",
+      "name": "Weather Together",
+      "links": { "code": "cmp-02", "legacy": ["weather_together"] }
+    },
+    {
+      "id": "west-marin-visioning",
+      "name": "West Marin Visioning",
+      "links": { "code": "cmp-04", "legacy": [] },
+      "reach": true,
+      "mentions": { "include": ["West Marin Visioning"] }
+    }
+  ]
+}
