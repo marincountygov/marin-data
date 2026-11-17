@@ -19,13 +19,19 @@
         {
           "from": "organizations/agencies.schema.json",
           "to": "data/agencies.schema.json"
+        },
+        {
+          "from": "projects/projects.json",
+          "to": "data/projects.json"
         }
       ],
       "sync": [
-        "python3 scripts/sync-agencies.py"
+        "python3 scripts/sync-agencies.py",
+        "python3 scripts/sync-projects.py"
       ],
       "build": [
-        "python3 scripts/build-agencies.py"
+        "python3 scripts/build-agencies.py",
+        "python3 scripts/build-options.py"
       ],
       "check": "bash scripts/check.sh"
     },
@@ -35,13 +41,19 @@
         {
           "from": "organizations/monitors.json",
           "to": "config/organizations.json"
+        },
+        {
+          "from": "projects/projects.json",
+          "to": "config/projects.json"
         }
       ],
       "sync": [
-        "python3 scripts/sync-orgs.py"
+        "python3 scripts/sync-orgs.py",
+        "python3 scripts/sync-projects.py"
       ],
       "build": [],
-      "check": "bash scripts/check.sh"
+      "check": "bash scripts/check.sh",
+      "notes": "Each project in the shared list with a mentions entry becomes a monitor when the app builds, so there is nothing to rebuild after the sync."
     },
     {
       "repo": "marin-reach",
@@ -49,10 +61,15 @@
         {
           "from": "organizations/aliases.json",
           "to": "data/organizations-aliases.json"
+        },
+        {
+          "from": "projects/projects.json",
+          "to": "data/projects.json"
         }
       ],
       "sync": [
-        "python3 scripts/sync-orgs.py"
+        "python3 scripts/sync-orgs.py",
+        "python3 scripts/sync-projects.py"
       ],
       "build": [
         "python3 scripts/build_data.py"
