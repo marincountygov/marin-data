@@ -9,7 +9,7 @@ bash -n scripts/check.sh
 bash -n scripts/build.sh
 bash -n scripts/lock.sh
 bash -n scripts/data_sync.sh
-python3 -m py_compile check_sources.py check_orgs.py check_consumers.py check_copies.py check_brand.py check_schemagov.py copies.py sources_lib.py scripts/sync_consumer.py \
+python3 -m py_compile check_sources.py check_orgs.py check_consumers.py check_copies.py check_brand.py check_projects.py check_schemagov.py copies.py sources_lib.py scripts/sync_consumer.py \
   build_sources.py build_org_links.py build_org_aliases.py build_org_index.py
 
 python3 check_sources.py            # source registry: fields, ids, hashes of stored files
@@ -20,4 +20,5 @@ python3 build_org_aliases.py --check # organizations/aliases.json is current
 python3 build_org_index.py --check   # organizations/index.json is current
 python3 check_consumers.py          # every file a consumer copies exists
 python3 check_brand.py              # brand.json files and their assets agree
+python3 check_projects.py           # the shared list of projects is well formed
 printf 'Requested checks completed successfully.\n'
