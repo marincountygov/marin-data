@@ -18,3 +18,21 @@ jobs:
         with:
           python-version: "3.12"
       - run: bash scripts/check.sh
+
+  # Checks the JSON-LD against the schemaGov validators. schemaGov is pinned to the commit this was last
+  # checked with, so a later change to schemaGov cannot turn this red. To move to a newer one, change the
+  # ref, run the check, and fix or list anything new (see check_schemagov.py).
+  schemagov:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: govfresh/schemaGov
+          ref: 2a0ee5edbe2baf67aab5a4227ab7b65feda628e8
+          path: schemaGov
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: python3 check_schemagov.py schemaGov
