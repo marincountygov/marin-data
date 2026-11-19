@@ -138,6 +138,10 @@
           "to": "organization/data/facilities.jsonld"
         },
         {
+          "from": "organizations/place-kinds.json",
+          "to": "organization/data/place-kinds.json"
+        },
+        {
           "from": "output/sources.json",
           "to": "organization/data/sources.json"
         }

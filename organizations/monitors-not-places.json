@@ -2,8 +2,8 @@
   "schemaVersion": "1.0.0",
   "title": "Marin Mentions monitors that are not places",
   "notes": [
-    "Each entry is a monitor id in marin-mentions/config/monitors.yaml, in the Towns or Districts group, that is deliberately not a jurisdiction, with the reason.",
-    "A monitor in the Towns or Districts group must either carry a local:marin-mentions-monitor-id on a jurisdiction in output/jurisdictions.jsonld or be listed here. Facilities are in output/facilities.jsonld instead."
+    "Each entry is a monitor id in marin-mentions/config/monitors.yaml, in the Districts, Cities and towns or Communities group, that is deliberately not a jurisdiction, with the reason.",
+    "A monitor in the Districts, Cities and towns or Communities group must either carry a local:marin-mentions-monitor-id on a jurisdiction in output/jurisdictions.jsonld or be listed here. Facilities are in output/facilities.jsonld instead."
   ],
   "monitors": [
     {

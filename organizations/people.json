@@ -7,6 +7,7 @@
       "monitorId": "brian-colbert",
       "person": "https://marincountygov.github.io/marin-data/id/person/brian-colbert",
       "name": "Brian Colbert",
+      "label": "Brian Colbert",
       "role": "Supervisor",
       "district": "District 2"
     },
@@ -14,6 +15,7 @@
       "monitorId": "dennis-rodoni",
       "person": "https://marincountygov.github.io/marin-data/id/person/dennis-rodoni",
       "name": "Dennis Rodoni",
+      "label": "Dennis Rodoni",
       "role": "Supervisor",
       "district": "District 4"
     },
@@ -21,6 +23,7 @@
       "monitorId": "eric-lucan",
       "person": "https://marincountygov.github.io/marin-data/id/person/eric-lucan",
       "name": "Eric Lucan",
+      "label": "Eric Lucan",
       "role": "Supervisor",
       "district": "District 5"
     },
@@ -28,6 +31,7 @@
       "monitorId": "mary-sackett",
       "person": "https://marincountygov.github.io/marin-data/id/person/mary-sackett",
       "name": "Mary Sackett",
+      "label": "Mary Sackett",
       "role": "Supervisor",
       "district": "District 1"
     },
@@ -35,6 +39,7 @@
       "monitorId": "stephanie-moulton-peters",
       "person": "https://marincountygov.github.io/marin-data/id/person/stephanie-moulton-peters",
       "name": "Stephanie Moulton-Peters",
+      "label": "Stephanie Moulton-Peters",
       "role": "Supervisor",
       "district": "District 3"
     }
