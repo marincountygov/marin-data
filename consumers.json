@@ -23,11 +23,16 @@
         {
           "from": "projects/projects.json",
           "to": "data/projects.json"
+        },
+        {
+          "from": "organizations/locations.json",
+          "to": "data/locations.json"
         }
       ],
       "sync": [
         "python3 scripts/sync-agencies.py",
-        "python3 scripts/sync-projects.py"
+        "python3 scripts/sync-projects.py",
+        "python3 scripts/sync-locations.py"
       ],
       "build": [
         "python3 scripts/build-agencies.py",
@@ -43,12 +48,27 @@
           "to": "config/organizations.json"
         },
         {
+          "from": "organizations/places.json",
+          "to": "config/places.json"
+        },
+        {
+          "from": "organizations/events.json",
+          "to": "config/events.json"
+        },
+        {
+          "from": "organizations/people.json",
+          "to": "config/people.json"
+        },
+        {
           "from": "projects/projects.json",
           "to": "config/projects.json"
         }
       ],
       "sync": [
         "python3 scripts/sync-orgs.py",
+        "python3 scripts/sync-places.py",
+        "python3 scripts/sync-events.py",
+        "python3 scripts/sync-people.py",
         "python3 scripts/sync-projects.py"
       ],
       "build": [],
@@ -63,12 +83,22 @@
           "to": "data/organizations-aliases.json"
         },
         {
+          "from": "organizations/place-aliases.json",
+          "to": "data/places-aliases.json"
+        },
+        {
+          "from": "organizations/facilities.json",
+          "to": "data/facilities.json"
+        },
+        {
           "from": "projects/projects.json",
           "to": "data/projects.json"
         }
       ],
       "sync": [
         "python3 scripts/sync-orgs.py",
+        "python3 scripts/sync-places.py",
+        "python3 scripts/sync-facilities.py",
         "python3 scripts/sync-projects.py"
       ],
       "build": [
@@ -102,6 +132,10 @@
         {
           "from": "output/roles.jsonld",
           "to": "organization/data/roles.jsonld"
+        },
+        {
+          "from": "output/facilities.jsonld",
+          "to": "organization/data/facilities.jsonld"
         },
         {
           "from": "output/sources.json",

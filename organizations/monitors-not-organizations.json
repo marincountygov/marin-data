@@ -15,14 +15,6 @@
       "reason": "Program or joint authority; the data does not say. Not placed in the county."
     },
     {
-      "monitorId": "gnoss-field-airport",
-      "reason": "A facility, not an organization."
-    },
-    {
-      "monitorId": "gallinas-creek",
-      "reason": "A place, not an organization."
-    },
-    {
       "monitorId": "marin-superior-court",
       "reason": "State trial court that sits in Marin County, not a county unit. Not placed in the county."
     }
