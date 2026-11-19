@@ -47,6 +47,8 @@ Never reuse or renumber a code. Run `python3 check_projects.py`. The apps pick i
 
 **Add another name for an organization**, such as an acronym: add it to `alternateName` on its record in `output/organizations.jsonld`. Then run `bash scripts/build.sh`. A name that fits two organizations is left out and listed as ambiguous.
 
+**Give a place, facility, event or person its code:** every record in `output/jurisdictions.jsonld`, `facilities.jsonld`, `events.jsonld` and `people.jsonld` has one identifier named `gs:local`, its code: lowercase words joined by hyphens, never shared with another record. The code is the page name in Marin Docs and the value Marin Links puts in a link, and it belongs to no one app. It is permanent. `python3 check_codes.py` checks it. Marin Mentions has its own `local:marin-mentions-monitor-id` for a record it watches; it is usually the same word, but it names the monitor, not the record.
+
 **Watch a new department in marin-mentions:** give its record in `output/organizations.jsonld` an identifier named `local:marin-mentions-monitor-id` with the monitor's id. If the monitor is not a County organization, add it to `organizations/monitors-not-organizations.json` with a reason. Then run `bash scripts/build.sh`.
 
 **Watch a new place in marin-mentions:** add a record to `output/jurisdictions.jsonld` (a `City` for an incorporated place, otherwise an `AdministrativeArea`, contained in the county, with a `governmentLevel`) and give it an identifier named `local:marin-mentions-monitor-id` with the monitor's id. If the monitor is not a territory, add it to `organizations/monitors-not-places.json` with a reason. Then run `bash scripts/build.sh`.

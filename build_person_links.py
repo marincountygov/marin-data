@@ -31,7 +31,7 @@ for person in people:
         if i.get("propertyID") != "local:marin-mentions-monitor-id":
             continue
         seats = [r for r in roles if r["member"]["@id"] == person["@id"]]
-        row = {"monitorId": i["value"], "person": person["@id"], "name": person["name"], "label": person["name"]}
+        row = {"monitorId": i["value"], "code": next((c["value"] for c in person["identifier"] if c["propertyID"] == "gs:local"), None), "person": person["@id"], "name": person["name"], "label": person["name"]}
         if seats:
             seat = seats[0]
             row["role"] = seat["roleName"].split(",")[0]

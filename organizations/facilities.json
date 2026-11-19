@@ -8,6 +8,7 @@
       "name": "Gallinas Creek",
       "type": "Place",
       "operator": "notApplicable",
+      "code": "gallinas-creek",
       "monitorId": "gallinas-creek",
       "containedInPlace": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
     },
@@ -16,6 +17,7 @@
       "name": "Gnoss Field Airport",
       "type": "CivicStructure",
       "operator": "government",
+      "code": "gnoss-field-airport",
       "monitorId": "gnoss-field-airport",
       "containedInPlace": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
     },
@@ -24,6 +26,7 @@
       "name": "Homestead Valley Community Center",
       "type": "Place",
       "operator": "unknown",
+      "code": "homestead-valley-community-center",
       "address": {
         "streetAddress": "315 Montford Ave",
         "locality": "Mill Valley",
@@ -42,6 +45,7 @@
       "name": "Marin Art & Garden Center",
       "type": "Place",
       "operator": "nongovernment",
+      "code": "marin-art-garden-center",
       "address": {
         "streetAddress": "30 Sir Francis Drake Blvd",
         "locality": "Ross",
@@ -60,6 +64,7 @@
       "name": "Marin Center",
       "type": "EventVenue",
       "operator": "government",
+      "code": "marin-center",
       "monitorId": "marin-center",
       "containedInPlace": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
     },
@@ -68,6 +73,7 @@
       "name": "Marin County Civic Center",
       "type": "GovernmentBuilding",
       "operator": "government",
+      "code": "civic-center",
       "monitorId": "civic-center",
       "address": {
         "streetAddress": "3501 Civic Center Dr",
@@ -87,6 +93,7 @@
       "name": "Marin Health & Wellness Campus Connection Center",
       "type": "CivicStructure",
       "operator": "government",
+      "code": "marin-health-wellness-connection-center",
       "address": {
         "streetAddress": "3240 Kerner Blvd",
         "locality": "San Rafael",
@@ -105,6 +112,7 @@
       "name": "Marin Humane",
       "type": "Place",
       "operator": "nongovernment",
+      "code": "marin-humane",
       "address": {
         "streetAddress": "171 Bel Marin Keys Blvd",
         "locality": "Novato",
@@ -123,6 +131,7 @@
       "name": "Mill Valley Community Center",
       "type": "CivicStructure",
       "operator": "government",
+      "code": "mill-valley-community-center",
       "address": {
         "streetAddress": "180 Camino Alto",
         "locality": "Mill Valley",
@@ -141,6 +150,7 @@
       "name": "St. Vincent's",
       "type": "Place",
       "operator": "unknown",
+      "code": "st-vincents",
       "monitorId": "st-vincents",
       "containedInPlace": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
     },
@@ -149,6 +159,7 @@
       "name": "Tam Valley Community Center",
       "type": "Place",
       "operator": "unknown",
+      "code": "tam-valley-community-center",
       "address": {
         "streetAddress": "203 Marin Ave",
         "locality": "Mill Valley",

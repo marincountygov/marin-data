@@ -37,6 +37,7 @@
   "places": [
     {
       "monitorId": "almonte",
+      "code": "almonte",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-almonte",
       "name": "Almonte",
       "label": "Almonte",
@@ -51,6 +52,7 @@
     },
     {
       "monitorId": "alto",
+      "code": "alto",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-alto",
       "name": "Alto",
       "label": "Alto",
@@ -65,6 +67,7 @@
     },
     {
       "monitorId": "bel-marin-keys",
+      "code": "bel-marin-keys",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-bel-marin-keys",
       "name": "Bel Marin Keys",
       "label": "Bel Marin Keys",
@@ -79,6 +82,7 @@
     },
     {
       "monitorId": "belvedere",
+      "code": "belvedere",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-belvedere",
       "name": "Belvedere",
       "label": "Belvedere",
@@ -93,6 +97,7 @@
     },
     {
       "monitorId": "black-point",
+      "code": "black-point",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-black-point",
       "name": "Black Point",
       "label": "Black Point",
@@ -107,6 +112,7 @@
     },
     {
       "monitorId": "bolinas",
+      "code": "bolinas",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-bolinas",
       "name": "Bolinas",
       "label": "Bolinas",
@@ -121,6 +127,7 @@
     },
     {
       "monitorId": "corte-madera",
+      "code": "corte-madera",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-corte-madera",
       "name": "Corte Madera",
       "label": "Corte Madera",
@@ -135,6 +142,7 @@
     },
     {
       "monitorId": "dillon-beach",
+      "code": "dillon-beach",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-dillon-beach",
       "name": "Dillon Beach",
       "label": "Dillon Beach",
@@ -149,6 +157,7 @@
     },
     {
       "monitorId": "dogtown",
+      "code": "dogtown",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-dogtown",
       "name": "Dogtown",
       "label": "Dogtown",
@@ -163,6 +172,7 @@
     },
     {
       "monitorId": "fairfax",
+      "code": "fairfax",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-fairfax",
       "name": "Fairfax",
       "label": "Fairfax",
@@ -177,6 +187,7 @@
     },
     {
       "monitorId": "fallon",
+      "code": "fallon",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-fallon",
       "name": "Fallon",
       "label": "Fallon",
@@ -191,6 +202,7 @@
     },
     {
       "monitorId": "forest-knolls",
+      "code": "forest-knolls",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-forest-knolls",
       "name": "Forest Knolls",
       "label": "Forest Knolls",
@@ -205,6 +217,7 @@
     },
     {
       "monitorId": "green-point",
+      "code": "green-point",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-green-point",
       "name": "Green Point",
       "label": "Green Point",
@@ -219,6 +232,7 @@
     },
     {
       "monitorId": "greenbrae",
+      "code": "greenbrae",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-greenbrae",
       "name": "Greenbrae",
       "label": "Greenbrae",
@@ -233,6 +247,7 @@
     },
     {
       "monitorId": "homestead-valley",
+      "code": "homestead-valley",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-homestead-valley",
       "name": "Homestead Valley",
       "label": "Homestead Valley",
@@ -247,6 +262,7 @@
     },
     {
       "monitorId": "ignacio",
+      "code": "ignacio",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-ignacio",
       "name": "Ignacio",
       "label": "Ignacio",
@@ -255,6 +271,7 @@
     },
     {
       "monitorId": "indian-valley",
+      "code": "indian-valley",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-indian-valley",
       "name": "Indian Valley",
       "label": "Indian Valley",
@@ -269,6 +286,7 @@
     },
     {
       "monitorId": "inverness",
+      "code": "inverness",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-inverness",
       "name": "Inverness",
       "label": "Inverness",
@@ -283,6 +301,7 @@
     },
     {
       "monitorId": "inverness-park",
+      "code": "inverness-park",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-inverness-park",
       "name": "Inverness Park",
       "label": "Inverness Park",
@@ -297,6 +316,7 @@
     },
     {
       "monitorId": "kent-woodlands",
+      "code": "kent-woodlands",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-kent-woodlands",
       "name": "Kent Woodlands",
       "label": "Kent Woodlands",
@@ -311,6 +331,7 @@
     },
     {
       "monitorId": "kentfield",
+      "code": "kentfield",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-kentfield",
       "name": "Kentfield",
       "label": "Kentfield",
@@ -325,6 +346,7 @@
     },
     {
       "monitorId": "lagunitas",
+      "code": "lagunitas",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-lagunitas",
       "name": "Lagunitas",
       "label": "Lagunitas",
@@ -339,6 +361,7 @@
     },
     {
       "monitorId": "larkspur",
+      "code": "larkspur",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-larkspur",
       "name": "Larkspur",
       "label": "Larkspur",
@@ -357,6 +380,7 @@
     },
     {
       "monitorId": "las-gallinas",
+      "code": "las-gallinas",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-las-gallinas",
       "name": "Las Gallinas",
       "label": "Las Gallinas",
@@ -365,6 +389,7 @@
     },
     {
       "monitorId": "loma-verde",
+      "code": "loma-verde",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-loma-verde",
       "name": "Loma Verde",
       "label": "Loma Verde",
@@ -379,6 +404,7 @@
     },
     {
       "monitorId": "lucas-valley",
+      "code": "lucas-valley",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-lucas-valley",
       "name": "Lucas Valley",
       "label": "Lucas Valley",
@@ -393,6 +419,7 @@
     },
     {
       "monitorId": "marin-city",
+      "code": "marin-city",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-marin-city",
       "name": "Marin City",
       "label": "Marin City",
@@ -407,6 +434,7 @@
     },
     {
       "monitorId": "marin-district-1",
+      "code": "marin-district-1",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1",
       "name": "Marin County Supervisorial District 1",
       "label": "District 1",
@@ -415,6 +443,7 @@
     },
     {
       "monitorId": "marin-district-2",
+      "code": "marin-district-2",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2",
       "name": "Marin County Supervisorial District 2",
       "label": "District 2",
@@ -423,6 +452,7 @@
     },
     {
       "monitorId": "marin-district-3",
+      "code": "marin-district-3",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3",
       "name": "Marin County Supervisorial District 3",
       "label": "District 3",
@@ -431,6 +461,7 @@
     },
     {
       "monitorId": "marin-district-4",
+      "code": "marin-district-4",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4",
       "name": "Marin County Supervisorial District 4",
       "label": "District 4",
@@ -439,6 +470,7 @@
     },
     {
       "monitorId": "marin-district-5",
+      "code": "marin-district-5",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5",
       "name": "Marin County Supervisorial District 5",
       "label": "District 5",
@@ -447,6 +479,7 @@
     },
     {
       "monitorId": "marinwood",
+      "code": "marinwood",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-marinwood",
       "name": "Marinwood",
       "label": "Marinwood",
@@ -461,6 +494,7 @@
     },
     {
       "monitorId": "marshall",
+      "code": "marshall",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-marshall",
       "name": "Marshall",
       "label": "Marshall",
@@ -475,6 +509,7 @@
     },
     {
       "monitorId": "mill-valley",
+      "code": "mill-valley",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-mill-valley",
       "name": "Mill Valley",
       "label": "Mill Valley",
@@ -493,6 +528,7 @@
     },
     {
       "monitorId": "muir-beach",
+      "code": "muir-beach",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-muir-beach",
       "name": "Muir Beach",
       "label": "Muir Beach",
@@ -507,6 +543,7 @@
     },
     {
       "monitorId": "nicasio",
+      "code": "nicasio",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-nicasio",
       "name": "Nicasio",
       "label": "Nicasio",
@@ -521,6 +558,7 @@
     },
     {
       "monitorId": "novato",
+      "code": "novato",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-novato",
       "name": "Novato",
       "label": "Novato",
@@ -539,6 +577,7 @@
     },
     {
       "monitorId": "olema",
+      "code": "olema",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-olema",
       "name": "Olema",
       "label": "Olema",
@@ -553,6 +592,7 @@
     },
     {
       "monitorId": "paradise-cay",
+      "code": "paradise-cay",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-paradise-cay",
       "name": "Paradise Cay",
       "label": "Paradise Cay",
@@ -567,6 +607,7 @@
     },
     {
       "monitorId": "point-reyes-station",
+      "code": "point-reyes-station",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-point-reyes-station",
       "name": "Point Reyes Station",
       "label": "Point Reyes Station",
@@ -581,6 +622,7 @@
     },
     {
       "monitorId": "ross",
+      "code": "ross",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-ross",
       "name": "Ross",
       "label": "Ross",
@@ -595,6 +637,7 @@
     },
     {
       "monitorId": "san-anselmo",
+      "code": "san-anselmo",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-anselmo",
       "name": "San Anselmo",
       "label": "San Anselmo",
@@ -609,6 +652,7 @@
     },
     {
       "monitorId": "san-geronimo",
+      "code": "san-geronimo",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-san-geronimo",
       "name": "San Geronimo",
       "label": "San Geronimo",
@@ -623,6 +667,7 @@
     },
     {
       "monitorId": "san-quentin",
+      "code": "san-quentin",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-san-quentin",
       "name": "San Quentin",
       "label": "San Quentin",
@@ -637,6 +682,7 @@
     },
     {
       "monitorId": "san-rafael",
+      "code": "san-rafael",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-rafael",
       "name": "San Rafael",
       "label": "San Rafael",
@@ -659,6 +705,7 @@
     },
     {
       "monitorId": "santa-venetia",
+      "code": "santa-venetia",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-santa-venetia",
       "name": "Santa Venetia",
       "label": "Santa Venetia",
@@ -673,6 +720,7 @@
     },
     {
       "monitorId": "sausalito",
+      "code": "sausalito",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-sausalito",
       "name": "Sausalito",
       "label": "Sausalito",
@@ -687,6 +735,7 @@
     },
     {
       "monitorId": "seadrift",
+      "code": "seadrift",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-seadrift",
       "name": "Seadrift",
       "label": "Seadrift",
@@ -695,6 +744,7 @@
     },
     {
       "monitorId": "sleepy-hollow",
+      "code": "sleepy-hollow",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-sleepy-hollow",
       "name": "Sleepy Hollow",
       "label": "Sleepy Hollow",
@@ -709,6 +759,7 @@
     },
     {
       "monitorId": "stinson-beach",
+      "code": "stinson-beach",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-stinson-beach",
       "name": "Stinson Beach",
       "label": "Stinson Beach",
@@ -723,6 +774,7 @@
     },
     {
       "monitorId": "strawberry",
+      "code": "strawberry",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-strawberry",
       "name": "Strawberry",
       "label": "Strawberry",
@@ -737,6 +789,7 @@
     },
     {
       "monitorId": "tamalpais-valley",
+      "code": "tamalpais-valley",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tamalpais-valley",
       "name": "Tamalpais Valley",
       "label": "Tamalpais Valley",
@@ -751,6 +804,7 @@
     },
     {
       "monitorId": "tiburon",
+      "code": "tiburon",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-tiburon",
       "name": "Tiburon",
       "label": "Tiburon",
@@ -765,6 +819,7 @@
     },
     {
       "monitorId": "tocaloma",
+      "code": "tocaloma",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tocaloma",
       "name": "Tocaloma",
       "label": "Tocaloma",
@@ -779,6 +834,7 @@
     },
     {
       "monitorId": "tomales",
+      "code": "tomales",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tomales",
       "name": "Tomales",
       "label": "Tomales",
@@ -793,6 +849,7 @@
     },
     {
       "monitorId": "woodacre",
+      "code": "woodacre",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-woodacre",
       "name": "Woodacre",
       "label": "Woodacre",
@@ -809,6 +866,7 @@
   "facilities": [
     {
       "monitorId": "civic-center",
+      "code": "civic-center",
       "facility": "https://marincountygov.github.io/marin-data/id/facility/civic-center",
       "name": "Marin County Civic Center",
       "label": "Marin County Civic Center",
@@ -817,6 +875,7 @@
     },
     {
       "monitorId": "gallinas-creek",
+      "code": "gallinas-creek",
       "facility": "https://marincountygov.github.io/marin-data/id/facility/gallinas-creek",
       "name": "Gallinas Creek",
       "label": "Gallinas Creek",
@@ -825,6 +884,7 @@
     },
     {
       "monitorId": "gnoss-field-airport",
+      "code": "gnoss-field-airport",
       "facility": "https://marincountygov.github.io/marin-data/id/facility/gnoss-field-airport",
       "name": "Gnoss Field Airport",
       "label": "Gnoss Field Airport",
@@ -833,6 +893,7 @@
     },
     {
       "monitorId": "marin-center",
+      "code": "marin-center",
       "facility": "https://marincountygov.github.io/marin-data/id/facility/marin-center",
       "name": "Marin Center",
       "label": "Marin Center",
@@ -841,6 +902,7 @@
     },
     {
       "monitorId": "st-vincents",
+      "code": "st-vincents",
       "facility": "https://marincountygov.github.io/marin-data/id/facility/st-vincents",
       "name": "St. Vincent's",
       "label": "St. Vincent's",

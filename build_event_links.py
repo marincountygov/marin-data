@@ -21,7 +21,7 @@ for f in ("monitors.json", "places.json"):
     others |= {r["monitorId"] for key in ("monitors", "places", "facilities") for r in doc.get(key, [])}
 
 rows = sorted(
-    ({"monitorId": i["value"], "event": o["@id"], "name": o["name"], "label": o["name"], "kind": "event"}
+    ({"monitorId": i["value"], "code": next((c["value"] for c in o["identifier"] if c["propertyID"] == "gs:local"), None), "event": o["@id"], "name": o["name"], "label": o["name"], "kind": "event"}
      for o in graph for i in o.get("identifier", []) if i.get("propertyID") == "local:marin-mentions-monitor-id"),
     key=lambda r: r["monitorId"],
 )

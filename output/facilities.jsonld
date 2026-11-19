@@ -18,6 +18,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "civic-center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "civic-center"
         }
       ],
       "address": {
@@ -53,6 +58,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "marin-center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-center"
         }
       ],
       "additionalProperty": [
@@ -74,6 +84,11 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
+          "value": "gnoss-field-airport"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
           "value": "gnoss-field-airport"
         }
       ],
@@ -97,6 +112,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "st-vincents"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "st-vincents"
         }
       ],
       "additionalProperty": [
@@ -118,6 +138,11 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
+          "value": "gallinas-creek"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
           "value": "gallinas-creek"
         }
       ],
