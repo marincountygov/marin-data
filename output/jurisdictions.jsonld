@@ -214,6 +214,13 @@
           "propertyID": "gs:local",
           "value": "belvedere"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Belvedere"
+        }
       ]
     },
     {
@@ -288,6 +295,13 @@
           "propertyID": "gs:local",
           "value": "fairfax"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Fairfax"
+        }
       ]
     },
     {
@@ -329,6 +343,13 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "larkspur"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Larkspur"
         }
       ]
     },
@@ -414,6 +435,18 @@
           "propertyID": "gs:local",
           "value": "novato"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "Novato"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:hashtag",
+          "value": "#Novato"
+        }
       ]
     },
     {
@@ -450,6 +483,18 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "ross"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Ross"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "Ross"
         }
       ]
     },
@@ -533,6 +578,13 @@
           "propertyID": "gs:local",
           "value": "san-rafael"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "San Rafael"
+        }
       ]
     },
     {
@@ -607,6 +659,13 @@
           "propertyID": "gs:local",
           "value": "tiburon"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Tiburon"
+        }
       ]
     },
     {
@@ -665,6 +724,18 @@
           "propertyID": "gs:local",
           "value": "alto"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Alto"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "Alto"
+        }
       ]
     },
     {
@@ -717,6 +788,13 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "black-point"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Black Point"
         }
       ]
     },
@@ -805,6 +883,13 @@
           "propertyID": "gs:local",
           "value": "dogtown"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Dogtown"
+        }
       ]
     },
     {
@@ -833,6 +918,13 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "fallon"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Fallon"
         }
       ]
     },
@@ -916,6 +1008,13 @@
           "propertyID": "gs:local",
           "value": "green-point"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Green Point"
+        }
       ]
     },
     {
@@ -971,6 +1070,13 @@
           "propertyID": "gs:local",
           "value": "ignacio"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Ignacio"
+        }
       ]
     },
     {
@@ -994,6 +1100,13 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "indian-valley"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Indian Valley"
         }
       ]
     },
@@ -1185,6 +1298,13 @@
           "propertyID": "gs:local",
           "value": "loma-verde"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Loma Verde"
+        }
       ]
     },
     {
@@ -1301,6 +1421,18 @@
           "propertyID": "gs:local",
           "value": "marshall"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Marshall"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "Marshall"
+        }
       ]
     },
     {
@@ -1387,6 +1519,18 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "olema"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "Olema"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:hashtag",
+          "value": "#Olema"
         }
       ]
     },
@@ -1554,6 +1698,13 @@
           "propertyID": "gs:local",
           "value": "seadrift"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Seadrift"
+        }
       ]
     },
     {
@@ -1582,6 +1733,13 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "sleepy-hollow"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Sleepy Hollow"
         }
       ]
     },
@@ -1641,12 +1799,22 @@
           "propertyID": "gs:local",
           "value": "strawberry"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Strawberry"
+        }
       ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tamalpais-valley",
       "@type": "AdministrativeArea",
       "name": "Tamalpais Valley",
+      "alternateName": [
+        "Tam Valley"
+      ],
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"

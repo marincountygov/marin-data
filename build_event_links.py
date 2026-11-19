@@ -12,6 +12,8 @@ import json
 import sys
 from pathlib import Path
 
+import place_lib as lib
+
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "organizations" / "events.json"
 graph = json.loads((ROOT / "output" / "events.jsonld").read_text())["@graph"]
@@ -21,7 +23,7 @@ for f in ("monitors.json", "places.json"):
     others |= {r["monitorId"] for key in ("monitors", "places", "facilities") for r in doc.get(key, [])}
 
 rows = sorted(
-    ({"monitorId": i["value"], "code": next((c["value"] for c in o["identifier"] if c["propertyID"] == "gs:local"), None), "event": o["@id"], "name": o["name"], "label": o["name"], "kind": "event"}
+    ({"monitorId": i["value"], "code": next((c["value"] for c in o["identifier"] if c["propertyID"] == "gs:local"), None), "event": o["@id"], "name": o["name"], "label": o["name"], "kind": "event", **lib.search_of(o)}
      for o in graph for i in o.get("identifier", []) if i.get("propertyID") == "local:marin-mentions-monitor-id"),
     key=lambda r: r["monitorId"],
 )

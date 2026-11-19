@@ -264,6 +264,12 @@
       "id": "https://marincountygov.github.io/marin-data/id/facility/civic-center"
     },
     {
+      "code": "marin-exhibit-hall",
+      "label": "Marin Exhibit Hall",
+      "kind": "facility",
+      "id": "https://marincountygov.github.io/marin-data/id/facility/marin-exhibit-hall"
+    },
+    {
       "code": "marin-health-wellness-connection-center",
       "label": "Marin Health & Wellness Campus Connection Center",
       "kind": "facility",
@@ -274,6 +280,18 @@
       "label": "Marin Humane",
       "kind": "facility",
       "id": "https://marincountygov.github.io/marin-data/id/facility/marin-humane"
+    },
+    {
+      "code": "marin-showcase-theater",
+      "label": "Marin Showcase Theater",
+      "kind": "facility",
+      "id": "https://marincountygov.github.io/marin-data/id/facility/marin-showcase-theater"
+    },
+    {
+      "code": "marin-veterans-memorial-auditorium",
+      "label": "Marin Veterans' Memorial Auditorium",
+      "kind": "facility",
+      "id": "https://marincountygov.github.io/marin-data/id/facility/marin-veterans-memorial-auditorium"
     },
     {
       "code": "marinwood",

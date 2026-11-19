@@ -42,3 +42,31 @@ def kind_of(record):
     if not record.get("containedInPlace"):
         return "county"
     return "city" if record.get("governmentLevel") == "municipal" else "community"
+
+
+# Search hints. These say how apps should look for a record by its names. They are facts about the names, so
+# every app can use them, and they are kept on the record in additionalProperty, each one repeatable.
+HINTS = {
+    "searchPhrases": "local:search-phrase",        # a phrase that points at the record though it is not a name for it
+    "needsContext": "local:name-needs-context",    # a name or phrase that counts only beside the word Marin
+    "insideWords": "local:name-inside-words",      # a name that is also inside other words, so it counts as a whole word only
+    "hashtags": "local:hashtag",                   # a hashtag for the record
+    "confusableNames": "local:confusable-name",    # a name the record is often confused with, which is not it
+}
+
+
+def search_of(record):
+    """The other names and the search hints of a record, as the link files carry them. Empty ones are left out."""
+    found = {}
+    if record.get("alternateName"):
+        found["alternateNames"] = record["alternateName"]
+    for key, scheme in HINTS.items():
+        values = [p["value"] for p in record.get("additionalProperty", []) if p.get("propertyID") == scheme]
+        if values:
+            found[key] = values
+    return found
+
+
+def parts_of(record, facilities):
+    """The facilities that sit inside a facility (a theater in a center): their names and hints."""
+    return [{"name": f["name"], **search_of(f)} for f in facilities if (f.get("containedInPlace") or {}).get("@id") == record["@id"]]

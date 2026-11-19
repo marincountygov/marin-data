@@ -73,6 +73,9 @@
       "name": "Marin County Civic Center",
       "type": "GovernmentBuilding",
       "operator": "government",
+      "alternateNames": [
+        "Marin Civic Center"
+      ],
       "code": "civic-center",
       "monitorId": "civic-center",
       "address": {
@@ -87,6 +90,14 @@
         "longitude": -122.530353
       },
       "containedInPlace": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+    },
+    {
+      "id": "https://marincountygov.github.io/marin-data/id/facility/marin-exhibit-hall",
+      "name": "Marin Exhibit Hall",
+      "type": "EventVenue",
+      "operator": "government",
+      "code": "marin-exhibit-hall",
+      "containedInPlace": "https://marincountygov.github.io/marin-data/id/facility/marin-center"
     },
     {
       "id": "https://marincountygov.github.io/marin-data/id/facility/marin-health-wellness-connection-center",
@@ -127,6 +138,26 @@
       "containedInPlace": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
     },
     {
+      "id": "https://marincountygov.github.io/marin-data/id/facility/marin-showcase-theater",
+      "name": "Marin Showcase Theater",
+      "type": "EventVenue",
+      "operator": "government",
+      "code": "marin-showcase-theater",
+      "containedInPlace": "https://marincountygov.github.io/marin-data/id/facility/marin-center"
+    },
+    {
+      "id": "https://marincountygov.github.io/marin-data/id/facility/marin-veterans-memorial-auditorium",
+      "name": "Marin Veterans' Memorial Auditorium",
+      "type": "EventVenue",
+      "operator": "government",
+      "alternateNames": [
+        "Veterans Memorial Auditorium",
+        "VMA"
+      ],
+      "code": "marin-veterans-memorial-auditorium",
+      "containedInPlace": "https://marincountygov.github.io/marin-data/id/facility/marin-center"
+    },
+    {
       "id": "https://marincountygov.github.io/marin-data/id/facility/mill-valley-community-center",
       "name": "Mill Valley Community Center",
       "type": "CivicStructure",
@@ -150,6 +181,10 @@
       "name": "St. Vincent's",
       "type": "Place",
       "operator": "unknown",
+      "alternateNames": [
+        "St Vincents",
+        "St. Vincent"
+      ],
       "code": "st-vincents",
       "monitorId": "st-vincents",
       "containedInPlace": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"

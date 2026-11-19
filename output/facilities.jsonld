@@ -5,6 +5,9 @@
       "@id": "https://marincountygov.github.io/marin-data/id/facility/civic-center",
       "@type": "GovernmentBuilding",
       "name": "Marin County Civic Center",
+      "alternateName": [
+        "Marin Civic Center"
+      ],
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
@@ -43,6 +46,46 @@
           "@type": "PropertyValue",
           "propertyID": "local:operator-type",
           "value": "government"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "county & offices"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Frank Lloyd Wright"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "county & offices"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Frank Lloyd Wright"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "SF Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "San Francisco Civic Center"
         }
       ]
     },
@@ -104,6 +147,10 @@
       "@id": "https://marincountygov.github.io/marin-data/id/facility/st-vincents",
       "@type": "Place",
       "name": "St. Vincent's",
+      "alternateName": [
+        "St Vincents",
+        "St. Vincent"
+      ],
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
@@ -124,6 +171,21 @@
           "@type": "PropertyValue",
           "propertyID": "local:operator-type",
           "value": "unknown"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "St. Vincent's"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "St Vincents"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "St. Vincent"
         }
       ]
     },
@@ -361,6 +423,91 @@
           "@type": "PropertyValue",
           "propertyID": "local:operator-type",
           "value": "nongovernment"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-showcase-theater",
+      "@type": "EventVenue",
+      "name": "Marin Showcase Theater",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-center"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-showcase-theater"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-exhibit-hall",
+      "@type": "EventVenue",
+      "name": "Marin Exhibit Hall",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-center"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-exhibit-hall"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-veterans-memorial-auditorium",
+      "@type": "EventVenue",
+      "name": "Marin Veterans' Memorial Auditorium",
+      "alternateName": [
+        "Veterans Memorial Auditorium",
+        "VMA"
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-center"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-veterans-memorial-auditorium"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Veterans Memorial Auditorium"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "VMA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "VMA"
         }
       ]
     }
