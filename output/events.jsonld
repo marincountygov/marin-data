@@ -5,6 +5,9 @@
       "@id": "https://marincountygov.github.io/marin-data/id/event/marin-county-fair",
       "@type": "Event",
       "name": "Marin County Fair",
+      "alternateName": [
+        "Marin Fair"
+      ],
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -16,12 +19,23 @@
           "propertyID": "gs:local",
           "value": "marin-county-fair"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Fairgrounds"
+        }
       ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/event/marin-farmers-markets",
       "@type": "Event",
       "name": "Marin Farmers Markets",
+      "alternateName": [
+        "Marin Farmers Market",
+        "Marin County Farmers Market"
+      ],
       "identifier": [
         {
           "@type": "PropertyValue",

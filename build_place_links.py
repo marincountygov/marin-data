@@ -12,7 +12,8 @@ one). It comes from geoWithin and geoOverlaps on the place. A district has none.
 kind is district (a supervisorial district), city (a city or town) or community (an
 unincorporated community). The kinds and what apps call them are in organizations/place-kinds.json.
 code is the record's own code (its gs:local identifier, see place_lib.py), which is not tied to Mentions.
-label is the name an app shows for the place: the place's name, except a district, which is District N. Facilities (output/facilities.jsonld) are Places too, so they are listed
+label is the name an app shows for the place: the place's name, except a district, which is District N.
+alternateNames are the other names the record goes by (City of Novato, Tam Valley), and the other keys are search hints (see place_lib.py). A facility lists the facilities inside it as parts. Marin Mentions watches for all of them. Facilities (output/facilities.jsonld) are Places too, so they are listed
 here as well, under facilities, with their schemaGov type.
 
   python3 build_place_links.py           write organizations/places.json
@@ -69,13 +70,15 @@ for o in graph:
             "jurisdiction": o["@id"],
             "name": o["name"],
             "label": labels[o["@id"]],
+            **lib.search_of(o),
             "kind": kind(o),
             "governmentLevel": o["governmentLevel"],
             **({"districts": districts(o)} if districts(o) else {}),
         })
 rows.sort(key=lambda r: r["monitorId"])
 facilities = sorted(
-    ({"monitorId": m, "code": lib.code_of(o), "facility": o["@id"], "name": o["name"], "label": o["name"], "kind": "facility", "type": o["@type"]}
+    ({"monitorId": m, "code": lib.code_of(o), "facility": o["@id"], "name": o["name"], "label": o["name"], "kind": "facility", "type": o["@type"],
+      **lib.search_of(o), **({"parts": lib.parts_of(o, facility_graph)} if lib.parts_of(o, facility_graph) else {})}
      for o in facility_graph for m in ident(o, "local:marin-mentions-monitor-id")),
     key=lambda r: r["monitorId"],
 )

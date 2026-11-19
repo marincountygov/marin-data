@@ -85,6 +85,222 @@
           "value": "eric-lucan"
         }
       ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/derek-johnson",
+      "@type": "Person",
+      "name": "Derek Johnson",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "derek-johnson"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "derek-johnson"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/linn-walsh",
+      "@type": "Person",
+      "name": "Linn Walsh",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "linn-walsh"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "linn-walsh"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/crosby-burns",
+      "@type": "Person",
+      "name": "Crosby Burns",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "crosby-burns"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "crosby-burns"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/laine-hendricks",
+      "@type": "Person",
+      "name": "Laine Hendricks",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "laine-hendricks"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "laine-hendricks"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/lisa-warhuus",
+      "@type": "Person",
+      "name": "Lisa Warhuus",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "lisa-warhuus"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "lisa-warhuus"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/josh-swedberg",
+      "@type": "Person",
+      "name": "Josh Swedberg",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "josh-swedberg"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "josh-swedberg"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/jamie-scardina",
+      "@type": "Person",
+      "name": "Jamie Scardina",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "jamie-scardina"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "jamie-scardina"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/sylvia-moir",
+      "@type": "Person",
+      "name": "Sylvia Moir",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "sylvia-moir"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "sylvia-moir"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/jason-weber",
+      "@type": "Person",
+      "name": "Jason Weber",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "jason-weber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "jason-weber"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/steve-dow",
+      "@type": "Person",
+      "name": "Steve Dow",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "steve-dow"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "steve-dow"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/libby-garrison",
+      "@type": "Person",
+      "name": "Libby Garrison",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "libby-garrison"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "libby-garrison"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/jennifer-olvera",
+      "@type": "Person",
+      "name": "Jennifer Olvera",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "jennifer-olvera"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "jennifer-olvera"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/person/magali-limeta",
+      "@type": "Person",
+      "name": "Magali Limeta",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "magali-limeta"
+        }
+      ]
     }
   ]
 }

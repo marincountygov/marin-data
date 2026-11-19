@@ -17,7 +17,13 @@
       "event": "https://marincountygov.github.io/marin-data/id/event/marin-county-fair",
       "name": "Marin County Fair",
       "label": "Marin County Fair",
-      "kind": "event"
+      "kind": "event",
+      "alternateNames": [
+        "Marin Fair"
+      ],
+      "searchPhrases": [
+        "Marin Fairgrounds"
+      ]
     },
     {
       "monitorId": "marin-farmers-markets",
@@ -25,7 +31,11 @@
       "event": "https://marincountygov.github.io/marin-data/id/event/marin-farmers-markets",
       "name": "Marin Farmers Markets",
       "label": "Marin Farmers Markets",
-      "kind": "event"
+      "kind": "event",
+      "alternateNames": [
+        "Marin Farmers Market",
+        "Marin County Farmers Market"
+      ]
     },
     {
       "monitorId": "roller-disco-daze",

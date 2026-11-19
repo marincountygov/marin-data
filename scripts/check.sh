@@ -10,7 +10,7 @@ bash -n scripts/build.sh
 bash -n scripts/lock.sh
 bash -n scripts/data_sync.sh
 python3 -m py_compile check_sources.py check_orgs.py check_consumers.py check_copies.py check_brand.py check_projects.py check_schemagov.py copies.py sources_lib.py scripts/sync_consumer.py \
-  build_sources.py build_org_links.py build_place_links.py build_event_links.py build_place_aliases.py build_facility_list.py build_location_list.py build_person_links.py check_locations.py check_codes.py place_lib.py build_org_aliases.py build_org_index.py
+  build_sources.py build_org_links.py build_place_links.py build_event_links.py build_place_aliases.py build_facility_list.py build_location_list.py build_person_links.py check_locations.py check_codes.py check_search_hints.py place_lib.py build_org_aliases.py build_org_index.py
 
 python3 check_sources.py            # source registry: fields, ids, hashes of stored files
 python3 build_sources.py --check    # output/sources.json is current
@@ -24,6 +24,7 @@ python3 build_person_links.py --check # organizations/people.json is current
 python3 build_place_aliases.py --check # organizations/place-aliases.json is current
 python3 build_org_aliases.py --check # organizations/aliases.json is current
 python3 build_org_index.py --check   # organizations/index.json is current
+python3 check_search_hints.py       # the search hints agree with the names
 python3 check_codes.py              # every place, facility, event and person has its own code
 python3 check_consumers.py          # every file a consumer copies exists
 python3 check_brand.py              # brand.json files and their assets agree

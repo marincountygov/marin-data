@@ -56,6 +56,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-alto",
       "name": "Alto",
       "label": "Alto",
+      "needsContext": [
+        "Alto"
+      ],
+      "insideWords": [
+        "Alto"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -86,6 +92,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-belvedere",
       "name": "Belvedere",
       "label": "Belvedere",
+      "alternateNames": [
+        "City of Belvedere"
+      ],
+      "needsContext": [
+        "Belvedere"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -101,6 +113,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-black-point",
       "name": "Black Point",
       "label": "Black Point",
+      "needsContext": [
+        "Black Point"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -131,6 +146,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-corte-madera",
       "name": "Corte Madera",
       "label": "Corte Madera",
+      "alternateNames": [
+        "City of Corte Madera"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -161,6 +179,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-dogtown",
       "name": "Dogtown",
       "label": "Dogtown",
+      "needsContext": [
+        "Dogtown"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -176,6 +197,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-fairfax",
       "name": "Fairfax",
       "label": "Fairfax",
+      "alternateNames": [
+        "Town of Fairfax"
+      ],
+      "needsContext": [
+        "Fairfax"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -191,6 +218,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-fallon",
       "name": "Fallon",
       "label": "Fallon",
+      "needsContext": [
+        "Fallon"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -221,6 +251,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-green-point",
       "name": "Green Point",
       "label": "Green Point",
+      "needsContext": [
+        "Green Point"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -266,6 +299,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-ignacio",
       "name": "Ignacio",
       "label": "Ignacio",
+      "needsContext": [
+        "Ignacio"
+      ],
       "kind": "community",
       "governmentLevel": "subregional"
     },
@@ -275,6 +311,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-indian-valley",
       "name": "Indian Valley",
       "label": "Indian Valley",
+      "needsContext": [
+        "Indian Valley"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -365,6 +404,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-larkspur",
       "name": "Larkspur",
       "label": "Larkspur",
+      "alternateNames": [
+        "City of Larkspur"
+      ],
+      "needsContext": [
+        "Larkspur"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -393,6 +438,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-loma-verde",
       "name": "Loma Verde",
       "label": "Loma Verde",
+      "needsContext": [
+        "Loma Verde"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -438,6 +486,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1",
       "name": "Marin County Supervisorial District 1",
       "label": "District 1",
+      "alternateNames": [
+        "District 1",
+        "D1",
+        "Marin District 1",
+        "Supervisorial District 1"
+      ],
       "kind": "district",
       "governmentLevel": "subregional"
     },
@@ -447,6 +501,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2",
       "name": "Marin County Supervisorial District 2",
       "label": "District 2",
+      "alternateNames": [
+        "District 2",
+        "D2",
+        "Marin District 2",
+        "Supervisorial District 2"
+      ],
       "kind": "district",
       "governmentLevel": "subregional"
     },
@@ -456,6 +516,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3",
       "name": "Marin County Supervisorial District 3",
       "label": "District 3",
+      "alternateNames": [
+        "District 3",
+        "D3",
+        "Marin District 3",
+        "Supervisorial District 3"
+      ],
       "kind": "district",
       "governmentLevel": "subregional"
     },
@@ -465,6 +531,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4",
       "name": "Marin County Supervisorial District 4",
       "label": "District 4",
+      "alternateNames": [
+        "District 4",
+        "D4",
+        "Marin District 4",
+        "Supervisorial District 4"
+      ],
       "kind": "district",
       "governmentLevel": "subregional"
     },
@@ -474,6 +546,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5",
       "name": "Marin County Supervisorial District 5",
       "label": "District 5",
+      "alternateNames": [
+        "District 5",
+        "D5",
+        "Marin District 5",
+        "Supervisorial District 5"
+      ],
       "kind": "district",
       "governmentLevel": "subregional"
     },
@@ -498,6 +576,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-marshall",
       "name": "Marshall",
       "label": "Marshall",
+      "needsContext": [
+        "Marshall"
+      ],
+      "insideWords": [
+        "Marshall"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -513,6 +597,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-mill-valley",
       "name": "Mill Valley",
       "label": "Mill Valley",
+      "alternateNames": [
+        "City of Mill Valley"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -562,6 +649,15 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-novato",
       "name": "Novato",
       "label": "Novato",
+      "alternateNames": [
+        "City of Novato"
+      ],
+      "insideWords": [
+        "Novato"
+      ],
+      "hashtags": [
+        "#Novato"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -581,6 +677,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-olema",
       "name": "Olema",
       "label": "Olema",
+      "insideWords": [
+        "Olema"
+      ],
+      "hashtags": [
+        "#Olema"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -626,6 +728,15 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-ross",
       "name": "Ross",
       "label": "Ross",
+      "alternateNames": [
+        "Town of Ross"
+      ],
+      "needsContext": [
+        "Ross"
+      ],
+      "insideWords": [
+        "Ross"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -641,6 +752,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-anselmo",
       "name": "San Anselmo",
       "label": "San Anselmo",
+      "alternateNames": [
+        "Town of San Anselmo"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -686,6 +800,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-rafael",
       "name": "San Rafael",
       "label": "San Rafael",
+      "alternateNames": [
+        "City of San Rafael"
+      ],
+      "needsContext": [
+        "San Rafael"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -724,6 +844,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-sausalito",
       "name": "Sausalito",
       "label": "Sausalito",
+      "alternateNames": [
+        "City of Sausalito"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -739,6 +862,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-seadrift",
       "name": "Seadrift",
       "label": "Seadrift",
+      "needsContext": [
+        "Seadrift"
+      ],
       "kind": "community",
       "governmentLevel": "subregional"
     },
@@ -748,6 +874,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-sleepy-hollow",
       "name": "Sleepy Hollow",
       "label": "Sleepy Hollow",
+      "needsContext": [
+        "Sleepy Hollow"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -778,6 +907,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-strawberry",
       "name": "Strawberry",
       "label": "Strawberry",
+      "needsContext": [
+        "Strawberry"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -793,6 +925,9 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tamalpais-valley",
       "name": "Tamalpais Valley",
       "label": "Tamalpais Valley",
+      "alternateNames": [
+        "Tam Valley"
+      ],
       "kind": "community",
       "governmentLevel": "subregional",
       "districts": [
@@ -808,6 +943,12 @@
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-tiburon",
       "name": "Tiburon",
       "label": "Tiburon",
+      "alternateNames": [
+        "Town of Tiburon"
+      ],
+      "needsContext": [
+        "Tiburon"
+      ],
       "kind": "city",
       "governmentLevel": "municipal",
       "districts": [
@@ -871,7 +1012,24 @@
       "name": "Marin County Civic Center",
       "label": "Marin County Civic Center",
       "kind": "facility",
-      "type": "GovernmentBuilding"
+      "type": "GovernmentBuilding",
+      "alternateNames": [
+        "Marin Civic Center"
+      ],
+      "searchPhrases": [
+        "Civic Center",
+        "county & offices",
+        "Frank Lloyd Wright"
+      ],
+      "needsContext": [
+        "Civic Center",
+        "county & offices",
+        "Frank Lloyd Wright"
+      ],
+      "confusableNames": [
+        "SF Civic Center",
+        "San Francisco Civic Center"
+      ]
     },
     {
       "monitorId": "gallinas-creek",
@@ -898,7 +1056,29 @@
       "name": "Marin Center",
       "label": "Marin Center",
       "kind": "facility",
-      "type": "EventVenue"
+      "type": "EventVenue",
+      "parts": [
+        {
+          "name": "Marin Showcase Theater"
+        },
+        {
+          "name": "Marin Exhibit Hall"
+        },
+        {
+          "name": "Marin Veterans' Memorial Auditorium",
+          "alternateNames": [
+            "Veterans Memorial Auditorium",
+            "VMA"
+          ],
+          "needsContext": [
+            "Veterans Memorial Auditorium",
+            "VMA"
+          ],
+          "insideWords": [
+            "VMA"
+          ]
+        }
+      ]
     },
     {
       "monitorId": "st-vincents",
@@ -907,7 +1087,16 @@
       "name": "St. Vincent's",
       "label": "St. Vincent's",
       "kind": "facility",
-      "type": "Place"
+      "type": "Place",
+      "alternateNames": [
+        "St Vincents",
+        "St. Vincent"
+      ],
+      "needsContext": [
+        "St. Vincent's",
+        "St Vincents",
+        "St. Vincent"
+      ]
     }
   ],
   "notPlaces": [
