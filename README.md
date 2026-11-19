@@ -13,8 +13,15 @@ Published at https://marincountygov.github.io/marin-data/. Every file in this re
 | `output/organizations.jsonld` | The full record for each organization, in schemaGov JSON-LD. The same folder holds `jurisdictions`, `programs`, `people`, `posts` and `roles` | By hand, and by the budget extract | marin-docs, marin-budget |
 | `output/budgets*.jsonld`, `budget-lines*.jsonld`, `funds*.jsonld`, `output/cip/`, `output/budget-2025-26/` | The budget and capital plan figures | Generated from the books by the `extract_*.py` scripts | marin-budget, marin-docs |
 | `organizations/monitors.json` | Which organization each watched department is about | Generated | marin-mentions |
+| `organizations/places.json` | Which jurisdiction (district, city or town, community) or facility each watched place is about | Generated | marin-mentions |
+| `organizations/facilities.json` | Every facility and venue, with address, coordinates and who runs it (government, nongovernment, unknown) | Generated | marin-reach |
+| `organizations/locations.json` | The places and sites people can name in a tracked link, each with a permanent code | Generated | marin-links |
+| `organizations/people.json` | Which person each watched person is about, with their seat and district | Generated | marin-mentions |
+| `organizations/events.json` | Which event each watched event is about | Generated | marin-mentions |
+| `organizations/monitors-not-places.json` | Watched place names that are not jurisdictions, with the reason | By hand | marin-mentions |
 | `organizations/monitors-not-organizations.json` | Watched names that are not County organizations, with the reason | By hand | marin-mentions |
 | `organizations/aliases.json` | Other names for organizations, such as CDA | Generated | marin-reach |
+| `organizations/place-aliases.json` | Other names for each place (such as `D3` for District 3), and the name an app shows for it | Generated | marin-reach |
 | `projects/projects.json` | The projects and campaigns the apps show: each with a Links campaign code, and whether Reach lists it and Mentions watches its name | By hand | marin-links, marin-reach, marin-mentions |
 | `organizations/index.json` | A short list of every organization: id, name, other names, type and parent | Generated | marin-os |
 | `output/sources.json` | The older shape of `sources.json` that some app scripts still read | Generated | marin-budget, marin-docs |
@@ -40,6 +47,12 @@ Never reuse or renumber a code. Run `python3 check_projects.py`. The apps pick i
 **Add another name for an organization**, such as an acronym: add it to `alternateName` on its record in `output/organizations.jsonld`. Then run `bash scripts/build.sh`. A name that fits two organizations is left out and listed as ambiguous.
 
 **Watch a new department in marin-mentions:** give its record in `output/organizations.jsonld` an identifier named `local:marin-mentions-monitor-id` with the monitor's id. If the monitor is not a County organization, add it to `organizations/monitors-not-organizations.json` with a reason. Then run `bash scripts/build.sh`.
+
+**Watch a new place in marin-mentions:** add a record to `output/jurisdictions.jsonld` (a `City` for an incorporated place, otherwise an `AdministrativeArea`, contained in the county, with a `governmentLevel`) and give it an identifier named `local:marin-mentions-monitor-id` with the monitor's id. If the monitor is not a territory, add it to `organizations/monitors-not-places.json` with a reason. Then run `bash scripts/build.sh`.
+
+**Watch a new person in marin-mentions:** give their record in `output/people.jsonld` an identifier named `local:marin-mentions-monitor-id` with the monitor's id. Their seat comes from their role in `output/roles.jsonld`. Then run `bash scripts/build.sh`.
+
+**Watch a new facility or event in marin-mentions:** add a record to `output/facilities.jsonld` (a `GovernmentBuilding`, `EventVenue`, `CivicStructure`, or plain `Place`) or to `output/events.jsonld`, with an identifier named `local:marin-mentions-monitor-id` holding the monitor's id. Every facility also needs `local:operator-type` (in `additionalProperty`): `government`, `nongovernment`, `unknown` or `notApplicable`. A venue Reach uses needs no monitor. Then run `bash scripts/build.sh`.
 
 **Add or replace a source document:** add a record to `sources.json`.
 - If the County posts it publicly, set `url` and leave `file` empty. Do not store the file here.

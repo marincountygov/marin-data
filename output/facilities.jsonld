@@ -1,0 +1,343 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/civic-center",
+      "@type": "GovernmentBuilding",
+      "name": "Marin County Civic Center",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q1150950"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "civic-center"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3501 Civic Center Dr",
+        "addressLocality": "San Rafael",
+        "addressRegion": "CA",
+        "postalCode": "94903",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.997514,
+        "longitude": -122.530353
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-center",
+      "@type": "EventVenue",
+      "name": "Marin Center",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-center"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/gnoss-field-airport",
+      "@type": "CivicStructure",
+      "name": "Gnoss Field Airport",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "gnoss-field-airport"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/st-vincents",
+      "@type": "Place",
+      "name": "St. Vincent's",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "st-vincents"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/gallinas-creek",
+      "@type": "Place",
+      "name": "Gallinas Creek",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "gallinas-creek"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "notApplicable"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/mill-valley-community-center",
+      "@type": "CivicStructure",
+      "name": "Mill Valley Community Center",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-mill-valley"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "180 Camino Alto",
+        "addressLocality": "Mill Valley",
+        "addressRegion": "CA",
+        "postalCode": "94941",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.898796,
+        "longitude": -122.528346
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "mill-valley-community-center"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/tam-valley-community-center",
+      "@type": "Place",
+      "name": "Tam Valley Community Center",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tamalpais-valley"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "203 Marin Ave",
+        "addressLocality": "Mill Valley",
+        "addressRegion": "CA",
+        "postalCode": "94941",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.8761584,
+        "longitude": -122.5267113
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "tam-valley-community-center"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/homestead-valley-community-center",
+      "@type": "Place",
+      "name": "Homestead Valley Community Center",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-homestead-valley"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "315 Montford Ave",
+        "addressLocality": "Mill Valley",
+        "addressRegion": "CA",
+        "postalCode": "94941",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.8969812,
+        "longitude": -122.5441918
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "homestead-valley-community-center"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-art-garden-center",
+      "@type": "Place",
+      "name": "Marin Art & Garden Center",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-ross"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "30 Sir Francis Drake Blvd",
+        "addressLocality": "Ross",
+        "addressRegion": "CA",
+        "postalCode": "94957",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.963467,
+        "longitude": -122.55568
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-art-garden-center"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "nongovernment"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-health-wellness-connection-center",
+      "@type": "CivicStructure",
+      "name": "Marin Health & Wellness Campus Connection Center",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3240 Kerner Blvd",
+        "addressLocality": "San Rafael",
+        "addressRegion": "CA",
+        "postalCode": "94901",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.960206,
+        "longitude": -122.501874
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-health-wellness-connection-center"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "government"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/facility/marin-humane",
+      "@type": "Place",
+      "name": "Marin Humane",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "171 Bel Marin Keys Blvd",
+        "addressLocality": "Novato",
+        "addressRegion": "CA",
+        "postalCode": "94949",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.06810087685585,
+        "longitude": -122.53657216568276
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-humane"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:operator-type",
+          "value": "nongovernment"
+        }
+      ]
+    }
+  ]
+}

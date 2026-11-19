@@ -4,27 +4,62 @@
     {
       "@id": "https://marincountygov.github.io/marin-data/id/person/mary-sackett",
       "@type": "Person",
-      "name": "Mary Sackett"
+      "name": "Mary Sackett",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "mary-sackett"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/person/brian-colbert",
       "@type": "Person",
-      "name": "Brian Colbert"
+      "name": "Brian Colbert",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "brian-colbert"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/person/stephanie-moulton-peters",
       "@type": "Person",
-      "name": "Stephanie Moulton-Peters"
+      "name": "Stephanie Moulton-Peters",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "stephanie-moulton-peters"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/person/dennis-rodoni",
       "@type": "Person",
-      "name": "Dennis Rodoni"
+      "name": "Dennis Rodoni",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "dennis-rodoni"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/person/eric-lucan",
       "@type": "Person",
-      "name": "Eric Lucan"
+      "name": "Eric Lucan",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "eric-lucan"
+        }
+      ]
     }
   ]
 }

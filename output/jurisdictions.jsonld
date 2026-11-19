@@ -18,6 +18,12 @@
       "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1",
       "@type": "AdministrativeArea",
       "name": "Marin County Supervisorial District 1",
+      "alternateName": [
+        "District 1",
+        "D1",
+        "Marin District 1",
+        "Supervisorial District 1"
+      ],
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
@@ -27,6 +33,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-supervisorial-district",
           "value": "1"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-district-1"
         }
       ]
     },
@@ -34,6 +45,12 @@
       "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2",
       "@type": "AdministrativeArea",
       "name": "Marin County Supervisorial District 2",
+      "alternateName": [
+        "District 2",
+        "D2",
+        "Marin District 2",
+        "Supervisorial District 2"
+      ],
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
@@ -43,6 +60,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-supervisorial-district",
           "value": "2"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-district-2"
         }
       ]
     },
@@ -50,6 +72,12 @@
       "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3",
       "@type": "AdministrativeArea",
       "name": "Marin County Supervisorial District 3",
+      "alternateName": [
+        "District 3",
+        "D3",
+        "Marin District 3",
+        "Supervisorial District 3"
+      ],
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
@@ -59,6 +87,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-supervisorial-district",
           "value": "3"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-district-3"
         }
       ]
     },
@@ -66,6 +99,12 @@
       "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4",
       "@type": "AdministrativeArea",
       "name": "Marin County Supervisorial District 4",
+      "alternateName": [
+        "District 4",
+        "D4",
+        "Marin District 4",
+        "Supervisorial District 4"
+      ],
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
@@ -75,6 +114,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-supervisorial-district",
           "value": "4"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-district-4"
         }
       ]
     },
@@ -82,6 +126,12 @@
       "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5",
       "@type": "AdministrativeArea",
       "name": "Marin County Supervisorial District 5",
+      "alternateName": [
+        "District 5",
+        "D5",
+        "Marin District 5",
+        "Supervisorial District 5"
+      ],
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
@@ -91,6 +141,1161 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-supervisorial-district",
           "value": "5"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-district-5"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-belvedere",
+      "@type": "City",
+      "name": "Belvedere",
+      "alternateName": [
+        "City of Belvedere"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:belvedere"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2054234"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "belvedere"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-corte-madera",
+      "@type": "City",
+      "name": "Corte Madera",
+      "alternateName": [
+        "City of Corte Madera"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:corte_madera"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q985266"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "corte-madera"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-fairfax",
+      "@type": "City",
+      "name": "Fairfax",
+      "alternateName": [
+        "Town of Fairfax"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:fairfax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2108879"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "fairfax"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-larkspur",
+      "@type": "City",
+      "name": "Larkspur",
+      "alternateName": [
+        "City of Larkspur"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:larkspur"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q984595"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "larkspur"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-mill-valley",
+      "@type": "City",
+      "name": "Mill Valley",
+      "alternateName": [
+        "City of Mill Valley"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:mill_valley"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q846413"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "mill-valley"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-novato",
+      "@type": "City",
+      "name": "Novato",
+      "alternateName": [
+        "City of Novato"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:novato"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q851004"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "novato"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-ross",
+      "@type": "City",
+      "name": "Ross",
+      "alternateName": [
+        "Town of Ross"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:ross"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2747056"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "ross"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-anselmo",
+      "@type": "City",
+      "name": "San Anselmo",
+      "alternateName": [
+        "Town of San Anselmo"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:san_anselmo"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q984597"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "san-anselmo"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-rafael",
+      "@type": "City",
+      "name": "San Rafael",
+      "alternateName": [
+        "City of San Rafael"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:san_rafael"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q631915"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "san-rafael"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-sausalito",
+      "@type": "City",
+      "name": "Sausalito",
+      "alternateName": [
+        "City of Sausalito"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:sausalito"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q828729"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "sausalito"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-tiburon",
+      "@type": "City",
+      "name": "Tiburon",
+      "alternateName": [
+        "Town of Tiburon"
+      ],
+      "governmentLevel": "municipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ocd-division",
+          "value": "ocd-division/country:us/state:ca/place:tiburon"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q984603"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "tiburon"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-almonte",
+      "@type": "AdministrativeArea",
+      "name": "Almonte",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q4733917"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "almonte"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-alto",
+      "@type": "AdministrativeArea",
+      "name": "Alto",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q4736768"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "alto"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-bel-marin-keys",
+      "@type": "AdministrativeArea",
+      "name": "Bel Marin Keys",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q4881742"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "bel-marin-keys"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-black-point",
+      "@type": "AdministrativeArea",
+      "name": "Black Point",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "black-point"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-bolinas",
+      "@type": "AdministrativeArea",
+      "name": "Bolinas",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2686131"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "bolinas"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-dillon-beach",
+      "@type": "AdministrativeArea",
+      "name": "Dillon Beach",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2104029"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "dillon-beach"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-dogtown",
+      "@type": "AdministrativeArea",
+      "name": "Dogtown",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q5288479"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "dogtown"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-fallon",
+      "@type": "AdministrativeArea",
+      "name": "Fallon",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q5432404"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "fallon"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-forest-knolls",
+      "@type": "AdministrativeArea",
+      "name": "Forest Knolls",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q5468996"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "forest-knolls"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-greenbrae",
+      "@type": "AdministrativeArea",
+      "name": "Greenbrae",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q3116127"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "greenbrae"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-green-point",
+      "@type": "AdministrativeArea",
+      "name": "Green Point",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "green-point"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-homestead-valley",
+      "@type": "AdministrativeArea",
+      "name": "Homestead Valley",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2884484"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "homestead-valley"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-ignacio",
+      "@type": "AdministrativeArea",
+      "name": "Ignacio",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q14682450"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "ignacio"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-indian-valley",
+      "@type": "AdministrativeArea",
+      "name": "Indian Valley",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "indian-valley"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-inverness",
+      "@type": "AdministrativeArea",
+      "name": "Inverness",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q3306123"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "inverness"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-inverness-park",
+      "@type": "AdministrativeArea",
+      "name": "Inverness Park",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q6060260"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "inverness-park"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-kentfield",
+      "@type": "AdministrativeArea",
+      "name": "Kentfield",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2450147"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "kentfield"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-kent-woodlands",
+      "@type": "AdministrativeArea",
+      "name": "Kent Woodlands",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "kent-woodlands"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-lagunitas",
+      "@type": "AdministrativeArea",
+      "name": "Lagunitas",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q634165"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "lagunitas"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-las-gallinas",
+      "@type": "AdministrativeArea",
+      "name": "Las Gallinas",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q6492216"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "las-gallinas"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-loma-verde",
+      "@type": "AdministrativeArea",
+      "name": "Loma Verde",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "loma-verde"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-lucas-valley",
+      "@type": "AdministrativeArea",
+      "name": "Lucas Valley",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q6696341"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "lucas-valley"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-marin-city",
+      "@type": "AdministrativeArea",
+      "name": "Marin City",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2586362"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-city"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-marinwood",
+      "@type": "AdministrativeArea",
+      "name": "Marinwood",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q6764494"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marinwood"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-marshall",
+      "@type": "AdministrativeArea",
+      "name": "Marshall",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q6773450"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marshall"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-muir-beach",
+      "@type": "AdministrativeArea",
+      "name": "Muir Beach",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2792890"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "muir-beach"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-nicasio",
+      "@type": "AdministrativeArea",
+      "name": "Nicasio",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q3476052"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "nicasio"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-olema",
+      "@type": "AdministrativeArea",
+      "name": "Olema",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q7086339"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "olema"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-paradise-cay",
+      "@type": "AdministrativeArea",
+      "name": "Paradise Cay",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q7134252"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "paradise-cay"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-point-reyes-station",
+      "@type": "AdministrativeArea",
+      "name": "Point Reyes Station",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2088643"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "point-reyes-station"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-san-geronimo",
+      "@type": "AdministrativeArea",
+      "name": "San Geronimo",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2075091"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "san-geronimo"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-san-quentin",
+      "@type": "AdministrativeArea",
+      "name": "San Quentin",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q7415190"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "san-quentin"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-santa-venetia",
+      "@type": "AdministrativeArea",
+      "name": "Santa Venetia",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2665797"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "santa-venetia"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-seadrift",
+      "@type": "AdministrativeArea",
+      "name": "Seadrift",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "seadrift"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-sleepy-hollow",
+      "@type": "AdministrativeArea",
+      "name": "Sleepy Hollow",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q3476215"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "sleepy-hollow"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-stinson-beach",
+      "@type": "AdministrativeArea",
+      "name": "Stinson Beach",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q594225"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "stinson-beach"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-strawberry",
+      "@type": "AdministrativeArea",
+      "name": "Strawberry",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q1412166"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "strawberry"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tamalpais-valley",
+      "@type": "AdministrativeArea",
+      "name": "Tamalpais Valley",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q7680603"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "tamalpais-valley"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tocaloma",
+      "@type": "AdministrativeArea",
+      "name": "Tocaloma",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q7811942"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "tocaloma"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tomales",
+      "@type": "AdministrativeArea",
+      "name": "Tomales",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2203740"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "tomales"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-woodacre",
+      "@type": "AdministrativeArea",
+      "name": "Woodacre",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "wikidata",
+          "value": "Q2881460"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "woodacre"
         }
       ]
     }

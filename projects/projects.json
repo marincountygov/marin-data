@@ -23,7 +23,8 @@
       "id": "envision-marin",
       "name": "Envision Marin",
       "links": { "code": "cmp-01", "legacy": ["envision_marin"] },
-      "reach": true
+      "reach": true,
+      "mentions": { "include": ["Envision Marin"] }
     },
     {
       "id": "tam-junction-placemaking",
