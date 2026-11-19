@@ -289,18 +289,6 @@
           "value": "jennifer-olvera"
         }
       ]
-    },
-    {
-      "@id": "https://marincountygov.github.io/marin-data/id/person/magali-limeta",
-      "@type": "Person",
-      "name": "Magali Limeta",
-      "identifier": [
-        {
-          "@type": "PropertyValue",
-          "propertyID": "gs:local",
-          "value": "magali-limeta"
-        }
-      ]
     }
   ]
 }

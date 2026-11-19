@@ -5,10 +5,5 @@
     "Each entry is a monitor id in marin-mentions/config/monitors.yaml, in the Districts, Cities and towns or Communities group, that is deliberately not a jurisdiction, with the reason.",
     "A monitor in the Districts, Cities and towns or Communities group must either carry a local:marin-mentions-monitor-id on a jurisdiction in output/jurisdictions.jsonld or be listed here. Facilities are in output/facilities.jsonld instead."
   ],
-  "monitors": [
-    {
-      "monitorId": "west-marin",
-      "reason": "An informal region made up of several communities. No one governs it as a territory."
-    }
-  ]
+  "monitors": []
 }

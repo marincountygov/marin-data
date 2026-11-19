@@ -13,7 +13,7 @@ kind is district (a supervisorial district), city (a city or town) or community 
 unincorporated community). The kinds and what apps call them are in organizations/place-kinds.json.
 code is the record's own code (its gs:local identifier, see place_lib.py), which is not tied to Mentions.
 label is the name an app shows for the place: the place's name, except a district, which is District N.
-alternateNames are the other names the record goes by (City of Novato, Tam Valley), and the other keys are search hints (see place_lib.py). A facility lists the facilities inside it as parts. Marin Mentions watches for all of them. Facilities (output/facilities.jsonld) are Places too, so they are listed
+alternateNames are the other names the record goes by (City of Novato, Tam Valley), and the other keys are search hints (see place_lib.py). A facility lists the facilities inside it as parts, and a district lists its supervisor as people and the areas in it as parts. Marin Mentions watches for all of them. Facilities (output/facilities.jsonld) are Places too, so they are listed
 here as well, under facilities, with their schemaGov type.
 
   python3 build_place_links.py           write organizations/places.json
@@ -61,6 +61,31 @@ def districts(o):
     return sorted(found, key=lambda d: d["monitorId"])
 
 
+roles = lib.graph("roles")
+posts = {x["@id"]: x for x in lib.graph("posts")}
+people = {x["@id"]: x for x in lib.graph("people")}
+
+
+def supervisors(district):
+    """The names of the people whose post represents this district."""
+    names = []
+    for role in roles:
+        post = posts.get((role.get("post") or {}).get("@id"))
+        if post and (post.get("representsJurisdiction") or {}).get("@id") == district["@id"]:
+            names.append(people[role["member"]["@id"]]["name"])
+    return sorted(names)
+
+
+def areas_of(district):
+    """The places in a district that Marin Mentions does not watch by themselves (an area, a valley): their names."""
+    found = []
+    for o in graph:
+        refs = [r["@id"] for key in ("geoWithin", "geoOverlaps") for r in (o.get(key) if isinstance(o.get(key), list) else [o.get(key)] if o.get(key) else [])]
+        if district["@id"] in refs and o["@id"] not in monitor_of:
+            found.append({"name": o["name"], **lib.search_of(o)})
+    return sorted(found, key=lambda a: a["name"])
+
+
 rows = []
 for o in graph:
     for monitor_id in ident(o, "local:marin-mentions-monitor-id"):
@@ -74,6 +99,8 @@ for o in graph:
             "kind": kind(o),
             "governmentLevel": o["governmentLevel"],
             **({"districts": districts(o)} if districts(o) else {}),
+            **({"people": supervisors(o)} if kind(o) == "district" and supervisors(o) else {}),
+            **({"parts": areas_of(o)} if kind(o) == "district" and areas_of(o) else {}),
         })
 rows.sort(key=lambda r: r["monitorId"])
 facilities = sorted(

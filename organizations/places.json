@@ -24,6 +24,16 @@
       "plural": "Communities"
     },
     {
+      "key": "area",
+      "singular": "Area",
+      "plural": "Areas"
+    },
+    {
+      "key": "region",
+      "singular": "Region",
+      "plural": "Regions"
+    },
+    {
       "key": "facility",
       "singular": "Facility",
       "plural": "Facilities"
@@ -490,10 +500,18 @@
         "District 1",
         "D1",
         "Marin District 1",
-        "Supervisorial District 1"
+        "Supervisorial District 1",
+        "1st District"
+      ],
+      "needsContext": [
+        "District 1",
+        "1st District"
       ],
       "kind": "district",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "people": [
+        "Mary Sackett"
+      ]
     },
     {
       "monitorId": "marin-district-2",
@@ -505,10 +523,26 @@
         "District 2",
         "D2",
         "Marin District 2",
-        "Supervisorial District 2"
+        "Supervisorial District 2",
+        "2nd District"
+      ],
+      "needsContext": [
+        "District 2",
+        "2nd District"
       ],
       "kind": "district",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "people": [
+        "Brian Colbert"
+      ],
+      "parts": [
+        {
+          "name": "Oak Manor"
+        },
+        {
+          "name": "Southwest San Rafael"
+        }
+      ]
     },
     {
       "monitorId": "marin-district-3",
@@ -520,10 +554,27 @@
         "District 3",
         "D3",
         "Marin District 3",
-        "Supervisorial District 3"
+        "Supervisorial District 3",
+        "3rd District"
+      ],
+      "searchPhrases": [
+        "floating homes"
+      ],
+      "needsContext": [
+        "District 3",
+        "3rd District",
+        "floating homes"
       ],
       "kind": "district",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "people": [
+        "Stephanie Moulton-Peters"
+      ],
+      "parts": [
+        {
+          "name": "Alto-Sutton Manor"
+        }
+      ]
     },
     {
       "monitorId": "marin-district-4",
@@ -535,10 +586,32 @@
         "District 4",
         "D4",
         "Marin District 4",
-        "Supervisorial District 4"
+        "Supervisorial District 4",
+        "4th District"
+      ],
+      "needsContext": [
+        "District 4",
+        "4th District"
       ],
       "kind": "district",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "people": [
+        "Dennis Rodoni"
+      ],
+      "parts": [
+        {
+          "name": "Chileno Valley"
+        },
+        {
+          "name": "East San Rafael"
+        },
+        {
+          "name": "San Geronimo Valley"
+        },
+        {
+          "name": "West Novato"
+        }
+      ]
     },
     {
       "monitorId": "marin-district-5",
@@ -550,10 +623,26 @@
         "District 5",
         "D5",
         "Marin District 5",
-        "Supervisorial District 5"
+        "Supervisorial District 5",
+        "5th District"
+      ],
+      "needsContext": [
+        "District 5",
+        "5th District"
       ],
       "kind": "district",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "people": [
+        "Eric Lucan"
+      ],
+      "parts": [
+        {
+          "name": "Atherton Corridor"
+        },
+        {
+          "name": "Rush Creek"
+        }
+      ]
     },
     {
       "monitorId": "marinwood",
@@ -989,6 +1078,21 @@
       ]
     },
     {
+      "monitorId": "west-marin",
+      "code": "west-marin",
+      "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-region-west-marin",
+      "name": "West Marin",
+      "label": "West Marin",
+      "kind": "region",
+      "governmentLevel": "subregional",
+      "districts": [
+        {
+          "monitorId": "marin-district-4",
+          "relation": "within"
+        }
+      ]
+    },
+    {
       "monitorId": "woodacre",
       "code": "woodacre",
       "jurisdiction": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-woodacre",
@@ -1099,10 +1203,5 @@
       ]
     }
   ],
-  "notPlaces": [
-    {
-      "monitorId": "west-marin",
-      "reason": "An informal region made up of several communities. No one governs it as a territory."
-    }
-  ]
+  "notPlaces": []
 }

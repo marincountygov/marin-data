@@ -4,14 +4,49 @@
   "notes": [
     "Every app uses these names for a kind, so a district is a District and a community is a Communities group everywhere.",
     "singular names one of the kind (a Type row, a card). plural names the group or heading.",
-    "A Place is a territory: a district, a city or town, a community, or the county. A Facility is a building or site, shown beside Places. An Event is a gathering."
+    "A Place is a territory: a district, a city or town, a community, or the county. A Facility is a building or site, shown beside Places. An Event is a gathering.",
+    "An Area is a named neighborhood, valley or part of a city that is not a city, town or community of its own. A Region is a larger part of the county that holds several communities."
   ],
   "kinds": [
-    { "key": "county", "singular": "County", "plural": "Counties" },
-    { "key": "district", "singular": "District", "plural": "Districts" },
-    { "key": "city", "singular": "City or town", "plural": "Cities and towns" },
-    { "key": "community", "singular": "Community", "plural": "Communities" },
-    { "key": "facility", "singular": "Facility", "plural": "Facilities" },
-    { "key": "event", "singular": "Event", "plural": "Events" }
+    {
+      "key": "county",
+      "singular": "County",
+      "plural": "Counties"
+    },
+    {
+      "key": "district",
+      "singular": "District",
+      "plural": "Districts"
+    },
+    {
+      "key": "city",
+      "singular": "City or town",
+      "plural": "Cities and towns"
+    },
+    {
+      "key": "community",
+      "singular": "Community",
+      "plural": "Communities"
+    },
+    {
+      "key": "area",
+      "singular": "Area",
+      "plural": "Areas"
+    },
+    {
+      "key": "region",
+      "singular": "Region",
+      "plural": "Regions"
+    },
+    {
+      "key": "facility",
+      "singular": "Facility",
+      "plural": "Facilities"
+    },
+    {
+      "key": "event",
+      "singular": "Event",
+      "plural": "Events"
+    }
   ]
 }

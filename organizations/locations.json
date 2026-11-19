@@ -24,6 +24,16 @@
       "plural": "Communities"
     },
     {
+      "key": "area",
+      "singular": "Area",
+      "plural": "Areas"
+    },
+    {
+      "key": "region",
+      "singular": "Region",
+      "plural": "Regions"
+    },
+    {
       "key": "facility",
       "singular": "Facility",
       "plural": "Facilities"
@@ -48,6 +58,18 @@
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-alto"
     },
     {
+      "code": "alto-sutton-manor",
+      "label": "Alto-Sutton Manor",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-alto-sutton-manor"
+    },
+    {
+      "code": "atherton-corridor",
+      "label": "Atherton Corridor",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-atherton-corridor"
+    },
+    {
       "code": "bel-marin-keys",
       "label": "Bel Marin Keys",
       "kind": "community",
@@ -70,6 +92,12 @@
       "label": "Bolinas",
       "kind": "community",
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-bolinas"
+    },
+    {
+      "code": "chileno-valley",
+      "label": "Chileno Valley",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-chileno-valley"
     },
     {
       "code": "corte-madera",
@@ -118,6 +146,12 @@
       "label": "Dogtown",
       "kind": "community",
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-dogtown"
+    },
+    {
+      "code": "east-san-rafael",
+      "label": "East San Rafael",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-east-san-rafael"
     },
     {
       "code": "fairfax",
@@ -336,6 +370,12 @@
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-novato"
     },
     {
+      "code": "oak-manor",
+      "label": "Oak Manor",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-oak-manor"
+    },
+    {
       "code": "olema",
       "label": "Olema",
       "kind": "community",
@@ -360,6 +400,12 @@
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-ross"
     },
     {
+      "code": "rush-creek",
+      "label": "Rush Creek",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-rush-creek"
+    },
+    {
       "code": "san-anselmo",
       "label": "San Anselmo",
       "kind": "city",
@@ -370,6 +416,12 @@
       "label": "San Geronimo",
       "kind": "community",
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-san-geronimo"
+    },
+    {
+      "code": "san-geronimo-valley",
+      "label": "San Geronimo Valley",
+      "kind": "region",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-region-san-geronimo-valley"
     },
     {
       "code": "san-quentin",
@@ -406,6 +458,12 @@
       "label": "Sleepy Hollow",
       "kind": "community",
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-sleepy-hollow"
+    },
+    {
+      "code": "southwest-san-rafael",
+      "label": "Southwest San Rafael",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-southwest-san-rafael"
     },
     {
       "code": "st-vincents",
@@ -454,6 +512,18 @@
       "label": "Tomales",
       "kind": "community",
       "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-community-tomales"
+    },
+    {
+      "code": "west-marin",
+      "label": "West Marin",
+      "kind": "region",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-region-west-marin"
+    },
+    {
+      "code": "west-novato",
+      "label": "West Novato",
+      "kind": "area",
+      "id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-west-novato"
     },
     {
       "code": "woodacre",
