@@ -160,6 +160,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -188,6 +191,9 @@
       "governmentLevel": "municipal",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -218,6 +224,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -247,6 +256,14 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoOverlaps": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+        }
+      ],
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -276,6 +293,14 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoOverlaps": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+        }
+      ],
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -305,6 +330,14 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoOverlaps": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+        }
+      ],
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -333,6 +366,9 @@
       "governmentLevel": "municipal",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
       },
       "identifier": [
         {
@@ -363,6 +399,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -392,6 +431,17 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoOverlaps": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+        }
+      ],
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -420,6 +470,9 @@
       "governmentLevel": "municipal",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
       },
       "identifier": [
         {
@@ -450,6 +503,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -476,6 +532,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -496,6 +555,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
       },
       "identifier": [
         {
@@ -518,6 +580,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -539,6 +604,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -554,6 +622,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -576,6 +647,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -596,6 +670,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -618,6 +695,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -638,6 +718,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -660,6 +743,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -681,6 +767,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -696,6 +785,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
       },
       "identifier": [
         {
@@ -739,6 +831,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -754,6 +849,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -776,6 +874,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -796,6 +897,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
       },
       "identifier": [
         {
@@ -818,6 +922,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -833,6 +940,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -876,6 +986,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -891,6 +1004,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1"
       },
       "identifier": [
         {
@@ -913,6 +1029,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -933,6 +1052,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1"
       },
       "identifier": [
         {
@@ -955,6 +1077,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -975,6 +1100,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -997,6 +1125,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1017,6 +1148,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -1039,6 +1173,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1059,6 +1196,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -1081,6 +1221,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1102,6 +1245,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1122,6 +1268,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-1"
       },
       "identifier": [
         {
@@ -1160,6 +1309,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1180,6 +1332,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {
@@ -1202,6 +1357,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1222,6 +1380,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
       },
       "identifier": [
         {
@@ -1244,6 +1405,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1265,6 +1429,9 @@
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -1285,6 +1452,9 @@
       "governmentLevel": "subregional",
       "containedInPlace": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
       },
       "identifier": [
         {

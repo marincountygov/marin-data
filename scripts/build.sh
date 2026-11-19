@@ -6,10 +6,10 @@ ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
 cd "$ROOT"
 python3 build_sources.py          # output/sources.json
 python3 build_org_links.py        # organizations/monitors.json
+python3 build_place_aliases.py    # organizations/place-aliases.json
 python3 build_place_links.py      # organizations/places.json
 python3 build_event_links.py      # organizations/events.json
 python3 build_facility_list.py    # organizations/facilities.json
-python3 build_place_aliases.py    # organizations/place-aliases.json
 python3 build_location_list.py    # organizations/locations.json
 python3 build_person_links.py     # organizations/people.json
 python3 build_org_aliases.py      # organizations/aliases.json

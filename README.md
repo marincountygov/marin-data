@@ -13,6 +13,7 @@ Published at https://marincountygov.github.io/marin-data/. Every file in this re
 | `output/organizations.jsonld` | The full record for each organization, in schemaGov JSON-LD. The same folder holds `jurisdictions`, `programs`, `people`, `posts` and `roles` | By hand, and by the budget extract | marin-docs, marin-budget |
 | `output/budgets*.jsonld`, `budget-lines*.jsonld`, `funds*.jsonld`, `output/cip/`, `output/budget-2025-26/` | The budget and capital plan figures | Generated from the books by the `extract_*.py` scripts | marin-budget, marin-docs |
 | `organizations/monitors.json` | Which organization each watched department is about | Generated | marin-mentions |
+| `organizations/place-kinds.json` | The kinds of place, facility and event, and the singular and plural name every app uses for each | By hand | marin-mentions, marin-docs, marin-links |
 | `organizations/places.json` | Which jurisdiction (district, city or town, community) or facility each watched place is about | Generated | marin-mentions |
 | `organizations/facilities.json` | Every facility and venue, with address, coordinates and who runs it (government, nongovernment, unknown) | Generated | marin-reach |
 | `organizations/locations.json` | The places and sites people can name in a tracked link, each with a permanent code | Generated | marin-links |
@@ -51,6 +52,8 @@ Never reuse or renumber a code. Run `python3 check_projects.py`. The apps pick i
 **Watch a new place in marin-mentions:** add a record to `output/jurisdictions.jsonld` (a `City` for an incorporated place, otherwise an `AdministrativeArea`, contained in the county, with a `governmentLevel`) and give it an identifier named `local:marin-mentions-monitor-id` with the monitor's id. If the monitor is not a territory, add it to `organizations/monitors-not-places.json` with a reason. Then run `bash scripts/build.sh`.
 
 **Watch a new person in marin-mentions:** give their record in `output/people.jsonld` an identifier named `local:marin-mentions-monitor-id` with the monitor's id. Their seat comes from their role in `output/roles.jsonld`. Then run `bash scripts/build.sh`.
+
+**Say which district a place is in:** on the place's record in `output/jurisdictions.jsonld`, add `geoWithin` (the whole place is in one district) or `geoOverlaps` (a list of districts, when the place is partly in each), pointing at the district's `@id`. Then run `bash scripts/build.sh`. `organizations/places.json` then lists each place's `districts` with a relation of `within` or `overlaps`. The first lists were taken from the district monitors in marin-mentions (Ignacio, Las Gallinas and Seadrift are in none of them, so they have no district yet).
 
 **Watch a new facility or event in marin-mentions:** add a record to `output/facilities.jsonld` (a `GovernmentBuilding`, `EventVenue`, `CivicStructure`, or plain `Place`) or to `output/events.jsonld`, with an identifier named `local:marin-mentions-monitor-id` holding the monitor's id. Every facility also needs `local:operator-type` (in `additionalProperty`): `government`, `nongovernment`, `unknown` or `notApplicable`. A venue Reach uses needs no monitor. Then run `bash scripts/build.sh`.
 
