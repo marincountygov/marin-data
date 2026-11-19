@@ -27,7 +27,8 @@
         "District 1",
         "D1",
         "Marin District 1",
-        "Supervisorial District 1"
+        "Supervisorial District 1",
+        "1st District"
       ],
       "governmentLevel": "subregional",
       "containedInPlace": {
@@ -49,6 +50,18 @@
           "propertyID": "gs:local",
           "value": "marin-district-1"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "District 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "1st District"
+        }
       ]
     },
     {
@@ -59,7 +72,8 @@
         "District 2",
         "D2",
         "Marin District 2",
-        "Supervisorial District 2"
+        "Supervisorial District 2",
+        "2nd District"
       ],
       "governmentLevel": "subregional",
       "containedInPlace": {
@@ -81,6 +95,18 @@
           "propertyID": "gs:local",
           "value": "marin-district-2"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "District 2"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "2nd District"
+        }
       ]
     },
     {
@@ -91,7 +117,8 @@
         "District 3",
         "D3",
         "Marin District 3",
-        "Supervisorial District 3"
+        "Supervisorial District 3",
+        "3rd District"
       ],
       "governmentLevel": "subregional",
       "containedInPlace": {
@@ -113,6 +140,28 @@
           "propertyID": "gs:local",
           "value": "marin-district-3"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "District 3"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "3rd District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "floating homes"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "floating homes"
+        }
       ]
     },
     {
@@ -123,7 +172,8 @@
         "District 4",
         "D4",
         "Marin District 4",
-        "Supervisorial District 4"
+        "Supervisorial District 4",
+        "4th District"
       ],
       "governmentLevel": "subregional",
       "containedInPlace": {
@@ -145,6 +195,18 @@
           "propertyID": "gs:local",
           "value": "marin-district-4"
         }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "District 4"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "4th District"
+        }
       ]
     },
     {
@@ -155,7 +217,8 @@
         "District 5",
         "D5",
         "Marin District 5",
-        "Supervisorial District 5"
+        "Supervisorial District 5",
+        "5th District"
       ],
       "governmentLevel": "subregional",
       "containedInPlace": {
@@ -176,6 +239,18 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "marin-district-5"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "District 5"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "5th District"
         }
       ]
     },
@@ -1924,6 +1999,271 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "woodacre"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-oak-manor",
+      "@type": "AdministrativeArea",
+      "name": "Oak Manor",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "oak-manor"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-southwest-san-rafael",
+      "@type": "AdministrativeArea",
+      "name": "Southwest San Rafael",
+      "governmentLevel": "submunicipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-rafael"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-2"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "southwest-san-rafael"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-alto-sutton-manor",
+      "@type": "AdministrativeArea",
+      "name": "Alto-Sutton Manor",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-3"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "alto-sutton-manor"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-chileno-valley",
+      "@type": "AdministrativeArea",
+      "name": "Chileno Valley",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "chileno-valley"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-east-san-rafael",
+      "@type": "AdministrativeArea",
+      "name": "East San Rafael",
+      "governmentLevel": "submunicipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-san-rafael"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "east-san-rafael"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-west-novato",
+      "@type": "AdministrativeArea",
+      "name": "West Novato",
+      "governmentLevel": "submunicipal",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-novato"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "west-novato"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-rush-creek",
+      "@type": "AdministrativeArea",
+      "name": "Rush Creek",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "rush-creek"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-area-atherton-corridor",
+      "@type": "AdministrativeArea",
+      "name": "Atherton Corridor",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-5"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "atherton-corridor"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "area"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-region-san-geronimo-valley",
+      "@type": "AdministrativeArea",
+      "name": "San Geronimo Valley",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "san-geronimo-valley"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "region"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-region-west-marin",
+      "@type": "AdministrativeArea",
+      "name": "West Marin",
+      "governmentLevel": "subregional",
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "geoWithin": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/marin-supervisorial-district-4"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "west-marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "west-marin"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:place-kind",
+          "value": "region"
         }
       ]
     }

@@ -36,7 +36,10 @@ def monitor_of(record):
 
 
 def kind_of(record):
-    """district, city, community or county, for a jurisdiction."""
+    """district, city, community, area, region or county, for a jurisdiction."""
+    explicit = [p["value"] for p in record.get("additionalProperty", []) if p.get("propertyID") == "local:place-kind"]
+    if explicit:
+        return explicit[0]
     if ident(record, DISTRICT_ID):
         return "district"
     if not record.get("containedInPlace"):
