@@ -10,6 +10,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "mary-sackett"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "mary-sackett"
         }
       ]
     },
@@ -21,6 +26,11 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
+          "value": "brian-colbert"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
           "value": "brian-colbert"
         }
       ]
@@ -34,6 +44,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "stephanie-moulton-peters"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "stephanie-moulton-peters"
         }
       ]
     },
@@ -46,6 +61,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "dennis-rodoni"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "dennis-rodoni"
         }
       ]
     },
@@ -57,6 +77,11 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
+          "value": "eric-lucan"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
           "value": "eric-lucan"
         }
       ]

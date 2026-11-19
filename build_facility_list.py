@@ -38,6 +38,7 @@ for o in graph:
     row = {"id": o["@id"], "name": o["name"], "type": o["@type"], "operator": operator[0]}
     if o.get("alternateName"):
         row["alternateNames"] = o["alternateName"]
+    row["code"] = next(iter(ident(o, "gs:local")), None)
     monitor = ident(o, "local:marin-mentions-monitor-id")
     if monitor:
         row["monitorId"] = monitor[0]

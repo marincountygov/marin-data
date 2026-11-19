@@ -5,6 +5,7 @@
   "events": [
     {
       "monitorId": "holiday-light-spectacular",
+      "code": "holiday-light-spectacular",
       "event": "https://marincountygov.github.io/marin-data/id/event/holiday-light-spectacular",
       "name": "Holiday Light Spectacular",
       "label": "Holiday Light Spectacular",
@@ -12,6 +13,7 @@
     },
     {
       "monitorId": "marin-county-fair",
+      "code": "marin-county-fair",
       "event": "https://marincountygov.github.io/marin-data/id/event/marin-county-fair",
       "name": "Marin County Fair",
       "label": "Marin County Fair",
@@ -19,6 +21,7 @@
     },
     {
       "monitorId": "marin-farmers-markets",
+      "code": "marin-farmers-markets",
       "event": "https://marincountygov.github.io/marin-data/id/event/marin-farmers-markets",
       "name": "Marin Farmers Markets",
       "label": "Marin Farmers Markets",
@@ -26,6 +29,7 @@
     },
     {
       "monitorId": "roller-disco-daze",
+      "code": "roller-disco-daze",
       "event": "https://marincountygov.github.io/marin-data/id/event/roller-disco-daze",
       "name": "Roller Disco Daze",
       "label": "Roller Disco Daze",

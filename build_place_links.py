@@ -11,6 +11,7 @@ one). It comes from geoWithin and geoOverlaps on the place. A district has none.
 
 kind is district (a supervisorial district), city (a city or town) or community (an
 unincorporated community). The kinds and what apps call them are in organizations/place-kinds.json.
+code is the record's own code (its gs:local identifier, see place_lib.py), which is not tied to Mentions.
 label is the name an app shows for the place: the place's name, except a district, which is District N. Facilities (output/facilities.jsonld) are Places too, so they are listed
 here as well, under facilities, with their schemaGov type.
 
@@ -20,6 +21,8 @@ here as well, under facilities, with their schemaGov type.
 import json
 import sys
 from pathlib import Path
+
+import place_lib as lib
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "organizations" / "places.json"
@@ -31,14 +34,8 @@ labels = {v: k for k, v in json.loads((ROOT / "organizations" / "place-aliases.j
 org_monitors = {m["monitorId"] for m in json.loads((ROOT / "organizations" / "monitors.json").read_text())["monitors"]}
 
 
-def ident(o, prop):
-    return [i["value"] for i in o.get("identifier", []) if i.get("propertyID") == prop]
-
-
-def kind(o):
-    if ident(o, "local:marin-supervisorial-district"):
-        return "district"
-    return "city" if o.get("governmentLevel") == "municipal" else "community"
+ident = lib.ident
+kind = lib.kind_of
 
 
 monitor_of = {}
@@ -68,6 +65,7 @@ for o in graph:
     for monitor_id in ident(o, "local:marin-mentions-monitor-id"):
         rows.append({
             "monitorId": monitor_id,
+            "code": lib.code_of(o),
             "jurisdiction": o["@id"],
             "name": o["name"],
             "label": labels[o["@id"]],
@@ -77,7 +75,7 @@ for o in graph:
         })
 rows.sort(key=lambda r: r["monitorId"])
 facilities = sorted(
-    ({"monitorId": m, "facility": o["@id"], "name": o["name"], "label": o["name"], "kind": "facility", "type": o["@type"]}
+    ({"monitorId": m, "code": lib.code_of(o), "facility": o["@id"], "name": o["name"], "label": o["name"], "kind": "facility", "type": o["@type"]}
      for o in facility_graph for m in ident(o, "local:marin-mentions-monitor-id")),
     key=lambda r: r["monitorId"],
 )

@@ -10,6 +10,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "marin-county-fair"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-county-fair"
         }
       ]
     },
@@ -21,6 +26,11 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-farmers-markets"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
           "value": "marin-farmers-markets"
         }
       ]
@@ -34,6 +44,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
           "value": "holiday-light-spectacular"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "holiday-light-spectacular"
         }
       ]
     },
@@ -45,6 +60,11 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:marin-mentions-monitor-id",
+          "value": "roller-disco-daze"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
           "value": "roller-disco-daze"
         }
       ]

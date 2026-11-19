@@ -5,6 +5,7 @@
   "people": [
     {
       "monitorId": "brian-colbert",
+      "code": "brian-colbert",
       "person": "https://marincountygov.github.io/marin-data/id/person/brian-colbert",
       "name": "Brian Colbert",
       "label": "Brian Colbert",
@@ -13,6 +14,7 @@
     },
     {
       "monitorId": "dennis-rodoni",
+      "code": "dennis-rodoni",
       "person": "https://marincountygov.github.io/marin-data/id/person/dennis-rodoni",
       "name": "Dennis Rodoni",
       "label": "Dennis Rodoni",
@@ -21,6 +23,7 @@
     },
     {
       "monitorId": "eric-lucan",
+      "code": "eric-lucan",
       "person": "https://marincountygov.github.io/marin-data/id/person/eric-lucan",
       "name": "Eric Lucan",
       "label": "Eric Lucan",
@@ -29,6 +32,7 @@
     },
     {
       "monitorId": "mary-sackett",
+      "code": "mary-sackett",
       "person": "https://marincountygov.github.io/marin-data/id/person/mary-sackett",
       "name": "Mary Sackett",
       "label": "Mary Sackett",
@@ -37,6 +41,7 @@
     },
     {
       "monitorId": "stephanie-moulton-peters",
+      "code": "stephanie-moulton-peters",
       "person": "https://marincountygov.github.io/marin-data/id/person/stephanie-moulton-peters",
       "name": "Stephanie Moulton-Peters",
       "label": "Stephanie Moulton-Peters",
