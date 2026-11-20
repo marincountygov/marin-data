@@ -30,6 +30,9 @@
       "@id": "https://marincountygov.github.io/marin-data/id/organization/zero-waste-marin",
       "@type": "GovernmentOrganization",
       "name": "Zero Waste Marin",
+      "alternateName": [
+        "Marin County Hazardous and Solid Waste Joint Powers Authority"
+      ],
       "organizationClassification": "authority",
       "governmentLevel": "specialPurpose",
       "areaServed": {
@@ -46,7 +49,8 @@
           "propertyID": "gs:local",
           "value": "zero-waste-marin"
         }
-      ]
+      ],
+      "url": "https://zerowastemarin.org/"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-superior-court",

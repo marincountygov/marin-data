@@ -471,7 +471,13 @@
         "Ignacio"
       ],
       "kind": "community",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "districts": [
+        {
+          "monitorId": "marin-district-5",
+          "relation": "within"
+        }
+      ]
     },
     {
       "monitorId": "indian-valley",
@@ -599,7 +605,13 @@
       "name": "Las Gallinas",
       "label": "Las Gallinas",
       "kind": "community",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "districts": [
+        {
+          "monitorId": "marin-district-1",
+          "relation": "within"
+        }
+      ]
     },
     {
       "monitorId": "loma-verde",
@@ -1126,7 +1138,13 @@
         "Seadrift"
       ],
       "kind": "community",
-      "governmentLevel": "subregional"
+      "governmentLevel": "subregional",
+      "districts": [
+        {
+          "monitorId": "marin-district-4",
+          "relation": "within"
+        }
+      ]
     },
     {
       "monitorId": "sleepy-hollow",
