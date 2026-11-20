@@ -34,5 +34,57 @@
   "schemaGov": {
     "url": "https://github.com/govfresh/schemaGov",
     "note": "Dataset follows SchemaGov reference-by-@id architecture; organization/governance entities are separated from budget program and fund entities."
+  },
+  "pastBudgetBooks": {
+    "url": "https://www.marincounty.gov/departments/finance/fiscal-administrative-services/budget",
+    "title": "Final Adopted Budgets, County of Marin Department of Finance",
+    "books": [
+      {
+        "fiscalYear": "2025-26",
+        "title": "County of Marin Final Budget FY 2025-26",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2025-12/2026%20Budget%20Book%20-%20Not%20Remediated.pdf"
+      },
+      {
+        "fiscalYear": "2024-25",
+        "title": "County of Marin Final Budget FY 2024-25",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2025-01/2025-budget-book-final_ada.pdf"
+      },
+      {
+        "fiscalYear": "2023-24",
+        "title": "County of Marin Final Budget FY 2023-24",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2024-04/2023-2024-final-budget.pdf"
+      },
+      {
+        "fiscalYear": "2022-23",
+        "title": "County of Marin Final Budget FY 2022-23",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2024-07/fiscal-year-2022-2023-final-budget.pdf"
+      },
+      {
+        "fiscalYear": "2021-22",
+        "title": "County of Marin Final Budget FY 2021-22",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2024-04/2021-2022-final-budget_0.pdf"
+      },
+      {
+        "fiscalYear": "2020-21",
+        "title": "County of Marin Final Budget FY 2020-21",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2024-07/fiscal-year-2020-2021-final-budget.pdf"
+      },
+      {
+        "fiscalYear": "2019-20",
+        "title": "County of Marin Final Budget FY 2019-20",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2024-04/2019-2020-final-budget.pdf"
+      },
+      {
+        "fiscalYear": "2018-19",
+        "title": "County of Marin Final Budget FY 2018-19",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2024-04/2018-2019-final-budget.pdf"
+      },
+      {
+        "fiscalYear": "2017-18",
+        "title": "County of Marin Final Budget FY 2017-18",
+        "url": "https://assets.marincounty.gov/marincounty-prod/public/2024-04/2017-2018-final-budget.pdf"
+      }
+    ],
+    "note": "The County's list of final adopted budget books, read from its Final Adopted Budgets page. Older budget documents are available from the Department of Finance by request."
   }
 }

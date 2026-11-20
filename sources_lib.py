@@ -34,5 +34,5 @@ def legacy():
         e.update(s.get("extraction", {}))
         out[key] = {k: v for k, v in e.items() if v is not None}
     for ref in reg.get("references", []):
-        out[ref["legacyKey"]] = {"url": ref["url"], **({"note": ref["notes"]} if ref.get("notes") else {})}
+        out[ref["legacyKey"]] = {"url": ref["url"], **({"title": ref["title"]} if ref.get("title") else {}), **({"books": ref["books"]} if ref.get("books") else {}), **({"note": ref["notes"]} if ref.get("notes") else {})}
     return out
