@@ -25,7 +25,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/facility/homestead-valley-community-center",
       "name": "Homestead Valley Community Center",
       "type": "Place",
-      "operator": "unknown",
+      "operator": "nongovernment",
       "code": "homestead-valley-community-center",
       "address": {
         "streetAddress": "315 Montford Ave",
@@ -180,7 +180,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/facility/st-vincents",
       "name": "St. Vincent's",
       "type": "Place",
-      "operator": "unknown",
+      "operator": "nongovernment",
       "alternateNames": [
         "St Vincents",
         "St. Vincent"
@@ -193,7 +193,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/facility/tam-valley-community-center",
       "name": "Tam Valley Community Center",
       "type": "Place",
-      "operator": "unknown",
+      "operator": "government",
       "code": "tam-valley-community-center",
       "address": {
         "streetAddress": "203 Marin Ave",
