@@ -22,7 +22,7 @@
       "usedBy": [
         "marin-data",
         "marin-budget",
-        "marin-docs"
+        "marin-pulse"
       ],
       "notes": "Descriptions, missions, program descriptions, fund descriptions, contacts, and current supervisor names were extracted from the County budget book. No missing values were inferred.",
       "legacyKey": "budgetBook",
@@ -49,7 +49,7 @@
       "usedBy": [
         "marin-data",
         "marin-budget",
-        "marin-docs"
+        "marin-pulse"
       ],
       "legacyKey": "budgetBook2025"
     },

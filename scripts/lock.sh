@@ -2,7 +2,7 @@
 # Records which marin-data commit a consumer has synced, in <consumer>/marin-data.lock.
 # The consumer's CI checks out exactly that commit, so a later change to marin-data cannot turn it red.
 #
-#   bash scripts/lock.sh ../marin-docs
+#   bash scripts/lock.sh ../marin-pulse
 #
 # Refuses if marin-data has uncommitted changes or its commit is not on origin/main yet: the CI could not fetch it.
 set -euo pipefail
