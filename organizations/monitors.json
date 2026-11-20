@@ -1317,6 +1317,9 @@
       "organization": "https://marincountygov.github.io/marin-data/id/organization/zero-waste-marin",
       "name": "Zero Waste Marin",
       "label": "Zero Waste Marin",
+      "alternateNames": [
+        "Marin County Hazardous and Solid Waste Joint Powers Authority"
+      ],
       "type": "authority",
       "kind": "authority",
       "external": true,
