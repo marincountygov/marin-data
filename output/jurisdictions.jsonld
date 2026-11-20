@@ -61,6 +61,16 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "1st District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Marin District 1"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Supervisorial District 1"
         }
       ]
     },
@@ -106,6 +116,16 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "2nd District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Marin District 2"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Supervisorial District 2"
         }
       ]
     },
@@ -161,6 +181,16 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "floating homes"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Marin District 3"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Supervisorial District 3"
         }
       ]
     },
@@ -206,6 +236,16 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "4th District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Marin District 4"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Supervisorial District 4"
         }
       ]
     },
@@ -251,6 +291,16 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "5th District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Marin District 5"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Supervisorial District 5"
         }
       ]
     },
@@ -295,6 +345,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "Belvedere"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "City of Belvedere"
         }
       ]
     },
@@ -376,6 +431,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "Fairfax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Town of Fairfax"
         }
       ]
     },
@@ -425,6 +485,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "Larkspur"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "City of Larkspur"
         }
       ]
     },
@@ -570,6 +635,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-inside-words",
           "value": "Ross"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Town of Ross"
         }
       ]
     },
@@ -659,6 +729,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "San Rafael"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "City of San Rafael"
         }
       ]
     },
@@ -740,6 +815,11 @@
           "@type": "PropertyValue",
           "propertyID": "local:name-needs-context",
           "value": "Tiburon"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Town of Tiburon"
         }
       ]
     },

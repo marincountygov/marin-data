@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the search hints on places, facilities, events and people (see place_lib.py).
+"""Check the search hints on places, facilities, events, people and organizations (see place_lib.py).
 
   python3 check_search_hints.py
 
@@ -12,7 +12,7 @@ import place_lib as lib
 
 errors, total = [], 0
 facilities = lib.graph("facilities")
-for name in lib.FILES:
+for name in (*lib.FILES, "organizations"):
     for record in lib.graph(name):
         names = {record["name"], *record.get("alternateName", [])}
         for part in lib.parts_of(record, facilities) if name == "facilities" else []:

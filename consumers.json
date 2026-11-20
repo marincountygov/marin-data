@@ -60,6 +60,14 @@
           "to": "config/people.json"
         },
         {
+          "from": "organizations/services.json",
+          "to": "config/services.json"
+        },
+        {
+          "from": "organizations/topics.json",
+          "to": "config/topics.json"
+        },
+        {
           "from": "projects/projects.json",
           "to": "config/projects.json"
         }
@@ -69,6 +77,8 @@
         "python3 scripts/sync-places.py",
         "python3 scripts/sync-events.py",
         "python3 scripts/sync-people.py",
+        "python3 scripts/sync-services.py",
+        "python3 scripts/sync-topics.py",
         "python3 scripts/sync-projects.py"
       ],
       "build": [],

@@ -1,0 +1,140 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/service/fixitmarin",
+      "@type": "GovernmentService",
+      "name": "FixItMarin",
+      "alternateName": [
+        "Fix It Marin"
+      ],
+      "provider": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "fixitmarin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "fixitmarin"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/service/alert-marin",
+      "@type": "GovernmentService",
+      "name": "AlertMarin",
+      "alternateName": [
+        "Alert Marin"
+      ],
+      "provider": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "alert-marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "alert-marin"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "reverse 911"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "reverse 911"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "emergency notifications"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "emergency notifications"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/service/readymarin",
+      "@type": "GovernmentService",
+      "name": "ReadyMarin",
+      "alternateName": [
+        "Ready Marin"
+      ],
+      "provider": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "readymarin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "readymarin"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/service/engage-marin",
+      "@type": "GovernmentService",
+      "name": "Engage Marin",
+      "provider": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
+      },
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "engage-marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "engage-marin"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "engagement & portal"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "engagement & portal"
+        }
+      ]
+    }
+  ]
+}

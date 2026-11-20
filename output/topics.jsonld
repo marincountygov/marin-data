@@ -1,0 +1,2893 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics",
+      "@type": "DefinedTermSet",
+      "name": "Topics",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-topics"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-county",
+      "@type": "DefinedTerm",
+      "name": "General",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-county"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "general"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "Marin County Florida"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "Marin County, Florida"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "Bank of Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "SF Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "San Francisco Civic Center"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-county-social",
+      "@type": "DefinedTerm",
+      "name": "General (Social)",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-county-social"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "general-social"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "County of Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "Marin County Florida"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "Marin County, Florida"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-strategic-plan-topic",
+      "@type": "DefinedTerm",
+      "name": "Strategic plan",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-strategic-plan-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-strategic-plan-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "strategic plan"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "strategic plan"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Envision"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Envision"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-homelessness-topic",
+      "@type": "DefinedTerm",
+      "name": "Homelessness",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-homelessness-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-homelessness-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "homelessness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "homelessness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "homeless"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "homeless"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "unhoused"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "unhoused"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "encampment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "encampment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "shelter"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "shelter"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Homeward Bound"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Homeward Bound"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "permanent supportive housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "permanent supportive housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Project Homekey"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Project Homekey"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-affordable-housing-topic",
+      "@type": "DefinedTerm",
+      "name": "Affordable housing",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-affordable-housing-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-affordable-housing-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Increasing Affordable Housing and Homelessness Response"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "affordable housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "affordable housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "housing element"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "housing element"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "below market rate"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "below market rate"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "BMR"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "BMR"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "BMR"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "RHNA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "RHNA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "RHNA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "regional housing needs allocation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "rezoning"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "rezoning"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "housing sites"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "housing sites"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ADU"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "ADU"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "ADU"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "accessory dwelling unit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "accessory dwelling unit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Housing Authority"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Section 8"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Section 8"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "housing voucher"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "housing voucher"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "rent increase"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "rent increase"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "tenant protections"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "tenant protections"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "eviction"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "eviction"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Housing Trust"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Housing Trust"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "workforce housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "workforce housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "inclusionary housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "inclusionary housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Board of Supervisors & housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Board of Supervisors & housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin City & housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Novato & housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "San Rafael & housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Point Reyes Station & housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Dillon Beach & housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marinwood & development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Santa Venetia & development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Housing Accountability Act"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Housing Accountability Act"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "builder's remedy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "builder's remedy"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-racial-equity-topic",
+      "@type": "DefinedTerm",
+      "name": "Racial equity",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-racial-equity-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-racial-equity-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Building a Racially Equitable Community"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "racial equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "racial equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "DEI"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "DEI"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "DEI"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "equity and inclusion"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "equity and inclusion"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "disparities"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "disparities"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin City & equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Canal neighborhood & San Rafael"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin City Community Services District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Latino"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Latino"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Latinx community"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Latinx community"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Spanish-speaking"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Spanish-speaking"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "language access"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "language access"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "interpretation services"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "interpretation services"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "health disparities"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "health disparities"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "health equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "health equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Health and Human Services"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "CalFresh"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "CalFresh"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Medi-Cal"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Medi-Cal"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "food insecurity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "food insecurity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "SF-Marin Food Bank"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "immigrant"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "immigrant"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "immigration enforcement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "immigration enforcement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ICE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "ICE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "ICE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Community Foundation & equity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Office of Education & achievement gap"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Black"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Black residents"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Black residents"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "disability access"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "disability access"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "seniors"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "seniors"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "aging"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "aging"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Free Library programs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fair housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fair housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "diversity & Board of Supervisors"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "diversity & Board of Supervisors"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "participatory budgeting"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "participatory budgeting"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "community-based organizations"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "community-based organizations"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "nonprofit funding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "nonprofit funding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "redlining"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "redlining"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "reparations"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "reparations"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-climate-topic",
+      "@type": "DefinedTerm",
+      "name": "Climate & sustainability",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-climate-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-climate-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Reducing Emissions and Building Climate-Resilient Communities"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "climate action"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "climate action"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "greenhouse gas"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "greenhouse gas"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "renewable energy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "renewable energy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "sea level rise"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "sea level rise"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "climate resilience"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "climate resilience"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "sustainability"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "sustainability"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Bay Waterfront Adaptation and Vulnerability Evaluation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "word:BayWAVE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Shoreline"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "flood"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "flood"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "king tide"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "king tide"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "carbon emissions"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "carbon emissions"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Clean Energy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "MCE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "MCE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "MCE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "electrification"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "electrification"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "gas ban"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "gas ban"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "heat pump"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "heat pump"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "EV charging"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "EV charging"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "electric vehicles"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "electric vehicles"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Sanitary"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Zero Waste Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "recycling"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "recycling"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Municipal Water District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "water supply"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "water supply"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "drought"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "drought"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "word:Marin Water"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Nicasio Reservoir"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Kent Lake"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Open Space District"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Parks"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "tree removal"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "tree removal"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Mount Tamalpais"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Point Reyes National Seashore"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Bolinas Lagoon"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "wetlands"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "wetlands"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "habitat restoration"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "habitat restoration"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Gallinas Creek"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Corte Madera Creek"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Novato Creek"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "coastal commission"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "coastal commission"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Local Coastal Program"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Local Coastal Program"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Agricultural Land Trust"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "agriculture"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "agriculture"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Transit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Golden Gate Transit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "SMART train"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "SMART train"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "active transportation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "active transportation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "bike path"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "bike path"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Carbon Project"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "regenerative agriculture"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "regenerative agriculture"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-fire-topic",
+      "@type": "DefinedTerm",
+      "name": "Fire",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-fire-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-fire-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fire"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fire"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "fire"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fires"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fires"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "fires"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "wildfire"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "wildfire"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-flooding-topic",
+      "@type": "DefinedTerm",
+      "name": "Flooding",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-flooding-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-flooding-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "flood"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "flood"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "flood"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "flooding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "flooding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "flooding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "floods"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "floods"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "floods"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "El Niño"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "El Niño"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "sandbags"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "sandbags"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-emergency-readiness-topic",
+      "@type": "DefinedTerm",
+      "name": "Emergency readiness",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-emergency-readiness-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-emergency-readiness-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Enhancing Disaster and Emergency Preparedness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "emergency preparedness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "emergency preparedness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "disaster preparedness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "disaster preparedness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "disaster response"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "disaster response"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "resilience hub"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "resilience hub"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "wildfire"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "wildfire"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fire season"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fire season"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Red Flag Warning"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Red Flag Warning"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Fire"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Wildfire Prevention Authority"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "defensible space"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "defensible space"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "vegetation management"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "vegetation management"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "evacuation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "evacuation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "evacuation zones"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "evacuation zones"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Genasys Protect"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Genasys Protect"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Alert Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Nixle"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Nixle"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "emergency alerts"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "emergency alerts"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ReadyMarin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Weather Together"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "atmospheric river"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "atmospheric river"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "storm"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "storm"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "flooding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "flooding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "power shutoff"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "power shutoff"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "PG&E"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "PG&E"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "word:PSPS"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Office of Emergency Services"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "word:Marin OES"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Sheriff emergency"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Sheriff's Office evacuation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Sheriff's Office evacuation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "CERT"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "CERT"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "CERT"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Community Emergency Response Team"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Community Emergency Response Team"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "earthquake"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "earthquake"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "tsunami"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "tsunami"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "shelter-in-place"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "shelter-in-place"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "emergency shelter"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "emergency shelter"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Fire Safe Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Firewise"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Firewise"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Emergency Radio Authority"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Highway 101 flooding"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Highway 1 closure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Highway 1 closure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin General Hospital emergency"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "wildfire insurance"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "wildfire insurance"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "FAIR Plan"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "FAIR Plan"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "heat wave"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "heat wave"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "cooling center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "cooling center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "El Niño"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "El Niño"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-transportation-topic",
+      "@type": "DefinedTerm",
+      "name": "Transportation",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-transportation-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-transportation-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "e-bike"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "e-bike"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ebike"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "ebike"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "transit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "transit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "SMART train"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "SMART train"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "bike lane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "bike lane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "bike path"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "bike path"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "pedestrian safety"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "pedestrian safety"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ferry"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "ferry"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "bus service"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "bus service"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "traffic congestion"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "traffic congestion"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Safe Routes to School"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Safe Routes to School"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-infrastructure-topic",
+      "@type": "DefinedTerm",
+      "name": "Infrastructure",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-infrastructure-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-infrastructure-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Investing in Marin County's Infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "capital improvement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "capital improvement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "CIP"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "CIP"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "CIP"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "broadband"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "broadband"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "water system"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "water system"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Board of Supervisors & budget"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Board of Supervisors & capital improvement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Department of Public Works"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Department of Public Works"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Public Works"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "road repair"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "road repair"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "paving"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "paving"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "pavement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "pavement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "bridge"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "bridge"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Richmond-San Rafael Bridge"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Golden Gate Bridge"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Golden Gate Bridge"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Highway 101"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Highway 101"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin-Sonoma Narrows"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "101 widening"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Sir Francis Drake Boulevard"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Bolinas-Fairfax Road"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "SMART train extension"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "SMART & Larkspur"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "SMART & Greenbrae"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Transit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ferry"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "ferry"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Larkspur Ferry"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "levee"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "levee"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "seawall"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "seawall"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "stormwater"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "stormwater"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin sheriff facility"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "jail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "jail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "detention"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "detention"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "County facilities"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "County facilities"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "building project"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "building project"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Municipal Water District infrastructure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Municipal Water District & pipeline"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Municipal Water District & water main"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "internet"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "internet"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Fairgrounds"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Free Library building"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "library renovation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "library renovation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Parks and Open Space bond"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Measure A"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Measure A"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "sales tax measure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "sales tax measure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "bond measure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "bond measure"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Transportation Authority of Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "TAM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "TAM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "TAM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "parking"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "parking"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "traffic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "traffic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "SF Civic Center"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "San Francisco Civic Center"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-economic-development-topic",
+      "@type": "DefinedTerm",
+      "name": "Economy",
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/topic/marin-topics"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-economic-development-topic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-economic-development-topic"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Improving Community & Economic Vitality"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "economy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "economy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "economic development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "economic development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "economic vitality"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "economic vitality"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "small business"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "small business"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "workforce development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "workforce development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "tourism"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "tourism"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "local business"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "local business"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Chamber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "chamber of commerce"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "chamber of commerce"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "visitor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "visitor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Visit Marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County budget"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "county budget deficit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "county budget deficit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "budget hearings"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "budget hearings"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "county revenue"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "county revenue"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "property tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "property tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "sales tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "sales tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin workforce"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "jobs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "jobs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "employment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "employment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "cost of living"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "cost of living"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "affordability"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "affordability"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Fair"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Economic Forum"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "county employees"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "county employees"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "union"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "union"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "labor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "labor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin agriculture economy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "farmers market"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "farmers market"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "retail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "retail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Northgate Mall"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Village at Corte Madera"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin commercial vacancy"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "downtown San Rafael"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin Venture Partners"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "startup"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "startup"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County salary"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County pay"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "SEIU Local 1021"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "SEIU Local 1021"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "tariffs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "tariffs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "federal funding cuts"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "federal funding cuts"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Medi-Cal cuts"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Medi-Cal cuts"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "federal cuts county"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "federal cuts county"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:confusable-name",
+          "value": "Bank of Marin"
+        }
+      ]
+    }
+  ]
+}

@@ -12,5 +12,7 @@ python3 build_event_links.py      # organizations/events.json
 python3 build_facility_list.py    # organizations/facilities.json
 python3 build_location_list.py    # organizations/locations.json
 python3 build_person_links.py     # organizations/people.json
+python3 build_service_links.py    # organizations/services.json
+python3 build_topic_links.py      # organizations/topics.json
 python3 build_org_aliases.py      # organizations/aliases.json
 python3 build_org_index.py        # organizations/index.json

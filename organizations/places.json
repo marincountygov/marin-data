@@ -6,42 +6,198 @@
     {
       "key": "county",
       "singular": "County",
-      "plural": "Counties"
+      "plural": "Counties",
+      "facet": "place"
     },
     {
       "key": "district",
       "singular": "District",
-      "plural": "Districts"
+      "plural": "Districts",
+      "facet": "place"
     },
     {
       "key": "city",
       "singular": "City or town",
-      "plural": "Cities and towns"
+      "plural": "Cities and towns",
+      "facet": "place"
     },
     {
       "key": "community",
       "singular": "Community",
-      "plural": "Communities"
+      "plural": "Communities",
+      "facet": "place"
     },
     {
       "key": "area",
       "singular": "Area",
-      "plural": "Areas"
+      "plural": "Areas",
+      "facet": "place"
     },
     {
       "key": "region",
       "singular": "Region",
-      "plural": "Regions"
+      "plural": "Regions",
+      "facet": "place"
     },
     {
       "key": "facility",
       "singular": "Facility",
-      "plural": "Facilities"
+      "plural": "Facilities",
+      "facet": "facility"
     },
     {
       "key": "event",
       "singular": "Event",
-      "plural": "Events"
+      "plural": "Events",
+      "facet": "event"
+    },
+    {
+      "key": "government",
+      "singular": "Government",
+      "plural": "Governments",
+      "facet": "organization"
+    },
+    {
+      "key": "legislature",
+      "singular": "Legislature",
+      "plural": "Legislature",
+      "facet": "organization"
+    },
+    {
+      "key": "executive",
+      "singular": "Executive",
+      "plural": "Executives",
+      "facet": "organization"
+    },
+    {
+      "key": "department",
+      "singular": "Department",
+      "plural": "Departments",
+      "facet": "organization"
+    },
+    {
+      "key": "agency",
+      "singular": "Agency",
+      "plural": "Agencies",
+      "facet": "organization"
+    },
+    {
+      "key": "committee",
+      "singular": "Committee",
+      "plural": "Committees",
+      "facet": "organization"
+    },
+    {
+      "key": "commission",
+      "singular": "Commission",
+      "plural": "Commissions",
+      "facet": "organization"
+    },
+    {
+      "key": "court",
+      "singular": "Court",
+      "plural": "Courts",
+      "facet": "organization"
+    },
+    {
+      "key": "office",
+      "singular": "Office",
+      "plural": "Offices",
+      "facet": "organization"
+    },
+    {
+      "key": "enterprise",
+      "singular": "Enterprise",
+      "plural": "Enterprises",
+      "facet": "organization"
+    },
+    {
+      "key": "division",
+      "singular": "Division",
+      "plural": "Divisions",
+      "facet": "organization"
+    },
+    {
+      "key": "bureau",
+      "singular": "Bureau",
+      "plural": "Bureaus",
+      "facet": "organization"
+    },
+    {
+      "key": "authority",
+      "singular": "Authority",
+      "plural": "Authorities",
+      "facet": "organization"
+    },
+    {
+      "key": "serviceArea",
+      "singular": "Service area",
+      "plural": "Service areas",
+      "facet": "organization"
+    },
+    {
+      "key": "association",
+      "singular": "Association",
+      "plural": "Associations",
+      "facet": "organization"
+    },
+    {
+      "key": "person",
+      "singular": "Person",
+      "plural": "People",
+      "facet": "person"
+    },
+    {
+      "key": "service",
+      "singular": "Service",
+      "plural": "Services",
+      "facet": "service"
+    },
+    {
+      "key": "topic",
+      "singular": "Topic",
+      "plural": "Topics",
+      "facet": "topic"
+    },
+    {
+      "key": "project",
+      "singular": "Project",
+      "plural": "Projects",
+      "facet": "project"
+    }
+  ],
+  "facets": [
+    {
+      "key": "place",
+      "label": "Place"
+    },
+    {
+      "key": "organization",
+      "label": "Organization"
+    },
+    {
+      "key": "person",
+      "label": "Person"
+    },
+    {
+      "key": "facility",
+      "label": "Facility"
+    },
+    {
+      "key": "event",
+      "label": "Event"
+    },
+    {
+      "key": "service",
+      "label": "Service"
+    },
+    {
+      "key": "topic",
+      "label": "Topic"
+    },
+    {
+      "key": "project",
+      "label": "Project"
     }
   ],
   "places": [
@@ -106,7 +262,8 @@
         "City of Belvedere"
       ],
       "needsContext": [
-        "Belvedere"
+        "Belvedere",
+        "City of Belvedere"
       ],
       "kind": "city",
       "governmentLevel": "municipal",
@@ -211,7 +368,8 @@
         "Town of Fairfax"
       ],
       "needsContext": [
-        "Fairfax"
+        "Fairfax",
+        "Town of Fairfax"
       ],
       "kind": "city",
       "governmentLevel": "municipal",
@@ -418,7 +576,8 @@
         "City of Larkspur"
       ],
       "needsContext": [
-        "Larkspur"
+        "Larkspur",
+        "City of Larkspur"
       ],
       "kind": "city",
       "governmentLevel": "municipal",
@@ -505,7 +664,9 @@
       ],
       "needsContext": [
         "District 1",
-        "1st District"
+        "1st District",
+        "Marin District 1",
+        "Supervisorial District 1"
       ],
       "kind": "district",
       "governmentLevel": "subregional",
@@ -528,7 +689,9 @@
       ],
       "needsContext": [
         "District 2",
-        "2nd District"
+        "2nd District",
+        "Marin District 2",
+        "Supervisorial District 2"
       ],
       "kind": "district",
       "governmentLevel": "subregional",
@@ -563,7 +726,9 @@
       "needsContext": [
         "District 3",
         "3rd District",
-        "floating homes"
+        "floating homes",
+        "Marin District 3",
+        "Supervisorial District 3"
       ],
       "kind": "district",
       "governmentLevel": "subregional",
@@ -591,7 +756,9 @@
       ],
       "needsContext": [
         "District 4",
-        "4th District"
+        "4th District",
+        "Marin District 4",
+        "Supervisorial District 4"
       ],
       "kind": "district",
       "governmentLevel": "subregional",
@@ -628,7 +795,9 @@
       ],
       "needsContext": [
         "District 5",
-        "5th District"
+        "5th District",
+        "Marin District 5",
+        "Supervisorial District 5"
       ],
       "kind": "district",
       "governmentLevel": "subregional",
@@ -821,7 +990,8 @@
         "Town of Ross"
       ],
       "needsContext": [
-        "Ross"
+        "Ross",
+        "Town of Ross"
       ],
       "insideWords": [
         "Ross"
@@ -893,7 +1063,8 @@
         "City of San Rafael"
       ],
       "needsContext": [
-        "San Rafael"
+        "San Rafael",
+        "City of San Rafael"
       ],
       "kind": "city",
       "governmentLevel": "municipal",
@@ -1036,7 +1207,8 @@
         "Town of Tiburon"
       ],
       "needsContext": [
-        "Tiburon"
+        "Tiburon",
+        "Town of Tiburon"
       ],
       "kind": "city",
       "governmentLevel": "municipal",

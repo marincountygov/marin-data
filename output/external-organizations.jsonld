@@ -1,0 +1,427 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-transit",
+      "@type": "GovernmentOrganization",
+      "name": "Marin Transit",
+      "alternateName": [
+        "Marin Transit District"
+      ],
+      "organizationClassification": "authority",
+      "governmentLevel": "specialPurpose",
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-transit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-transit"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/zero-waste-marin",
+      "@type": "GovernmentOrganization",
+      "name": "Zero Waste Marin",
+      "organizationClassification": "authority",
+      "governmentLevel": "specialPurpose",
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "zero-waste-marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "zero-waste-marin"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-superior-court",
+      "@type": "GovernmentOrganization",
+      "name": "Marin County Superior Court",
+      "alternateName": [
+        "Marin Superior Court",
+        "Superior Court of Marin County"
+      ],
+      "organizationClassification": "court",
+      "areaServed": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-superior-court"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-superior-court"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-cultural-association",
+      "@type": "NGO",
+      "name": "Marin Cultural Association",
+      "alternateName": [
+        "MCA"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-cultural-association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-cultural-association"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "MCA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "MCA"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/mape",
+      "@type": "NGO",
+      "name": "Marin Association of Public Employees",
+      "alternateName": [
+        "MAPE"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "mape"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "mape"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "MAPE"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/mcmea",
+      "@type": "NGO",
+      "name": "Marin County Management Employees' Association",
+      "alternateName": [
+        "MCMEA"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "mcmea"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "mcmea"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "MCMEA"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-deputy-sheriffs-association",
+      "@type": "NGO",
+      "name": "Marin County Deputy Sheriffs' Association",
+      "alternateName": [
+        "Marin Deputy Sheriffs' Association",
+        "DSA"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-deputy-sheriffs-association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-deputy-sheriffs-association"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "DSA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "DSA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "deputies union"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "deputies union"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-firefighters-association",
+      "@type": "NGO",
+      "name": "Marin County Firefighters' Association",
+      "alternateName": [
+        "MCFA",
+        "IAFF Local 1775"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-firefighters-association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-firefighters-association"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Firefighters' Association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Firefighters' Association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "firefighters Association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "firefighters Association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "MCFA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "MCFA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "firefighters union"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "firefighters union"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-fire-battalion-chiefs-association",
+      "@type": "NGO",
+      "name": "Marin County Fire Battalion Chiefs' Association",
+      "alternateName": [
+        "Marin Fire Battalion Chiefs Association",
+        "FBCA"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-fire-battalion-chiefs-association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-fire-battalion-chiefs-association"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "FBCA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "FBCA"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-sheriffs-staff-officers-association",
+      "@type": "NGO",
+      "name": "Marin County Sheriff's Staff Officers' Association",
+      "alternateName": [
+        "Marin Sheriff's Staff Officers' Association",
+        "SSOA"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-sheriffs-staff-officers-association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-sheriffs-staff-officers-association"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "SSOA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "SSOA"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/marin-probation-managers-association",
+      "@type": "NGO",
+      "name": "Marin County Probation Managers' Association",
+      "alternateName": [
+        "Marin Probation Managers' Association",
+        "PMA"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "marin-probation-managers-association"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "marin-probation-managers-association"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "PMA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "PMA"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/teamsters-local-856",
+      "@type": "NGO",
+      "name": "Teamsters Local 856",
+      "alternateName": [
+        "Teamsters 856"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "teamsters-local-856"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "teamsters-local-856"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Teamsters"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Teamsters"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/iatse-local-16",
+      "@type": "NGO",
+      "name": "IATSE Local 16",
+      "alternateName": [
+        "IATSE"
+      ],
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-mentions-monitor-id",
+          "value": "iatse-local-16"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "iatse-local-16"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "IATSE"
+        }
+      ]
+    }
+  ]
+}

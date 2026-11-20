@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / "output"
 CODE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 CODE_ID, MONITOR_ID, DISTRICT_ID = "gs:local", "local:marin-mentions-monitor-id", "local:marin-supervisorial-district"
-FILES = ("jurisdictions", "facilities", "events", "people")
+FILES = ("jurisdictions", "facilities", "events", "people", "external-organizations", "services", "topics")
 
 
 def graph(name):
