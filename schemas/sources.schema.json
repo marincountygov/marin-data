@@ -138,6 +138,31 @@
           },
           "notes": {
             "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "books": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "fiscalYear",
+                "title",
+                "url"
+              ],
+              "properties": {
+                "fiscalYear": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
