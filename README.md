@@ -95,6 +95,7 @@ An app never edits a copy. `consumers.json` lists each app, the files it copies,
 
 - **Scheduled:** each app (marin-links, marin-mentions, marin-reach, marin-docs, marin-budget, marin-brand and marin-os) has a Data sync workflow that runs every hour. GitHub starts scheduled runs late and skips many of them, so it asks often; a run with nothing to do takes about 20 seconds. If something it copies has changed, it updates its copies, rebuilds its pages, runs its checks, and pushes a branch called `data-sync`. The run summary has the link to review it. It never merges anything.
 - **Right away:** open the app's Actions tab, choose Data sync, and choose Run workflow.
+- **By hand:** from the app's folder, with marin-data next to it, run `python3 ../marin-data/scripts/sync_copies.py .` to copy every file `consumers.json` lists for that app, and add `--check` to see which copies differ. It is the one sync script for every app, so no app has a sync script of its own. An app whose build copies its own files (marin-docs, marin-budget) lists no sync command.
 - **Pinned version:** each app has a `marin-data.lock` file naming the version of this repo it last used. Its checks use that version, so a change here cannot turn an app's checks red before the app is updated. `bash scripts/lock.sh ../<app>` records the current version after a sync. This repo must be merged and clean first.
 - **Check one app by hand:** `python3 check_copies.py ../marin-docs`.
 
