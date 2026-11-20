@@ -7,7 +7,12 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/arcc",
       "name": "Assessor, Recorder, County Clerk",
       "alternateName": [
-        "Marin County Assessor-Recorder-County Clerk"
+        "Marin Assessor-Recorder-County Clerk",
+        "Marin County Assessor",
+        "Marin County Assessor-Recorder",
+        "Marin County Assessor-Recorder-County Clerk",
+        "Marin County Clerk",
+        "Marin County Recorder"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
@@ -16,6 +21,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/awm",
       "name": "Agriculture, Weights and Measures",
       "alternateName": [
+        "Marin Agriculture, Weights and Measures",
         "Marin County Agriculture, Weights and Measures"
       ],
       "type": "department",
@@ -25,6 +31,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/awm-agriculture",
       "name": "Agriculture",
       "alternateName": [
+        "Marin County Agricultural Commissioner",
         "Marin County Agriculture Division"
       ],
       "type": "division",
@@ -43,7 +50,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/board",
       "name": "Board of Supervisors",
       "alternateName": [
-        "Marin Board of Supervisors"
+        "Marin Board of Supervisors",
+        "Marin County Board of Supervisors"
       ],
       "type": "legislature",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
@@ -53,6 +61,7 @@
       "name": "Community Development Agency",
       "alternateName": [
         "CDA",
+        "Marin CDA",
         "Marin County Community Development Agency"
       ],
       "type": "department",
@@ -62,6 +71,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/cda-building-and-safety",
       "name": "Building and Safety",
       "alternateName": [
+        "Marin County Building and Safety",
         "Marin County Building and Safety Division"
       ],
       "type": "division",
@@ -71,6 +81,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/cda-environmental-health-services",
       "name": "Environmental Health Services",
       "alternateName": [
+        "Marin County Environmental Health",
         "Marin County Environmental Health Services"
       ],
       "type": "division",
@@ -80,6 +91,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/cda-housing-and-grants",
       "name": "Housing and Grants Division",
       "alternateName": [
+        "Marin County Housing and Grants",
         "Marin County Housing and Grants Division"
       ],
       "type": "division",
@@ -109,6 +121,7 @@
       "alternateName": [
         "County Executive",
         "Marin County Executive",
+        "Marin County Executive's Office",
         "OCE"
       ],
       "type": "department",
@@ -139,6 +152,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/css",
       "name": "Child Support Services",
       "alternateName": [
+        "Marin Child Support Services",
         "Marin County Child Support Services"
       ],
       "type": "department",
@@ -148,7 +162,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/cultural-services",
       "name": "Cultural Services",
       "alternateName": [
-        "Marin County Cultural Services"
+        "Marin County Cultural Services",
+        "Marin Cultural Services"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
@@ -157,7 +172,12 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/da",
       "name": "District Attorney",
       "alternateName": [
-        "Marin County District Attorney"
+        "Marin County DA",
+        "Marin County DA's Office",
+        "Marin County District Attorney",
+        "Marin DA",
+        "Marin District Attorney",
+        "Marin District Attorney's Office"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
@@ -173,7 +193,9 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/elections",
       "name": "Elections (Registrar of Voters)",
       "alternateName": [
-        "Marin County Elections"
+        "Marin County Elections",
+        "Marin County Registrar of Voters",
+        "Marin Registrar of Voters"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
@@ -182,7 +204,9 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/finance",
       "name": "Department of Finance",
       "alternateName": [
-        "Marin County Finance"
+        "Marin County Department of Finance",
+        "Marin County Finance",
+        "Marin County Finance Department"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
@@ -191,7 +215,9 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/fire",
       "name": "Fire Department",
       "alternateName": [
-        "Marin County Fire Department"
+        "Marin County Fire",
+        "Marin County Fire Department",
+        "Marin Fire"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
@@ -200,7 +226,9 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/grand-jury",
       "name": "Civil Grand Jury",
       "alternateName": [
-        "Marin County Civil Grand Jury"
+        "Marin Civil Grand Jury",
+        "Marin County Civil Grand Jury",
+        "Marin Grand Jury"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
@@ -209,7 +237,11 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/hhs",
       "name": "Health and Human Services",
       "alternateName": [
-        "Marin County Health and Human Services"
+        "Marin County Department of Health and Human Services",
+        "Marin County HHS",
+        "Marin County Health and Human Services",
+        "Marin HHS",
+        "Marin Health and Human Services"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-health-and-human-services"
@@ -218,7 +250,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs",
       "name": "Behavioral Health and Recovery Services",
       "alternateName": [
-        "Marin Behavioral Health and Recovery Services"
+        "Marin Behavioral Health and Recovery Services",
+        "Marin County Behavioral Health"
       ],
       "type": "division",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/hhs"
@@ -245,7 +278,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health",
       "name": "Public Health",
       "alternateName": [
-        "Marin County Public Health"
+        "Marin County Public Health",
+        "Marin Public Health"
       ],
       "type": "division",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/hhs"
@@ -254,7 +288,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services",
       "name": "Social Services",
       "alternateName": [
-        "Marin County Social Services"
+        "Marin County Social Services",
+        "Marin Social Services"
       ],
       "type": "division",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/hhs"
@@ -353,6 +388,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/ist",
       "name": "Information Services and Technology",
       "alternateName": [
+        "Marin County IST",
         "Marin County Information Services and Technology"
       ],
       "type": "department",
@@ -361,7 +397,9 @@
     {
       "id": "https://marincountygov.github.io/marin-data/id/organization/library",
       "name": "Marin County Free Library",
-      "alternateName": [],
+      "alternateName": [
+        "Marin County Library"
+      ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
     },
@@ -376,7 +414,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/parks",
       "name": "Parks",
       "alternateName": [
-        "Marin County Parks"
+        "Marin County Parks",
+        "Marin County Parks and Open Space"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
@@ -385,7 +424,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/probation",
       "name": "Probation",
       "alternateName": [
-        "Marin County Probation"
+        "Marin County Probation",
+        "Marin Probation Department"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
@@ -394,7 +434,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/public-defender",
       "name": "Public Defender",
       "alternateName": [
-        "Marin County Public Defender"
+        "Marin County Public Defender",
+        "Marin Public Defender"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
@@ -403,7 +444,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/public-works",
       "name": "Public Works",
       "alternateName": [
-        "Marin County Public Works"
+        "Marin County Public Works",
+        "Marin Public Works"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-development-and-public-works"
@@ -412,6 +454,7 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/retirement",
       "name": "Retirement",
       "alternateName": [
+        "MCERA",
         "Marin County Employees' Retirement Association"
       ],
       "type": "department",
@@ -456,7 +499,9 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/sheriff",
       "name": "Sheriff",
       "alternateName": [
-        "Marin County Sheriff"
+        "Marin County Sheriff",
+        "Marin County Sheriff's Office",
+        "Marin Sheriff"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
@@ -474,7 +519,8 @@
       "id": "https://marincountygov.github.io/marin-data/id/organization/uc-extension",
       "name": "UC Cooperative Extension (Farm Advisor)",
       "alternateName": [
-        "Marin UC Cooperative Extension"
+        "Marin UC Cooperative Extension",
+        "UC Cooperative Extension Marin"
       ],
       "type": "department",
       "parent": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"

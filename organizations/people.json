@@ -9,6 +9,7 @@
       "person": "https://marincountygov.github.io/marin-data/id/person/brian-colbert",
       "name": "Brian Colbert",
       "label": "Brian Colbert",
+      "kind": "person",
       "role": "Supervisor",
       "district": "District 2"
     },
@@ -17,7 +18,8 @@
       "code": "crosby-burns",
       "person": "https://marincountygov.github.io/marin-data/id/person/crosby-burns",
       "name": "Crosby Burns",
-      "label": "Crosby Burns"
+      "label": "Crosby Burns",
+      "kind": "person"
     },
     {
       "monitorId": "dennis-rodoni",
@@ -25,6 +27,7 @@
       "person": "https://marincountygov.github.io/marin-data/id/person/dennis-rodoni",
       "name": "Dennis Rodoni",
       "label": "Dennis Rodoni",
+      "kind": "person",
       "role": "Supervisor",
       "district": "District 4"
     },
@@ -33,7 +36,8 @@
       "code": "derek-johnson",
       "person": "https://marincountygov.github.io/marin-data/id/person/derek-johnson",
       "name": "Derek Johnson",
-      "label": "Derek Johnson"
+      "label": "Derek Johnson",
+      "kind": "person"
     },
     {
       "monitorId": "eric-lucan",
@@ -41,6 +45,7 @@
       "person": "https://marincountygov.github.io/marin-data/id/person/eric-lucan",
       "name": "Eric Lucan",
       "label": "Eric Lucan",
+      "kind": "person",
       "role": "Supervisor",
       "district": "District 5"
     },
@@ -49,56 +54,64 @@
       "code": "jamie-scardina",
       "person": "https://marincountygov.github.io/marin-data/id/person/jamie-scardina",
       "name": "Jamie Scardina",
-      "label": "Jamie Scardina"
+      "label": "Jamie Scardina",
+      "kind": "person"
     },
     {
       "monitorId": "jason-weber",
       "code": "jason-weber",
       "person": "https://marincountygov.github.io/marin-data/id/person/jason-weber",
       "name": "Jason Weber",
-      "label": "Jason Weber"
+      "label": "Jason Weber",
+      "kind": "person"
     },
     {
       "monitorId": "jennifer-olvera",
       "code": "jennifer-olvera",
       "person": "https://marincountygov.github.io/marin-data/id/person/jennifer-olvera",
       "name": "Jennifer Olvera",
-      "label": "Jennifer Olvera"
+      "label": "Jennifer Olvera",
+      "kind": "person"
     },
     {
       "monitorId": "josh-swedberg",
       "code": "josh-swedberg",
       "person": "https://marincountygov.github.io/marin-data/id/person/josh-swedberg",
       "name": "Josh Swedberg",
-      "label": "Josh Swedberg"
+      "label": "Josh Swedberg",
+      "kind": "person"
     },
     {
       "monitorId": "laine-hendricks",
       "code": "laine-hendricks",
       "person": "https://marincountygov.github.io/marin-data/id/person/laine-hendricks",
       "name": "Laine Hendricks",
-      "label": "Laine Hendricks"
+      "label": "Laine Hendricks",
+      "kind": "person"
     },
     {
       "monitorId": "libby-garrison",
       "code": "libby-garrison",
       "person": "https://marincountygov.github.io/marin-data/id/person/libby-garrison",
       "name": "Libby Garrison",
-      "label": "Libby Garrison"
+      "label": "Libby Garrison",
+      "kind": "person"
     },
     {
       "monitorId": "linn-walsh",
       "code": "linn-walsh",
       "person": "https://marincountygov.github.io/marin-data/id/person/linn-walsh",
       "name": "Linn Walsh",
-      "label": "Linn Walsh"
+      "label": "Linn Walsh",
+      "kind": "person"
     },
     {
       "monitorId": "lisa-warhuus",
       "code": "lisa-warhuus",
       "person": "https://marincountygov.github.io/marin-data/id/person/lisa-warhuus",
       "name": "Lisa Warhuus",
-      "label": "Lisa Warhuus"
+      "label": "Lisa Warhuus",
+      "kind": "person"
     },
     {
       "monitorId": "mary-sackett",
@@ -106,6 +119,7 @@
       "person": "https://marincountygov.github.io/marin-data/id/person/mary-sackett",
       "name": "Mary Sackett",
       "label": "Mary Sackett",
+      "kind": "person",
       "role": "Supervisor",
       "district": "District 1"
     },
@@ -115,6 +129,7 @@
       "person": "https://marincountygov.github.io/marin-data/id/person/stephanie-moulton-peters",
       "name": "Stephanie Moulton-Peters",
       "label": "Stephanie Moulton-Peters",
+      "kind": "person",
       "role": "Supervisor",
       "district": "District 3"
     },
@@ -123,14 +138,16 @@
       "code": "steve-dow",
       "person": "https://marincountygov.github.io/marin-data/id/person/steve-dow",
       "name": "Steve Dow",
-      "label": "Steve Dow"
+      "label": "Steve Dow",
+      "kind": "person"
     },
     {
       "monitorId": "sylvia-moir",
       "code": "sylvia-moir",
       "person": "https://marincountygov.github.io/marin-data/id/person/sylvia-moir",
       "name": "Sylvia Moir",
-      "label": "Sylvia Moir"
+      "label": "Sylvia Moir",
+      "kind": "person"
     }
   ]
 }

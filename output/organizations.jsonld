@@ -58,6 +58,10 @@
       "@id": "https://marincountygov.github.io/marin-data/id/organization/awm",
       "@type": "GovernmentOrganization",
       "name": "Agriculture, Weights and Measures",
+      "alternateName": [
+        "Marin County Agriculture, Weights and Measures",
+        "Marin Agriculture, Weights and Measures"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -87,9 +91,6 @@
       },
       "url": "https://www.marincounty.gov/departments/AWM",
       "alternateUrl": "https://MarinCounty.gov/AWM",
-      "alternateName": [
-        "Marin County Agriculture, Weights and Measures"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -111,12 +112,53 @@
       },
       "telephone": "415-473-6400",
       "mission": "The mission of the Agriculture Weights and Measures Department is to serve the public’s interest by ensuring equity in the marketplace, promoting and protecting agriculture, protecting environmental quality and the health and welfare of Marin County’s residents. Joe Deviney",
-      "description": "The Agriculture Weights and Measures Department includes two program areas: Agriculture and Weights and Measures. The Agriculture division’s mission is achieved by providing organic certification services; regulating pesticide use and investigating misuse; promoting Integrated Pest Management (IPM) principles and strategies, and other services. The Weights and Measures division’s mission is achieved through the rigorous inspection of commercial weighing and measuring devices as well as ensuring that every person receives the lowest advertised or posted price. DEPARTMENT BUDGET - AGRICULTURE, WEIGHTS AND MEASURES"
+      "description": "The Agriculture Weights and Measures Department includes two program areas: Agriculture and Weights and Measures. The Agriculture division’s mission is achieved by providing organic certification services; regulating pesticide use and investigating misuse; promoting Integrated Pest Management (IPM) principles and strategies, and other services. The Weights and Measures division’s mission is achieved through the rigorous inspection of commercial weighing and measuring devices as well as ensuring that every person receives the lowest advertised or posted price. DEPARTMENT BUDGET - AGRICULTURE, WEIGHTS AND MEASURES",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Weights and Measures"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Agricultural Commissioner"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Agricultural Commissioner"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "pesticide"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "pesticide"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "invasive species"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "invasive species"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/awm-agriculture",
       "@type": "GovernmentOrganization",
       "name": "Agriculture",
+      "alternateName": [
+        "Marin County Agriculture Division",
+        "Marin County Agricultural Commissioner"
+      ],
       "organizationClassification": "division",
       "governmentLevel": "subregional",
       "identifier": [
@@ -140,12 +182,21 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/awm/agriculture",
-      "alternateName": [
-        "Marin County Agriculture Division"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/awm"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "agricultural commissioner"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "agricultural commissioner"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/awm-weights-and-measures",
@@ -179,12 +230,37 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/awm"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County Weights and Measures"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "weights and measures"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "weights and measures"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/arcc",
       "@type": "GovernmentOrganization",
       "name": "Assessor, Recorder, County Clerk",
+      "alternateName": [
+        "Marin County Assessor-Recorder-County Clerk",
+        "Marin County Assessor-Recorder",
+        "Marin County Assessor",
+        "Marin County Recorder",
+        "Marin County Clerk",
+        "Marin Assessor-Recorder-County Clerk"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -214,9 +290,6 @@
       },
       "url": "https://www.arcc.marincounty.gov/",
       "alternateUrl": "https://MarinCounty.gov/ARCC",
-      "alternateName": [
-        "Marin County Assessor-Recorder-County Clerk"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -230,12 +303,78 @@
       },
       "telephone": "415-473-7215",
       "mission": "The mission of the Marin County Assessor-Recorder-County Clerk is to produce fair and uniform valuations of all assessable property and preserve and protect our historic and contemporary records and filings related to people, businesses, and property, as mandated by law, while providing excellent customer service. 3501 Civic Center Dr., Suite 208 San Rafael CA 94903 Tel: 415-473-7215 MarinCounty.gov/ARCC Shelly Scott",
-      "description": "The Assessor-Recorder-County Clerk’s primary responsibilities, as governed by law, pertain to the preparation of the assessment roll, including, but not limited to, all locally assessable real, business and personal property within the County; the recordation, maintenance and preservation of official, vital and historic records; and the processing of oaths of office, marriage licenses, performance of civil ceremonies and the issuance and registration of a variety of legal documents. DEPARTMENT BUDGET - ASSESSOR-RECORDER COUNTY CLERK"
+      "description": "The Assessor-Recorder-County Clerk’s primary responsibilities, as governed by law, pertain to the preparation of the assessment roll, including, but not limited to, all locally assessable real, business and personal property within the County; the recordation, maintenance and preservation of official, vital and historic records; and the processing of oaths of office, marriage licenses, performance of civil ceremonies and the issuance and registration of a variety of legal documents. DEPARTMENT BUDGET - ASSESSOR-RECORDER COUNTY CLERK",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "property assessment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "property assessment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "property records"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "property records"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "marriage licenses"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "marriage licenses"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "birth certificate"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "birth certificate"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "death certificate"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "death certificate"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fictitious"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fictitious"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/board",
       "@type": "GovernmentOrganization",
       "name": "Board of Supervisors",
+      "alternateName": [
+        "Marin Board of Supervisors",
+        "Marin County Board of Supervisors"
+      ],
       "organizationClassification": "legislature",
       "governmentLevel": "subregional",
       "identifier": [
@@ -265,9 +404,6 @@
       },
       "url": "https://www.marincounty.gov/departments/board",
       "alternateUrl": "https://MarinCounty.gov/Board",
-      "alternateName": [
-        "Marin Board of Supervisors"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -280,12 +416,33 @@
         "addressCountry": "US"
       },
       "telephone": "415-473-7331",
-      "description": "Under California’s Constitution and laws, the five members of the Board of Supervisors serve as the legislative and executive body of the County of Marin. Members are elected on a non- partisan basis by district and serve four-year terms. Within limits prescribed by state law, the Board enacts ordinances, determines policies, and adopts annual budgets for all County departments. Supervisors elect a President, Vice President, and Second Vice President annually among themselves. The Board serves on the governing boards of many special districts such as Marin County Open Space District, Marin Transit, and the Marin Housing Authority. In addition to serving on the Marin County Board of Supervisors, members of the Board also serve on external City, Regional, and State boards and commissions. DEPARTMENT BUDGET - BOARD OF SUPERVISORS"
+      "description": "Under California’s Constitution and laws, the five members of the Board of Supervisors serve as the legislative and executive body of the County of Marin. Members are elected on a non- partisan basis by district and serve four-year terms. Within limits prescribed by state law, the Board enacts ordinances, determines policies, and adopts annual budgets for all County departments. Supervisors elect a President, Vice President, and Second Vice President annually among themselves. The Board serves on the governing boards of many special districts such as Marin County Open Space District, Marin Transit, and the Marin Housing Authority. In addition to serving on the Marin County Board of Supervisors, members of the Board also serve on external City, Regional, and State boards and commissions. DEPARTMENT BUDGET - BOARD OF SUPERVISORS",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County supervisor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "supervisor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "supervisor"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/css",
       "@type": "GovernmentOrganization",
       "name": "Child Support Services",
+      "alternateName": [
+        "Marin County Child Support Services",
+        "Marin Child Support Services"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -315,9 +472,6 @@
       },
       "url": "https://www.marincounty.gov/departments/css",
       "alternateUrl": "https://MarinCounty.gov/CSS",
-      "alternateName": [
-        "Marin County Child Support Services"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -331,12 +485,29 @@
       },
       "telephone": "866-901-3212",
       "mission": "Children deserve the security of having their needs met. Parents are responsible for providing financial, medical and emotional support for their children. To achieve these goals, we establish and enforce child support orders, treating all parties with respect, and serve the community through outreach and education. Jill K. Francis",
-      "description": "The Child Support Services program works with parents and guardians – both those receiving child support and those ordered to pay support – to ensure children and families receive court- ordered financial and medical support. DEPARTMENT BUDGET - CHILD SUPPORT SERVICES"
+      "description": "The Child Support Services program works with parents and guardians – both those receiving child support and those ordered to pay support – to ensure children and families receive court- ordered financial and medical support. DEPARTMENT BUDGET - CHILD SUPPORT SERVICES",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "child support"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "child support"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/grand-jury",
       "@type": "GovernmentOrganization",
       "name": "Civil Grand Jury",
+      "alternateName": [
+        "Marin County Civil Grand Jury",
+        "Marin Civil Grand Jury",
+        "Marin Grand Jury"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -360,9 +531,6 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/grand-jury",
-      "alternateName": [
-        "Marin County Civil Grand Jury"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
       }
@@ -371,6 +539,11 @@
       "@id": "https://marincountygov.github.io/marin-data/id/organization/cda",
       "@type": "GovernmentOrganization",
       "name": "Community Development Agency",
+      "alternateName": [
+        "Marin County Community Development Agency",
+        "CDA",
+        "Marin CDA"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -400,10 +573,6 @@
       },
       "url": "https://www.marincounty.gov/departments/cda",
       "alternateUrl": "https://MarinCounty.gov/CDA",
-      "alternateName": [
-        "Marin County Community Development Agency",
-        "CDA"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-development-and-public-works"
       },
@@ -431,12 +600,108 @@
       },
       "telephone": "415-473-6269",
       "mission": "The Community Development Agency is dedicated to promoting, protecting, and advancing healthy, safe, and equitable communities. Sarah Jones",
-      "description": "The Community Development Agency is responsible for building permits and safety inspections, environmental health services, planning, affordable housing and grant administration. DEPARTMENT BUDGET - COMMUNITY DEVELOPMENT AGENCY"
+      "description": "The Community Development Agency is responsible for building permits and safety inspections, environmental health services, planning, affordable housing and grant administration. DEPARTMENT BUDGET - COMMUNITY DEVELOPMENT AGENCY",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "planning"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "planning"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "permits"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "permits"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "redevelopment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "redevelopment"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "housing"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "development"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "RHNA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "RHNA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "RHNA"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ADU"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "ADU"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "ADU"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "zoning"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "zoning"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/cda-building-and-safety",
       "@type": "GovernmentOrganization",
       "name": "Building and Safety",
+      "alternateName": [
+        "Marin County Building and Safety Division",
+        "Marin County Building and Safety"
+      ],
       "organizationClassification": "division",
       "governmentLevel": "subregional",
       "identifier": [
@@ -460,17 +725,30 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/cda/building-and-safety",
-      "alternateName": [
-        "Marin County Building and Safety Division"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "building and safety division"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "building and safety division"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/cda-environmental-health-services",
       "@type": "GovernmentOrganization",
       "name": "Environmental Health Services",
+      "alternateName": [
+        "Marin County Environmental Health Services",
+        "Marin County Environmental Health"
+      ],
       "organizationClassification": "division",
       "governmentLevel": "subregional",
       "identifier": [
@@ -494,12 +772,21 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/cda/environmental-health-services",
-      "alternateName": [
-        "Marin County Environmental Health Services"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "environmental health services"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "environmental health services"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/cda-planning",
@@ -533,12 +820,28 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "county planning division"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "county planning division"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/cda-housing-and-grants",
       "@type": "GovernmentOrganization",
       "name": "Housing and Grants Division",
+      "alternateName": [
+        "Marin County Housing and Grants Division",
+        "Marin County Housing and Grants"
+      ],
       "organizationClassification": "division",
       "governmentLevel": "subregional",
       "identifier": [
@@ -562,12 +865,21 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/cda/housing-and-grants",
-      "alternateName": [
-        "Marin County Housing and Grants Division"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/cda"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "housing and grants"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "housing and grants"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/county-counsel",
@@ -618,12 +930,40 @@
       },
       "telephone": "415-473-61",
       "mission": "The Marin County Counsel’s office provides innovative and high- quality legal services to County officials, departments and public agencies to protect the County of Marin and its resources. Brian Washington",
-      "description": "The County Counsel provides responsive legal advice and assistance to the Board of Supervisors, County departments, boards and commissions, special districts and agencies. This assistance covers the full spectrum of local government practice, which includes negotiating and drafting contracts and legal documents, as well as representing Marin County in all aspects of civil litigation and administrative hearings. DEPARTMENT BUDGET - COUNTY COUNSEL"
+      "description": "The County Counsel provides responsive legal advice and assistance to the Board of Supervisors, County departments, boards and commissions, special districts and agencies. This assistance covers the full spectrum of local government practice, which includes negotiating and drafting contracts and legal documents, as well as representing Marin County in all aspects of civil litigation and administrative hearings. DEPARTMENT BUDGET - COUNTY COUNSEL",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "County Counsel"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "County Counsel"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "County attorney"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "County attorney"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/county-executive",
       "@type": "GovernmentOrganization",
       "name": "Office of the County Executive",
+      "alternateName": [
+        "Marin County Executive",
+        "OCE",
+        "County Executive",
+        "Marin County Executive's Office"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -653,11 +993,6 @@
       },
       "url": "https://www.marincounty.gov/departments/executive",
       "alternateUrl": "https://MarinCounty.gov/Executive",
-      "alternateName": [
-        "Marin County Executive",
-        "OCE",
-        "County Executive"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -675,6 +1010,18 @@
       "department": [
         {
           "@id": "https://marincountygov.github.io/marin-data/id/organization/digital-innovation-and-transformation"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "County Executive"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "County Executive"
         }
       ]
     },
@@ -702,6 +1049,10 @@
       "@id": "https://marincountygov.github.io/marin-data/id/organization/cultural-services",
       "@type": "GovernmentOrganization",
       "name": "Cultural Services",
+      "alternateName": [
+        "Marin County Cultural Services",
+        "Marin Cultural Services"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -731,9 +1082,6 @@
       },
       "url": "https://www.marincounty.gov/departments/cultural-services",
       "alternateUrl": "https://MarinCounty.gov/Cultural-Services",
-      "alternateName": [
-        "Marin County Cultural Services"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -753,6 +1101,14 @@
       "@id": "https://marincountygov.github.io/marin-data/id/organization/da",
       "@type": "GovernmentOrganization",
       "name": "District Attorney",
+      "alternateName": [
+        "Marin County District Attorney",
+        "Marin District Attorney",
+        "Marin County DA",
+        "Marin DA",
+        "Marin County DA's Office",
+        "Marin District Attorney's Office"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -782,9 +1138,6 @@
       },
       "url": "https://marincountyda.org/",
       "alternateUrl": "https://MarinCounty.gov/DA",
-      "alternateName": [
-        "Marin County District Attorney"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -798,12 +1151,24 @@
       },
       "telephone": "415-473-6460",
       "mission": "The Marin County District Attorney’s Office’s primary mission is promoting safety through innovative and collaborative approaches to crime prevention and prosecution while maintaining our commitment to victims’ rights, offender rehabilitation, consumer protection, and public engagement. 3501 Civic Center Drive, Suite 145 San Rafael, CA 94903 Tel: 415-473-6460 MarinCounty.gov/DA Lori Frugoli",
-      "description": "The District Attorney is by state law the public prosecutor responsible for the prosecution of criminal violations of state law and county ordinances. The District Attorney is an officer of the County and also an officer of the State when engaged in the prosecution of crimes. The principal duties of the District Attorney include acting as the public prosecutor of violations of state law and county ordinances; instituting criminal proceedings against persons charged with or reasonably suspected of public offenses; advising both the Civil and Criminal Grand Juries; and investigating and seeking both criminal and civil remedies for unlawful business practices. DEPARTMENT BUDGET - DISTRICT ATTORNEY"
+      "description": "The District Attorney is by state law the public prosecutor responsible for the prosecution of criminal violations of state law and county ordinances. The District Attorney is an officer of the County and also an officer of the State when engaged in the prosecution of crimes. The principal duties of the District Attorney include acting as the public prosecutor of violations of state law and county ordinances; instituting criminal proceedings against persons charged with or reasonably suspected of public offenses; advising both the Civil and Criminal Grand Juries; and investigating and seeking both criminal and civil remedies for unlawful business practices. DEPARTMENT BUDGET - DISTRICT ATTORNEY",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin prosecutor"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/elections",
       "@type": "GovernmentOrganization",
       "name": "Elections (Registrar of Voters)",
+      "alternateName": [
+        "Marin County Elections",
+        "Marin County Registrar of Voters",
+        "Marin Registrar of Voters"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -833,9 +1198,6 @@
       },
       "url": "https://www.marincounty.gov/departments/elections",
       "alternateUrl": "https://MarinCounty.gov/Elections",
-      "alternateName": [
-        "Marin County Elections"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -849,12 +1211,59 @@
       },
       "telephone": "415-473-6456",
       "mission": "Our mission is to conduct elections in a responsive, transparent, and professional manner that will inspire trust and confidence in our work while promoting engagement with all Marin County residents in the election process. Natalie Adona",
-      "description": "The Elections Department provides election services year-round to Marin County’s approximately 174,000 registered voters. Each year, the department plans for and manages regularly scheduled elections and special elections called by the cities, towns, schools, and special districts in Marin County. DEPARTMENT BUDGET - ELECTIONS"
+      "description": "The Elections Department provides election services year-round to Marin County’s approximately 174,000 registered voters. Each year, the department plans for and manages regularly scheduled elections and special elections called by the cities, towns, schools, and special districts in Marin County. DEPARTMENT BUDGET - ELECTIONS",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "elections"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "elections"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "voting"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "voting"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Registrar"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Registrar"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "ballot"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "ballot"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/finance",
       "@type": "GovernmentOrganization",
       "name": "Department of Finance",
+      "alternateName": [
+        "Marin County Finance",
+        "Marin County Department of Finance",
+        "Marin County Finance Department"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -884,9 +1293,6 @@
       },
       "url": "https://www.marincounty.gov/departments/finance",
       "alternateUrl": "https://MarinCounty.gov/Finance",
-      "alternateName": [
-        "Marin County Finance"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -900,12 +1306,74 @@
       },
       "telephone": "415-473-6154",
       "mission": "The mission of the Department of Finance is to safeguard public funds and protect the county’s financial integrity by advocating best practices, ensuring compliance with mandates and meeting fiduciary obligations. Mina Martinovich",
-      "description": "The Department of Finance is responsible for the statutory functions and duties of the office of the auditor, controller, treasurer, tax collector, and public administrator. Our office is comprised of ten work units, each with their own unique and specialized set of County program areas. DEPARTMENT BUDGET - FINANCE"
+      "description": "The Department of Finance is responsible for the statutory functions and duties of the office of the auditor, controller, treasurer, tax collector, and public administrator. Our office is comprised of ten work units, each with their own unique and specialized set of County program areas. DEPARTMENT BUDGET - FINANCE",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "budget"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "budget"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "budget"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "spending"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "spending"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fee"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fee"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "fee"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/fire",
       "@type": "GovernmentOrganization",
       "name": "Fire Department",
+      "alternateName": [
+        "Marin County Fire Department",
+        "Marin County Fire",
+        "Marin Fire"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -935,9 +1403,6 @@
       },
       "url": "https://www.marincounty.gov/departments/fire",
       "alternateUrl": "https://MarinCounty.gov/Fire",
-      "alternateName": [
-        "Marin County Fire Department"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -951,12 +1416,41 @@
       },
       "telephone": "415-473-6717",
       "mission": "In partnership with our community, we will be prepared, respond quickly, solve problems, be nice, and get home safely. Jason Weber",
-      "description": "The Marin County Fire Department provides comprehensive, all-risk public safety services in Marin County, including County, State, and National Parks. Marin County is one of six CALFIRE contract counties, delivering wildland fire prevention and fire protection services across more than 260,000 acres. In addition to fire suppression and emergency response, the Department is responsible for countywide Emergency Management and operates the Emergency Command Center and dispatch services serving the entire County. The Marin County Fire Department also serves as the host agency for California Urban Search and Rescue Task Force 1 (CA-RTF1) and the North Bay Incident Management Team. DEPARTMENT BUDGET - MARIN COUNTY FIRE"
+      "description": "The Marin County Fire Department provides comprehensive, all-risk public safety services in Marin County, including County, State, and National Parks. Marin County is one of six CALFIRE contract counties, delivering wildland fire prevention and fire protection services across more than 260,000 acres. In addition to fire suppression and emergency response, the Department is responsible for countywide Emergency Management and operates the Emergency Command Center and dispatch services serving the entire County. The Marin County Fire Department also serves as the host agency for California Urban Search and Rescue Task Force 1 (CA-RTF1) and the North Bay Incident Management Team. DEPARTMENT BUDGET - MARIN COUNTY FIRE",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "firefighters"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "firefighters"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fire chief"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fire chief"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs",
       "@type": "GovernmentOrganization",
       "name": "Health and Human Services",
+      "alternateName": [
+        "Marin County Health and Human Services",
+        "Marin Health and Human Services",
+        "Marin HHS",
+        "Marin County Department of Health and Human Services",
+        "Marin County HHS"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -986,9 +1480,6 @@
       },
       "url": "https://hhs.marincounty.gov/",
       "alternateUrl": "https://MarinCounty.gov/HHS",
-      "alternateName": [
-        "Marin County Health and Human Services"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-health-and-human-services"
       },
@@ -1019,7 +1510,79 @@
       },
       "telephone": "415-473-3696",
       "mission": "Promote and protect the health, well-being, self-sufficiency and safety of all people in Marin County. Lisa Warhuus",
-      "description": "The Department of Health & Human Services (HHS) promotes and protects the health, well-being, safety, and self-sufficiency of Marin County residents. Guided by its 2025–2028 Strategic Plan, HHS strives to ensure that all residents can achieve optimal health, while working to reduce disparities by improving community conditions, strengthening partnerships, optimizing its workforce, and using data to drive equitable outcomes. The Department delivers core public services mandated by federal and state law, from Medi-Cal enrollment to disease surveillance, while advancing innovative and community-centered approaches to service delivery. Social Services provides essential safety net programs for residents most in need, including food and medical benefits, child welfare, services for older adults and people with disabilities, and employment supports. Behavioral Health and Recovery Services delivers mental health and substance use prevention, treatment, and crisis services. Public Health protects and improves community health through disease prevention, emergency preparedness, and policy initiatives. The Homelessness and Coordinated Care Division leads efforts to reduce and prevent homelessness through coordinated entry, housing-focused strategies, and integrated care."
+      "description": "The Department of Health & Human Services (HHS) promotes and protects the health, well-being, safety, and self-sufficiency of Marin County residents. Guided by its 2025–2028 Strategic Plan, HHS strives to ensure that all residents can achieve optimal health, while working to reduce disparities by improving community conditions, strengthening partnerships, optimizing its workforce, and using data to drive equitable outcomes. The Department delivers core public services mandated by federal and state law, from Medi-Cal enrollment to disease surveillance, while advancing innovative and community-centered approaches to service delivery. Social Services provides essential safety net programs for residents most in need, including food and medical benefits, child welfare, services for older adults and people with disabilities, and employment supports. Behavioral Health and Recovery Services delivers mental health and substance use prevention, treatment, and crisis services. Public Health protects and improves community health through disease prevention, emergency preparedness, and policy initiatives. The Homelessness and Coordinated Care Division leads efforts to reduce and prevent homelessness through coordinated entry, housing-focused strategies, and integrated care.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "social services"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "social services"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "behavioral health"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "behavioral health"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "mental health"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "mental health"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "public health"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "public health"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "substance use"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "substance use"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "overdose"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "overdose"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "fentanyl"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "fentanyl"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-general-administration",
@@ -1053,12 +1616,28 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Health and Human Services & general administration"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Health and Human Services & general administration"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-bhrs",
       "@type": "GovernmentOrganization",
       "name": "Behavioral Health and Recovery Services",
+      "alternateName": [
+        "Marin Behavioral Health and Recovery Services",
+        "Marin County Behavioral Health"
+      ],
       "organizationClassification": "division",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1082,12 +1661,26 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://hhs.marincounty.gov/bhrs",
-      "alternateName": [
-        "Marin Behavioral Health and Recovery Services"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "BHRS"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "BHRS"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "BHRS"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-homelessness-and-coordinated-care",
@@ -1121,12 +1714,28 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "homelessness and coordinated care"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "homelessness and coordinated care"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-public-health",
       "@type": "GovernmentOrganization",
       "name": "Public Health",
+      "alternateName": [
+        "Marin County Public Health",
+        "Marin Public Health"
+      ],
       "organizationClassification": "division",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1150,17 +1759,30 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://hhs.marincounty.gov/divisions/public-health",
-      "alternateName": [
-        "Marin County Public Health"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "public health officer"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "public health officer"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs-social-services",
       "@type": "GovernmentOrganization",
       "name": "Social Services",
+      "alternateName": [
+        "Marin County Social Services",
+        "Marin Social Services"
+      ],
       "organizationClassification": "division",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1184,9 +1806,6 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://hhs.marincounty.gov/divisions/social-services",
-      "alternateName": [
-        "Marin County Social Services"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hhs"
       }
@@ -1269,7 +1888,69 @@
       },
       "telephone": "415-473-6104",
       "mission": "To be a trusted and strategic partner in creating an experience in which employees can reach their full potential. From first interview and beyond, we are dedicated to supporting employee growth and well-being. We challenge the status-quo, use best practices, and set high standards. We center equity, diversity, lived experience, and other perspectives. We aim to unite all employees towards achieving the organization’s goals and creating an environment where everyone thrives. Christina Cramer",
-      "description": "The Department of Human Resources supports the recruitment and retention of a highly qualified workforce through effective talent acquisition, accurate job classification, and competitive compensation practices. The department administers comprehensive employee benefits, promotes excellence through continuous employee development, and ensures equal opportunity and a positive employee experience. In addition, Human Resources leads the County’s Risk Management efforts, advancing workplace safety, regulatory compliance, and organizational resilience. This includes identifying, assessing, and mitigating risks; managing workers’ compensation and liability programs; supporting departments in loss prevention; and fostering a culture of safety and accountability. The department also negotiates labor agreements while building strong, collaborative relationships with the County’s labor partners. DEPARTMENT BUDGET - HUMAN RESOURCES"
+      "description": "The Department of Human Resources supports the recruitment and retention of a highly qualified workforce through effective talent acquisition, accurate job classification, and competitive compensation practices. The department administers comprehensive employee benefits, promotes excellence through continuous employee development, and ensures equal opportunity and a positive employee experience. In addition, Human Resources leads the County’s Risk Management efforts, advancing workplace safety, regulatory compliance, and organizational resilience. This includes identifying, assessing, and mitigating risks; managing workers’ compensation and liability programs; supporting departments in loss prevention; and fostering a culture of safety and accountability. The department also negotiates labor agreements while building strong, collaborative relationships with the County’s labor partners. DEPARTMENT BUDGET - HUMAN RESOURCES",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "workforce"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "workforce"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "labor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "labor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "labor negotiations"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "labor negotiations"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "collective bargaining"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "collective bargaining"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "County employees"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "County employees"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "County workers"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "County workers"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-classification-compensation",
@@ -1303,7 +1984,14 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & classification and compensation"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-employee-benefits-wellness",
@@ -1337,7 +2025,14 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & employee benefits and wellness"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-employee-and-labor-relations",
@@ -1371,7 +2066,14 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & employee and labor relations"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-equal-opportunity",
@@ -1405,7 +2107,14 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & Human Resources & equal opportunity"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-internships-and-volunteers",
@@ -1439,7 +2148,19 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & Human Resources & internship"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & Human Resources & volunteer"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-learning-and-organizational-development",
@@ -1473,7 +2194,14 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & learning and organizational development"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-leaves",
@@ -1507,7 +2235,19 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & Human Resources & leave of absence"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & Human Resources & leaves"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-recruitment",
@@ -1541,7 +2281,14 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & Human Resources & recruitment"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/hr-risk-management",
@@ -1575,12 +2322,23 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Marin County & Human Resources & risk management"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/ist",
       "@type": "GovernmentOrganization",
       "name": "Information Services and Technology",
+      "alternateName": [
+        "Marin County Information Services and Technology",
+        "Marin County IST"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1610,9 +2368,6 @@
       },
       "url": "https://www.marincounty.gov/departments/it",
       "alternateUrl": "https://MarinCounty.gov/IT",
-      "alternateName": [
-        "Marin County Information Services and Technology"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -1626,12 +2381,27 @@
       },
       "telephone": "415-473-6460",
       "mission": "Connecting people and government through innovative, accessible technology solutions. Liza Massey",
-      "description": "The Information Services and Technology Department partners with County departments to deliver accessible, high-value technology and communications services for residents and businesses. The Department advances digital-first initiatives to improve how the public experiences County services. DEPARTMENT BUDGET - INFORMATION SERVICES AND TECHNOLOGY"
+      "description": "The Information Services and Technology Department partners with County departments to deliver accessible, high-value technology and communications services for residents and businesses. The Department advances digital-first initiatives to improve how the public experiences County services. DEPARTMENT BUDGET - INFORMATION SERVICES AND TECHNOLOGY",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "cybersecurity"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "cybersecurity"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/library",
       "@type": "GovernmentOrganization",
       "name": "Marin County Free Library",
+      "alternateName": [
+        "Marin County Library"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1674,12 +2444,38 @@
       },
       "telephone": "415-473-6051",
       "mission": "We provide welcoming, equitable, and inclusive opportunities for everyone. 3501 Civic Center Drive, Suite 414 San Rafael, CA 94903 Tel: 415-473-6051 MarinCounty.gov/Library Lana Adlawan",
-      "description": "The Marin County Free Library (MCFL) operates 10 branch libraries, a bookmobile, and a mobile preschool serving ages 0-5. MCFL provides educational and recreational resources and programs for all ages, as well as free technology and Wi-Fi access. MCFL prioritizes equity and anti-racism in all services and programs offered to community members. DEPARTMENT BUDGET - MARIN COUNTY FREE LIBRARY"
+      "description": "The Marin County Free Library (MCFL) operates 10 branch libraries, a bookmobile, and a mobile preschool serving ages 0-5. MCFL provides educational and recreational resources and programs for all ages, as well as free technology and Wi-Fi access. MCFL prioritizes equity and anti-racism in all services and programs offered to community members. DEPARTMENT BUDGET - MARIN COUNTY FREE LIBRARY",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "library"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "library"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "libraries"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "libraries"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/parks",
       "@type": "GovernmentOrganization",
       "name": "Parks",
+      "alternateName": [
+        "Marin County Parks",
+        "Marin County Parks and Open Space"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1709,9 +2505,6 @@
       },
       "url": "https://www.parks.marincounty.gov/",
       "alternateUrl": "https://MarinCounty.gov/Parks",
-      "alternateName": [
-        "Marin County Parks"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -1725,12 +2518,58 @@
       },
       "telephone": "415-473-6387",
       "mission": "Marin County Parks is dedicated to educating, inspiring, and engaging the people of Marin in the shared commitment of preserving, protecting, and enriching the natural beauty of Marin’s parks and open spaces, and providing recreational opportunities for the enjoyment of all generations. Chris Chamberlain",
-      "description": "Marin County Parks manages and maintains the County’s parks and open space lands, provides landscaping services for county-owned facilities and Community Services Areas (CSAs), and administers the Marin County Open Space District. The department also oversees the voter-approved Measure A Parks and Open Space Fund, which supports local parks programming, open space and conservation easement acquisitions, park facility improvements, vegetation management, and watershed and climate resilience and adaptation projects. DEPARTMENT BUDGET - MARIN COUNTY PARKS"
+      "description": "Marin County Parks manages and maintains the County’s parks and open space lands, provides landscaping services for county-owned facilities and Community Services Areas (CSAs), and administers the Marin County Open Space District. The department also oversees the voter-approved Measure A Parks and Open Space Fund, which supports local parks programming, open space and conservation easement acquisitions, park facility improvements, vegetation management, and watershed and climate resilience and adaptation projects. DEPARTMENT BUDGET - MARIN COUNTY PARKS",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Parks and Open Space Commission"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "preserve"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "preserve"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "trail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "trail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "IPM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "IPM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "IPM"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/probation",
       "@type": "GovernmentOrganization",
       "name": "Probation",
+      "alternateName": [
+        "Marin County Probation",
+        "Marin Probation Department"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1760,9 +2599,6 @@
       },
       "url": "https://www.marincounty.gov/departments/Probation",
       "alternateUrl": "https://MarinCounty.gov/Probation",
-      "alternateName": [
-        "Marin County Probation"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -1776,12 +2612,38 @@
       },
       "telephone": "415.473.6599",
       "mission": "The Marin County Probation Department advances community safety and well-being through accountability, equity, and supportive rehabilitation. We partner with justice-involved individuals, victims, and the community to foster positive change, reduce harm, and build pathways to success. 3501 Civic Center Drive, Suite 265 San Rafael, CA 94903 Tel: 415.473.6599 MarinCounty.gov/Probation Marlon Washington",
-      "description": "The Marin County Probation Department works to create safer, stronger communities by integrating accountability with opportunities for growth. Guided by our strategic priorities, we deliver fair court services, evidence-based supervision, and restorative programs that reduce recidivism and promote healing. We collaborate with the courts, law enforcement, schools, and community organizations to provide innovative interventions, expand equitable access to services, and support individuals in achieving lasting change. Our commitment to integrity, continuous improvement, and community partnership drives every aspect of our work. DEPARTMENT BUDGET - PROBATION"
+      "description": "The Marin County Probation Department works to create safer, stronger communities by integrating accountability with opportunities for growth. Guided by our strategic priorities, we deliver fair court services, evidence-based supervision, and restorative programs that reduce recidivism and promote healing. We collaborate with the courts, law enforcement, schools, and community organizations to provide innovative interventions, expand equitable access to services, and support individuals in achieving lasting change. Our commitment to integrity, continuous improvement, and community partnership drives every aspect of our work. DEPARTMENT BUDGET - PROBATION",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "juvenile justice"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "juvenile justice"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "juvenile hall"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "juvenile hall"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/public-defender",
       "@type": "GovernmentOrganization",
       "name": "Public Defender",
+      "alternateName": [
+        "Marin County Public Defender",
+        "Marin Public Defender"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1811,9 +2673,6 @@
       },
       "url": "https://www.marincounty.gov/departments/public-defender",
       "alternateUrl": "https://MarinCounty.gov/Public-Defender",
-      "alternateName": [
-        "Marin County Public Defender"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -1827,12 +2686,28 @@
       },
       "telephone": "415-473-6321",
       "mission": "The Office of the Marin County Public Defender strives to provide effective and innovative legal services by protecting the constitutional rights of our clients while treating them with respect and encouraging them to lead productive and positive lives. 3501 Civic Center Drive, Suite 139 San Rafael, CA 94903 Tel: 415-473-6321 MarinCounty.gov/Public-Defender",
-      "description": "The Public Defender’s Office provides legal and holistic representation for those who are unable to afford counsel, including clients with undocumented immigration status. Public Defender staff also represent clients in felony, misdemeanor, juvenile, family support, and civil mental health cases, and work with community justice partners and community-based organizations to connect clients to services. David Joseph Sutton PUBLIC DEFENDER DEFENSE SERVICES DEPARTMENT BUDGET - PUBLIC DEFENDER"
+      "description": "The Public Defender’s Office provides legal and holistic representation for those who are unable to afford counsel, including clients with undocumented immigration status. Public Defender staff also represent clients in felony, misdemeanor, juvenile, family support, and civil mental health cases, and work with community justice partners and community-based organizations to connect clients to services. David Joseph Sutton PUBLIC DEFENDER DEFENSE SERVICES DEPARTMENT BUDGET - PUBLIC DEFENDER",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "indigent defense"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "indigent defense"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/public-works",
       "@type": "GovernmentOrganization",
       "name": "Public Works",
+      "alternateName": [
+        "Marin County Public Works",
+        "Marin Public Works"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1862,9 +2737,6 @@
       },
       "url": "https://publicworks.marincounty.gov/",
       "alternateUrl": "https://MarinCounty.gov/Public-Works",
-      "alternateName": [
-        "Marin County Public Works"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-development-and-public-works"
       },
@@ -1878,12 +2750,153 @@
       },
       "telephone": "415-473-6528",
       "mission": "The Marin County Department of Public Works’ mission is to provide the community with quality services, maintain and improve our public infrastructures and facilities, and support the preservation of Marin’s unsurpassed beauty. 3501 Civic Center Drive, Suite 304 San Rafael, CA 94903 Tel: 415-473-6528 MarinCounty.gov/Public-Works Christopher Blunk",
-      "description": "The Department of Public Works administers a wide range of programs, including capital infrastructure and engineering projects; waste management and stormwater services; and the maintenance of County roads, buildings, radio communications, facilities, and vehicles/equipment. The Department also oversees specialized programs such as disability access, flood control, and sea-level rise adaptation. DEPARTMENT BUDGET - DEPARTMENT OF PUBLIC WORKS"
+      "description": "The Department of Public Works administers a wide range of programs, including capital infrastructure and engineering projects; waste management and stormwater services; and the maintenance of County roads, buildings, radio communications, facilities, and vehicles/equipment. The Department also oversees specialized programs such as disability access, flood control, and sea-level rise adaptation. DEPARTMENT BUDGET - DEPARTMENT OF PUBLIC WORKS",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "DPW"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "DPW"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "DPW"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "road"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "road"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "flood"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "flood"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "drainage"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "drainage"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "storm water"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "storm water"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "stormwater"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "stormwater"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "waste"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "waste"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "recycling"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "recycling"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "airport"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "airport"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "traffic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "traffic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "mobility"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "mobility"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "climate change"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "climate change"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "sea level rise"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "sea level rise"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/retirement",
       "@type": "GovernmentOrganization",
       "name": "Retirement",
+      "alternateName": [
+        "Marin County Employees' Retirement Association",
+        "MCERA"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1912,20 +2925,44 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.mcera.org/",
-      "alternateName": [
-        "Marin County Employees' Retirement Association"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
       "telephone": "415-473-6147",
       "mission": "Our mission is to provide superior customer services to members and beneficiaries of the Marin County Employees’ Retirement Association through efficient benefits administration and a commitment to integrity and prudent financial management. Jeff Wickman",
-      "description": "The Marin County Employees’ Retirement Association (MCERA) is a multiple-employer governmental pension plan established by the County of Marin on July 1, 1950 under the County Employees Retirement Law of 1937. MCERA staff, under the direction from the Retirement Administrator, assist the Retirement Board in the administration of the retirement system."
+      "description": "The Marin County Employees’ Retirement Association (MCERA) is a multiple-employer governmental pension plan established by the County of Marin on July 1, 1950 under the County Employees Retirement Law of 1937. MCERA staff, under the direction from the Retirement Administrator, assist the Retirement Board in the administration of the retirement system.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "retirement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "retirement"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "pension"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "pension"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/sheriff",
       "@type": "GovernmentOrganization",
       "name": "Sheriff",
+      "alternateName": [
+        "Marin County Sheriff",
+        "Marin County Sheriff's Office",
+        "Marin Sheriff"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -1955,9 +2992,6 @@
       },
       "url": "https://marinsheriff.gov/",
       "alternateUrl": "https://MarinCounty.gov/Sheriff",
-      "alternateName": [
-        "Marin County Sheriff"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -1971,7 +3005,54 @@
       },
       "telephone": "415-473-7250",
       "mission": "The Marin County Sheriff’s Office is committed to partnering with our communities to provide leadership and excellence in public safety. 1600 Los Gamos Drive, Suite 200 San Rafael, CA 94903 Tel: 415-473-7250 MarinCounty.gov/Sheriff",
-      "description": "The Sheriff is a constitutionally elected official whose primary responsibilities are to enforce local, state and Federal laws, operate the county jail and provide security to the Superior Court. The department also operates law enforcement dispatch services, assumes the duties of the county coroner and provides patrol services in unincorporated areas of the County. DEPARTMENT BUDGET - MARIN COUNTY SHERIFF CORONER’S OFFICE"
+      "description": "The Sheriff is a constitutionally elected official whose primary responsibilities are to enforce local, state and Federal laws, operate the county jail and provide security to the Superior Court. The department also operates law enforcement dispatch services, assumes the duties of the county coroner and provides patrol services in unincorporated areas of the County. DEPARTMENT BUDGET - MARIN COUNTY SHERIFF CORONER’S OFFICE",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "crime"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "crime"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "crime"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "jail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "jail"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "arrest"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "arrest"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "use of force"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "use of force"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/tax-collector",
@@ -2005,12 +3086,28 @@
       ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "property tax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "property tax"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/uc-extension",
       "@type": "GovernmentOrganization",
       "name": "UC Cooperative Extension (Farm Advisor)",
+      "alternateName": [
+        "Marin UC Cooperative Extension",
+        "UC Cooperative Extension Marin"
+      ],
       "organizationClassification": "department",
       "governmentLevel": "subregional",
       "identifier": [
@@ -2040,9 +3137,6 @@
       },
       "url": "https://www.marincounty.gov/departments/uccem",
       "alternateUrl": "https://MarinCounty.gov/UCCEM",
-      "alternateName": [
-        "Marin UC Cooperative Extension"
-      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -2056,7 +3150,44 @@
       },
       "telephone": "415-473-4204",
       "mission": "The mission of the University of California Cooperative Extension Marin is to sustain Marin’s vital agriculture, environment, and communities by providing University of California research-based information in agriculture, natural resource management, healthy living, and youth development. Networked with the expertise of UC campuses, our educational programs use practically applied research to solve community problems. 1682 Novato Boulevard, Suite 150-B Novato, CA 94947 Tel: 415-473-4204 MarinCounty.gov/UCCEM Lauren Cartwright",
-      "description": "The University of California Cooperative Extension Marin (UCCE Marin) provides countywide services through an agreement between Marin and UC that has existed since 1921. The department provides education, public outreach, seminars, and other services to support and promote sustainable agricultural, integrated watershed and landscape management, community health and nutrition, and youth development. Our academics, staff, and volunteers, including the UC Marin Master Gardeners and 4-H youth and adult leaders, collaborate and partner with county departments and organizations to make beneficial impacts with and for Marin’s communities. DEPARTMENT BUDGET - UC COOPERATIVE EXTENSION MARIN"
+      "description": "The University of California Cooperative Extension Marin (UCCE Marin) provides countywide services through an agreement between Marin and UC that has existed since 1921. The department provides education, public outreach, seminars, and other services to support and promote sustainable agricultural, integrated watershed and landscape management, community health and nutrition, and youth development. Our academics, staff, and volunteers, including the UC Marin Master Gardeners and 4-H youth and adult leaders, collaborate and partner with county departments and organizations to make beneficial impacts with and for Marin’s communities. DEPARTMENT BUDGET - UC COOPERATIVE EXTENSION MARIN",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "UCCE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "UCCE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "UCCE"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Farm Advisor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Farm Advisor"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "Master Gardeners"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "Master Gardeners"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/office-of-emergency-management",
@@ -2076,7 +3207,119 @@
       },
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "OEM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "OEM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "OEM"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "emergency alert"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "emergency alert"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "king tide"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "king tide"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "evacuation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "evacuation"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "emergency"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "emergency"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "disaster"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "disaster"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "earthquake"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "earthquake"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "power outage"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "power outage"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "heat"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "heat"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-inside-words",
+          "value": "heat"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "sandbag"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "sandbag"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/county-service-area-6",
@@ -2096,7 +3339,19 @@
       },
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "CSA 6"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "CSA 6"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/county-service-area-29",
@@ -2116,7 +3371,19 @@
       },
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/county-of-marin"
-      }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:search-phrase",
+          "value": "CSA 29"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:name-needs-context",
+          "value": "CSA 29"
+        }
+      ]
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-health-and-human-services",

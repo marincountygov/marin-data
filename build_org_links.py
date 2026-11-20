@@ -12,6 +12,8 @@ import json
 import sys
 from pathlib import Path
 
+import place_lib as lib
+
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "organizations" / "monitors.json"
 graph = json.loads((ROOT / "output" / "organizations.jsonld").read_text())["@graph"]
@@ -30,9 +32,38 @@ for o in graph:
             "monitorId": monitor_id,
             "organization": o["@id"],
             "name": o["name"],
+            "label": o["name"],
+            # An organization's own name is often too generic to search for (Sheriff, Parks, Retirement), so only
+            # its other names and its search hints are searched.
+            "searchName": False,
+            **lib.search_of(o),
             "type": o.get("organizationClassification"),
+            "kind": o.get("organizationClassification"),
             "agencyId": agency[0] if agency else None,
         })
+# Organizations that are not units of the County (a transit district, a court, the employee associations). Their own
+# names are specific, so they are searched.
+for o in lib.graph("external-organizations"):
+    for monitor_id in ident(o, "local:marin-mentions-monitor-id"):
+        rows.append({
+            "monitorId": monitor_id,
+            "organization": o["@id"],
+            "name": o["name"],
+            "label": o["name"],
+            **lib.search_of(o),
+            "type": o.get("organizationClassification") or "association",
+            "kind": o.get("organizationClassification") or "association",
+            "external": True,
+            "agencyId": None,
+        })
+# A division sits under its department. parentMonitor is the monitor of the organization it is part of, when that has one,
+# so an app can list a division beneath its department.
+by_id = {o["@id"]: o for o in graph}
+monitor_of_org = {r["organization"]: r["monitorId"] for r in rows}
+for r in rows:
+    parent = (by_id.get(r["organization"], {}).get("parentOrganization") or {}).get("@id")
+    if parent in monitor_of_org:
+        r["parentMonitor"] = monitor_of_org[parent]
 rows.sort(key=lambda r: r["monitorId"])
 ids = [r["monitorId"] for r in rows]
 if len(ids) != len(set(ids)):
