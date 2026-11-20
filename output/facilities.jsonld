@@ -170,7 +170,7 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:operator-type",
-          "value": "unknown"
+          "value": "nongovernment"
         },
         {
           "@type": "PropertyValue",
@@ -282,7 +282,7 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:operator-type",
-          "value": "unknown"
+          "value": "government"
         }
       ]
     },
@@ -317,7 +317,7 @@
         {
           "@type": "PropertyValue",
           "propertyID": "local:operator-type",
-          "value": "unknown"
+          "value": "nongovernment"
         }
       ]
     },
