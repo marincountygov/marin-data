@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check that a consumer's copies of marin-data files are current, using consumers.json.
 
-  python3 check_copies.py ../marin-docs
+  python3 check_copies.py ../marin-pulse
 
 The consumer is found by its folder name. Fails if a copied file is missing or differs from marin-data.
 """

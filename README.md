@@ -8,9 +8,9 @@ Published at https://marincountygov.github.io/marin-data/. Every file in this re
 
 | Path | What it holds | How it changes | Used by |
 |---|---|---|---|
-| `sources.json` | The source documents (budget books, the CIP book, the style guide) with a link, an edition and a fingerprint for each | By hand | marin-budget, marin-docs (through `output/sources.json`) |
+| `sources.json` | The source documents (budget books, the CIP book, the style guide) with a link, an edition and a fingerprint for each | By hand | marin-budget, marin-pulse (through `output/sources.json`) |
 | `organizations/agencies.json` | The master list of County agencies, departments and divisions: ids, codes, names, web pages, menu order | By hand | marin-links |
-| `output/organizations.jsonld` | The full record for each organization, in schemaGov JSON-LD. The same folder holds `jurisdictions`, `programs`, `people`, `posts` and `roles` | By hand, and by the budget extract | marin-docs, marin-budget |
+| `output/organizations.jsonld` | The full record for each organization, in schemaGov JSON-LD. The same folder holds `jurisdictions`, `programs`, `people`, `posts` and `roles` | By hand, and by the budget extract | marin-pulse, marin-budget |
 | `output/budgets*.jsonld`, `budget-lines*.jsonld`, `funds*.jsonld`, `output/cip/`, `output/budget-2025-26/` | The budget and capital plan figures | Generated from the books by the `extract_*.py` scripts | marin-budget, marin-docs |
 | `organizations/monitors.json` | Which organization each watched department is about | Generated | marin-mentions |
 | `organizations/place-kinds.json` | The kinds of place, organization, person, facility, event, service and topic, the singular and plural name every app uses for each, and the facet (the schema type, such as Place or Organization) each belongs to | By hand | marin-mentions, marin-docs, marin-links |
@@ -26,8 +26,9 @@ Published at https://marincountygov.github.io/marin-data/. Every file in this re
 | `organizations/aliases.json` | Other names for organizations, such as CDA | Generated | marin-reach |
 | `organizations/place-aliases.json` | Other names for each place (such as `D3` for District 3), and the name an app shows for it | Generated | marin-reach |
 | `projects/projects.json` | The projects and campaigns the apps show: each with a Links campaign code, and whether Reach lists it and Mentions watches its name | By hand | marin-links, marin-reach, marin-mentions |
+| `engage/campaigns.json` | The Engage Marin campaigns, each for one project or one organization, with its questions and their links | By hand | marin-pulse |
 | `organizations/index.json` | A short list of every organization: id, name, other names, type and parent | Generated | marin-os |
-| `output/sources.json` | The older shape of `sources.json` that some app scripts still read | Generated | marin-budget, marin-docs |
+| `output/sources.json` | The older shape of `sources.json` that some app scripts still read | Generated | marin-budget, marin-pulse |
 | `brand/<slug>/` | Each brand's `brand.json` and its logo and picture files | By hand | marin-brand |
 | `schemas/`, `templates/` | The shapes of `sources.json` and `brand.json`, and a blank brand to copy | By hand | marin-brand |
 | `consumers.json` | Which app copies which files, and how to update it | By hand | The scripts in this repo |
@@ -40,10 +41,13 @@ The files marked "Generated" are never edited by hand. Change what they come fro
 
 **Add a project:** add an entry to `projects/projects.json`. Give it an `id` (permanent), a `name`, and only the apps that should show it:
 - `links` with a new permanent `code` (the next `cmp-NN`) and `legacy: []`, to show it as a campaign in Marin Links.
+- `pulse: true`, to list it in Marin Pulse. Only real projects get it: leave it out for a campaign or an event series.
 - `reach: true`, to list it in the Project filter in Marin Reach. It shows with a count of 0 until it has engagements.
 - `mentions` with `include`, the phrases Marin Mentions watches for. Use the exact project name.
 
 Never reuse or renumber a code. Run `python3 check_projects.py`. The apps pick it up on their next scheduled update, or run Data sync in each one. An engagement in Marin Reach for a project that is not in this list fails its build.
+
+**Add an Engage campaign:** add an entry to `engage/campaigns.json` with an `id`, its `name` and `url`, either `project` (an id from `projects/projects.json`) or `organization` (the last part of its id), and its `questions` (each with `text` and `url`). Run `python3 check_engage.py`.
 
 **Add an organization that is not on the agencies list** (a unit that apps name but that has no web page or code yet): add a record to `output/organizations.jsonld`. Copy a similar one. It needs a name, a classification, `areaServed`, a `parentOrganization`, and an `identifier` (use `gs:local` with the slug if no app has one). Then list it in its parent's `department` (or `subOrganization`) list. Do not add it to `organizations/agencies.json` unless it should appear in the agency picker in marin-links. Run `bash scripts/build.sh`. The schemaGov check fails if the record is incomplete.
 
@@ -93,11 +97,11 @@ GitHub also checks the JSON-LD against the schemaGov validators. To do the same 
 
 An app never edits a copy. `consumers.json` lists each app, the files it copies, and the commands that update it.
 
-- **Scheduled:** each app (marin-links, marin-mentions, marin-reach, marin-docs, marin-budget, marin-brand and marin-os) has a Data sync workflow that runs every hour. GitHub starts scheduled runs late and skips many of them, so it asks often; a run with nothing to do takes about 20 seconds. If something it copies has changed, it updates its copies, rebuilds its pages, runs its checks, and pushes a branch called `data-sync`. The run summary has the link to review it. It never merges anything.
+- **Scheduled:** each app (marin-links, marin-mentions, marin-reach, marin-pulse, marin-budget, marin-brand and marin-os) has a Data sync workflow that runs every hour. GitHub starts scheduled runs late and skips many of them, so it asks often; a run with nothing to do takes about 20 seconds. If something it copies has changed, it updates its copies, rebuilds its pages, runs its checks, and pushes a branch called `data-sync`. The run summary has the link to review it. It never merges anything.
 - **Right away:** open the app's Actions tab, choose Data sync, and choose Run workflow.
 - **By hand:** from the app's folder, with marin-data next to it, run `python3 ../marin-data/scripts/sync_copies.py .` to copy every file `consumers.json` lists for that app, and add `--check` to see which copies differ. It is the one sync script for every app, so no app has a sync script of its own. An app whose build copies its own files (marin-docs, marin-budget) lists no sync command.
 - **Pinned version:** each app has a `marin-data.lock` file naming the version of this repo it last used. Its checks use that version, so a change here cannot turn an app's checks red before the app is updated. `bash scripts/lock.sh ../<app>` records the current version after a sync. This repo must be merged and clean first.
-- **Check one app by hand:** `python3 check_copies.py ../marin-docs`.
+- **Check one app by hand:** `python3 check_copies.py ../marin-pulse`.
 
 ## Retired and leftover
 

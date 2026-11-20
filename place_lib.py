@@ -1,7 +1,7 @@
 """What every builder needs to know about a place, a facility, an event or a person in marin-data.
 
 The code of a record is its gs:local identifier. It is the one name other apps use for the record: the page name
-in Marin Docs, the value Marin Links puts in a link, and the key the link files carry. It does not belong to any
+in Marin Pulse, the value Marin Links puts in a link, and the key the link files carry. It does not belong to any
 one app. A record that Marin Mentions watches also has a local:marin-mentions-monitor-id, which says which
 monitor, and is usually the same word. A code is permanent: it ends up inside links people have shared.
 """

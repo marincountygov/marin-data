@@ -2,10 +2,10 @@
   "schemaVersion": "1.0.0",
   "title": "County of Marin projects and campaigns",
   "notes": [
-    "One entry per project. The apps that show a project use it from here: Marin Links as a campaign, Marin Reach in its Project filter, and Marin Mentions as a watched name.",
+    "One entry per project. The apps that show a project use it from here: Marin Links as a campaign, Marin Reach in its Project filter, and Marin Mentions as a watched name. Marin Pulse lists the ones marked pulse.",
     "An id is permanent. Never reuse or rename an id.",
     "links.code is the value Marin Links sends in a link. It is permanent: never change, reuse, or renumber a code. links.legacy lists older values that mean the same project.",
-    "An entry only appears in the apps it names: links for Marin Links, reach for Marin Reach, mentions for Marin Mentions. mentions.include lists the phrases Marin Mentions watches for. A project needs no details to show up.",
+    "An entry only appears in the apps it names: links for Marin Links, pulse for Marin Pulse, reach for Marin Reach, mentions for Marin Mentions. mentions.include lists the phrases Marin Mentions watches for. A project needs no details to show up.",
     "The order of this list does not matter. Each app sorts as it needs to."
   ],
   "projects": [
@@ -22,6 +22,7 @@
     {
       "id": "envision-marin",
       "name": "Envision Marin",
+      "pulse": true,
       "links": { "code": "cmp-01", "legacy": ["envision_marin"] },
       "reach": true,
       "mentions": { "include": ["Envision Marin"] }
@@ -29,6 +30,7 @@
     {
       "id": "tam-junction-placemaking",
       "name": "Tam Junction Placemaking",
+      "pulse": true,
       "links": { "code": "cmp-03", "legacy": [] },
       "reach": true,
       "mentions": { "include": ["Tam Junction Placemaking"] }
@@ -41,6 +43,7 @@
     {
       "id": "west-marin-visioning",
       "name": "West Marin Visioning",
+      "pulse": true,
       "links": { "code": "cmp-04", "legacy": [] },
       "reach": true,
       "mentions": { "include": ["West Marin Visioning"] }

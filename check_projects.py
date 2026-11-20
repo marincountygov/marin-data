@@ -42,6 +42,8 @@ for p in doc["projects"]:
     if n in names:
         errors.append(f"{i}: name {p.get('name')!r} is used twice")
     names.add(n)
+    if "pulse" in p and p["pulse"] is not True:
+        errors.append(f"{i}: pulse must be true, or left out")
     if "reach" in p and p["reach"] is not True:
         errors.append(f"{i}: reach must be true, or left out")
     if "links" in p:

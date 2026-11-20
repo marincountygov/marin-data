@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "County of Marin Engage campaigns and questions",
+  "notes": [
+    "One entry per campaign on Engage Marin. A campaign belongs to one project (project, an id from projects/projects.json) or one organization (organization, the last part of its id in output/organizations.jsonld).",
+    "The questions of a campaign are part of it. Each has its text and the link to it on Engage Marin.",
+    "The apps that show a project or an organization list its campaigns and their questions from here."
+  ],
+  "campaigns": [
+    {
+      "id": "envision-marin",
+      "name": "Envision Marin",
+      "url": "https://engage.marincounty.gov/campaigns/envision",
+      "project": "envision-marin",
+      "questions": [
+        { "text": "What do you love most about Marin today?", "url": "https://engage.marincounty.gov/q/what-do-you-love-most-about-marin-today" },
+        { "text": "What's your big, bold vision for Marin's future?", "url": "https://engage.marincounty.gov/q/what-s-your-big-bold-vision-for-marin-s-future" },
+        { "text": "What are your ideas for Marin's future?", "url": "https://engage.marincounty.gov/q/what-are-your-ideas-for-marin-s-future" }
+      ]
+    },
+    {
+      "id": "help-shape-vmas-next-chapter",
+      "name": "Help us shape Marin Veterans' Memorial Auditorium's next chapter",
+      "url": "https://engage.marincounty.gov/campaigns/help-shape-vmas-next-chapter",
+      "organization": "cultural-services",
+      "questions": [
+        { "text": "What have you seen at other venues that we should have here in Marin?", "url": "https://engage.marincounty.gov/q/what-have-you-seen-at-other-entertainment-venues-that-we-should-have-here-in-marin" },
+        { "text": "Which performers and what types of events would bring you to the Veterans' Memorial Auditorium?", "url": "https://engage.marincounty.gov/q/which-performers-and-what-types-of-events-would-bring-you-to-the-veterans-memorial-auditorium" },
+        { "text": "How can we make the Civic Center more fun and dynamic for the community?", "url": "https://engage.marincounty.gov/q/civic-center-fun-dynamic" }
+      ]
+    }
+  ]
+}

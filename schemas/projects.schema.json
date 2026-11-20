@@ -26,6 +26,7 @@
               "legacy": { "type": "array", "items": { "type": "string" }, "description": "Older values that mean the same project." }
             }
           },
+          "pulse": { "const": true, "description": "Lists the project in Marin Pulse. Leave it out for a campaign or event series that is not a project." },
           "reach": { "const": true, "description": "Shows the project in the Project filter in Marin Reach, even with no engagements." },
           "mentions": {
             "type": "object",
