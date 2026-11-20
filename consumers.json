@@ -6,7 +6,8 @@
     "sync is run in the consumer to take the new files. build rebuilds what is generated from them. check is the consumer's own check.",
     "A consumer never edits a copy. Change the data in marin-data, then sync.",
     "dependsOn names a repo whose own output is needed first, so it must be synced before this one.",
-    "A consumer records the marin-data commit it last synced in marin-data.lock at its root, written by scripts/lock.sh after marin-data is pushed. Its CI checks out that commit, so a later change here cannot turn it red. With no lock file, the CI skips the comparison."
+    "A consumer records the marin-data commit it last synced in marin-data.lock at its root, written by scripts/lock.sh after marin-data is pushed. Its CI checks out that commit, so a later change here cannot turn it red. With no lock file, the CI skips the comparison.",
+    "sync_copies.py copies and checks every file a consumer lists, so a consumer needs no sync script of its own. A consumer whose build copies its own files (marin-docs, marin-budget) lists no sync command."
   ],
   "consumers": [
     {
@@ -30,9 +31,7 @@
         }
       ],
       "sync": [
-        "python3 scripts/sync-agencies.py",
-        "python3 scripts/sync-projects.py",
-        "python3 scripts/sync-locations.py"
+        "python3 ../marin-data/scripts/sync_copies.py ."
       ],
       "build": [
         "python3 scripts/build-agencies.py",
@@ -73,13 +72,7 @@
         }
       ],
       "sync": [
-        "python3 scripts/sync-orgs.py",
-        "python3 scripts/sync-places.py",
-        "python3 scripts/sync-events.py",
-        "python3 scripts/sync-people.py",
-        "python3 scripts/sync-services.py",
-        "python3 scripts/sync-topics.py",
-        "python3 scripts/sync-projects.py"
+        "python3 ../marin-data/scripts/sync_copies.py ."
       ],
       "build": [],
       "check": "bash scripts/check.sh",
@@ -106,10 +99,7 @@
         }
       ],
       "sync": [
-        "python3 scripts/sync-orgs.py",
-        "python3 scripts/sync-places.py",
-        "python3 scripts/sync-facilities.py",
-        "python3 scripts/sync-projects.py"
+        "python3 ../marin-data/scripts/sync_copies.py ."
       ],
       "build": [
         "python3 scripts/build_data.py"
@@ -260,7 +250,7 @@
         }
       ],
       "sync": [
-        "python3 scripts/sync-brand.py"
+        "python3 ../marin-data/scripts/sync_copies.py ."
       ],
       "build": [
         "node scripts/build-all.js"
@@ -277,7 +267,7 @@
         }
       ],
       "sync": [
-        "python3 scripts/sync-orgs.py"
+        "python3 ../marin-data/scripts/sync_copies.py ."
       ],
       "build": [],
       "check": "node scripts/check-projects.js",
