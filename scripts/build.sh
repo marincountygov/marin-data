@@ -16,3 +16,4 @@ python3 build_service_links.py    # organizations/services.json
 python3 build_topic_links.py      # organizations/topics.json
 python3 build_org_aliases.py      # organizations/aliases.json
 python3 build_org_index.py        # organizations/index.json
+python3 build_search_index.py     # organizations/search-index.json

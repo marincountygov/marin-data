@@ -272,6 +272,10 @@
         {
           "from": "organizations/index.json",
           "to": "data/organizations.json"
+        },
+        {
+          "from": "organizations/search-index.json",
+          "to": "data/search-index.json"
         }
       ],
       "sync": [
@@ -279,7 +283,7 @@
       ],
       "build": [],
       "check": "node scripts/check-projects.js",
-      "notes": "marin-os checks that every organization its project records name exists here, and that the name it shows is the official name or one of the other names."
+      "notes": "marin-os checks that every organization its project records name exists here, and that the name it shows is the official name or one of the other names. It also copies the search list that the search box on its home page reads."
     }
   ]
 }
