@@ -23,6 +23,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "marin-transit"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-budget-department-code",
+          "value": "658"
         }
       ]
     },
@@ -48,6 +53,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "zero-waste-marin"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "local:marin-budget-department-code",
+          "value": "653"
         }
       ],
       "url": "https://zerowastemarin.org/"
