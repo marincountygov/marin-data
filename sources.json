@@ -150,6 +150,24 @@
       ],
       "notes": "Internal. Not posted publicly and not stored or linked from any public repo. Only the hash is recorded here.",
       "access": "internal"
+    },
+    {
+      "id": "personnel-management-regulations",
+      "title": "All Personnel Management Regulations, County of Marin Human Resources",
+      "kind": "html",
+      "publisher": "County of Marin Human Resources",
+      "edition": "Page as saved on 2026-11-23",
+      "url": "https://www.hr.marincounty.gov/regulations-policies-procedures/personnel-management-regulations/all-personnel-management-regulations",
+      "file": null,
+      "status": "current",
+      "hashed": "2026-11-23",
+      "sha256": "20f3b874a64f7b17fbe499e2ce503534d203b32939b2ecaec53910e65aa750ee",
+      "bytes": 1106332,
+      "usedBy": [
+        "marin-data",
+        "marin-docs"
+      ],
+      "notes": "output/regulations/ is generated from this page by extract_pmr.py. Save the page as HTML into source/pmr/ (not committed) before running it."
     }
   ],
   "references": [
