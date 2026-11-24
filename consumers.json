@@ -322,7 +322,9 @@
         { "from": "output/statistics/observations", "to": "data/source/observations", "dir": true },
         { "from": "output/areas.jsonld", "to": "data/source/areas.jsonld" },
         { "from": "output/jurisdictions.jsonld", "to": "data/source/jurisdictions.jsonld" },
-        { "from": "statistics/omitted-values.json", "to": "data/source/omitted-values.json" }
+        { "from": "statistics/omitted-values.json", "to": "data/source/omitted-values.json" },
+        { "from": "statistics/acs-mapping.json", "to": "data/source/acs-mapping.json" },
+        { "from": "statistics/source/acs-2024-5yr/manifest.json", "to": "data/source/manifest.json" }
       ],
       "sync": [
         "python3 ../marin-data/scripts/sync_copies.py ."

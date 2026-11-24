@@ -188,7 +188,7 @@ def variable_id(vid):
 
 def load_inputs():
     tables = {}
-    for path in sorted(SOURCE_DIR.glob("b*.json")):
+    for path in sorted(SOURCE_DIR.glob("[bc][0-9]*.json")):  # the tables: B01003, C16002 and the like
         data = json.loads(path.read_text(encoding="utf-8"))
         tables[data["table"]] = data
     geographies = json.loads((SOURCE_DIR / "geographies.json").read_text(encoding="utf-8"))

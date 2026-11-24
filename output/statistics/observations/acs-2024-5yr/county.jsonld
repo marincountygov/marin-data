@@ -381,6 +381,975 @@
         ]
       },
       "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/average-household-size/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/average-household-size",
+        "name": "Average household size"
+      },
+      "value": 2.44,
+      "unitText": "persons per household",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.02,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/under-18-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/under-18-rate",
+        "name": "Share of population under age 18"
+      },
+      "value": 19.376747,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.38018,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/population-65-plus-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-65-plus-rate",
+        "name": "Share of population age 65 and over"
+      },
+      "value": 23.779989,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.58107,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/foreign-born-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/foreign-born-rate",
+        "name": "Foreign-born rate"
+      },
+      "value": 19.619024,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.710938,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/veteran-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/veteran-rate",
+        "name": "Veteran rate"
+      },
+      "value": 3.807489,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.272849,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/limited-english-households-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/limited-english-households-rate",
+        "name": "Limited English speaking households rate"
+      },
+      "value": 4.193442,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.603067,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/per-capita-income/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/per-capita-income",
+        "name": "Per capita income"
+      },
+      "value": 93920,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 2414,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/child-poverty-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/child-poverty-rate",
+        "name": "Child poverty rate"
+      },
+      "value": 9.791339,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 1.268,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/senior-poverty-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/senior-poverty-rate",
+        "name": "Senior poverty rate"
+      },
+      "value": 7.517337,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.880109,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/housing-units-total/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/housing-units-total",
+        "name": "Housing units"
+      },
+      "value": 112116,
+      "unitText": "housing units",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 118,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/homeownership-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/homeownership-rate",
+        "name": "Homeownership rate"
+      },
+      "value": 64.664428,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.990565,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/vacancy-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/vacancy-rate",
+        "name": "Vacancy rate"
+      },
+      "value": 8.11481,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.646595,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/median-home-value/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-home-value",
+        "name": "Median home value"
+      },
+      "value": 1507300,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 27346,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/owner-cost-burden-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/owner-cost-burden-rate",
+        "name": "Owner cost burden rate"
+      },
+      "value": 32.241504,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 1.483416,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/overcrowding-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/overcrowding-rate",
+        "name": "Overcrowding rate"
+      },
+      "value": 4.402143,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.583103,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/broadband-subscription-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/broadband-subscription-rate",
+        "name": "Broadband subscription rate"
+      },
+      "value": 95.800734,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.590075,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/households-without-computer-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-without-computer-rate",
+        "name": "Households without a computer rate"
+      },
+      "value": 2.286979,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.387948,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/work-from-home-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/work-from-home-rate",
+        "name": "Work-from-home rate"
+      },
+      "value": 31.464195,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 1.040363,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/public-transit-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/public-transit-rate",
+        "name": "Public transit commute rate"
+      },
+      "value": 3.615929,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.470056,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/households-without-vehicle-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-without-vehicle-rate",
+        "name": "Households without a vehicle rate"
+      },
+      "value": 4.908851,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.571673,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/labor-force-participation-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/labor-force-participation-rate",
+        "name": "Labor force participation rate"
+      },
+      "value": 62.329922,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.71166,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/unemployment-rate/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/unemployment-rate",
+        "name": "Unemployment rate"
+      },
+      "value": 6.09393,
+      "unitText": "percent",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 0.636463,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/population-nativity/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-nativity",
+        "name": "Population in the nativity universe"
+      },
+      "value": 257969,
+      "unitText": "persons",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/civilian-population-18-plus/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-population-18-plus",
+        "name": "Civilian population 18 and over"
+      },
+      "value": 207801,
+      "unitText": "persons",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 118,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/households-language-status/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-language-status",
+        "name": "Households by language status"
+      },
+      "value": 103018,
+      "unitText": "households",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 725,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/population-under-18-poverty-determined/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-under-18-poverty-determined",
+        "name": "Population under 18 for whom poverty status is determined"
+      },
+      "value": 49554,
+      "unitText": "persons",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 1363.733112,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/population-65-plus-poverty-determined/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-65-plus-poverty-determined",
+        "name": "Population 65 and over for whom poverty status is determined"
+      },
+      "value": 60274,
+      "unitText": "persons",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 776.156556,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "derived from survey estimates"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/occupied-housing-units/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/occupied-housing-units",
+        "name": "Occupied housing units"
+      },
+      "value": 103018,
+      "unitText": "households",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 725,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/owner-occupied-housing-units/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/owner-occupied-housing-units",
+        "name": "Owner-occupied housing units"
+      },
+      "value": 66616,
+      "unitText": "households",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 1123,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/occupied-housing-units-by-room/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/occupied-housing-units-by-room",
+        "name": "Occupied housing units by occupants per room"
+      },
+      "value": 103018,
+      "unitText": "households",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 725,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/households-computers/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-computers",
+        "name": "Households by computer access"
+      },
+      "value": 103018,
+      "unitText": "households",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 725,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/workers-16-plus/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/workers-16-plus",
+        "name": "Workers 16 and over"
+      },
+      "value": 122873,
+      "unitText": "persons",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 1743,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/households-vehicles/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-vehicles",
+        "name": "Households by vehicles available"
+      },
+      "value": 103018,
+      "unitText": "households",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 725,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/population-16-plus/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-16-plus",
+        "name": "Population 16 and over"
+      },
+      "value": 214754,
+      "unitText": "persons",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 424,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/civilian-labor-force/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-labor-force",
+        "name": "Civilian labor force"
+      },
+      "value": 133674,
+      "unitText": "persons",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "marginOfError": {
+        "@type": "QuantitativeValue",
+        "value": 1548,
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "confidenceLevel",
+            "value": 0.9
+          }
+        ]
+      },
+      "measurementMethod": "survey estimate"
     }
   ]
 }
