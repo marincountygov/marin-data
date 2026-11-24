@@ -5,8 +5,8 @@
   python3 check_schemagov.py PATH_TO_SCHEMAGOV_CLONE [--output DIR]
 
 Runs tools/validate.py and tools/shacl.py from the schemaGov clone. Both must pass.
-The reference check (validate.py) may report only the errors listed in KNOWN below. The list is empty now.
-To tolerate a known problem for a while, add a pattern for its message to KNOWN, with a comment saying why and when to remove it.
+The reference check (validate.py) may report only the errors listed in KNOWN below.
+To tolerate a known problem for a while, add the record id and message patterns to KNOWN, with a comment saying why and when to remove it.
 """
 import argparse
 import re
@@ -15,7 +15,14 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-KNOWN = []  # patterns (re.compile) for messages that are tolerated for now
+# Tolerated for now: (pattern for the record id, pattern for the message). Both must match.
+KNOWN = [
+    # These six facilities are typed plain Place. schemaGov's statistics profile now requires an areaType on a plain
+    # Place, which is for statistical and community areas, so they fail. They are buildings and a creek, not areas.
+    # Remove this when they are given a more specific type (a decision for the facilities owner).
+    (re.compile(r".*/id/facility/(st-vincents|gallinas-creek|tam-valley-community-center|homestead-valley-community-center|marin-art-garden-center|marin-humane)$"),
+     re.compile(r"\(root\): 'areaType' is a required property")),
+]
 
 
 def run(clone, tool, output):
@@ -56,7 +63,7 @@ if "SKIPPED" in refs.stdout:
     sys.exit("The schemaGov validator (validate.py) skipped some checks, so they were not run.\n"
              + "\n".join(l for l in refs.stdout.splitlines() if "SKIPPED" in l) + "\n" + HINT)
 errs = errors_of(refs.stdout)
-unknown = [(title, msgs) for title, msgs in errs if not (msgs and all(any(k.match(m) for k in KNOWN) for m in msgs))]
+unknown = [(title, msgs) for title, msgs in errs if not (msgs and all(any(t.match(title) and m_.match(m) for t, m_ in KNOWN) for m in msgs))]
 if refs.returncode != 0 and not errs:
     sys.exit("schemaGov validate failed without a readable error list:\n" + refs.stdout[-2000:] + refs.stderr[-1000:])
 if unknown:

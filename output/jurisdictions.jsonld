@@ -16,6 +16,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "marin-county"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041"
         }
       ]
     },
@@ -338,6 +343,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "belvedere"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0605164"
         }
       ],
       "additionalProperty": [
@@ -387,6 +397,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "corte-madera"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0616462"
         }
       ]
     },
@@ -424,6 +439,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "fairfax"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0623168"
         }
       ],
       "additionalProperty": [
@@ -478,6 +498,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "larkspur"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0640438"
         }
       ],
       "additionalProperty": [
@@ -532,6 +557,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "mill-valley"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0647710"
         }
       ]
     },
@@ -574,6 +604,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "novato"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0652582"
         }
       ],
       "additionalProperty": [
@@ -623,6 +658,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "ross"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0662980"
         }
       ],
       "additionalProperty": [
@@ -677,6 +717,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "san-anselmo"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0664434"
         }
       ]
     },
@@ -722,6 +767,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "san-rafael"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0668364"
         }
       ],
       "additionalProperty": [
@@ -771,6 +821,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "sausalito"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0670364"
         }
       ]
     },
@@ -808,6 +863,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "tiburon"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0678666"
         }
       ],
       "additionalProperty": [
@@ -878,6 +938,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "alto"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0601416"
         }
       ],
       "additionalProperty": [
@@ -984,6 +1049,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "bolinas"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0607316"
         }
       ]
     },
@@ -1013,6 +1083,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "dillon-beach"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0619262"
         }
       ]
     },
@@ -1304,6 +1379,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "inverness"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0636616"
         }
       ]
     },
@@ -1362,6 +1442,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "kentfield"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0638114"
         }
       ]
     },
@@ -1533,6 +1618,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "marin-city"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0645820"
         }
       ]
     },
@@ -1632,6 +1722,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "muir-beach"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0649950"
         }
       ]
     },
@@ -1661,6 +1756,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "nicasio"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0651280"
         }
       ]
     },
@@ -1760,6 +1860,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "point-reyes-station"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0657960"
         }
       ]
     },
@@ -1789,6 +1894,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "san-geronimo"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0667070"
         }
       ]
     },
@@ -1847,6 +1957,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "santa-venetia"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0670154"
         }
       ]
     },
@@ -1907,6 +2022,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "sleepy-hollow"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0672184"
         }
       ],
       "additionalProperty": [
@@ -1943,6 +2063,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "stinson-beach"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0674172"
         }
       ]
     },
@@ -1972,6 +2097,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "strawberry"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0675315"
         }
       ],
       "additionalProperty": [
@@ -2069,6 +2199,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "tomales"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0678890"
         }
       ]
     },
@@ -2098,6 +2233,11 @@
           "@type": "PropertyValue",
           "propertyID": "gs:local",
           "value": "woodacre"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0686216"
         }
       ]
     },

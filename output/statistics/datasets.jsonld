@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "@type": "Dataset",
+      "name": "American Community Survey 5-year estimates, 2020-2024",
+      "description": "American Community Survey 5-year estimates for Marin County, its places and its census tracts. Each value is an estimate from a sample survey and carries a margin of error at the 90 percent confidence level where the Census publishes one.",
+      "publisher": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/us-census-bureau",
+        "name": "U.S. Census Bureau"
+      },
+      "spatialCoverage": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      },
+      "temporalCoverage": "2020/2024",
+      "license": "https://www.usa.gov/publicdomain/label/1.0/",
+      "version": "2024",
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Table-based summary file, 5-year",
+          "contentUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/",
+          "encodingFormat": "text/plain"
+        }
+      ]
+    }
+  ]
+}

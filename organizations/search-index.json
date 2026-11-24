@@ -521,6 +521,15 @@
   },
   {
    "k": "Organization",
+   "n": "U.S. Census Bureau",
+   "a": [
+    "Census Bureau"
+   ],
+   "d": "Organization",
+   "h": "https://www.census.gov/"
+  },
+  {
+   "k": "Organization",
    "n": "UC Cooperative Extension (Farm Advisor)",
    "a": [
     "Marin UC Cooperative Extension",

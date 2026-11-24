@@ -10,7 +10,7 @@ bash -n scripts/build.sh
 bash -n scripts/lock.sh
 bash -n scripts/data_sync.sh
 python3 -m py_compile check_sources.py check_orgs.py check_consumers.py check_copies.py check_brand.py check_projects.py check_engage.py check_schemagov.py copies.py sources_lib.py scripts/sync_consumer.py scripts/sync_copies.py \
-  build_sources.py build_org_links.py build_place_links.py build_event_links.py build_place_aliases.py build_facility_list.py build_location_list.py build_person_links.py build_service_links.py build_topic_links.py check_locations.py check_codes.py check_search_hints.py place_lib.py build_org_aliases.py build_org_index.py build_search_index.py extract_pmr.py
+  build_sources.py build_org_links.py build_place_links.py build_event_links.py build_place_aliases.py build_facility_list.py build_location_list.py build_person_links.py build_service_links.py build_topic_links.py check_locations.py check_codes.py check_search_hints.py place_lib.py build_org_aliases.py build_org_index.py build_search_index.py extract_pmr.py extract_acs.py build_statistics.py check_statistics.py
 
 python3 check_sources.py            # source registry: fields, ids, hashes of stored files
 python3 build_sources.py --check    # output/sources.json is current
@@ -27,6 +27,9 @@ python3 build_place_aliases.py --check # organizations/place-aliases.json is cur
 python3 build_org_aliases.py --check # organizations/aliases.json is current
 python3 build_org_index.py --check   # organizations/index.json is current
 python3 build_search_index.py --check   # organizations/search-index.json is current
+python3 build_statistics.py --check  # the statistics are current with the stored ACS source
+python3 check_statistics.py         # the statistics agree with the mapping, the source and the places
+python3 tests/test_statistics.py -q 2>&1 | tail -1   # the ACS margin of error calculations
 python3 check_search_hints.py       # the search hints agree with the names
 python3 check_codes.py              # every place, facility, event and person has its own code
 python3 tests/test_sync_copies.py -q 2>&1 | tail -1   # the shared sync script

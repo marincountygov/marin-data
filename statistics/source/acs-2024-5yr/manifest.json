@@ -1,0 +1,97 @@
+{
+ "source": "acs-2024-5yr",
+ "publisher": "U.S. Census Bureau",
+ "dataset": "American Community Survey 5-year estimates, 2020-2024",
+ "retrieved": "2026-11-24",
+ "method": "Census table-based summary file download; no API key",
+ "files": [
+  {
+   "name": "ACS20245YR_Table_Shells.txt",
+   "bytes": 5622840,
+   "sha256": "5b46f4af873744a415c4974204010db976e2a61ff916674732f81c496a6b517d",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/ACS20245YR_Table_Shells.txt"
+  },
+  {
+   "name": "Geos20245YR.txt",
+   "bytes": 90707242,
+   "sha256": "b87a1d1a4db9f826d0d133d20cbf7d011932f9ec2cfa74eacf8c9cf387aea344",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/Geos20245YR.txt"
+  },
+  {
+   "name": "acsdt5y2024-b01001.dat",
+   "table": "B01001",
+   "bytes": 200356282,
+   "sha256": "1637b18a96881b81e050df1cd3d5ac38a33208b9b69b40e1dbeb3c4e13718f0e",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat"
+  },
+  {
+   "name": "acsdt5y2024-b01002.dat",
+   "table": "B01002",
+   "bytes": 26666521,
+   "sha256": "04784637609550868d9da7321e7a947b34e0a10b654dbf6d344599f97f8de7f8",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01002.dat"
+  },
+  {
+   "name": "acsdt5y2024-b01003.dat",
+   "table": "B01003",
+   "bytes": 18313708,
+   "sha256": "38d1a992bb058d184009b10b9b34987279aee575e4323165cfb5706c69b6ca90",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01003.dat"
+  },
+  {
+   "name": "acsdt5y2024-b09001.dat",
+   "table": "B09001",
+   "bytes": 26049955,
+   "sha256": "99bb4e04c9ae0c33935c34599a10ed0eac5b290cf2b9d219560ef98076656c80",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b09001.dat"
+  },
+  {
+   "name": "acsdt5y2024-b17001.dat",
+   "table": "B17001",
+   "bytes": 118607125,
+   "sha256": "707adda8aaff136382f4fe0858617d09062da48b1a3d2ab2e9a1047def09b531",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b17001.dat"
+  },
+  {
+   "name": "acsdt5y2024-b18101.dat",
+   "table": "B18101",
+   "bytes": 86298310,
+   "sha256": "efd8f4945ac4c4986b9a7b9478b7b831e83cc1430e0ead22b2d1f47eae8d4ec4",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b18101.dat"
+  },
+  {
+   "name": "acsdt5y2024-b19013.dat",
+   "table": "B19013",
+   "bytes": 17917916,
+   "sha256": "b25a176b0e6c339b6f3a2a0d3d8446bf06f5f080b4395993ec9a8313efb1c229",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat"
+  },
+  {
+   "name": "acsdt5y2024-b25064.dat",
+   "table": "B25064",
+   "bytes": 17272062,
+   "sha256": "b36e6dc1fcef36b8b307d31b37517b64c80d8b9c70d48c9b1894242860f42eb0",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25064.dat"
+  },
+  {
+   "name": "acsdt5y2024-b25070.dat",
+   "table": "B25070",
+   "bytes": 46466758,
+   "sha256": "862ccc17d913305d11e6f802ce4518d76b30585ea0b05b251cd8cf21f8661386",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25070.dat"
+  },
+  {
+   "name": "acsdt5y2024-b28002.dat",
+   "table": "B28002",
+   "bytes": 58063218,
+   "sha256": "12446ff0691b8818f5908cdc398817361772c5b3078c506d0409adc9c841840b",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat"
+  },
+  {
+   "name": "st06_ca_place_by_county2020.txt",
+   "bytes": 135420,
+   "sha256": "6b9cac866782a983cbb4baad77768e65d1f2c54a6fc62cf7e3db1908a734726e",
+   "url": "https://www2.census.gov/geo/docs/reference/codes2020/place_by_cou/st06_ca_place_by_county2020.txt"
+  }
+ ]
+}
