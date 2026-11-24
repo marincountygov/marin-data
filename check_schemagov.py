@@ -15,14 +15,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-# Tolerated for now: (pattern for the record id, pattern for the message). Both must match.
-KNOWN = [
-    # These six facilities are typed plain Place. schemaGov's statistics profile now requires an areaType on a plain
-    # Place, which is for statistical and community areas, so they fail. They are buildings and a creek, not areas.
-    # Remove this when they are given a more specific type (a decision for the facilities owner).
-    (re.compile(r".*/id/facility/(st-vincents|gallinas-creek|tam-valley-community-center|homestead-valley-community-center|marin-art-garden-center|marin-humane)$"),
-     re.compile(r"\(root\): 'areaType' is a required property")),
-]
+KNOWN = []  # (pattern for the record id, pattern for the message); both must match. Empty now.
 
 
 def run(clone, tool, output):

@@ -214,7 +214,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 33.603645,
+        "value": 34.129533,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -310,15 +310,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1011/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1011/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1011",
         "name": "Census Tract 1011, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 105,
       "unitText": "households",
@@ -326,7 +326,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 67.468511,
+        "value": 66,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -335,7 +335,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1011/civilian-noninstitutionalized-population/2020-2024",
@@ -600,13 +600,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 23.312883,
+      "value": 20.765027,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 27.37386,
+        "value": 25.248352,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -702,23 +702,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1012/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1012/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1012",
         "name": "Census Tract 1012, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 163,
+      "value": 183,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 99.040396,
+        "value": 95,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -727,7 +727,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1012/civilian-noninstitutionalized-population/2020-2024",
@@ -998,7 +998,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 4.500343,
+        "value": 5.701148,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -1094,15 +1094,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1021/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1021/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1021",
         "name": "Census Tract 1021, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 180,
       "unitText": "households",
@@ -1110,7 +1110,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 87.132084,
+        "value": 86,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -1119,7 +1119,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1021/civilian-noninstitutionalized-population/2020-2024",
@@ -1390,7 +1390,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 28.479936,
+        "value": 28.623851,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -1486,15 +1486,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1022-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1022-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1022-02",
         "name": "Census Tract 1022.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 398,
       "unitText": "households",
@@ -1502,7 +1502,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 124.458829,
+        "value": 123,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -1511,7 +1511,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1022-02/civilian-noninstitutionalized-population/2020-2024",
@@ -1776,13 +1776,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 74.73251,
+      "value": 68.944571,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 20.528783,
+        "value": 20.509369,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -1878,23 +1878,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1022-03/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1022-03/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1022-03",
         "name": "Census Tract 1022.03, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 1215,
+      "value": 1317,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 308.755567,
+        "value": 299,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -1903,7 +1903,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1022-03/civilian-noninstitutionalized-population/2020-2024",
@@ -2130,6 +2130,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1031/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1031",
+        "name": "Census Tract 1031, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1031/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -2140,13 +2157,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 53.773585,
+      "value": 47.368421,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 23.458749,
+        "value": 23.350631,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -2242,23 +2259,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1031/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1031/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1031",
         "name": "Census Tract 1031, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 318,
+      "value": 361,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 127.015747,
+        "value": 118,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -2267,7 +2284,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1031/civilian-noninstitutionalized-population/2020-2024",
@@ -2532,13 +2549,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 87.61194,
+      "value": 71.324423,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 43.868762,
+        "value": 14.416861,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -2634,23 +2651,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1032/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1032/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1032",
         "name": "Census Tract 1032, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 670,
+      "value": 823,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 253.254812,
+        "value": 213,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -2659,7 +2676,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1032/civilian-noninstitutionalized-population/2020-2024",
@@ -2924,13 +2941,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 75.88717,
+      "value": 75,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 18.70343,
+        "value": 18.738068,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -3026,23 +3043,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1041-02",
         "name": "Census Tract 1041.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 1099,
+      "value": 1112,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 261.843465,
+        "value": 261,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -3051,7 +3068,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-02/civilian-noninstitutionalized-population/2020-2024",
@@ -3322,7 +3339,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 28.896588,
+        "value": 29.248332,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -3418,15 +3435,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-03/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-03/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1041-03",
         "name": "Census Tract 1041.03, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 182,
       "unitText": "households",
@@ -3434,7 +3451,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 87.132084,
+        "value": 86,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -3443,7 +3460,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-03/civilian-noninstitutionalized-population/2020-2024",
@@ -3714,7 +3731,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 22.085294,
+        "value": 22.128281,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -3810,15 +3827,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-04/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-04/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1041-04",
         "name": "Census Tract 1041.04, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 585,
       "unitText": "households",
@@ -3826,7 +3843,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 137.713471,
+        "value": 137,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -3835,7 +3852,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1041-04/civilian-noninstitutionalized-population/2020-2024",
@@ -4100,13 +4117,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 62.317073,
+      "value": 60.401891,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 19.740087,
+        "value": 19.549054,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -4202,23 +4219,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1042/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1042/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1042",
         "name": "Census Tract 1042, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 820,
+      "value": 846,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 181.83784,
+        "value": 179,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -4227,7 +4244,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1042/civilian-noninstitutionalized-population/2020-2024",
@@ -4498,7 +4515,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 27.578195,
+        "value": 28.510525,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -4594,15 +4611,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1043/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1043/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1043",
         "name": "Census Tract 1043, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 88,
       "unitText": "households",
@@ -4610,7 +4627,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 51.92302,
+        "value": 50,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -4619,7 +4636,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1043/civilian-noninstitutionalized-population/2020-2024",
@@ -4884,13 +4901,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 45.635528,
+      "value": 43.63104,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 11.958489,
+        "value": 12.48978,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -4986,23 +5003,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1050-01",
         "name": "Census Tract 1050.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 653,
+      "value": 683,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 231.510259,
+        "value": 229,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -5011,7 +5028,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-01/civilian-noninstitutionalized-population/2020-2024",
@@ -5238,6 +5255,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-02/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1050-02",
+        "name": "Census Tract 1050.02, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-02/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -5248,13 +5282,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 75.526316,
+      "value": 70.171149,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 24.477462,
+        "value": 25.043521,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -5350,23 +5384,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1050-02",
         "name": "Census Tract 1050.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 380,
+      "value": 409,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 127.612695,
+        "value": 123,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -5375,7 +5409,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1050-02/civilian-noninstitutionalized-population/2020-2024",
@@ -5646,7 +5680,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 22.115727,
+        "value": 22.137562,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -5742,15 +5776,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1060-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1060-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1060-01",
         "name": "Census Tract 1060.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 1032,
       "unitText": "households",
@@ -5758,7 +5792,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 239.754041,
+        "value": 239,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -5767,7 +5801,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1060-01/civilian-noninstitutionalized-population/2020-2024",
@@ -6038,7 +6072,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 13.306539,
+        "value": 13.376618,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -6134,15 +6168,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1060-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1060-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1060-02",
         "name": "Census Tract 1060.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 752,
       "unitText": "households",
@@ -6150,7 +6184,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 187.962762,
+        "value": 187,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -6159,7 +6193,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1060-02/civilian-noninstitutionalized-population/2020-2024",
@@ -6386,6 +6420,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1070/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1070",
+        "name": "Census Tract 1070, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1070/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -6396,13 +6447,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 54.624277,
+      "value": 45.652174,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 17.053541,
+        "value": 20.037295,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -6498,23 +6549,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1070/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1070/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1070",
         "name": "Census Tract 1070, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 346,
+      "value": 414,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 172.409396,
+        "value": 162,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -6523,7 +6574,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1070/civilian-noninstitutionalized-population/2020-2024",
@@ -6750,6 +6801,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1081/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1081",
+        "name": "Census Tract 1081, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1081/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -6760,13 +6828,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 42.261905,
+      "value": 38.586957,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 26.052039,
+        "value": 25.290691,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -6862,23 +6930,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1081/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1081/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1081",
         "name": "Census Tract 1081, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 336,
+      "value": 368,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 162.505385,
+        "value": 158,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -6887,7 +6955,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1081/civilian-noninstitutionalized-population/2020-2024",
@@ -7152,13 +7220,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 62.030598,
+      "value": 60.188934,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 18.791271,
+        "value": 18.605997,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -7254,23 +7322,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1082-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1082-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1082-01",
         "name": "Census Tract 1082.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 719,
+      "value": 741,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 147.492373,
+        "value": 145,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -7279,7 +7347,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1082-01/civilian-noninstitutionalized-population/2020-2024",
@@ -7516,13 +7584,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 44.97549,
+      "value": 44.430993,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 26.462659,
+        "value": 25.955118,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -7618,23 +7686,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1082-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1082-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1082-02",
         "name": "Census Tract 1082.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 816,
+      "value": 826,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 355.36038,
+        "value": 355,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -7643,7 +7711,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1082-02/civilian-noninstitutionalized-population/2020-2024",
@@ -7914,7 +7982,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 16.602056,
+        "value": 16.632993,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -8010,15 +8078,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1090-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1090-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1090-01",
         "name": "Census Tract 1090.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 853,
       "unitText": "households",
@@ -8026,7 +8094,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 164.596476,
+        "value": 164,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -8035,7 +8103,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1090-01/civilian-noninstitutionalized-population/2020-2024",
@@ -8300,13 +8368,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 51.595745,
+      "value": 49.405772,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 11.243987,
+        "value": 11.886634,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -8402,23 +8470,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1090-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1090-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1090-02",
         "name": "Census Tract 1090.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 564,
+      "value": 589,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 170.836179,
+        "value": 168,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -8427,7 +8495,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1090-02/civilian-noninstitutionalized-population/2020-2024",
@@ -8692,13 +8760,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 68.410661,
+      "value": 66.062917,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 24.371241,
+        "value": 24.170388,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -8794,23 +8862,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1101/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1101/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1101",
         "name": "Census Tract 1101, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 1013,
+      "value": 1049,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 285.110505,
+        "value": 282,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -8819,7 +8887,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1101/civilian-noninstitutionalized-population/2020-2024",
@@ -9130,15 +9198,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1102/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1102/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1102",
         "name": "Census Tract 1102, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 0,
       "unitText": "households",
@@ -9146,7 +9214,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 26.870058,
+        "value": 19,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -9155,7 +9223,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1102/civilian-noninstitutionalized-population/2020-2024",
@@ -9420,13 +9488,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 72.995781,
+      "value": 70.325203,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 23.186679,
+        "value": 22.981465,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -9522,23 +9590,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1110-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1110-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1110-01",
         "name": "Census Tract 1110.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 474,
+      "value": 492,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 86.977008,
+        "value": 82,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -9547,7 +9615,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1110-01/civilian-noninstitutionalized-population/2020-2024",
@@ -9812,13 +9880,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 57.711864,
+      "value": 54.392971,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 12.645166,
+        "value": 13.42863,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -9914,23 +9982,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1110-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1110-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1110-02",
         "name": "Census Tract 1110.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 1180,
+      "value": 1252,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 328.402192,
+        "value": 318,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -9939,7 +10007,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1110-02/civilian-noninstitutionalized-population/2020-2024",
@@ -10204,13 +10272,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 61.322645,
+      "value": 60.594059,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 13.264701,
+        "value": 13.30897,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -10306,23 +10374,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1121/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1121/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1121",
         "name": "Census Tract 1121, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 998,
+      "value": 1010,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 218.741857,
+        "value": 218,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -10331,7 +10399,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1121/civilian-noninstitutionalized-population/2020-2024",
@@ -10596,13 +10664,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 43.762575,
+      "value": 43.240557,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 15.713933,
+        "value": 15.612681,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -10698,23 +10766,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1122-02",
         "name": "Census Tract 1122.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 994,
+      "value": 1006,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 204.083316,
+        "value": 203,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -10723,7 +10791,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-02/civilian-noninstitutionalized-population/2020-2024",
@@ -10988,13 +11056,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 77.747989,
+      "value": 75.324675,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 23.354985,
+        "value": 23.115014,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -11090,23 +11158,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-03/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-03/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1122-03",
         "name": "Census Tract 1122.03, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 373,
+      "value": 385,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 52.924474,
+        "value": 49,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -11115,7 +11183,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-03/civilian-noninstitutionalized-population/2020-2024",
@@ -11386,7 +11454,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 13.780846,
+        "value": 13.805133,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -11482,15 +11550,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-04/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-04/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1122-04",
         "name": "Census Tract 1122.04, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 996,
       "unitText": "households",
@@ -11498,7 +11566,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 205.477493,
+        "value": 205,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -11507,7 +11575,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1122-04/civilian-noninstitutionalized-population/2020-2024",
@@ -11772,13 +11840,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 48.387097,
+      "value": 44.94382,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 33.6304,
+        "value": 33.041486,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -11874,23 +11942,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1130/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1130/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1130",
         "name": "Census Tract 1130, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 248,
+      "value": 267,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 142.972025,
+        "value": 140,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -11899,7 +11967,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1130/civilian-noninstitutionalized-population/2020-2024",
@@ -12164,13 +12232,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 55.605381,
+      "value": 44.927536,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 22.153372,
+        "value": 23.133544,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -12266,23 +12334,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1141/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1141/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1141",
         "name": "Census Tract 1141, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 446,
+      "value": 552,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 209.747467,
+        "value": 187,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -12291,7 +12359,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1141/civilian-noninstitutionalized-population/2020-2024",
@@ -12562,7 +12630,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 16.6226,
+        "value": 16.70611,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -12658,15 +12726,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1142/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1142/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1142",
         "name": "Census Tract 1142, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 476,
       "unitText": "households",
@@ -12674,7 +12742,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 169.57889,
+        "value": 169,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -12683,7 +12751,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1142/civilian-noninstitutionalized-population/2020-2024",
@@ -12910,6 +12978,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1150/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1150",
+        "name": "Census Tract 1150, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1150/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -12926,7 +13011,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 31.223676,
+        "value": 31.263536,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -13022,15 +13107,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1150/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1150/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1150",
         "name": "Census Tract 1150, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 498,
       "unitText": "households",
@@ -13038,7 +13123,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 256.70411,
+        "value": 256,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -13047,7 +13132,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1150/civilian-noninstitutionalized-population/2020-2024",
@@ -13312,13 +13397,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 67.44186,
+      "value": 61.21372,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 17.798479,
+        "value": 18.799643,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -13414,23 +13499,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1160/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1160/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1160",
         "name": "Census Tract 1160, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 344,
+      "value": 379,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 102.528045,
+        "value": 96,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -13439,7 +13524,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1160/civilian-noninstitutionalized-population/2020-2024",
@@ -13704,13 +13789,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 73.103448,
+      "value": 69.966997,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 19.345285,
+        "value": 19.50182,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -13806,23 +13891,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1170/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1170/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1170",
         "name": "Census Tract 1170, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 870,
+      "value": 909,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 216.723326,
+        "value": 212,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -13831,7 +13916,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1170/civilian-noninstitutionalized-population/2020-2024",
@@ -14002,6 +14087,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1181/median-household-income/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1181",
+        "name": "Census Tract 1181, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-household-income",
+        "name": "Median household income"
+      },
+      "minValue": 250000,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1181/poverty-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -14030,6 +14132,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1181/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1181",
+        "name": "Census Tract 1181, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1181/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -14040,13 +14159,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 33.333333,
+      "value": 30.909091,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 21.679749,
+        "value": 21.232825,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -14142,23 +14261,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1181/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1181/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1181",
         "name": "Census Tract 1181, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 102,
+      "value": 110,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 52.392748,
+        "value": 51,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -14167,7 +14286,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1181/civilian-noninstitutionalized-population/2020-2024",
@@ -14432,13 +14551,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 50.125313,
+      "value": 45.454545,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 14.066196,
+        "value": 14.981291,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -14534,23 +14653,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1191/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1191/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1191",
         "name": "Census Tract 1191, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 399,
+      "value": 440,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 131.91285,
+        "value": 124,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -14559,7 +14678,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1191/civilian-noninstitutionalized-population/2020-2024",
@@ -14824,13 +14943,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 55.859094,
+      "value": 54.297694,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 12.125547,
+        "value": 11.974505,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -14926,23 +15045,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1192-01",
         "name": "Census Tract 1192.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 1391,
+      "value": 1431,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 191.525455,
+        "value": 189,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -14951,7 +15070,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-01/civilian-noninstitutionalized-population/2020-2024",
@@ -15122,6 +15241,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-02/median-household-income/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1192-02",
+        "name": "Census Tract 1192.02, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-household-income",
+        "name": "Median household income"
+      },
+      "minValue": 250000,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-02/poverty-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -15150,6 +15286,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-02/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1192-02",
+        "name": "Census Tract 1192.02, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-02/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -15160,13 +15313,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 73.728814,
+      "value": 60.839161,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 29.026522,
+        "value": 36.011977,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -15262,23 +15415,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1192-02",
         "name": "Census Tract 1192.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 118,
+      "value": 143,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 83.486526,
+        "value": 79,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -15287,7 +15440,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1192-02/civilian-noninstitutionalized-population/2020-2024",
@@ -15558,7 +15711,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 21.52379,
+        "value": 21.591499,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -15654,15 +15807,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1200-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1200-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1200-01",
         "name": "Census Tract 1200.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 458,
       "unitText": "households",
@@ -15670,7 +15823,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 120.813906,
+        "value": 120,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -15679,7 +15832,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1200-01/civilian-noninstitutionalized-population/2020-2024",
@@ -15944,13 +16097,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 51.646447,
+      "value": 49.013158,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 21.895218,
+        "value": 21.484107,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -16046,23 +16199,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1200-02/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1200-02/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1200-02",
         "name": "Census Tract 1200.02, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 577,
+      "value": 608,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 174.545123,
+        "value": 171,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -16071,7 +16224,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1200-02/civilian-noninstitutionalized-population/2020-2024",
@@ -16298,6 +16451,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1211/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1211",
+        "name": "Census Tract 1211, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1211/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -16308,13 +16478,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 42.335766,
+      "value": 36.708861,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 15.01469,
+        "value": 15.070928,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -16410,23 +16580,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1211/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1211/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1211",
         "name": "Census Tract 1211, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 685,
+      "value": 790,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 243.920069,
+        "value": 229,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -16435,7 +16605,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1211/civilian-noninstitutionalized-population/2020-2024",
@@ -16662,6 +16832,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1212/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1212",
+        "name": "Census Tract 1212, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1212/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -16672,13 +16859,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 47.200689,
+      "value": 45.028759,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 10.18749,
+        "value": 10.976636,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -16774,23 +16961,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1212/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1212/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1212",
         "name": "Census Tract 1212, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 1161,
+      "value": 1217,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 406.34099,
+        "value": 403,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -16799,7 +16986,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1212/civilian-noninstitutionalized-population/2020-2024",
@@ -17014,7 +17201,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 109.994388,
+        "value": 134.715063,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -17110,15 +17297,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1220/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1220/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1220",
         "name": "Census Tract 1220, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 18,
       "unitText": "households",
@@ -17126,7 +17313,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 31.304952,
+        "value": 28,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -17135,7 +17322,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1220/civilian-noninstitutionalized-population/2020-2024",
@@ -17306,6 +17493,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1230/median-household-income/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1230",
+        "name": "Census Tract 1230, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-household-income",
+        "name": "Median household income"
+      },
+      "minValue": 250000,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1230/poverty-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -17334,6 +17538,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1230/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1230",
+        "name": "Census Tract 1230, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1230/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -17350,7 +17571,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 13.068925,
+        "value": 13.433182,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -17446,15 +17667,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1230/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1230/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1230",
         "name": "Census Tract 1230, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 284,
       "unitText": "households",
@@ -17462,7 +17683,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 76.295478,
+        "value": 75,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -17471,7 +17692,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1230/civilian-noninstitutionalized-population/2020-2024",
@@ -17698,6 +17919,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1241/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1241",
+        "name": "Census Tract 1241, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1241/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -17708,13 +17946,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 43.410853,
+      "value": 40.935673,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 11.423146,
+        "value": 11.917989,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -17810,23 +18048,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1241/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1241/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1241",
         "name": "Census Tract 1241, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 645,
+      "value": 684,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 206.736547,
+        "value": 202,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -17835,7 +18073,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1241/civilian-noninstitutionalized-population/2020-2024",
@@ -18062,6 +18300,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1242/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1242",
+        "name": "Census Tract 1242, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1242/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -18078,7 +18333,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 24.524063,
+        "value": 24.59017,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -18174,15 +18429,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1242/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1242/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1242",
         "name": "Census Tract 1242, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 486,
       "unitText": "households",
@@ -18190,7 +18445,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 176.028407,
+        "value": 175,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -18199,7 +18454,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1242/civilian-noninstitutionalized-population/2020-2024",
@@ -18464,13 +18719,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 57.288765,
+      "value": 54.650133,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 4.393524,
+        "value": 6.427909,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -18566,23 +18821,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1250/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1250/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1250",
         "name": "Census Tract 1250, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 1077,
+      "value": 1129,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 272.209478,
+        "value": 267,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -18591,7 +18846,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1250/civilian-noninstitutionalized-population/2020-2024",
@@ -18818,6 +19073,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1261/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1261",
+        "name": "Census Tract 1261, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1261/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -18828,13 +19100,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 27.753934,
+      "value": 25.763612,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 14.997425,
+        "value": 14.392822,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -18930,23 +19202,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1261/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1261/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1261",
         "name": "Census Tract 1261, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 699,
+      "value": 753,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 220.32703,
+        "value": 212,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -18955,7 +19227,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1261/civilian-noninstitutionalized-population/2020-2024",
@@ -19220,13 +19492,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 50.870147,
+      "value": 49.934297,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 17.872377,
+        "value": 17.71641,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -19322,23 +19594,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1262/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1262/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1262",
         "name": "Census Tract 1262, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 747,
+      "value": 761,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 148.946299,
+        "value": 147,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -19347,7 +19619,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1262/civilian-noninstitutionalized-population/2020-2024",
@@ -19612,13 +19884,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 35.598706,
+      "value": 34.055728,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 21.883155,
+        "value": 21.300736,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -19714,23 +19986,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1270/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1270/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1270",
         "name": "Census Tract 1270, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 618,
+      "value": 646,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 221.325552,
+        "value": 219,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -19739,7 +20011,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1270/civilian-noninstitutionalized-population/2020-2024",
@@ -20004,13 +20276,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 20.3125,
+      "value": 16.971279,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 15.600746,
+        "value": 14.213847,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -20106,23 +20378,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1281/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1281/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1281",
         "name": "Census Tract 1281, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 320,
+      "value": 383,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 162.815847,
+        "value": 147,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -20131,7 +20403,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1281/civilian-noninstitutionalized-population/2020-2024",
@@ -20302,6 +20574,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1282/median-household-income/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1282",
+        "name": "Census Tract 1282, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-household-income",
+        "name": "Median household income"
+      },
+      "minValue": 250000,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1282/poverty-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -20330,6 +20619,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1282/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1282",
+        "name": "Census Tract 1282, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1282/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -20340,13 +20646,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 47.720365,
+      "value": 44.350282,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 17.816146,
+        "value": 18.235635,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -20442,23 +20748,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1282/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1282/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1282",
         "name": "Census Tract 1282, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 329,
+      "value": 354,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 137.673527,
+        "value": 135,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -20467,7 +20773,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1282/civilian-noninstitutionalized-population/2020-2024",
@@ -20738,7 +21044,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 14.878274,
+        "value": 14.905,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -20834,15 +21140,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1290/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1290/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1290",
         "name": "Census Tract 1290, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 884,
       "unitText": "households",
@@ -20850,7 +21156,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 221.442995,
+        "value": 221,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -20859,7 +21165,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1290/civilian-noninstitutionalized-population/2020-2024",
@@ -21086,6 +21392,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-01/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-01",
+        "name": "Census Tract 1302.01, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-01/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -21096,13 +21419,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 34.72,
+      "value": 32.978723,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 12.765086,
+        "value": 12.434149,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -21198,23 +21521,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-01/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-01/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-01",
         "name": "Census Tract 1302.01, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 625,
+      "value": 658,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 135.823415,
+        "value": 132,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -21223,7 +21546,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-01/civilian-noninstitutionalized-population/2020-2024",
@@ -21450,6 +21773,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-03/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-03",
+        "name": "Census Tract 1302.03, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-03/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -21460,13 +21800,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 56.950673,
+      "value": 52.697095,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 22.170022,
+        "value": 22.205272,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -21562,23 +21902,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-03/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-03/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-03",
         "name": "Census Tract 1302.03, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 446,
+      "value": 482,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 154.690013,
+        "value": 148,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -21587,7 +21927,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-03/civilian-noninstitutionalized-population/2020-2024",
@@ -21852,13 +22192,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 40.437158,
+      "value": 39.015817,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 13.265457,
+        "value": 13.180428,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -21954,23 +22294,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-04/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-04/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-04",
         "name": "Census Tract 1302.04, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 549,
+      "value": 569,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 145.825238,
+        "value": 144,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -21979,7 +22319,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1302-04/civilian-noninstitutionalized-population/2020-2024",
@@ -22206,6 +22546,23 @@
       "measurementMethod": "derived from survey estimates"
     },
     {
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1311/median-gross-rent/2020-2024",
+      "@type": "Observation",
+      "observationAbout": {
+        "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1311",
+        "name": "Census Tract 1311, Marin County"
+      },
+      "variableMeasured": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+        "name": "Median gross rent"
+      },
+      "minValue": 3500,
+      "unitText": "USD",
+      "observationPeriod": "2020/2024",
+      "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
+      "measurementMethod": "survey estimate"
+    },
+    {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1311/rent-burden-rate/2020-2024",
       "@type": "Observation",
       "observationAbout": {
@@ -22222,7 +22579,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 23.062761,
+        "value": 23.566037,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -22318,15 +22675,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1311/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1311/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1311",
         "name": "Census Tract 1311, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 136,
       "unitText": "households",
@@ -22334,7 +22691,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 53.851648,
+        "value": 52,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -22343,7 +22700,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1311/civilian-noninstitutionalized-population/2020-2024",
@@ -22608,13 +22965,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 60.759494,
+      "value": 58.536585,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 25.325021,
+        "value": 25.89491,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -22710,23 +23067,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1321/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1321/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1321",
         "name": "Census Tract 1321, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 158,
+      "value": 164,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 79.630396,
+        "value": 79,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -22735,7 +23092,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1321/civilian-noninstitutionalized-population/2020-2024",
@@ -23000,13 +23357,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 62.601626,
+      "value": 54.609929,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 22.709783,
+        "value": 24.686239,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -23102,23 +23459,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1322/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1322/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1322",
         "name": "Census Tract 1322, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 246,
+      "value": 282,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 119.549153,
+        "value": 114,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -23127,7 +23484,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1322/civilian-noninstitutionalized-population/2020-2024",
@@ -23392,13 +23749,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 55.590062,
+      "value": 43.236715,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 24.8702,
+        "value": 25.063799,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -23494,23 +23851,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1330/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1330/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1330",
         "name": "Census Tract 1330, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 322,
+      "value": 414,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 158.473973,
+        "value": 135,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -23519,7 +23876,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-1330/civilian-noninstitutionalized-population/2020-2024",
@@ -23690,15 +24047,15 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-9901/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-9901/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-9901",
         "name": "Census Tract 9901, Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
       "value": 0,
       "unitText": "households",
@@ -23706,7 +24063,7 @@
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 19.79899,
+        "value": 14,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -23715,7 +24072,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/census-tract-9901/civilian-noninstitutionalized-population/2020-2024",

@@ -28,7 +28,8 @@ Marin's places stay in `output/jurisdictions.jsonld`. An existing place gets a `
 
 - Public ids are plain words (`median-household-income`), never Census codes.
 - Nothing is rounded when it is read. A share and its margin are rounded to 6 decimals when they are calculated.
-- A blank, a Census code (`-666666666` and the others) or a value that is not a point estimate is left out and listed in `omitted-values.json`. It is never written as 0.
+- A blank or a Census code (`-666666666` and the others) is left out and listed in `omitted-values.json`. It is never written as 0.
+- A median the Census publishes as "or more" (margin code `-333333333`) is written as a one-sided bound (`minValue`, no `value`, no margin of error), only for variables with an `openEnded` cap in the mapping and only when the source estimate is exactly the cap plus 1. Show it as "250,000 or more". Any other open-ended value is left out and listed.
 - A margin of error is published only where the Census published it or where Census methodology gives one (sums, differences, shares). See the header of `build_statistics.py` for the formulas.
 - Boundaries are not stored, and "which communities overlap which tracts" are not claimed. Marin's own communities have no statistics unless a Census place has exactly their name.
 - No Census API key is needed or stored. Do not add one to any file in this repo.

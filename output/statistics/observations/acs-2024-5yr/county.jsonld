@@ -197,13 +197,13 @@
         "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
         "name": "Rent burden rate"
       },
-      "value": 55.567736,
+      "value": 52.914675,
       "unitText": "percent",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 2.942798,
+        "value": 2.892551,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -299,23 +299,23 @@
       "measurementMethod": "survey estimate"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/renter-households-rent-computed/2020-2024",
+      "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/renter-households/2020-2024",
       "@type": "Observation",
       "observationAbout": {
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
         "name": "Marin County"
       },
       "variableMeasured": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       },
-      "value": 34664,
+      "value": 36402,
       "unitText": "households",
       "observationPeriod": "2020/2024",
       "sourceDataset": "https://marincountygov.github.io/marin-data/id/dataset/acs-2024-5yr",
       "marginOfError": {
         "@type": "QuantitativeValue",
-        "value": 1206.451408,
+        "value": 1167,
         "additionalProperty": [
           {
             "@type": "PropertyValue",
@@ -324,7 +324,7 @@
           }
         ]
       },
-      "measurementMethod": "derived from survey estimates"
+      "measurementMethod": "survey estimate"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/observation/marin-county/civilian-noninstitutionalized-population/2020-2024",

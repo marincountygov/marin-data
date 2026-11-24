@@ -6,6 +6,7 @@
     "A cell is TABLE_NNN (for example B01003_001). The estimate is the E column and the margin of error is the M column of that cell in the Census table-based summary file.",
     "calculation.type: direct = one cell; sum = add cells (and optionally subtract others); share = a numerator over the denominator variable, as percent.",
     "Margins: a sum or difference uses the square root of the sum of squared margins. A share uses the Census proportion formula, and the ratio formula when that has a negative root.",
+    "openEnded: a median the Census publishes as 'or more' (margin code -333333333, estimate cap + 1). It is written as a one-sided bound (minValue = cap) with no value and no margin of error, and only when the source estimate is exactly cap + 1.",
     "role: indicator is a measure for people to read. denominator is published so a share can be reproduced and is the measurementDenominator of its share."
   ],
   "source": {
@@ -69,6 +70,7 @@
       "description": "Median of annual household income, in 2024 inflation-adjusted dollars. Households are the universe, not people.",
       "role": "indicator", "statType": "median", "unit": "USD",
       "universe": "Households",
+      "openEnded": {"bound": "minValue", "cap": 250000},
       "calculation": {"type": "direct", "cell": "B19013_001"}
     },
     {
@@ -85,15 +87,16 @@
       "description": "Median monthly rent plus utilities, in 2024 inflation-adjusted dollars, for renter-occupied units paying cash rent.",
       "role": "indicator", "statType": "median", "unit": "USD",
       "universe": "Renter-occupied housing units paying cash rent",
+      "openEnded": {"bound": "minValue", "cap": 3500},
       "calculation": {"type": "direct", "cell": "B25064_001"}
     },
     {
       "id": "rent-burden-rate",
       "name": "Rent burden rate",
-      "description": "Share of renter households paying 30 percent or more of household income on rent. Households where the share is not computed are left out of the universe.",
+      "description": "Share of renter households paying 30 percent or more of household income on rent. Renter households where the share is not computed are counted in the denominator, so this reads slightly lower than the Census's own published percentage, which leaves them out.",
       "role": "indicator", "statType": "percent", "unit": "percent",
-      "universe": "Renter-occupied housing units, excluding those where gross rent as a share of income is not computed",
-      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B25070_007", "B25070_008", "B25070_009", "B25070_010"]}, "denominator": "renter-households-rent-computed"}
+      "universe": "Renter-occupied housing units",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B25070_007", "B25070_008", "B25070_009", "B25070_010"]}, "denominator": "renter-households"}
     },
     {
       "id": "disability-rate",
@@ -122,12 +125,12 @@
       "calculation": {"type": "direct", "cell": "B17001_001"}
     },
     {
-      "id": "renter-households-rent-computed",
-      "name": "Renter households with rent share computed",
-      "description": "Renter-occupied housing units where gross rent as a share of household income is computed.",
+      "id": "renter-households",
+      "name": "Renter households",
+      "description": "Renter-occupied housing units.",
       "role": "denominator", "statType": "count", "unit": "households",
       "universe": "Renter-occupied housing units",
-      "calculation": {"type": "sum", "cells": ["B25070_001"], "subtract": ["B25070_011"]}
+      "calculation": {"type": "direct", "cell": "B25070_001"}
     },
     {
       "id": "civilian-noninstitutionalized-population",

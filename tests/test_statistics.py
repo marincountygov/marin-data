@@ -123,6 +123,41 @@ class Shares(unittest.TestCase):
         self.assertEqual((value, moe), (20, None))
 
 
+class OpenEnded(unittest.TestCase):
+    """A median published as 'or more' becomes a one-sided bound, never the stand-in number."""
+
+    AREA = {"kind": "place", "id": "https://example.org/id/area/a", "label": "A", "code": "a", "geoId": GEO, "geoid": "g"}
+
+    def run_build(self, est, moe):
+        t = {"B19013": {"table": "B19013", "columns": ["B19013_E001", "B19013_M001"], "rows": {GEO: [est, moe]}}}
+        saved = b.MAPPING["variables"]
+        b.MAPPING["variables"] = [v for v in saved if v["id"] == "median-household-income"]
+        try:
+            return b.build_observations([self.AREA], t)
+        finally:
+            b.MAPPING["variables"] = saved
+
+    def test_stand_in_with_open_ended_margin_is_a_lower_bound(self):
+        observations, omitted, counts = self.run_build("250001", "-333333333")
+        (o,) = observations["places"]
+        self.assertEqual(o["minValue"], 250000)
+        self.assertNotIn("value", o)
+        self.assertNotIn("marginOfError", o)
+        self.assertEqual((omitted, counts["bound-only"]), ([], 1))
+
+    def test_the_same_number_with_a_real_margin_is_a_real_estimate(self):
+        observations, omitted, _ = self.run_build("250001", "4000")
+        (o,) = observations["places"]
+        self.assertEqual(o["value"], 250001)
+        self.assertNotIn("minValue", o)
+
+    def test_open_ended_margin_with_another_number_is_left_out_and_listed(self):
+        observations, omitted, _ = self.run_build("180000", "-333333333")
+        self.assertEqual(observations["places"], [])
+        self.assertEqual(len(omitted), 1)
+        self.assertIn("open-ended", omitted[0]["reason"])
+
+
 class Values(unittest.TestCase):
     def test_whole_numbers_stay_whole_and_decimals_keep_six_places(self):
         self.assertEqual(b.tidy(5.0), 5)
