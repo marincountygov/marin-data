@@ -1,0 +1,190 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "gs": "https://schema.govfresh.com/ns#"
+  },
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations",
+      "@type": "Legislation",
+      "legislationIdentifier": "PMR",
+      "name": "Personnel Management Regulations",
+      "codificationLevel": "code",
+      "legislationType": "regulation",
+      "legislationJurisdiction": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
+      },
+      "publisher": {
+        "@id": "https://marincountygov.github.io/marin-data/id/organization/hr"
+      },
+      "citation": [
+        "https://www.hr.marincounty.gov/regulations-policies-procedures/personnel-management-regulations/all-personnel-management-regulations"
+      ],
+      "hasPart": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-1"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-2"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-3"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-4"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/source-html",
+      "@type": "LegislationObject",
+      "name": "All Personnel Management Regulations | County of Marin Human Resources",
+      "encodingFormat": "text/html",
+      "url": "https://www.hr.marincounty.gov/regulations-policies-procedures/personnel-management-regulations/all-personnel-management-regulations",
+      "legislationLegalValue": "Official"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-1",
+      "@type": "Legislation",
+      "legislationIdentifier": "Section 1",
+      "name": "General and Administration",
+      "codificationLevel": "part",
+      "position": 1,
+      "isPartOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations"
+      },
+      "hasPart": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-1"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-3"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-4"
+        }
+      ],
+      "legislationType": "regulation"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-2",
+      "@type": "Legislation",
+      "legislationIdentifier": "Section 2",
+      "name": "Personnel Conduct and Standards of Employment",
+      "codificationLevel": "part",
+      "position": 2,
+      "isPartOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations"
+      },
+      "hasPart": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-20"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-21"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-22"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-23"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-24"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-25"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-26"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-27"
+        }
+      ],
+      "legislationType": "regulation"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-3",
+      "@type": "Legislation",
+      "legislationIdentifier": "Section 3",
+      "name": "Recruitment and Selection",
+      "codificationLevel": "part",
+      "position": 3,
+      "isPartOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations"
+      },
+      "hasPart": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-30"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-31"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-32"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-33"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-34"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-35"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-36"
+        }
+      ],
+      "legislationType": "regulation"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-4",
+      "@type": "Legislation",
+      "legislationIdentifier": "Section 4",
+      "name": "Employment Practices",
+      "codificationLevel": "part",
+      "position": 4,
+      "isPartOf": {
+        "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations"
+      },
+      "hasPart": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-40"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-41"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-42"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-43"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-44"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-45"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-46"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-47"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-48"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-49"
+        }
+      ],
+      "legislationType": "regulation"
+    }
+  ]
+}

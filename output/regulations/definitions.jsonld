@@ -1,0 +1,483 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "gs": "https://schema.govfresh.com/ns#"
+  },
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations",
+      "@type": "DefinedTermSet",
+      "name": "Personnel Management Regulations definitions",
+      "hasDefinedTerm": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/administrator"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/allocation"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/anniversary-date"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/applicant"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/appointing-authority"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/appointment"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/board"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/certification"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/classification-or-class"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/classification-plan"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/commission"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/county"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/day"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/demotion"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/eligible-candidate"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/eligible-list"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/employee"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/exempt-employee"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/merit-system"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/non-exempt-employee"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/overtime"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/probationary-period"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/promotion"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/reassignment"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/reclassification"
+        },
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/reinstatement"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/administrator",
+      "@type": "DefinedTerm",
+      "name": "Administrator",
+      "description": "The County Administrator or his or her designee.",
+      "position": 1,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/allocation",
+      "@type": "DefinedTerm",
+      "name": "Allocation",
+      "description": "The assignment of a position to an appropriate classification as a budgetary action by the Board of Supervisors.",
+      "position": 2,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/anniversary-date",
+      "@type": "DefinedTerm",
+      "name": "Anniversary Date",
+      "description": "The date recurring yearly upon an employee's most recent regular appointment.",
+      "position": 3,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/applicant",
+      "@type": "DefinedTerm",
+      "name": "Applicant",
+      "description": "Any person who, according to these rules, has made formal application for employment.",
+      "position": 4,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/appointing-authority",
+      "@type": "DefinedTerm",
+      "name": "Appointing Authority",
+      "description": "The person(s) having authority to appoint or to remove persons from positions in the County service or subordinates to whom this authority is delegated.",
+      "position": 5,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/appointment",
+      "@type": "DefinedTerm",
+      "name": "Appointment",
+      "description": "The offer of and acceptance by a candidate to a position in the county service. Types of appointments are described in PMR 34.2.",
+      "position": 6,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/board",
+      "@type": "DefinedTerm",
+      "name": "Board",
+      "description": "The Board of Supervisors of the County of Marin.",
+      "position": 7,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/certification",
+      "@type": "DefinedTerm",
+      "name": "Certification",
+      "description": "The submission of names of eligible candidates from an employment list to an appointing authority by the Director of Human Resources or his or her designee.",
+      "position": 8,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/classification-or-class",
+      "@type": "DefinedTerm",
+      "name": "Classification or Class",
+      "description": "A position or group of positions having the same title, class specification, minimum qualifications and salary.",
+      "position": 9,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/classification-plan",
+      "@type": "DefinedTerm",
+      "name": "Classification Plan",
+      "description": "The arrangement of positions into classes together with specifications describing each classification, approved by the Board of Supervisors.",
+      "position": 10,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/commission",
+      "@type": "DefinedTerm",
+      "name": "Commission",
+      "description": "The Personnel Commission of the County of Marin.",
+      "position": 11,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/county",
+      "@type": "DefinedTerm",
+      "name": "County",
+      "description": "The County of Marin government organization and all special districts governed solely by the Board of Supervisors, e.g. Open Space District.",
+      "position": 12,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/day",
+      "@type": "DefinedTerm",
+      "name": "Day",
+      "description": "Calendar day. If the final day of a time period falls on a weekend or holiday, the next calendar day following will constitute the final calendar day.",
+      "position": 13,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/demotion",
+      "@type": "DefinedTerm",
+      "name": "Demotion",
+      "description": "A change in status of an employee from a position in one classification to a position in another classification with lesser duties and responsibilities, lower qualifications, and a lower maximum salary. A demotion may be voluntary or involuntary.",
+      "position": 14,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/eligible-candidate",
+      "@type": "DefinedTerm",
+      "name": "Eligible Candidate",
+      "description": "A person who has successfully passed all initial examination requirements for a classification for which he/she has made official application and has been placed on an eligible list.",
+      "position": 15,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/eligible-list",
+      "@type": "DefinedTerm",
+      "name": "Eligible List",
+      "description": "An officially promulgated list of eligible candidates for a specific classification in rank order of final examination score, re-employment rights, or transfer.",
+      "position": 16,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/employee",
+      "@type": "DefinedTerm",
+      "name": "Employee",
+      "description": "A person who is employed by the County.",
+      "position": 17,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/exempt-employee",
+      "@type": "DefinedTerm",
+      "name": "Exempt Employee",
+      "description": "An employee defined under federal law as not subject to overtime payment over 40 hours per week or the equivalent. Also known under federal law as a salaried employee.",
+      "position": 18,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/merit-system",
+      "@type": "DefinedTerm",
+      "name": "Merit System",
+      "description": "The system of personnel administration governing all positions and/or classifications and the employees occupying such positions, except those specifically exempted in Section 2.56.040 of the County Code, as set forth in PMR 1.2. In addition, at-will, temporary, emergency, or provisional appointment positions are not included in the Merit System.",
+      "position": 19,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/non-exempt-employee",
+      "@type": "DefinedTerm",
+      "name": "Non-Exempt Employee",
+      "description": "An employee who under federal law must be paid premium wages (or compensatory time off) when he or she works over 40 hours per week or the equivalent. Also known under federal law as an hourly employee.",
+      "position": 20,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/overtime",
+      "@type": "DefinedTerm",
+      "name": "Overtime",
+      "description": "Authorized work beyond the identified week or work period.",
+      "position": 21,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/probationary-period",
+      "@type": "DefinedTerm",
+      "name": "Probationary Period",
+      "description": "A trial period during which an employee in the Merit System is required to demonstrate competency in the knowledge, skills and abilities necessary to successfully perform the job and from which an employee may be released without cause or right of appeal. The probationary period is the final step in the examination process.",
+      "position": 22,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/promotion",
+      "@type": "DefinedTerm",
+      "name": "Promotion",
+      "description": "Advancement of an employee from a position in an established classification to a position in an established classification with higher level duties and responsibilities, higher qualifications and a higher maximum salary.",
+      "position": 23,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/reassignment",
+      "@type": "DefinedTerm",
+      "name": "Reassignment",
+      "description": "A move of an employee from one division or budget center to another within the same department in the same or similar classification at the same rate of pay.",
+      "position": 24,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/reclassification",
+      "@type": "DefinedTerm",
+      "name": "Reclassification",
+      "description": "A reallocation of a position and the incumbent, if applicable, to a different or new classification because of a significant change in duties and/or responsibility of the position over time.",
+      "position": 25,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/term/pmr/reinstatement",
+      "@type": "DefinedTerm",
+      "name": "Reinstatement",
+      "description": "A return to employment of an employee following leave without pay, upon reemployment following layoff, or return within 60 days of resignation.",
+      "position": 26,
+      "inDefinedTermSet": {
+        "@id": "https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations"
+      },
+      "subjectOf": [
+        {
+          "@id": "https://marincountygov.github.io/marin-data/id/regulation/pmr-2/2.1"
+        }
+      ]
+    }
+  ]
+}
