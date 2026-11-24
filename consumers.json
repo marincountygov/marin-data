@@ -299,7 +299,11 @@
         {
           "from": "output/regulations/definitions.jsonld",
           "to": "pmrs/data/definitions.jsonld"
-        }
+        },
+    {
+     "from": "organizations/search-index.json",
+     "to": "data/search-index.json"
+    }
       ],
       "sync": [
         "python3 ../marin-data/scripts/sync_copies.py ."
@@ -308,7 +312,7 @@
         "node scripts/build-pmrs.js"
       ],
       "check": "bash scripts/check.sh",
-      "notes": "The Personnel Management Regulations pages are built from these three files."
+      "notes": "The Personnel Management Regulations pages are built from the three regulations files. The search box on the home page also reads the list of organizations, programs, places and services (data/search-index.json)."
     }
   ]
 }
