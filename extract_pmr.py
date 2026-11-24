@@ -8,7 +8,7 @@ REPO=Path(__file__).resolve().parent
 ap=argparse.ArgumentParser(description='Build the PMR schemaGov JSON-LD from the saved HR page.')
 ap.add_argument('--source',type=Path,default=REPO/'source/pmr/All Personnel Management Regulations _ County of Marin Human Resources.html')
 ap.add_argument('--out',type=Path,default=REPO/'output/regulations')
-ap.add_argument('--check',action='store_true',help='fail if output/regulations/ is not what the saved page makes')
+ap.add_argument('--check',action='store_true',help='fail if output/regulations/ is not what the saved page makes (needs the page in source/pmr/)')
 args=ap.parse_args()
 SRC=args.source
 OUT=args.out

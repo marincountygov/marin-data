@@ -2,7 +2,3 @@ __pycache__/
 .DS_Store
 # Source PDFs are not stored here. They are listed in sources.json with their public links.
 /source/
-# The saved Human Resources page is the source of output/regulations/ and is kept (see output/regulations/README.md).
-!/source/
-/source/*
-!/source/pmr/

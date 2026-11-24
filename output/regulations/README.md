@@ -1,6 +1,6 @@
 # Personnel Management Regulations (PMR)
 
-The County's Personnel Management Regulations as schemaGov JSON-LD (policy profile). The saved page of the County's Human Resources site, `source/pmr/`, is the authority. These files are its structured form.
+The County's Personnel Management Regulations as schemaGov JSON-LD (policy profile). The County's Human Resources page, listed in `sources.json` with its address and fingerprint, is the authority. The page is not stored here. These files are its structured form.
 
 Canonical page: https://www.hr.marincounty.gov/regulations-policies-procedures/personnel-management-regulations/all-personnel-management-regulations
 
@@ -17,7 +17,8 @@ Canonical page: https://www.hr.marincounty.gov/regulations-policies-procedures/p
 
 ```
 python3 -m pip install -r requirements-pmr.txt
-python3 extract_pmr.py            # write these files from source/pmr/
+# save the page (address in sources.json) as HTML into source/pmr/ first
+python3 extract_pmr.py            # write these files from it
 python3 extract_pmr.py --check    # fail if they are out of date
 ```
 
