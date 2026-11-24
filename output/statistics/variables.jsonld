@@ -1,0 +1,143 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-total",
+      "@type": "StatisticalVariable",
+      "name": "Total population",
+      "description": "Residents counted at their usual place of residence.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-age",
+      "@type": "StatisticalVariable",
+      "name": "Median age",
+      "description": "The age that divides the population into two equal groups.",
+      "populationType": "Person",
+      "statType": "median"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-under-18",
+      "@type": "StatisticalVariable",
+      "name": "Population under age 18",
+      "description": "Residents younger than 18.",
+      "populationType": "Person",
+      "statType": "count",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "age",
+          "maxValue": 17,
+          "unitText": "year"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-65-plus",
+      "@type": "StatisticalVariable",
+      "name": "Population age 65 and over",
+      "description": "Residents aged 65 or older.",
+      "populationType": "Person",
+      "statType": "count",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "age",
+          "minValue": 65,
+          "unitText": "year"
+        }
+      ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-household-income",
+      "@type": "StatisticalVariable",
+      "name": "Median household income",
+      "description": "Median of annual household income, in 2024 inflation-adjusted dollars. Households are the universe, not people.",
+      "statType": "median"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/poverty-rate",
+      "@type": "StatisticalVariable",
+      "name": "Poverty rate",
+      "description": "Share of people for whom poverty status is determined whose income in the past 12 months was below the poverty level.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-poverty-status-determined",
+        "name": "Population for whom poverty status is determined"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-gross-rent",
+      "@type": "StatisticalVariable",
+      "name": "Median gross rent",
+      "description": "Median monthly rent plus utilities, in 2024 inflation-adjusted dollars, for renter-occupied units paying cash rent.",
+      "statType": "median"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
+      "@type": "StatisticalVariable",
+      "name": "Rent burden rate",
+      "description": "Share of renter households paying 30 percent or more of household income on rent. Households where the share is not computed are left out of the universe.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
+        "name": "Renter households with rent share computed"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/disability-rate",
+      "@type": "StatisticalVariable",
+      "name": "Disability rate",
+      "description": "Share of the civilian noninstitutionalized population with a disability.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-noninstitutionalized-population",
+        "name": "Civilian noninstitutionalized population"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-without-internet-rate",
+      "@type": "StatisticalVariable",
+      "name": "Households without internet access rate",
+      "description": "Share of households with no internet access, with or without a subscription.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-total",
+        "name": "Total households"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-poverty-status-determined",
+      "@type": "StatisticalVariable",
+      "name": "Population for whom poverty status is determined",
+      "description": "People in the universe of the poverty rate. It leaves out, for example, people in institutions and college dormitories.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
+      "@type": "StatisticalVariable",
+      "name": "Renter households with rent share computed",
+      "description": "Renter-occupied housing units where gross rent as a share of household income is computed.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-noninstitutionalized-population",
+      "@type": "StatisticalVariable",
+      "name": "Civilian noninstitutionalized population",
+      "description": "People in the universe of the disability rate.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-total",
+      "@type": "StatisticalVariable",
+      "name": "Total households",
+      "description": "Occupied housing units.",
+      "statType": "count"
+    }
+  ]
+}

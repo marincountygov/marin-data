@@ -436,6 +436,24 @@
           "value": "IATSE"
         }
       ]
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/organization/us-census-bureau",
+      "@type": "GovernmentOrganization",
+      "name": "U.S. Census Bureau",
+      "alternateName": [
+        "Census Bureau"
+      ],
+      "organizationClassification": "bureau",
+      "governmentLevel": "national",
+      "url": "https://www.census.gov/",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "us-census-bureau"
+        }
+      ]
     }
   ]
 }

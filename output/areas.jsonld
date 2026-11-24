@@ -1,0 +1,1479 @@
+{
+  "@context": "https://schema.govfresh.com/v1/context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/black-point-green-point-cdp",
+      "@type": "Place",
+      "name": "Black Point-Green Point CDP",
+      "areaType": "designated-place",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0606982"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "black-point-green-point-cdp"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/lagunitas-forest-knolls-cdp",
+      "@type": "Place",
+      "name": "Lagunitas-Forest Knolls CDP",
+      "areaType": "designated-place",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0639283"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "lagunitas-forest-knolls-cdp"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/lucas-valley-marinwood-cdp",
+      "@type": "Place",
+      "name": "Lucas Valley-Marinwood CDP",
+      "areaType": "designated-place",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0644399"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "lucas-valley-marinwood-cdp"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/tamalpais-homestead-valley-cdp",
+      "@type": "Place",
+      "name": "Tamalpais-Homestead Valley CDP",
+      "areaType": "designated-place",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "0677805"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "tamalpais-homestead-valley-cdp"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1011",
+      "@type": "Place",
+      "name": "Census Tract 1011, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041101100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1011"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1012",
+      "@type": "Place",
+      "name": "Census Tract 1012, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041101200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1012"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1021",
+      "@type": "Place",
+      "name": "Census Tract 1021, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041102100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1021"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1022-02",
+      "@type": "Place",
+      "name": "Census Tract 1022.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041102202"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1022-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1022-03",
+      "@type": "Place",
+      "name": "Census Tract 1022.03, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041102203"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1022-03"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1031",
+      "@type": "Place",
+      "name": "Census Tract 1031, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041103100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1031"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1032",
+      "@type": "Place",
+      "name": "Census Tract 1032, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041103200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1032"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1041-02",
+      "@type": "Place",
+      "name": "Census Tract 1041.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041104102"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1041-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1041-03",
+      "@type": "Place",
+      "name": "Census Tract 1041.03, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041104103"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1041-03"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1041-04",
+      "@type": "Place",
+      "name": "Census Tract 1041.04, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041104104"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1041-04"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1042",
+      "@type": "Place",
+      "name": "Census Tract 1042, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041104200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1042"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1043",
+      "@type": "Place",
+      "name": "Census Tract 1043, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041104300"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1043"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1050-01",
+      "@type": "Place",
+      "name": "Census Tract 1050.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041105001"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1050-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1050-02",
+      "@type": "Place",
+      "name": "Census Tract 1050.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041105002"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1050-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1060-01",
+      "@type": "Place",
+      "name": "Census Tract 1060.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041106001"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1060-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1060-02",
+      "@type": "Place",
+      "name": "Census Tract 1060.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041106002"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1060-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1070",
+      "@type": "Place",
+      "name": "Census Tract 1070, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041107000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1070"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1081",
+      "@type": "Place",
+      "name": "Census Tract 1081, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041108100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1081"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1082-01",
+      "@type": "Place",
+      "name": "Census Tract 1082.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041108201"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1082-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1082-02",
+      "@type": "Place",
+      "name": "Census Tract 1082.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041108202"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1082-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1090-01",
+      "@type": "Place",
+      "name": "Census Tract 1090.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041109001"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1090-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1090-02",
+      "@type": "Place",
+      "name": "Census Tract 1090.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041109002"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1090-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1101",
+      "@type": "Place",
+      "name": "Census Tract 1101, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041110100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1101"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1102",
+      "@type": "Place",
+      "name": "Census Tract 1102, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041110200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1102"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1110-01",
+      "@type": "Place",
+      "name": "Census Tract 1110.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041111001"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1110-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1110-02",
+      "@type": "Place",
+      "name": "Census Tract 1110.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041111002"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1110-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1121",
+      "@type": "Place",
+      "name": "Census Tract 1121, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041112100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1121"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1122-02",
+      "@type": "Place",
+      "name": "Census Tract 1122.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041112202"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1122-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1122-03",
+      "@type": "Place",
+      "name": "Census Tract 1122.03, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041112203"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1122-03"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1122-04",
+      "@type": "Place",
+      "name": "Census Tract 1122.04, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041112204"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1122-04"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1130",
+      "@type": "Place",
+      "name": "Census Tract 1130, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041113000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1130"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1141",
+      "@type": "Place",
+      "name": "Census Tract 1141, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041114100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1141"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1142",
+      "@type": "Place",
+      "name": "Census Tract 1142, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041114200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1142"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1150",
+      "@type": "Place",
+      "name": "Census Tract 1150, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041115000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1150"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1160",
+      "@type": "Place",
+      "name": "Census Tract 1160, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041116000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1160"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1170",
+      "@type": "Place",
+      "name": "Census Tract 1170, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041117000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1170"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1181",
+      "@type": "Place",
+      "name": "Census Tract 1181, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041118100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1181"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1191",
+      "@type": "Place",
+      "name": "Census Tract 1191, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041119100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1191"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1192-01",
+      "@type": "Place",
+      "name": "Census Tract 1192.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041119201"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1192-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1192-02",
+      "@type": "Place",
+      "name": "Census Tract 1192.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041119202"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1192-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1200-01",
+      "@type": "Place",
+      "name": "Census Tract 1200.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041120001"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1200-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1200-02",
+      "@type": "Place",
+      "name": "Census Tract 1200.02, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041120002"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1200-02"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1211",
+      "@type": "Place",
+      "name": "Census Tract 1211, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041121100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1211"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1212",
+      "@type": "Place",
+      "name": "Census Tract 1212, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041121200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1212"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1220",
+      "@type": "Place",
+      "name": "Census Tract 1220, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041122000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1220"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1230",
+      "@type": "Place",
+      "name": "Census Tract 1230, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041123000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1230"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1241",
+      "@type": "Place",
+      "name": "Census Tract 1241, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041124100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1241"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1242",
+      "@type": "Place",
+      "name": "Census Tract 1242, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041124200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1242"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1250",
+      "@type": "Place",
+      "name": "Census Tract 1250, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041125000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1250"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1261",
+      "@type": "Place",
+      "name": "Census Tract 1261, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041126100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1261"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1262",
+      "@type": "Place",
+      "name": "Census Tract 1262, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041126200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1262"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1270",
+      "@type": "Place",
+      "name": "Census Tract 1270, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041127000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1270"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1281",
+      "@type": "Place",
+      "name": "Census Tract 1281, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041128100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1281"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1282",
+      "@type": "Place",
+      "name": "Census Tract 1282, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041128200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1282"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1290",
+      "@type": "Place",
+      "name": "Census Tract 1290, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041129000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1290"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-01",
+      "@type": "Place",
+      "name": "Census Tract 1302.01, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041130201"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1302-01"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-03",
+      "@type": "Place",
+      "name": "Census Tract 1302.03, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041130203"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1302-03"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1302-04",
+      "@type": "Place",
+      "name": "Census Tract 1302.04, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041130204"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1302-04"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1311",
+      "@type": "Place",
+      "name": "Census Tract 1311, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041131100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1311"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1321",
+      "@type": "Place",
+      "name": "Census Tract 1321, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041132100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1321"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1322",
+      "@type": "Place",
+      "name": "Census Tract 1322, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041132200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1322"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-1330",
+      "@type": "Place",
+      "name": "Census Tract 1330, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041133000"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-1330"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/area/census-tract-9901",
+      "@type": "Place",
+      "name": "Census Tract 9901, Marin County",
+      "areaType": "statistical-area",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "census-geoid",
+          "value": "06041990100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "gs:local",
+          "value": "census-tract-9901"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin",
+        "name": "Marin County"
+      }
+    }
+  ]
+}

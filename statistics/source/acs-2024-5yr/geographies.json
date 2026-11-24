@@ -1,0 +1,603 @@
+[
+ {
+  "geoId": "0500000US06041",
+  "geoid": "06041",
+  "kind": "county",
+  "name": "Marin County, California"
+ },
+ {
+  "geoId": "1600000US0601416",
+  "geoid": "0601416",
+  "kind": "place",
+  "name": "Alto CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0605164",
+  "geoid": "0605164",
+  "kind": "place",
+  "name": "Belvedere city, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0606982",
+  "geoid": "0606982",
+  "kind": "place",
+  "name": "Black Point-Green Point CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0607316",
+  "geoid": "0607316",
+  "kind": "place",
+  "name": "Bolinas CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0616462",
+  "geoid": "0616462",
+  "kind": "place",
+  "name": "Corte Madera town, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0619262",
+  "geoid": "0619262",
+  "kind": "place",
+  "name": "Dillon Beach CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0623168",
+  "geoid": "0623168",
+  "kind": "place",
+  "name": "Fairfax town, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0636616",
+  "geoid": "0636616",
+  "kind": "place",
+  "name": "Inverness CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0638114",
+  "geoid": "0638114",
+  "kind": "place",
+  "name": "Kentfield CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0639283",
+  "geoid": "0639283",
+  "kind": "place",
+  "name": "Lagunitas-Forest Knolls CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0640438",
+  "geoid": "0640438",
+  "kind": "place",
+  "name": "Larkspur city, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0644399",
+  "geoid": "0644399",
+  "kind": "place",
+  "name": "Lucas Valley-Marinwood CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0645820",
+  "geoid": "0645820",
+  "kind": "place",
+  "name": "Marin City CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0647710",
+  "geoid": "0647710",
+  "kind": "place",
+  "name": "Mill Valley city, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0649950",
+  "geoid": "0649950",
+  "kind": "place",
+  "name": "Muir Beach CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0651280",
+  "geoid": "0651280",
+  "kind": "place",
+  "name": "Nicasio CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0652582",
+  "geoid": "0652582",
+  "kind": "place",
+  "name": "Novato city, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0657960",
+  "geoid": "0657960",
+  "kind": "place",
+  "name": "Point Reyes Station CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0662980",
+  "geoid": "0662980",
+  "kind": "place",
+  "name": "Ross town, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0664434",
+  "geoid": "0664434",
+  "kind": "place",
+  "name": "San Anselmo town, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0667070",
+  "geoid": "0667070",
+  "kind": "place",
+  "name": "San Geronimo CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0668364",
+  "geoid": "0668364",
+  "kind": "place",
+  "name": "San Rafael city, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0670154",
+  "geoid": "0670154",
+  "kind": "place",
+  "name": "Santa Venetia CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0670364",
+  "geoid": "0670364",
+  "kind": "place",
+  "name": "Sausalito city, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0672184",
+  "geoid": "0672184",
+  "kind": "place",
+  "name": "Sleepy Hollow CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0674172",
+  "geoid": "0674172",
+  "kind": "place",
+  "name": "Stinson Beach CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0675315",
+  "geoid": "0675315",
+  "kind": "place",
+  "name": "Strawberry CDP (Marin County), California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0677805",
+  "geoid": "0677805",
+  "kind": "place",
+  "name": "Tamalpais-Homestead Valley CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0678666",
+  "geoid": "0678666",
+  "kind": "place",
+  "name": "Tiburon town, California",
+  "placeType": "incorporated place"
+ },
+ {
+  "geoId": "1600000US0678890",
+  "geoid": "0678890",
+  "kind": "place",
+  "name": "Tomales CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1600000US0686216",
+  "geoid": "0686216",
+  "kind": "place",
+  "name": "Woodacre CDP, California",
+  "placeType": "census designated place"
+ },
+ {
+  "geoId": "1400000US06041101100",
+  "geoid": "06041101100",
+  "kind": "tract",
+  "name": "Census Tract 1011, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041101200",
+  "geoid": "06041101200",
+  "kind": "tract",
+  "name": "Census Tract 1012, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041102100",
+  "geoid": "06041102100",
+  "kind": "tract",
+  "name": "Census Tract 1021, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041102202",
+  "geoid": "06041102202",
+  "kind": "tract",
+  "name": "Census Tract 1022.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041102203",
+  "geoid": "06041102203",
+  "kind": "tract",
+  "name": "Census Tract 1022.03, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041103100",
+  "geoid": "06041103100",
+  "kind": "tract",
+  "name": "Census Tract 1031, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041103200",
+  "geoid": "06041103200",
+  "kind": "tract",
+  "name": "Census Tract 1032, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041104102",
+  "geoid": "06041104102",
+  "kind": "tract",
+  "name": "Census Tract 1041.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041104103",
+  "geoid": "06041104103",
+  "kind": "tract",
+  "name": "Census Tract 1041.03, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041104104",
+  "geoid": "06041104104",
+  "kind": "tract",
+  "name": "Census Tract 1041.04, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041104200",
+  "geoid": "06041104200",
+  "kind": "tract",
+  "name": "Census Tract 1042, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041104300",
+  "geoid": "06041104300",
+  "kind": "tract",
+  "name": "Census Tract 1043, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041105001",
+  "geoid": "06041105001",
+  "kind": "tract",
+  "name": "Census Tract 1050.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041105002",
+  "geoid": "06041105002",
+  "kind": "tract",
+  "name": "Census Tract 1050.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041106001",
+  "geoid": "06041106001",
+  "kind": "tract",
+  "name": "Census Tract 1060.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041106002",
+  "geoid": "06041106002",
+  "kind": "tract",
+  "name": "Census Tract 1060.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041107000",
+  "geoid": "06041107000",
+  "kind": "tract",
+  "name": "Census Tract 1070, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041108100",
+  "geoid": "06041108100",
+  "kind": "tract",
+  "name": "Census Tract 1081, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041108201",
+  "geoid": "06041108201",
+  "kind": "tract",
+  "name": "Census Tract 1082.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041108202",
+  "geoid": "06041108202",
+  "kind": "tract",
+  "name": "Census Tract 1082.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041109001",
+  "geoid": "06041109001",
+  "kind": "tract",
+  "name": "Census Tract 1090.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041109002",
+  "geoid": "06041109002",
+  "kind": "tract",
+  "name": "Census Tract 1090.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041110100",
+  "geoid": "06041110100",
+  "kind": "tract",
+  "name": "Census Tract 1101, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041110200",
+  "geoid": "06041110200",
+  "kind": "tract",
+  "name": "Census Tract 1102, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041111001",
+  "geoid": "06041111001",
+  "kind": "tract",
+  "name": "Census Tract 1110.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041111002",
+  "geoid": "06041111002",
+  "kind": "tract",
+  "name": "Census Tract 1110.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041112100",
+  "geoid": "06041112100",
+  "kind": "tract",
+  "name": "Census Tract 1121, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041112202",
+  "geoid": "06041112202",
+  "kind": "tract",
+  "name": "Census Tract 1122.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041112203",
+  "geoid": "06041112203",
+  "kind": "tract",
+  "name": "Census Tract 1122.03, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041112204",
+  "geoid": "06041112204",
+  "kind": "tract",
+  "name": "Census Tract 1122.04, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041113000",
+  "geoid": "06041113000",
+  "kind": "tract",
+  "name": "Census Tract 1130, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041114100",
+  "geoid": "06041114100",
+  "kind": "tract",
+  "name": "Census Tract 1141, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041114200",
+  "geoid": "06041114200",
+  "kind": "tract",
+  "name": "Census Tract 1142, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041115000",
+  "geoid": "06041115000",
+  "kind": "tract",
+  "name": "Census Tract 1150, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041116000",
+  "geoid": "06041116000",
+  "kind": "tract",
+  "name": "Census Tract 1160, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041117000",
+  "geoid": "06041117000",
+  "kind": "tract",
+  "name": "Census Tract 1170, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041118100",
+  "geoid": "06041118100",
+  "kind": "tract",
+  "name": "Census Tract 1181, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041119100",
+  "geoid": "06041119100",
+  "kind": "tract",
+  "name": "Census Tract 1191, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041119201",
+  "geoid": "06041119201",
+  "kind": "tract",
+  "name": "Census Tract 1192.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041119202",
+  "geoid": "06041119202",
+  "kind": "tract",
+  "name": "Census Tract 1192.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041120001",
+  "geoid": "06041120001",
+  "kind": "tract",
+  "name": "Census Tract 1200.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041120002",
+  "geoid": "06041120002",
+  "kind": "tract",
+  "name": "Census Tract 1200.02, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041121100",
+  "geoid": "06041121100",
+  "kind": "tract",
+  "name": "Census Tract 1211, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041121200",
+  "geoid": "06041121200",
+  "kind": "tract",
+  "name": "Census Tract 1212, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041122000",
+  "geoid": "06041122000",
+  "kind": "tract",
+  "name": "Census Tract 1220, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041123000",
+  "geoid": "06041123000",
+  "kind": "tract",
+  "name": "Census Tract 1230, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041124100",
+  "geoid": "06041124100",
+  "kind": "tract",
+  "name": "Census Tract 1241, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041124200",
+  "geoid": "06041124200",
+  "kind": "tract",
+  "name": "Census Tract 1242, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041125000",
+  "geoid": "06041125000",
+  "kind": "tract",
+  "name": "Census Tract 1250, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041126100",
+  "geoid": "06041126100",
+  "kind": "tract",
+  "name": "Census Tract 1261, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041126200",
+  "geoid": "06041126200",
+  "kind": "tract",
+  "name": "Census Tract 1262, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041127000",
+  "geoid": "06041127000",
+  "kind": "tract",
+  "name": "Census Tract 1270, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041128100",
+  "geoid": "06041128100",
+  "kind": "tract",
+  "name": "Census Tract 1281, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041128200",
+  "geoid": "06041128200",
+  "kind": "tract",
+  "name": "Census Tract 1282, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041129000",
+  "geoid": "06041129000",
+  "kind": "tract",
+  "name": "Census Tract 1290, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041130201",
+  "geoid": "06041130201",
+  "kind": "tract",
+  "name": "Census Tract 1302.01, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041130203",
+  "geoid": "06041130203",
+  "kind": "tract",
+  "name": "Census Tract 1302.03, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041130204",
+  "geoid": "06041130204",
+  "kind": "tract",
+  "name": "Census Tract 1302.04, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041131100",
+  "geoid": "06041131100",
+  "kind": "tract",
+  "name": "Census Tract 1311, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041132100",
+  "geoid": "06041132100",
+  "kind": "tract",
+  "name": "Census Tract 1321, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041132200",
+  "geoid": "06041132200",
+  "kind": "tract",
+  "name": "Census Tract 1322, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041133000",
+  "geoid": "06041133000",
+  "kind": "tract",
+  "name": "Census Tract 1330, Marin County, California"
+ },
+ {
+  "geoId": "1400000US06041990100",
+  "geoid": "06041990100",
+  "kind": "tract",
+  "name": "Census Tract 9901, Marin County, California"
+ }
+]
