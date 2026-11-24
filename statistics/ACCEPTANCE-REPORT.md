@@ -5,10 +5,10 @@
 | Source | U.S. Census Bureau, American Community Survey 5-year estimates, 2020-2024 (table-based summary file) |
 | Vintage and period | 2024; `observationPeriod` 2020/2024 |
 | Retrieved | 2026-11-24, from the Census download site, no API key |
-| Indicators | 10, plus 4 denominators published so every share can be reproduced |
-| Observations | 1,306 (of 1,330 possible), including 33 one-sided bounds for open-ended medians |
-| Left out | 24, each listed in `omitted-values.json` with its Census cells |
-| Validation | schemaGov shapes pass and every reference resolves, against schemaGov 9ef81ef; 23 calculation tests pass; local checks pass |
+| Indicators | 33 measures (the first 10 plus 23 from batch 1 below), and 16 denominators published so every share can be reproduced |
+| Observations | 4,601 (of 4,655 possible), including 56 one-sided bounds for open-ended medians |
+| Left out | 54, each listed in `omitted-values.json` with its Census cells |
+| Validation | schemaGov shapes pass and every reference resolves, against schemaGov 9ef81ef; 23 calculation tests pass (the calculations did not change in batch 1); local checks pass |
 
 ## Geography
 
@@ -51,3 +51,14 @@ Still not representable: why a value was suppressed, quality flags and annotatio
 ## Recommended next indicators
 
 Prioritize ones staff will act on: renter and owner share, vacancy, language spoken at home with limited English, children in poverty, older adults living alone, vehicle availability, commute mode and educational attainment. Propose the full list for review before building.
+
+## Batch 1 of the expanded set (23 more measures)
+
+Added from tables already in the same release: average household size, share under 18, share 65 and over, foreign-born rate, veteran rate, limited English speaking households rate, per capita income, child poverty rate, senior poverty rate, housing units, homeownership rate, vacancy rate, median home value, owner cost burden rate, overcrowding rate, broadband subscription rate, households without a computer rate, work-from-home rate, public transit commute rate, households without a vehicle rate, labor force participation rate and unemployment rate. Total households is now also a measure. Each share has its own published denominator.
+
+- **Open-ended home values:** 23 median home values are the Census's $2,000,001 stand-in for "$2,000,000 or more" (the cap in the mapping, confirmed in the data). They are written as lower bounds, like income and rent. The total of one-sided bounds is now 56.
+- **Left out:** 54 values in all. The new ones are zero denominators (a tract with no children, renters, veterans and so on; the rate is not defined) and the same "no sample" medians. Nothing was written as zero.
+- **No new schemaGov problem.** `mean` (per capita income, average household size) is already an allowed `statType`.
+- **Rent burden** counts all renter households (as the schemaGov crosswalk says), so the county reads 52.9%.
+- **Checks:** county values were spot-checked against the raw files (unemployment rate 6.09%, child poverty rate 9.79%).
+- **Batch 2 is next:** language, education, Hispanic and White non-Hispanic shares, one-person households and health insurance. Their cell lists will be checked against the table shells first.

@@ -41,8 +41,8 @@ for v in b.MAPPING["variables"]:
         table = tables.get(cell.split("_")[0])
         if not table or cell.replace("_", "_E") not in table["columns"]:
             errors.append(f"mapping: {v['id']} uses {cell}, which is not in the stored source")
-    if v["calculation"]["type"] == "share" and variables.get(v["calculation"]["denominator"], {}).get("role") != "denominator":
-        errors.append(f"mapping: {v['id']} needs a denominator variable with role denominator")
+    if v["calculation"]["type"] == "share" and variables.get(v["calculation"]["denominator"], {}).get("statType") != "count":
+        errors.append(f"mapping: {v['id']} needs a denominator variable that is a count")
 
 # areas and codes
 files, _ = b.build()

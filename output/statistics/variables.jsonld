@@ -138,6 +138,341 @@
       "name": "Total households",
       "description": "Occupied housing units.",
       "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/average-household-size",
+      "@type": "StatisticalVariable",
+      "name": "Average household size",
+      "description": "Average number of people in an occupied housing unit.",
+      "statType": "mean"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/under-18-rate",
+      "@type": "StatisticalVariable",
+      "name": "Share of population under age 18",
+      "description": "Share of residents younger than 18.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-total",
+        "name": "Total population"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-65-plus-rate",
+      "@type": "StatisticalVariable",
+      "name": "Share of population age 65 and over",
+      "description": "Share of residents aged 65 or older.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-total",
+        "name": "Total population"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/foreign-born-rate",
+      "@type": "StatisticalVariable",
+      "name": "Foreign-born rate",
+      "description": "Share of residents born outside the United States.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-nativity",
+        "name": "Population in the nativity universe"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/veteran-rate",
+      "@type": "StatisticalVariable",
+      "name": "Veteran rate",
+      "description": "Share of civilian adults who are veterans.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-population-18-plus",
+        "name": "Civilian population 18 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/limited-english-households-rate",
+      "@type": "StatisticalVariable",
+      "name": "Limited English speaking households rate",
+      "description": "Share of households in which no one 14 and over speaks English only or speaks English very well.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-language-status",
+        "name": "Households by language status"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/per-capita-income",
+      "@type": "StatisticalVariable",
+      "name": "Per capita income",
+      "description": "Mean income per person in the past 12 months, in 2024 inflation-adjusted dollars.",
+      "populationType": "Person",
+      "statType": "mean"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/child-poverty-rate",
+      "@type": "StatisticalVariable",
+      "name": "Child poverty rate",
+      "description": "Share of people under 18 for whom poverty status is determined whose income in the past 12 months was below the poverty level.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-under-18-poverty-determined",
+        "name": "Population under 18 for whom poverty status is determined"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/senior-poverty-rate",
+      "@type": "StatisticalVariable",
+      "name": "Senior poverty rate",
+      "description": "Share of people 65 and over for whom poverty status is determined whose income in the past 12 months was below the poverty level.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-65-plus-poverty-determined",
+        "name": "Population 65 and over for whom poverty status is determined"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/housing-units-total",
+      "@type": "StatisticalVariable",
+      "name": "Housing units",
+      "description": "Occupied and vacant housing units.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/homeownership-rate",
+      "@type": "StatisticalVariable",
+      "name": "Homeownership rate",
+      "description": "Share of occupied housing units that are owner-occupied.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/occupied-housing-units",
+        "name": "Occupied housing units"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/vacancy-rate",
+      "@type": "StatisticalVariable",
+      "name": "Vacancy rate",
+      "description": "Share of housing units that are vacant.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/housing-units-total",
+        "name": "Housing units"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/median-home-value",
+      "@type": "StatisticalVariable",
+      "name": "Median home value",
+      "description": "Median value of owner-occupied housing units, as the owner estimates it, in 2024 inflation-adjusted dollars.",
+      "statType": "median"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/owner-cost-burden-rate",
+      "@type": "StatisticalVariable",
+      "name": "Owner cost burden rate",
+      "description": "Share of owner households paying 30 percent or more of household income on housing costs.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/owner-occupied-housing-units",
+        "name": "Owner-occupied housing units"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/overcrowding-rate",
+      "@type": "StatisticalVariable",
+      "name": "Overcrowding rate",
+      "description": "Share of occupied housing units with more than 1 occupant per room.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/occupied-housing-units-by-room",
+        "name": "Occupied housing units by occupants per room"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/broadband-subscription-rate",
+      "@type": "StatisticalVariable",
+      "name": "Broadband subscription rate",
+      "description": "Share of households with a broadband internet subscription of any type.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-total",
+        "name": "Total households"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-without-computer-rate",
+      "@type": "StatisticalVariable",
+      "name": "Households without a computer rate",
+      "description": "Share of households with no computer, smartphone or tablet.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-computers",
+        "name": "Households by computer access"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/work-from-home-rate",
+      "@type": "StatisticalVariable",
+      "name": "Work-from-home rate",
+      "description": "Share of workers 16 and over who worked from home.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/workers-16-plus",
+        "name": "Workers 16 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/public-transit-rate",
+      "@type": "StatisticalVariable",
+      "name": "Public transit commute rate",
+      "description": "Share of workers 16 and over who commuted by public transportation.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/workers-16-plus",
+        "name": "Workers 16 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-without-vehicle-rate",
+      "@type": "StatisticalVariable",
+      "name": "Households without a vehicle rate",
+      "description": "Share of households with no vehicle available.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-vehicles",
+        "name": "Households by vehicles available"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/labor-force-participation-rate",
+      "@type": "StatisticalVariable",
+      "name": "Labor force participation rate",
+      "description": "Share of people 16 and over who are in the labor force.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-16-plus",
+        "name": "Population 16 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/unemployment-rate",
+      "@type": "StatisticalVariable",
+      "name": "Unemployment rate",
+      "description": "Share of the civilian labor force that is unemployed.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-labor-force",
+        "name": "Civilian labor force"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-nativity",
+      "@type": "StatisticalVariable",
+      "name": "Population in the nativity universe",
+      "description": "People in the universe of the foreign-born rate.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-population-18-plus",
+      "@type": "StatisticalVariable",
+      "name": "Civilian population 18 and over",
+      "description": "People in the universe of the veteran rate.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-language-status",
+      "@type": "StatisticalVariable",
+      "name": "Households by language status",
+      "description": "Households in the universe of the limited English speaking rate.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-under-18-poverty-determined",
+      "@type": "StatisticalVariable",
+      "name": "Population under 18 for whom poverty status is determined",
+      "description": "People under 18 in the universe of the child poverty rate.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-65-plus-poverty-determined",
+      "@type": "StatisticalVariable",
+      "name": "Population 65 and over for whom poverty status is determined",
+      "description": "People 65 and over in the universe of the senior poverty rate.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/occupied-housing-units",
+      "@type": "StatisticalVariable",
+      "name": "Occupied housing units",
+      "description": "Occupied housing units in the universe of the homeownership rate.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/owner-occupied-housing-units",
+      "@type": "StatisticalVariable",
+      "name": "Owner-occupied housing units",
+      "description": "Owner-occupied units in the universe of the owner cost burden rate.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/occupied-housing-units-by-room",
+      "@type": "StatisticalVariable",
+      "name": "Occupied housing units by occupants per room",
+      "description": "Occupied housing units in the universe of the overcrowding rate.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-computers",
+      "@type": "StatisticalVariable",
+      "name": "Households by computer access",
+      "description": "Households in the universe of the no-computer rate.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/workers-16-plus",
+      "@type": "StatisticalVariable",
+      "name": "Workers 16 and over",
+      "description": "Workers in the universe of the commute rates.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-vehicles",
+      "@type": "StatisticalVariable",
+      "name": "Households by vehicles available",
+      "description": "Households in the universe of the no-vehicle rate.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-16-plus",
+      "@type": "StatisticalVariable",
+      "name": "Population 16 and over",
+      "description": "People in the universe of the labor force participation rate.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/civilian-labor-force",
+      "@type": "StatisticalVariable",
+      "name": "Civilian labor force",
+      "description": "People in the universe of the unemployment rate.",
+      "populationType": "Person",
+      "statType": "count"
     }
   ]
 }
