@@ -313,6 +313,25 @@
       ],
       "check": "bash scripts/check.sh",
       "notes": "The Personnel Management Regulations pages are built from the three regulations files. The search box on the home page also reads the list of organizations, programs, places and services (data/search-index.json)."
+    },
+    {
+      "repo": "marin-census",
+      "copies": [
+        { "from": "output/statistics/variables.jsonld", "to": "data/source/variables.jsonld" },
+        { "from": "output/statistics/datasets.jsonld", "to": "data/source/datasets.jsonld" },
+        { "from": "output/statistics/observations", "to": "data/source/observations", "dir": true },
+        { "from": "output/areas.jsonld", "to": "data/source/areas.jsonld" },
+        { "from": "output/jurisdictions.jsonld", "to": "data/source/jurisdictions.jsonld" },
+        { "from": "statistics/omitted-values.json", "to": "data/source/omitted-values.json" }
+      ],
+      "sync": [
+        "python3 ../marin-data/scripts/sync_copies.py ."
+      ],
+      "build": [
+        "python3 scripts/build_data.py"
+      ],
+      "check": "bash scripts/check.sh",
+      "notes": "The statistics (ACS 5-year) and the places they are about. marin-census builds data/census.json from these files and never edits them. See statistics/README.md."
     }
   ]
 }
