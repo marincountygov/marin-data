@@ -284,6 +284,31 @@
       "build": [],
       "check": "node scripts/check-projects.js",
       "notes": "marin-os checks that every organization its project records name exists here, and that the name it shows is the official name or one of the other names. It also copies the search list that the search box on its home page reads."
+    },
+    {
+      "repo": "marin-docs",
+      "copies": [
+        {
+          "from": "output/regulations/manual.jsonld",
+          "to": "pmrs/data/manual.jsonld"
+        },
+        {
+          "from": "output/regulations/regulations.jsonld",
+          "to": "pmrs/data/regulations.jsonld"
+        },
+        {
+          "from": "output/regulations/definitions.jsonld",
+          "to": "pmrs/data/definitions.jsonld"
+        }
+      ],
+      "sync": [
+        "python3 ../marin-data/scripts/sync_copies.py ."
+      ],
+      "build": [
+        "node scripts/build-pmrs.js"
+      ],
+      "check": "bash scripts/check.sh",
+      "notes": "The Personnel Management Regulations pages are built from these three files."
     }
   ]
 }

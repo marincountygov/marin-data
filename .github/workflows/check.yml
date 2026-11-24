@@ -37,4 +37,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 -m pip install -r requirements-schemagov.txt
+      - run: python3 -m pip install -r requirements-pmr.txt
+      - run: python3 extract_pmr.py --check
       - run: python3 check_schemagov.py schemaGov
