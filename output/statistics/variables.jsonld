@@ -79,11 +79,11 @@
       "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/rent-burden-rate",
       "@type": "StatisticalVariable",
       "name": "Rent burden rate",
-      "description": "Share of renter households paying 30 percent or more of household income on rent. Households where the share is not computed are left out of the universe.",
+      "description": "Share of renter households paying 30 percent or more of household income on rent. Renter households where the share is not computed are counted in the denominator, so this reads slightly lower than the Census's own published percentage, which leaves them out.",
       "statType": "percent",
       "measurementDenominator": {
-        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
-        "name": "Renter households with rent share computed"
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
+        "name": "Renter households"
       }
     },
     {
@@ -118,10 +118,10 @@
       "statType": "count"
     },
     {
-      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households-rent-computed",
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/renter-households",
       "@type": "StatisticalVariable",
-      "name": "Renter households with rent share computed",
-      "description": "Renter-occupied housing units where gross rent as a share of household income is computed.",
+      "name": "Renter households",
+      "description": "Renter-occupied housing units.",
       "statType": "count"
     },
     {

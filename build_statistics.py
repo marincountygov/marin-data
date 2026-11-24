@@ -22,7 +22,9 @@ Rules, all from the Census published conventions:
   - A controlled estimate (margin -555555555) has no published margin and counts as 0 inside a derived margin.
   - A margin of -222222222 or any other negative code is no margin; the estimate stays.
   - A margin of -333333333 means the median is in an open-ended interval (top- or bottom-coded). It is not a
-    point estimate, so it is left out and listed in omitted-values.json. Nothing is turned into zero.
+    point estimate. Where the mapping gives the variable an openEnded cap and the source estimate is exactly the
+    cap plus 1, it is written as a one-sided bound (minValue = cap) with no value and no margin of error. Any
+    other open-ended value is left out and listed in omitted-values.json. Nothing is turned into zero.
   - An estimate that is a negative code is left out and listed.
   - Derived values and margins are rounded to 6 decimals only to keep the files stable; sources are not rounded.
 """
@@ -61,6 +63,14 @@ class Missing(Exception):
         self.cells = list(cells)
 
 
+class OpenEnded(Missing):
+    """A median the Census publishes as 'or more' or 'or less'. The estimate is a stand-in, not a measurement."""
+
+    def __init__(self, reason, cells, estimate):
+        super().__init__(reason, cells)
+        self.estimate = estimate
+
+
 def number(text):
     """The number in a source cell, as an int when it has no decimal point, else None for a blank cell."""
     text = (text or "").strip()
@@ -91,7 +101,7 @@ def read_cell(tables, geo_id, cell):
     if est < 0:
         raise Missing(f"estimate is the unknown negative code {est}", [cell])
     if moe == OPEN_ENDED:
-        raise Missing(f"margin code {OPEN_ENDED}: the value is in an open-ended interval, so it is not a point estimate", [cell])
+        raise OpenEnded(f"margin code {OPEN_ENDED}: the value is in an open-ended interval, so it is not a point estimate", [cell], est)
     if moe is None:
         return est, None, None
     if moe == CONTROLLED:
@@ -268,13 +278,28 @@ def dataset_record():
 def build_observations(areas, tables):
     variables = {v["id"]: v for v in MAPPING["variables"]}
     observations = {"county": [], "places": [], "tracts": []}
-    omitted, counts = [], {"with-moe": 0, "without-moe": 0}
+    omitted, counts = [], {"with-moe": 0, "without-moe": 0, "bound-only": 0}
     for area in sorted(areas, key=lambda a: ({"county": 0, "place": 1, "tract": 2}[a["kind"]], a["label"] if a["kind"] == "place" else a["geoid"])):
         group = {"county": "county", "place": "places", "tract": "tracts"}[area["kind"]]
         for v in MAPPING["variables"]:
             try:
                 value, moe, used = value_of(v, variables, tables, area["geoId"])
             except Missing as err:
+                cap = v.get("openEnded")
+                if isinstance(err, OpenEnded) and cap and v["calculation"]["type"] == "direct" and err.estimate == cap["cap"] + 1:
+                    observations[group].append({
+                        "@id": f"{BASE}/id/observation/{area['code']}/{v['id']}/{SRC['observationPeriod'].replace('/', '-')}",
+                        "@type": "Observation",
+                        "observationAbout": {"@id": area["id"], "name": area["label"]},
+                        "variableMeasured": {"@id": variable_id(v["id"]), "name": v["name"]},
+                        cap["bound"]: cap["cap"],
+                        "unitText": v["unit"],
+                        "observationPeriod": SRC["observationPeriod"],
+                        "sourceDataset": dataset_id(),
+                        "measurementMethod": "survey estimate",
+                    })
+                    counts["bound-only"] += 1
+                    continue
                 omitted.append({
                     "area": area["id"], "geoid": area["geoid"], "name": area["label"], "variable": v["id"],
                     "reason": err.reason,

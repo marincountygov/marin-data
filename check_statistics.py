@@ -96,6 +96,10 @@ for rel in sorted(files):
                 errors.append(f"{where}: the margin of error needs confidenceLevel {b.SRC['confidenceLevel']}")
             if moe["value"] < 0:
                 errors.append(f"{where}: negative margin of error")
+        if "value" not in o:
+            if "marginOfError" in o or not ("minValue" in o or "maxValue" in o):
+                errors.append(f"{where}: a bound-only observation needs minValue or maxValue, and no value or margin of error")
+            continue
         if o["unitText"] == "percent" and not 0 <= o["value"] <= 100:
             errors.append(f"{where}: a percent outside 0 to 100")
         if o["value"] < 0:

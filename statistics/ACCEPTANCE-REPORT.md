@@ -6,9 +6,9 @@
 | Vintage and period | 2024; `observationPeriod` 2020/2024 |
 | Retrieved | 2026-11-24, from the Census download site, no API key |
 | Indicators | 10, plus 4 denominators published so every share can be reproduced |
-| Observations | 1,273 (of 1,330 possible) |
-| Left out | 57, each listed in `omitted-values.json` with its Census cells |
-| Validation | schemaGov shapes pass; reference check passes except 6 known facility records (see below); 20 calculation tests pass; local checks pass |
+| Observations | 1,306 (of 1,330 possible), including 33 one-sided bounds for open-ended medians |
+| Left out | 24, each listed in `omitted-values.json` with its Census cells |
+| Validation | schemaGov shapes pass and every reference resolves, against schemaGov 9ef81ef; 23 calculation tests pass; local checks pass |
 
 ## Geography
 
@@ -20,23 +20,27 @@
 
 ## Uncertainty
 
-- 1,272 of 1,273 observations carry a margin of error at the 90 percent level. The one without is the county's total population, which the Census controls and publishes with no margin.
+- 1,272 of 1,273 observations with a value carry a margin of error at the 90 percent level. The one without is the county's total population, which the Census controls and publishes with no margin.
 - Margins for sums, differences and shares are calculated with the Census formulas and are covered by tests.
 - Margins are wide in small places. Marin City's median household income is $68,846 with a margin of $26,081.
 
 ## Missing and special values
 
-- Open-ended medians (margin code -333333333): 25 median gross rent values and 8 median household income values. The Census publishes 250,001 and 3,501 as stand-ins for "$250,000 or more" and "$3,500 or more". Writing those as numbers would be false, so they are left out. Affected places include Belvedere, Ross, Corte Madera, Sausalito and Tiburon.
-- No sample or too few (estimate code -666666666): 13 median gross rent, 3 median household income, 1 median age.
+- Open-ended medians (margin code -333333333): 25 median gross rent values and 8 median household income values. The Census publishes 250,001 and 3,501 as stand-ins for "$250,000 or more" and "$3,500 or more". They are written as one-sided bounds (`minValue` 250000 and 3500) with no `value` and no margin of error, and only where the source estimate is exactly the cap plus 1. Affected places include Belvedere, Ross, Corte Madera, Sausalito and Tiburon. A consumer should show them as "250,000 or more".
+- No sample or too few (estimate code -666666666): 13 median gross rent, 3 median household income, 1 median age. These are left out.
 - A zero denominator (so no share): 7 observations, in tracts or places with no residents, renters or people with poverty status determined.
 - No value was written as zero. No other special codes appeared.
 
 ## schemaGov findings
 
-1. **Open-ended (top-coded and bottom-coded) values cannot be represented.** This is the case the profile already lists as a gap, now with real data: the wealthiest places lose their median income. The smallest general fix would be a way to say a value is a bound ("250,000 or more"). `minValue` already exists on an observation, but the profile defines it as an interval bound of an estimate, so using it for this needs a decision upstream. Not changed here.
-2. **A plain `Place` now needs `areaType`.** Six existing facilities are typed `Place` (St. Vincent's, Gallinas Creek, Tam Valley Community Center, Homestead Valley Community Center, Marin Art & Garden Center, Marin Humane) and fail the current schema. They are tolerated by name in `check_schemagov.py` until someone retypes them. Retyping them was left alone because it can affect other apps.
-3. **The CI pin for schemaGov was older than the statistics profile.** It now points at the current schemaGov main.
-4. The upstream ACS crosswalk uses all renter households for the rent burden denominator. This import excludes households whose rent share is not computed, as the Census's own tables do. The crosswalk should say so.
+All three problems found in the first import are fixed upstream (schemaGov PRs 40 and 41) and consumed here.
+
+1. **Open-ended (top-coded) values.** An observation can now state a one-sided bound with `minValue` and no `value`. marin-data writes the 33 open-ended medians this way.
+2. **A plain `Place` needed `areaType`.** The validator now treats a `Place` with no `areaType` as a facility, so the six facilities (St. Vincent's, Gallinas Creek, Tam Valley Community Center, Homestead Valley Community Center, Marin Art & Garden Center, Marin Humane) pass with no exception and were not retyped. The tolerance in `check_schemagov.py` is removed. Always set `areaType` on a statistical area: one that forgets it passes silently as a facility.
+3. **The CI pin for schemaGov** now points at 9ef81ef.
+4. **Rent burden denominator.** It is all renter households (`B25070_001`), as the schemaGov crosswalk says. The Census's own published percentage leaves out households where the rent share is "not computed", so this reads slightly lower. The variable's description says so.
+
+Still not representable: why a value was suppressed, quality flags and annotations, and survey weights.
 
 ## Data quality notes
 
