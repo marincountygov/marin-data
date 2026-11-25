@@ -159,7 +159,7 @@
         "node scripts/build-organization.js ../marin-data/output"
       ],
       "check": "bash scripts/check.sh",
-      "notes": "build-organization.js copies the files itself. It also reads budgets.jsonld, budget-lines.jsonld and source/budget-display.json from output/ for the Budget tab. It reads output/statistics/ (variables, datasets and the county and places observations) for the Census section of a place's About tab. The Reach tab on each page loads Marin Reach's published data in the browser, so the build needs nothing from marin-reach. The Projects pages are built from projects/projects.json. The Engage tab on project and organization pages is built from engage/campaigns.json."
+      "notes": "build-organization.js copies the files itself. It also reads budgets.jsonld, budget-lines.jsonld and source/budget-display.json from output/ for the Budget tab. It reads output/statistics/ (variables, datasets, topics and the county and places observations) for the Census section of a place's About tab. The Reach tab on each page loads Marin Reach's published data in the browser, so the build needs nothing from marin-reach. The Projects pages are built from projects/projects.json. The Engage tab on project and organization pages is built from engage/campaigns.json."
     },
     {
       "repo": "marin-budget",
@@ -319,6 +319,7 @@
       "copies": [
         { "from": "output/statistics/variables.jsonld", "to": "data/source/variables.jsonld" },
         { "from": "output/statistics/datasets.jsonld", "to": "data/source/datasets.jsonld" },
+        { "from": "output/statistics/topics.json", "to": "data/source/topics.json" },
         { "from": "output/statistics/observations", "to": "data/source/observations", "dir": true },
         { "from": "output/areas.jsonld", "to": "data/source/areas.jsonld" },
         { "from": "output/jurisdictions.jsonld", "to": "data/source/jurisdictions.jsonld" },
