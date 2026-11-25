@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.0.0",
+  "notes": [
+    "How the page groups and orders the measures. This is presentation, so it lives here and not in marin-data.",
+    "topics: the groups, in the order shown, each with its measures in order. A variable in marin-data that is not listed here is a denominator and is not shown as a measure.",
+    "headlineMeasures: the measures the table has columns for (the others are on a place's page and in the downloads)."
+  ],
+  "headlineMeasures": [
+    "population-total",
+    "median-age",
+    "population-under-18",
+    "population-65-plus",
+    "median-household-income",
+    "poverty-rate",
+    "median-gross-rent",
+    "rent-burden-rate",
+    "disability-rate",
+    "households-without-internet-rate"
+  ],
+  "topics": [
+    {
+      "id": "population",
+      "name": "Population and households",
+      "measures": [
+        "population-total",
+        "median-age",
+        "population-under-18",
+        "under-18-rate",
+        "population-65-plus",
+        "population-65-plus-rate",
+        "households-total",
+        "average-household-size",
+        "living-alone-rate"
+      ]
+    },
+    {
+      "id": "community",
+      "name": "Community",
+      "measures": [
+        "foreign-born-rate",
+        "veteran-rate",
+        "disability-rate",
+        "hispanic-or-latino-rate",
+        "white-non-hispanic-rate"
+      ]
+    },
+    {
+      "id": "language",
+      "name": "Language",
+      "measures": [
+        "language-other-than-english-rate",
+        "limited-english-rate",
+        "limited-english-households-rate"
+      ]
+    },
+    {
+      "id": "income",
+      "name": "Income and poverty",
+      "measures": [
+        "median-household-income",
+        "per-capita-income",
+        "poverty-rate",
+        "child-poverty-rate",
+        "senior-poverty-rate"
+      ]
+    },
+    {
+      "id": "housing",
+      "name": "Housing",
+      "measures": [
+        "housing-units-total",
+        "homeownership-rate",
+        "vacancy-rate",
+        "median-home-value",
+        "median-gross-rent",
+        "rent-burden-rate",
+        "owner-cost-burden-rate",
+        "overcrowding-rate"
+      ]
+    },
+    {
+      "id": "digital",
+      "name": "Digital access",
+      "measures": [
+        "households-without-internet-rate",
+        "broadband-subscription-rate",
+        "households-without-computer-rate"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "measures": [
+        "less-than-high-school-rate",
+        "bachelors-or-higher-rate"
+      ]
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation",
+      "measures": [
+        "work-from-home-rate",
+        "public-transit-rate",
+        "households-without-vehicle-rate"
+      ]
+    },
+    {
+      "id": "employment",
+      "name": "Employment",
+      "measures": [
+        "labor-force-participation-rate",
+        "unemployment-rate"
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "measures": [
+        "uninsured-rate"
+      ]
+    }
+  ]
+}

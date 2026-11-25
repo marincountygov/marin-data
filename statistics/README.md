@@ -13,6 +13,7 @@ Census files -> extract_acs.py -> statistics/source/ -> build_statistics.py -> o
 | Path | What it holds |
 |---|---|
 | `statistics/acs-mapping.json` | Each measure (a schemaGov statistical variable), the ACS cells it is made from, and its calculation. The only place a Census cell code appears. |
+| `statistics/topics.json` | How the measures are grouped and ordered for display (the topics, and the headline measures). Copied to `output/statistics/topics.json` by the build. Marin Census and the Census section of a place in Marin Pulse both read it, so they show the same tables. |
 | `statistics/source/acs-2024-5yr/` | The Census values for Marin, exactly as published (text, sentinel codes untouched). `manifest.json` has the retrieval date and each downloaded file's address, size and SHA-256. |
 | `output/statistics/variables.jsonld` | The measures. |
 | `output/statistics/datasets.jsonld` | The ACS release, as a schemaGov dataset. Observations point at it with `sourceDataset`. |
