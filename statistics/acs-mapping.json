@@ -428,6 +428,110 @@
       "role": "denominator", "statType": "count", "populationType": "Person", "unit": "persons",
       "universe": "Civilian labor force",
       "calculation": {"type": "direct", "cell": "B23025_003"}
+    },
+    {
+      "id": "language-other-than-english-rate",
+      "name": "Language other than English at home rate",
+      "description": "Share of people 5 and over who speak a language other than English at home.",
+      "role": "indicator", "statType": "percent", "populationType": "Person", "unit": "percent",
+      "universe": "Population 5 years and over",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B16004_004", "B16004_009", "B16004_014", "B16004_019", "B16004_026", "B16004_031", "B16004_036", "B16004_041", "B16004_048", "B16004_053", "B16004_058", "B16004_063"]}, "denominator": "population-5-plus"}
+    },
+    {
+      "id": "limited-english-rate",
+      "name": "Limited English proficiency rate",
+      "description": "Share of people 5 and over who speak English less than very well.",
+      "role": "indicator", "statType": "percent", "populationType": "Person", "unit": "percent",
+      "universe": "Population 5 years and over",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B16004_006", "B16004_007", "B16004_008", "B16004_011", "B16004_012", "B16004_013", "B16004_016", "B16004_017", "B16004_018", "B16004_021", "B16004_022", "B16004_023", "B16004_028", "B16004_029", "B16004_030", "B16004_033", "B16004_034", "B16004_035", "B16004_038", "B16004_039", "B16004_040", "B16004_043", "B16004_044", "B16004_045", "B16004_050", "B16004_051", "B16004_052", "B16004_055", "B16004_056", "B16004_057", "B16004_060", "B16004_061", "B16004_062", "B16004_065", "B16004_066", "B16004_067"]}, "denominator": "population-5-plus"}
+    },
+    {
+      "id": "less-than-high-school-rate",
+      "name": "Less than high school rate",
+      "description": "Share of adults 25 and over with no high school diploma or equivalent.",
+      "role": "indicator", "statType": "percent", "populationType": "Person", "unit": "percent",
+      "universe": "Population 25 years and over",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B15003_002", "B15003_003", "B15003_004", "B15003_005", "B15003_006", "B15003_007", "B15003_008", "B15003_009", "B15003_010", "B15003_011", "B15003_012", "B15003_013", "B15003_014", "B15003_015", "B15003_016"]}, "denominator": "population-25-plus"}
+    },
+    {
+      "id": "bachelors-or-higher-rate",
+      "name": "Bachelor's degree or higher rate",
+      "description": "Share of adults 25 and over with a bachelor's, master's, professional or doctoral degree.",
+      "role": "indicator", "statType": "percent", "populationType": "Person", "unit": "percent",
+      "universe": "Population 25 years and over",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B15003_022", "B15003_023", "B15003_024", "B15003_025"]}, "denominator": "population-25-plus"}
+    },
+    {
+      "id": "hispanic-or-latino-rate",
+      "name": "Hispanic or Latino rate",
+      "description": "Share of residents of Hispanic or Latino origin, of any race.",
+      "role": "indicator", "statType": "percent", "populationType": "Person", "unit": "percent",
+      "universe": "Total population",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B03002_012"]}, "denominator": "population-hispanic-origin"}
+    },
+    {
+      "id": "white-non-hispanic-rate",
+      "name": "White non-Hispanic rate",
+      "description": "Share of residents who are White alone and not of Hispanic or Latino origin.",
+      "role": "indicator", "statType": "percent", "populationType": "Person", "unit": "percent",
+      "universe": "Total population",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B03002_003"]}, "denominator": "population-hispanic-origin"}
+    },
+    {
+      "id": "living-alone-rate",
+      "name": "Living alone rate",
+      "description": "Share of households with one person living alone.",
+      "role": "indicator", "statType": "percent", "unit": "percent",
+      "universe": "Households",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B11001_008"]}, "denominator": "households-type"}
+    },
+    {
+      "id": "uninsured-rate",
+      "name": "Uninsured rate",
+      "description": "Share of the civilian noninstitutionalized population with no health insurance coverage.",
+      "role": "indicator", "statType": "percent", "populationType": "Person", "unit": "percent",
+      "universe": "Civilian noninstitutionalized population",
+      "calculation": {"type": "share", "numerator": {"type": "sum", "cells": ["B27010_017", "B27010_033", "B27010_050", "B27010_066"]}, "denominator": "population-insurance-status"}
+    },
+    {
+      "id": "population-5-plus",
+      "name": "Population 5 and over",
+      "description": "People in the universe of the language rates.",
+      "role": "denominator", "statType": "count", "populationType": "Person", "unit": "persons",
+      "universe": "Population 5 years and over",
+      "calculation": {"type": "direct", "cell": "B16004_001"}
+    },
+    {
+      "id": "population-25-plus",
+      "name": "Population 25 and over",
+      "description": "People in the universe of the education rates.",
+      "role": "denominator", "statType": "count", "populationType": "Person", "unit": "persons",
+      "universe": "Population 25 years and over",
+      "calculation": {"type": "direct", "cell": "B15003_001"}
+    },
+    {
+      "id": "population-hispanic-origin",
+      "name": "Population by Hispanic origin and race",
+      "description": "People in the universe of the Hispanic and White non-Hispanic rates.",
+      "role": "denominator", "statType": "count", "populationType": "Person", "unit": "persons",
+      "universe": "Total population",
+      "calculation": {"type": "direct", "cell": "B03002_001"}
+    },
+    {
+      "id": "households-type",
+      "name": "Households by type",
+      "description": "Households in the universe of the living alone rate.",
+      "role": "denominator", "statType": "count", "unit": "households",
+      "universe": "Households",
+      "calculation": {"type": "direct", "cell": "B11001_001"}
+    },
+    {
+      "id": "population-insurance-status",
+      "name": "Population for whom insurance status is determined",
+      "description": "People in the universe of the uninsured rate.",
+      "role": "denominator", "statType": "count", "populationType": "Person", "unit": "persons",
+      "universe": "Civilian noninstitutionalized population",
+      "calculation": {"type": "direct", "cell": "B27010_001"}
     }
   ]
 }

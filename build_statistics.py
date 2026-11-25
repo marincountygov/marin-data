@@ -19,7 +19,8 @@ Writes:
 Rules, all from the Census published conventions:
   - A sum or difference has the square root of the sum of squared margins as its margin.
   - A share uses the Census proportion formula; where that root is negative, the ratio formula.
-  - A controlled estimate (margin -555555555) has no published margin and counts as 0 inside a derived margin.
+  - A controlled estimate (margin -555555555) has no published margin and counts as 0 inside a derived margin. A value
+    made only of controlled estimates would get a margin of 0, which reads as certain, so it gets none.
   - A margin of -222222222 or any other negative code is no margin; the estimate stays.
   - A margin of -333333333 means the median is in an open-ended interval (top- or bottom-coded). It is not a
     point estimate. Where the mapping gives the variable an openEnded cap and the source estimate is exactly the
@@ -111,6 +112,16 @@ def read_cell(tables, geo_id, cell):
     return est, moe, moe
 
 
+def controlled(tables, geo_id, cells):
+    """True when every cell is a controlled estimate: the Census sets it to an official figure and publishes no margin
+    (code -555555555). A margin worked out from such cells would be 0, which reads as certain, so none is published."""
+    for cell in cells:
+        _, published, for_calc = read_cell(tables, geo_id, cell)
+        if not (published is None and for_calc == 0):
+            return False
+    return True
+
+
 def combine(parts):
     """Add (sign, estimate, calc margin) parts. The margin is the root of summed squares, or None if any is unknown."""
     est = sum(sign * e for sign, e, _ in parts)
@@ -156,6 +167,8 @@ def value_of(variable, variables, tables, geo_id):
         e, m = combine(parts)
         if e < 0:
             raise Missing("the difference is negative", used)
+        if m == 0 and controlled(tables, geo_id, used):
+            m = None
         return tidy(e), (None if m is None else tidy(round(m, 6))), used
     num_parts = [(1, *read_cell(tables, geo_id, c)[::2]) for c in calc["numerator"]["cells"]]
     num = combine(num_parts)
@@ -169,6 +182,8 @@ def value_of(variable, variables, tables, geo_id):
         pct, moe = share(num, den)
     except Missing as err:
         raise Missing(err.reason, used)
+    if moe == 0 and controlled(tables, geo_id, used):
+        moe = None
     return tidy(round(pct, 6)), (None if moe is None else tidy(round(moe, 6))), used
 
 

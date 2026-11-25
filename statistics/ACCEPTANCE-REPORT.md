@@ -5,10 +5,10 @@
 | Source | U.S. Census Bureau, American Community Survey 5-year estimates, 2020-2024 (table-based summary file) |
 | Vintage and period | 2024; `observationPeriod` 2020/2024 |
 | Retrieved | 2026-11-24, from the Census download site, no API key |
-| Indicators | 33 measures (the first 10 plus 23 from batch 1 below), and 16 denominators published so every share can be reproduced |
-| Observations | 4,601 (of 4,655 possible), including 56 one-sided bounds for open-ended medians |
-| Left out | 54, each listed in `omitted-values.json` with its Census cells |
-| Validation | schemaGov shapes pass and every reference resolves, against schemaGov 9ef81ef; 23 calculation tests pass (the calculations did not change in batch 1); local checks pass |
+| Indicators | 41 measures (the first 10, 23 from batch 1 and 8 from batch 2 below; total households is also a denominator), and 21 more denominators published so every share can be reproduced |
+| Observations | 5,828 (of 5,890 possible), including 56 one-sided bounds for open-ended medians |
+| Left out | 62, each listed in `omitted-values.json` with its Census cells |
+| Validation | schemaGov shapes pass and every reference resolves, against schemaGov 9ef81ef; 27 calculation tests pass; local checks pass |
 
 ## Geography
 
@@ -62,3 +62,13 @@ Added from tables already in the same release: average household size, share und
 - **Rent burden** counts all renter households (as the schemaGov crosswalk says), so the county reads 52.9%.
 - **Checks:** county values were spot-checked against the raw files (unemployment rate 6.09%, child poverty rate 9.79%).
 - **Batch 2 is next:** language, education, Hispanic and White non-Hispanic shares, one-person households and health insurance. Their cell lists will be checked against the table shells first.
+
+## Batch 2 of the expanded set (8 more measures)
+
+Language other than English at home rate, limited English proficiency rate, less than high school rate, bachelor's degree or higher rate, Hispanic or Latino rate, White non-Hispanic rate, living alone rate and uninsured rate. Each cell list was read from the table shells first, and each share has its own published denominator (people 5 and over, people 25 and over, the Hispanic origin universe, households by type, and the insurance universe).
+
+- **Marin County values** (spot-checked as plausible): 23.9% speak another language at home, 9.6% speak English less than very well, 7.2% of adults 25 and over have no high school diploma, 61.1% have a bachelor's degree or higher, 19.5% are Hispanic or Latino, 65.1% are White non-Hispanic, 28.9% of households are one person, and 3.8% have no health insurance.
+- **A fix found by real data:** the county's Hispanic or Latino count is a controlled estimate, so the Census publishes no margin for it. A share of two controlled estimates came out as "plus or minus 0.0", which reads as certain. A value made only of controlled estimates now gets no margin, as the county's total population does. A published margin of 0 is still kept. Four tests cover it.
+- **Left out:** 62 values in all. The new ones are zero denominators (a tract with no one 25 and over, no insured-status universe and so on) and the same "no sample" medians. Nothing was written as zero.
+- **Race and ethnicity:** the Hispanic and White non-Hispanic shares come from the Hispanic origin by race table, so the two never overlap. They are not the whole population: other groups are not listed.
+- **No new schemaGov problem.**

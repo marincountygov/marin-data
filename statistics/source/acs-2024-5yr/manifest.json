@@ -39,6 +39,13 @@
    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01003.dat"
   },
   {
+   "name": "acsdt5y2024-b03002.dat",
+   "table": "B03002",
+   "bytes": 83256772,
+   "sha256": "ef1a9310905393bf477820de8edb2935c1e9bdb356be65b5ee5fb6fceda911c1",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b03002.dat"
+  },
+  {
    "name": "acsdt5y2024-b05002.dat",
    "table": "B05002",
    "bytes": 57767821,
@@ -65,6 +72,27 @@
    "bytes": 26049955,
    "sha256": "99bb4e04c9ae0c33935c34599a10ed0eac5b290cf2b9d219560ef98076656c80",
    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b09001.dat"
+  },
+  {
+   "name": "acsdt5y2024-b11001.dat",
+   "table": "B11001",
+   "bytes": 45827971,
+   "sha256": "77200c3d9c0d99773bc7f78208bc96f25170e5d4d175a5de320620b478ceaff5",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat"
+  },
+  {
+   "name": "acsdt5y2024-b15003.dat",
+   "table": "B15003",
+   "bytes": 92292840,
+   "sha256": "d0c8609e958022459215c8a31d7452ef7528ee8dd70fbb6f9a99de0f491f42d7",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat"
+  },
+  {
+   "name": "acsdt5y2024-b16004.dat",
+   "table": "B16004",
+   "bytes": 214611853,
+   "sha256": "5c43c1e337b44eb0362c85d958b3d8b9dd08f94577ff6b11af7d76c5b57b790e",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b16004.dat"
   },
   {
    "name": "acsdt5y2024-b17001.dat",
@@ -163,6 +191,13 @@
    "bytes": 85898882,
    "sha256": "152e35f7a5143f3e0a27b58b1ec9c142346d975904964b0cab8990c0ddef5f14",
    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25091.dat"
+  },
+  {
+   "name": "acsdt5y2024-b27010.dat",
+   "table": "B27010",
+   "bytes": 226230726,
+   "sha256": "2ceba99dada3ec1042310e1dc1f00bcc819de765c3143028aa000df025012a69",
+   "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b27010.dat"
   },
   {
    "name": "acsdt5y2024-b28001.dat",
