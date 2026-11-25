@@ -158,6 +158,33 @@ class OpenEnded(unittest.TestCase):
         self.assertIn("open-ended", omitted[0]["reason"])
 
 
+class AllControlled(unittest.TestCase):
+    DEN = {"den": {"calculation": {"type": "direct", "cell": "T_001"}}}
+
+    def share(self, num, den):
+        t = tables(T_001=den, T_002=num)
+        v = variable(type="share", numerator={"cells": ["T_002"]}, denominator="den")
+        return b.value_of(v, self.DEN, t, GEO)
+
+    def test_a_share_of_two_controlled_estimates_has_no_margin_not_a_margin_of_zero(self):
+        value, moe, _ = self.share(("50000", "-555555555"), ("257969", "-555555555"))
+        self.assertAlmostEqual(value, 100 * 50000 / 257969, places=5)
+        self.assertIsNone(moe)
+
+    def test_one_controlled_part_still_gets_the_margin_of_the_other(self):
+        _, moe, _ = self.share(("200", "20"), ("1000", "-555555555"))
+        self.assertAlmostEqual(moe, 2.0, places=6)
+
+    def test_a_published_margin_of_zero_is_kept(self):
+        _, moe, _ = self.share(("0", "0"), ("1000", "0"))
+        self.assertEqual(moe, 0)
+
+    def test_a_sum_of_controlled_estimates_has_no_margin(self):
+        t = tables(T_001=("100", "-555555555"), T_002=("50", "-555555555"))
+        value, moe, _ = b.value_of(variable(type="sum", cells=["T_001", "T_002"]), {}, t, GEO)
+        self.assertEqual((value, moe), (150, None))
+
+
 class Values(unittest.TestCase):
     def test_whole_numbers_stay_whole_and_decimals_keep_six_places(self):
         self.assertEqual(b.tidy(5.0), 5)

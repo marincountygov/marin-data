@@ -473,6 +473,140 @@
       "description": "People in the universe of the unemployment rate.",
       "populationType": "Person",
       "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/language-other-than-english-rate",
+      "@type": "StatisticalVariable",
+      "name": "Language other than English at home rate",
+      "description": "Share of people 5 and over who speak a language other than English at home.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-5-plus",
+        "name": "Population 5 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/limited-english-rate",
+      "@type": "StatisticalVariable",
+      "name": "Limited English proficiency rate",
+      "description": "Share of people 5 and over who speak English less than very well.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-5-plus",
+        "name": "Population 5 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/less-than-high-school-rate",
+      "@type": "StatisticalVariable",
+      "name": "Less than high school rate",
+      "description": "Share of adults 25 and over with no high school diploma or equivalent.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-25-plus",
+        "name": "Population 25 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/bachelors-or-higher-rate",
+      "@type": "StatisticalVariable",
+      "name": "Bachelor's degree or higher rate",
+      "description": "Share of adults 25 and over with a bachelor's, master's, professional or doctoral degree.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-25-plus",
+        "name": "Population 25 and over"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/hispanic-or-latino-rate",
+      "@type": "StatisticalVariable",
+      "name": "Hispanic or Latino rate",
+      "description": "Share of residents of Hispanic or Latino origin, of any race.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-hispanic-origin",
+        "name": "Population by Hispanic origin and race"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/white-non-hispanic-rate",
+      "@type": "StatisticalVariable",
+      "name": "White non-Hispanic rate",
+      "description": "Share of residents who are White alone and not of Hispanic or Latino origin.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-hispanic-origin",
+        "name": "Population by Hispanic origin and race"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/living-alone-rate",
+      "@type": "StatisticalVariable",
+      "name": "Living alone rate",
+      "description": "Share of households with one person living alone.",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-type",
+        "name": "Households by type"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/uninsured-rate",
+      "@type": "StatisticalVariable",
+      "name": "Uninsured rate",
+      "description": "Share of the civilian noninstitutionalized population with no health insurance coverage.",
+      "populationType": "Person",
+      "statType": "percent",
+      "measurementDenominator": {
+        "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-insurance-status",
+        "name": "Population for whom insurance status is determined"
+      }
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-5-plus",
+      "@type": "StatisticalVariable",
+      "name": "Population 5 and over",
+      "description": "People in the universe of the language rates.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-25-plus",
+      "@type": "StatisticalVariable",
+      "name": "Population 25 and over",
+      "description": "People in the universe of the education rates.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-hispanic-origin",
+      "@type": "StatisticalVariable",
+      "name": "Population by Hispanic origin and race",
+      "description": "People in the universe of the Hispanic and White non-Hispanic rates.",
+      "populationType": "Person",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/households-type",
+      "@type": "StatisticalVariable",
+      "name": "Households by type",
+      "description": "Households in the universe of the living alone rate.",
+      "statType": "count"
+    },
+    {
+      "@id": "https://marincountygov.github.io/marin-data/id/statistical-variable/population-insurance-status",
+      "@type": "StatisticalVariable",
+      "name": "Population for whom insurance status is determined",
+      "description": "People in the universe of the uninsured rate.",
+      "populationType": "Person",
+      "statType": "count"
     }
   ]
 }
