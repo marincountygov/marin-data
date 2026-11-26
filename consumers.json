@@ -152,6 +152,10 @@
         {
           "from": "engage/campaigns.json",
           "to": "engage/data/campaigns.json"
+        },
+        {
+          "from": "organizations/search-index.json",
+          "to": "data/search-index.json"
         }
       ],
       "sync": [],
@@ -159,7 +163,7 @@
         "node scripts/build-organization.js ../marin-data/output"
       ],
       "check": "bash scripts/check.sh",
-      "notes": "build-organization.js copies the files itself. It also reads budgets.jsonld, budget-lines.jsonld and source/budget-display.json from output/ for the Budget tab. It reads output/statistics/ (variables, datasets, topics and the county and places observations) for the Census section of a place's About tab. The Reach tab on each page loads Marin Reach's published data in the browser, so the build needs nothing from marin-reach. The Projects pages are built from projects/projects.json. The Engage tab on project and organization pages is built from engage/campaigns.json."
+      "notes": "build-organization.js copies the files itself. It also reads budgets.jsonld, budget-lines.jsonld and source/budget-display.json from output/ for the Budget tab. It reads output/statistics/ (variables, datasets, topics and the county and places observations) for the Census section of a place's About tab. The Projects pages are built from projects/projects.json. The Engage tab on project and organization pages is built from engage/campaigns.json. The home page search reads data/search-index.json, copied from organizations/search-index.json."
     },
     {
       "repo": "marin-budget",
