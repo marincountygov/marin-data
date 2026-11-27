@@ -520,7 +520,7 @@ def main():
         {'field': 'Net County Cost, Change columns, Transfers', 'source': 'Department pages', 'reason': 'Derived values or movements between funds, not lines', 'recommendation': 'Kept in source/budget-display.json'},
         {'field': 'Source page number', 'source': 'All tables', 'reason': 'No provenance property below Budget', 'recommendation': 'Kept in source/budget-display.json linePages'},
         {'field': 'Net County cost by program', 'source': 'Program Overview', 'reason': 'Derived value', 'recommendation': 'Kept in source/budget-display.json programRows'},
-        {'field': 'FY 2027-28 planned', 'source': 'All tables', 'reason': 'No planned phase; decision not to add', 'recommendation': 'Not extracted'},
+        {'field': 'FY 2027-28 planned', 'source': 'All tables', 'reason': 'Left out by decision; schemaGov has a planned phase', 'recommendation': 'Not extracted'},
     ]
     dump('qa/budget-matches.json', qa['matches'])
     dump('qa/unmatched-programs.json', qa['unmatched_programs'])

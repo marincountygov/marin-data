@@ -5,7 +5,7 @@ agencies.json is the master list of County agencies (ids, codes, order, status).
 full record for each body and links to the list through the identifier local:marin-links-agency-id.
 
 Fails if an agency has no matching organization, or if id, code, name, parent or url disagree.
-A budget short link kept in alternateUrl is allowed.
+A budget short link kept in sameAs is allowed.
 
   python3 check_orgs.py
 """

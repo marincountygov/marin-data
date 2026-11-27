@@ -11,8 +11,9 @@ Writes cip-projects.jsonld, cip-budgets.jsonld, cip-budget-lines.jsonld, source/
 qa/cip-checks.json in OUTPUT_DIR (default: ./output/cip). Every project row is checked against its own printed
 totals, every group against its printed subtotal, and the groups against the page 21 and page 19 totals.
 
-The BudgetLine `project` property is PROPOSED for schemaGov and is not yet in its schema or context. It is used
-here to prototype the link; see CIP-PLAN.md.
+Each budget line names its project (BudgetLine `project`). Each project carries its category and, where the book gives
+one, its cost estimate. Prior approvals and additional funds needed have no schemaGov property and stay in the display
+file.
 """
 import json
 import re
@@ -20,13 +21,14 @@ import statistics
 import sys
 
 import sources_lib
-from datetime import date
 from pathlib import Path
 
 BASE = 'https://marincountygov.github.io/marin-data/id/'
 CONTEXT = 'https://schema.govfresh.com/v1/context.jsonld'
 OFFSET = 0  # printed page number = PDF page number (the book's pages are numbered "PROPOSED CIP | n")
-TODAY = date.today().isoformat()
+# The day the book was last read. `estimatedCost` is true as of this date, so change it only when the book is read again
+# for a new edition or revision, not on a rerun.
+BOOK_READ = '2026-11-10'
 COUNTY = BASE + 'organization/county-of-marin'
 JURISDICTION = BASE + 'jurisdiction/us-ca-marin'
 
@@ -296,8 +298,11 @@ def main():
     project_nodes, lines = [], []
     dataset = BASE + 'dataset/cip-fy2027-31'
     for p in projects:
-        project_nodes.append({'@id': pid[id(p)], '@type': 'Project', 'name': p['name'], 'sourceDataset': dataset, 'dateModified': TODAY})
         c = dict(zip(FIELDS, p['cells']))
+        project_nodes.append({'@id': pid[id(p)], '@type': 'Project', 'name': p['name'],
+                              'projectCategory': [x for x in (p['group'], p['sub']) if x],
+                              **({} if c['cost'] is None else {'estimatedCost': {'@type': 'MonetaryAmount', 'value': c['cost'], 'currency': 'USD'}}),
+                              'sourceDataset': dataset, 'dateModified': BOOK_READ})
 
         def line(tail, name, value, budget_key, phase, page):
             lines.append({'@id': BASE + f'budget-line/cip-{budget_key}/{p["key"]}/{tail}', '@type': 'BudgetLine', 'name': name,
@@ -327,7 +332,7 @@ def main():
                         'description': 'Capital projects and their funding for this fiscal year, as printed in the County of Marin FY 2027-31 Proposed Capital Improvement Plan.',
                         **({'url': book_url} if book_url else {}),
                         'publisher': {'@id': COUNTY}, 'about': {'@id': JURISDICTION}, 'budgetPhase': PHASE[y], 'fiscalYear': y,
-                        'startDate': YEAR_DATES[y][0], 'endDate': YEAR_DATES[y][1], 'currency': 'USD', 'dateModified': TODAY,
+                        'startDate': YEAR_DATES[y][0], 'endDate': YEAR_DATES[y][1], 'currency': 'USD', 'dateModified': BOOK_READ,
                         'budgetLine': [{'@id': l['@id']} for l in lines if l['budget']['@id'] == bid(y)]})
     for name, nodes in (('cip-projects.jsonld', project_nodes), ('cip-budgets.jsonld', budgets), ('cip-budget-lines.jsonld', lines)):
         json.dump({'@context': CONTEXT, '@graph': nodes}, open(out / name, 'w'), indent=1, ensure_ascii=False)
