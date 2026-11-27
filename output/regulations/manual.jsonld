@@ -41,7 +41,8 @@
       "name": "All Personnel Management Regulations | County of Marin Human Resources",
       "encodingFormat": "text/html",
       "url": "https://www.hr.marincounty.gov/regulations-policies-procedures/personnel-management-regulations/all-personnel-management-regulations",
-      "legislationLegalValue": "Official"
+      "contentUrl": "https://www.hr.marincounty.gov/regulations-policies-procedures/personnel-management-regulations/all-personnel-management-regulations",
+      "legislationLegalValue": "OfficialLegalValue"
     },
     {
       "@id": "https://marincountygov.github.io/marin-data/id/regulation/personnel-management-regulations/part-1",
