@@ -37,6 +37,7 @@ Correct a mistake in `extract_pmr.py` and regenerate. Ids are under `https://mar
 
 ## Where the schema falls short (values kept in a local identifier)
 
-- A date that is not a whole date (`2005-01`, `2026-04`, `02-07-17`) cannot go in `legislationDateOfApplicability`. It is kept in `local:pmr-effective-date-as-written`.
+- An ambiguous date (`02-07-17`) cannot go in `legislationDateOfApplicability`. It is kept in `local:pmr-effective-date-as-written`.
+- schemaGov now allows a year-month date (`2005-01`, `2026-04`) there. `extract_pmr.py` still keeps these in `local:pmr-effective-date-as-written`, which is where Marin Docs reads the effective date.
 - A preparer or approver named only as text (`Laura Armor`, `ss/President, Board of Supervisors`) cannot go in `creator` or `legislationCountersignedBy`, which take a reference. They are kept in `local:pmr-prepared-by-as-written` and `local:pmr-approved-by-as-written`. Pointing them at an organization or person record would be a guess.
 - Tables (two, one in PMR 40) are not modelled. Their text is in the provision.

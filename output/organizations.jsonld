@@ -90,7 +90,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/AWM",
-      "alternateUrl": "https://MarinCounty.gov/AWM",
+      "sameAs": [
+        "https://MarinCounty.gov/AWM"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -289,7 +291,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.arcc.marincounty.gov/",
-      "alternateUrl": "https://MarinCounty.gov/ARCC",
+      "sameAs": [
+        "https://MarinCounty.gov/ARCC"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -403,7 +407,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/board",
-      "alternateUrl": "https://MarinCounty.gov/Board",
+      "sameAs": [
+        "https://MarinCounty.gov/Board"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -471,7 +477,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/css",
-      "alternateUrl": "https://MarinCounty.gov/CSS",
+      "sameAs": [
+        "https://MarinCounty.gov/CSS"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -572,7 +580,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/cda",
-      "alternateUrl": "https://MarinCounty.gov/CDA",
+      "sameAs": [
+        "https://MarinCounty.gov/CDA"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-development-and-public-works"
       },
@@ -913,7 +923,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/county-counsel",
-      "alternateUrl": "https://MarinCounty.gov/County-Counsel",
+      "sameAs": [
+        "https://MarinCounty.gov/County-Counsel"
+      ],
       "alternateName": [
         "Marin County Counsel"
       ],
@@ -992,7 +1004,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/executive",
-      "alternateUrl": "https://MarinCounty.gov/Executive",
+      "sameAs": [
+        "https://MarinCounty.gov/Executive"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -1081,7 +1095,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/cultural-services",
-      "alternateUrl": "https://MarinCounty.gov/Cultural-Services",
+      "sameAs": [
+        "https://MarinCounty.gov/Cultural-Services"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -1137,7 +1153,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://marincountyda.org/",
-      "alternateUrl": "https://MarinCounty.gov/DA",
+      "sameAs": [
+        "https://MarinCounty.gov/DA"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -1197,7 +1215,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/elections",
-      "alternateUrl": "https://MarinCounty.gov/Elections",
+      "sameAs": [
+        "https://MarinCounty.gov/Elections"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -1292,7 +1312,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/finance",
-      "alternateUrl": "https://MarinCounty.gov/Finance",
+      "sameAs": [
+        "https://MarinCounty.gov/Finance"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -1402,7 +1424,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/fire",
-      "alternateUrl": "https://MarinCounty.gov/Fire",
+      "sameAs": [
+        "https://MarinCounty.gov/Fire"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -1479,7 +1503,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://hhs.marincounty.gov/",
-      "alternateUrl": "https://MarinCounty.gov/HHS",
+      "sameAs": [
+        "https://MarinCounty.gov/HHS"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-health-and-human-services"
       },
@@ -1842,7 +1868,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.hr.marincounty.gov/",
-      "alternateUrl": "https://MarinCounty.gov/HR",
+      "sameAs": [
+        "https://MarinCounty.gov/HR"
+      ],
       "alternateName": [
         "Marin County Human Resources"
       ],
@@ -2367,7 +2395,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/it",
-      "alternateUrl": "https://MarinCounty.gov/IT",
+      "sameAs": [
+        "https://MarinCounty.gov/IT"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-administration-and-finance"
       },
@@ -2430,7 +2460,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://marinlibrary.org/",
-      "alternateUrl": "https://MarinCounty.gov/Library",
+      "sameAs": [
+        "https://MarinCounty.gov/Library"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -2504,7 +2536,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.parks.marincounty.gov/",
-      "alternateUrl": "https://MarinCounty.gov/Parks",
+      "sameAs": [
+        "https://MarinCounty.gov/Parks"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },
@@ -2598,7 +2632,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/Probation",
-      "alternateUrl": "https://MarinCounty.gov/Probation",
+      "sameAs": [
+        "https://MarinCounty.gov/Probation"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -2672,7 +2708,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/public-defender",
-      "alternateUrl": "https://MarinCounty.gov/Public-Defender",
+      "sameAs": [
+        "https://MarinCounty.gov/Public-Defender"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -2736,7 +2774,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://publicworks.marincounty.gov/",
-      "alternateUrl": "https://MarinCounty.gov/Public-Works",
+      "sameAs": [
+        "https://MarinCounty.gov/Public-Works"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-development-and-public-works"
       },
@@ -2991,7 +3031,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://marinsheriff.gov/",
-      "alternateUrl": "https://MarinCounty.gov/Sheriff",
+      "sameAs": [
+        "https://MarinCounty.gov/Sheriff"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-public-safety"
       },
@@ -3136,7 +3178,9 @@
         "@id": "https://marincountygov.github.io/marin-data/id/jurisdiction/us-ca-marin"
       },
       "url": "https://www.marincounty.gov/departments/uccem",
-      "alternateUrl": "https://MarinCounty.gov/UCCEM",
+      "sameAs": [
+        "https://MarinCounty.gov/UCCEM"
+      ],
       "parentOrganization": {
         "@id": "https://marincountygov.github.io/marin-data/id/organization/service-area-community-services"
       },

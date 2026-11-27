@@ -34,13 +34,14 @@ additional needed = cost estimate), every subcategory subtotal, the fund-source 
 - **Status is the book's, not a lifecycle.** "New" and "Ongoing" are the book's labels; the book does not define them.
   They are not mapped to schemaGov `status` or `phase`.
 
-## Proposed schemaGov changes (not made)
+## schemaGov
 
-1. `BudgetLine.project`: optional reference to a `Project`. The prototype already uses it, so its output does not yet
-   validate against the published schema.
-2. A place for project category and CIP status. The prototype keeps them in `cip-display.json`. Candidates: a
-   `DefinedTermSet` of categories, or reuse `phase` with a Marin capital scheme.
-3. Project `location` (`Place` or `Facility`), only if the image pages give locations.
+- `BudgetLine.project` names the project a line pays for.
+- `Project.projectCategory` holds the group, then the subcategory when there is one. `Project.estimatedCost` holds the
+  cost estimate, as of the date in `dateModified`.
+- CIP status, prior approvals and additional funds needed stay in `cip-display.json`. Status is not mapped (see above),
+  and the other two have no schemaGov property.
+- Project `location` (`Place` or `Facility`) is only worth adding if a source gives locations.
 
 ## Done since the first prototype
 
@@ -55,5 +56,4 @@ additional needed = cost estimate), every subcategory subtotal, the fund-source 
 ## Next
 
 1. Ask the County about the Civic Center subtotal and, if they have it, which department and fund each project belongs to.
-2. Write the schemaGov plan file: `BudgetLine.project`, a place for category and CIP status, project `location`.
-3. Optional: an Insights tab and filters on the projects page; link each project to a department once the County says which.
+2. Optional: an Insights tab and filters on the projects page; link each project to a department once the County says which.
