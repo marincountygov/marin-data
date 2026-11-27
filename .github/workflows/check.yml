@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: govfresh/schemaGov
-          ref: 9ef81ef464023fda41bbcb9f7989296adce4ac03
+          ref: 3061e7515b71fa79109a6541ffd03c188a2134f3
           path: schemaGov
           persist-credentials: false
       - uses: actions/setup-python@v7

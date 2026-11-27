@@ -141,7 +141,7 @@ for p in pmrs:
 
 # Add source citation to manual only, plus LegislationObject rendering.
 manual={'@id':MAN,'@type':'Legislation','legislationIdentifier':'PMR','name':'Personnel Management Regulations','codificationLevel':'code','legislationType':'regulation','legislationJurisdiction':ref(JUR),'publisher':ref(HR),'citation':[canonical],'hasPart':[ref(s['@id']) for s in sections]}
-source_obj={'@id':MAN+'/source-html','@type':'LegislationObject','name':'All Personnel Management Regulations | County of Marin Human Resources','encodingFormat':'text/html','url':canonical,'legislationLegalValue':'Official'}
+source_obj={'@id':MAN+'/source-html','@type':'LegislationObject','name':'All Personnel Management Regulations | County of Marin Human Resources','encodingFormat':'text/html','url':canonical,'contentUrl':canonical,'legislationLegalValue':'OfficialLegalValue'}
 
 # Definitions from PMR 2, section 2.1 text paragraphs pattern letter + term + definition.
 defs=[]; termset_id='https://marincountygov.github.io/marin-data/id/term-set/personnel-management-regulations'
